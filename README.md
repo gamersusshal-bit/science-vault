@@ -5,22 +5,20 @@ Drop these files into your existing `science-vault` Remotion project (they repla
 
     npm i @fontsource/space-grotesk
     npm run dev                      # preview
-    npx remotion render MyComp out/short_001.mp4 --crf=17
+    npx remotion render sun-vanishes out/sun-vanishes.mp4
 
-Optional, to regenerate audio (needs Python 3, `pip install kokoro-onnx soundfile scipy`
-and the two Kokoro model files from github.com/thewh1teagle/kokoro-onnx releases):
+Build a video end to end (after `scripts/setup.sh`):
 
-    python3 scripts/voice.py sun-vanishes <model_dir> src/videos/sunVanishes/timeline.json
-    python3 scripts/bed.py sun-vanishes src/videos/sunVanishes/timeline.json <vanish_t> <hit_t>   # both are printed by voice.py
+    scripts/make.sh sun-vanishes      # -> renders/sun-vanishes.mp4
+
+See PLAYBOOK.md for the full production procedure.
 
 Layout
-- videos/sun-vanishes/script.json   script, voice settings, sources
-- scripts/voice.py                  narration + word-level timeline
-- scripts/bed.py                    synthesized music and sound effects
-- public/sun-vanishes/*.wav         generated audio
+- PLAYBOOK.md                       how a video is chosen, written, built, checked, drafted
+- videos/<slug>/script.json         script, pacing, beats, sources
+- videos/<slug>/timeline.json       generated word-level timing
+- videos/_log.json                  every topic produced so far
+- scripts/                          setup, voice, bed, make, check, stills, publish_renders
+- public/<slug>/*.wav               generated audio
 - src/primitives/                   Starfield, Captions, font loading (reusable)
-- src/videos/sunVanishes/           the scene and its timeline
-
-Final loudness pass used for the delivered MP4:
-
-    ffmpeg -i out/short_001.mp4 -c:v copy -af loudnorm=I=-14:TP=-1.5:LRA=11 -c:a aac -b:a 192k final.mp4
+- src/videos/                       one folder per scene, registered in index.ts

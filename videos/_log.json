@@ -1,0 +1,14 @@
+{
+  "note": "Every topic ever produced. Check this before choosing topics so nothing repeats. Add an entry when a video is drafted; fill url when it is published.",
+  "videos": [
+    {
+      "date": "2026-11-15",
+      "slug": "sun-vanishes",
+      "title": "The Sun Could Vanish and Earth Wouldn't Know for 8 Minutes",
+      "field": "physics / space",
+      "hero_visual": "expanding last-light ring + gravity tether + countdown timer",
+      "status": "published",
+      "url": "https://www.youtube.com/watch?v=c03-_i_MhaE"
+    }
+  ]
+}

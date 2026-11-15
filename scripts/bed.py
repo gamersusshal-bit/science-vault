@@ -1,12 +1,17 @@
 """Generate the music/SFX bed for a video from its timeline.
-Usage: python3 scripts/bed.py <slug> <timeline.json> <vanish_t> <hit_t>
+Usage: python3 scripts/bed.py <slug>
+Reads videos/<slug>/timeline.json. Two beats shape the sound:
+  drop = the opening event (reverse suck + sub drop; pad thins; clock ticks start)
+  hit  = the climax (riser into it, impact, then cold near-silence)
+If a script has no beats, drop defaults to 1.0 s and hit to 75% of the duration.
 All sound is synthesized here (no samples), so it is royalty-free.
 """
 import json, sys, numpy as np, soundfile as sf
 from scipy.signal import butter, sosfilt
 
-slug, tl_path, TV, TH = sys.argv[1], sys.argv[2], float(sys.argv[3]), float(sys.argv[4])
-tl = json.load(open(tl_path)); SR = 44100; D = tl["duration"]
+slug = sys.argv[1]
+tl = json.load(open(f"videos/{slug}/timeline.json")); SR = 44100; D = tl["duration"]
+TV = float(tl.get("beats", {}).get("drop", 1.0)); TH = float(tl.get("beats", {}).get("hit", D*0.75))
 n = int(D*SR); t = np.arange(n)/SR
 rng = np.random.default_rng(7)
 

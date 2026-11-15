@@ -2,6 +2,10 @@
  "slug": "sun-vanishes",
  "fps": 30,
  "duration": 29.327,
+ "beats": {
+  "drop": 0.818,
+  "hit": 21.572
+ },
  "lines": [
   {
    "id": "hook",

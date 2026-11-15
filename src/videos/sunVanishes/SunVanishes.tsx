@@ -12,7 +12,7 @@ import {
 import { Captions, Line } from "../../primitives/Captions";
 import { Starfield } from "../../primitives/Starfield";
 import { FONT, useFonts } from "../../primitives/useFonts";
-import timelineJson from "./timeline.json";
+import timelineJson from "../../../videos/sun-vanishes/timeline.json";
 
 const timeline = timelineJson as { duration: number; lines: Line[] };
 

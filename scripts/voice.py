@@ -1,15 +1,19 @@
 """Generate narration + word-level timeline for a video script.
-Usage: python3 scripts/voice.py <slug> <model_dir> <timeline_out.json> [voice] [wav_out]
+Usage: python3 scripts/voice.py <slug> [voice]
+Reads videos/<slug>/script.json. Writes public/<slug>/narration.wav and videos/<slug>/timeline.json.
+Models are expected in ./.models (see scripts/setup.sh).
 Each script line is made of parts; every part has its own speed and trailing pause,
 which is how the read is "directed" (slow on the hook and payoff, held pauses before reveals).
 """
 import json, sys, re, subprocess, numpy as np, soundfile as sf
 from kokoro_onnx import Kokoro
 
-slug, model_dir, out_json = sys.argv[1], sys.argv[2], sys.argv[3]
+import os
+slug = sys.argv[1]; model_dir = ".models"; out_json = f"videos/{slug}/timeline.json"
 script = json.load(open(f"videos/{slug}/script.json"))
-voice = sys.argv[4] if len(sys.argv) > 4 else script["voice"]
-wav_out = sys.argv[5] if len(sys.argv) > 5 else f"public/{slug}/narration.wav"
+voice = sys.argv[2] if len(sys.argv) > 2 else script["voice"]
+os.makedirs(f"public/{slug}", exist_ok=True)
+wav_out = f"public/{slug}/narration.wav"
 lang = "en-gb" if voice[0] == "b" else "en-us"
 k = Kokoro(f"{model_dir}/kokoro-v1.0.onnx", f"{model_dir}/voices-v1.0.bin")
 
@@ -48,7 +52,7 @@ chain = ("highpass=f=70,equalizer=f=170:t=q:w=1:g=3,equalizer=f=3200:t=q:w=1.2:g
          "acompressor=threshold=-20dB:ratio=3:attack=8:release=160:makeup=3,"
          "aecho=0.85:0.6:55|110:0.10|0.06,alimiter=limit=0.9")
 subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", "/tmp/_dry.wav", "-af", chain, "-ar", "48000", wav_out], check=True)
-if out_json != "-":
-    json.dump({"slug": slug, "fps": 30, "duration": round(total, 3), "lines": lines}, open(out_json, "w"), indent=1)
-find = lambda lid, w: next(x["start"] for l in lines if l["id"] == lid for x in l["words"] if x["text"].lower().startswith(w))
-print("total", round(total, 2), "vanish", find("hook", "vanish"), "hit", find("impact", "black"))
+find = lambda lid, w: next(x["start"] for l in lines if l["id"] == lid for x in l["words"] if x["text"].lower().startswith(w.lower()))
+beats = {name: find(b["line"], b["word"]) for name, b in script.get("beats", {}).items()}
+json.dump({"slug": slug, "fps": 30, "duration": round(total, 3), "beats": beats, "lines": lines}, open(out_json, "w"), indent=1)
+print("total", round(total, 2), "beats", beats)
