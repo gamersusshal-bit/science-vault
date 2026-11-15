@@ -1,0 +1,473 @@
+{
+ "slug": "sun-vanishes",
+ "fps": 30,
+ "duration": 29.327,
+ "lines": [
+  {
+   "id": "hook",
+   "text": "The Sun could vanish right now, and Earth wouldn't know.",
+   "start": 0.2,
+   "end": 3.087,
+   "words": [
+    {
+     "text": "The",
+     "start": 0.2,
+     "end": 0.378
+    },
+    {
+     "text": "Sun",
+     "start": 0.378,
+     "end": 0.556
+    },
+    {
+     "text": "could",
+     "start": 0.556,
+     "end": 0.818
+    },
+    {
+     "text": "vanish",
+     "start": 0.818,
+     "end": 1.123
+    },
+    {
+     "text": "right",
+     "start": 1.123,
+     "end": 1.386
+    },
+    {
+     "text": "now,",
+     "start": 1.386,
+     "end": 1.691
+    },
+    {
+     "text": "and",
+     "start": 1.991,
+     "end": 2.156
+    },
+    {
+     "text": "Earth",
+     "start": 2.156,
+     "end": 2.401
+    },
+    {
+     "text": "wouldn't",
+     "start": 2.401,
+     "end": 2.763
+    },
+    {
+     "text": "know.",
+     "start": 2.763,
+     "end": 3.087
+    }
+   ]
+  },
+  {
+   "id": "light",
+   "text": "Sunlight needs eight minutes and twenty seconds to cross a hundred and fifty million kilometers.",
+   "start": 3.537,
+   "end": 8.28,
+   "words": [
+    {
+     "text": "Sunlight",
+     "start": 3.537,
+     "end": 3.954
+    },
+    {
+     "text": "needs",
+     "start": 3.954,
+     "end": 4.235
+    },
+    {
+     "text": "eight",
+     "start": 4.235,
+     "end": 4.516
+    },
+    {
+     "text": "minutes",
+     "start": 4.516,
+     "end": 4.888
+    },
+    {
+     "text": "and",
+     "start": 4.888,
+     "end": 5.079
+    },
+    {
+     "text": "twenty",
+     "start": 5.079,
+     "end": 5.405
+    },
+    {
+     "text": "seconds",
+     "start": 5.405,
+     "end": 5.777
+    },
+    {
+     "text": "to",
+     "start": 5.877,
+     "end": 6.023
+    },
+    {
+     "text": "cross",
+     "start": 6.023,
+     "end": 6.306
+    },
+    {
+     "text": "a",
+     "start": 6.306,
+     "end": 6.407
+    },
+    {
+     "text": "hundred",
+     "start": 6.407,
+     "end": 6.782
+    },
+    {
+     "text": "and",
+     "start": 6.782,
+     "end": 6.974
+    },
+    {
+     "text": "fifty",
+     "start": 6.974,
+     "end": 7.257
+    },
+    {
+     "text": "million",
+     "start": 7.257,
+     "end": 7.632
+    },
+    {
+     "text": "kilometers.",
+     "start": 7.632,
+     "end": 8.28
+    }
+   ]
+  },
+  {
+   "id": "bright",
+   "text": "So the sky stays bright. The last light is still on its way.",
+   "start": 8.58,
+   "end": 11.776,
+   "words": [
+    {
+     "text": "So",
+     "start": 8.58,
+     "end": 8.73
+    },
+    {
+     "text": "the",
+     "start": 8.73,
+     "end": 8.927
+    },
+    {
+     "text": "sky",
+     "start": 8.927,
+     "end": 9.124
+    },
+    {
+     "text": "stays",
+     "start": 9.124,
+     "end": 9.414
+    },
+    {
+     "text": "bright.",
+     "start": 9.414,
+     "end": 9.892
+    },
+    {
+     "text": "The",
+     "start": 10.142,
+     "end": 10.315
+    },
+    {
+     "text": "last",
+     "start": 10.315,
+     "end": 10.53
+    },
+    {
+     "text": "light",
+     "start": 10.53,
+     "end": 10.786
+    },
+    {
+     "text": "is",
+     "start": 10.786,
+     "end": 10.918
+    },
+    {
+     "text": "still",
+     "start": 10.918,
+     "end": 11.174
+    },
+    {
+     "text": "on",
+     "start": 11.174,
+     "end": 11.306
+    },
+    {
+     "text": "its",
+     "start": 11.306,
+     "end": 11.479
+    },
+    {
+     "text": "way.",
+     "start": 11.479,
+     "end": 11.776
+    }
+   ]
+  },
+  {
+   "id": "gravity",
+   "text": "But here's the strange part. Gravity obeys the same speed limit.",
+   "start": 12.226,
+   "end": 16.089,
+   "words": [
+    {
+     "text": "But",
+     "start": 12.226,
+     "end": 12.411
+    },
+    {
+     "text": "here's",
+     "start": 12.411,
+     "end": 12.727
+    },
+    {
+     "text": "the",
+     "start": 12.727,
+     "end": 12.911
+    },
+    {
+     "text": "strange",
+     "start": 12.911,
+     "end": 13.272
+    },
+    {
+     "text": "part.",
+     "start": 13.272,
+     "end": 13.632
+    },
+    {
+     "text": "Gravity",
+     "start": 14.032,
+     "end": 14.462
+    },
+    {
+     "text": "obeys",
+     "start": 14.462,
+     "end": 14.787
+    },
+    {
+     "text": "the",
+     "start": 14.787,
+     "end": 15.008
+    },
+    {
+     "text": "same",
+     "start": 15.008,
+     "end": 15.281
+    },
+    {
+     "text": "speed",
+     "start": 15.281,
+     "end": 15.606
+    },
+    {
+     "text": "limit.",
+     "start": 15.606,
+     "end": 16.089
+    }
+   ]
+  },
+  {
+   "id": "ghost",
+   "text": "So Earth keeps circling a star that isn't there.",
+   "start": 16.439,
+   "end": 19.077,
+   "words": [
+    {
+     "text": "So",
+     "start": 16.439,
+     "end": 16.598
+    },
+    {
+     "text": "Earth",
+     "start": 16.598,
+     "end": 16.907
+    },
+    {
+     "text": "keeps",
+     "start": 16.907,
+     "end": 17.215
+    },
+    {
+     "text": "circling",
+     "start": 17.215,
+     "end": 17.673
+    },
+    {
+     "text": "a",
+     "start": 17.793,
+     "end": 17.894
+    },
+    {
+     "text": "star",
+     "start": 17.894,
+     "end": 18.133
+    },
+    {
+     "text": "that",
+     "start": 18.133,
+     "end": 18.371
+    },
+    {
+     "text": "isn't",
+     "start": 18.371,
+     "end": 18.655
+    },
+    {
+     "text": "there.",
+     "start": 18.655,
+     "end": 19.077
+    }
+   ]
+  },
+  {
+   "id": "impact",
+   "text": "Then, at eight twenty, the sky goes black, and Earth flies off in a straight line.",
+   "start": 19.577,
+   "end": 24.089,
+   "words": [
+    {
+     "text": "Then,",
+     "start": 19.577,
+     "end": 19.887
+    },
+    {
+     "text": "at",
+     "start": 19.887,
+     "end": 20.009
+    },
+    {
+     "text": "eight",
+     "start": 20.009,
+     "end": 20.243
+    },
+    {
+     "text": "twenty,",
+     "start": 20.243,
+     "end": 20.63
+    },
+    {
+     "text": "the",
+     "start": 20.93,
+     "end": 21.128
+    },
+    {
+     "text": "sky",
+     "start": 21.128,
+     "end": 21.326
+    },
+    {
+     "text": "goes",
+     "start": 21.326,
+     "end": 21.572
+    },
+    {
+     "text": "black,",
+     "start": 21.572,
+     "end": 22.006
+    },
+    {
+     "text": "and",
+     "start": 22.356,
+     "end": 22.523
+    },
+    {
+     "text": "Earth",
+     "start": 22.523,
+     "end": 22.77
+    },
+    {
+     "text": "flies",
+     "start": 22.77,
+     "end": 23.016
+    },
+    {
+     "text": "off",
+     "start": 23.016,
+     "end": 23.183
+    },
+    {
+     "text": "in",
+     "start": 23.183,
+     "end": 23.31
+    },
+    {
+     "text": "a",
+     "start": 23.31,
+     "end": 23.398
+    },
+    {
+     "text": "straight",
+     "start": 23.398,
+     "end": 23.763
+    },
+    {
+     "text": "line.",
+     "start": 23.763,
+     "end": 24.089
+    }
+   ]
+  },
+  {
+   "id": "payoff",
+   "text": "For eight minutes, we were orbiting a ghost.",
+   "start": 24.639,
+   "end": 27.527,
+   "words": [
+    {
+     "text": "For",
+     "start": 24.639,
+     "end": 24.806
+    },
+    {
+     "text": "eight",
+     "start": 24.806,
+     "end": 25.053
+    },
+    {
+     "text": "minutes,",
+     "start": 25.053,
+     "end": 25.498
+    },
+    {
+     "text": "we",
+     "start": 25.798,
+     "end": 25.989
+    },
+    {
+     "text": "were",
+     "start": 25.989,
+     "end": 26.299
+    },
+    {
+     "text": "orbiting",
+     "start": 26.299,
+     "end": 26.847
+    },
+    {
+     "text": "a",
+     "start": 26.847,
+     "end": 26.978
+    },
+    {
+     "text": "ghost.",
+     "start": 26.978,
+     "end": 27.527
+    }
+   ]
+  }
+ ]
+}

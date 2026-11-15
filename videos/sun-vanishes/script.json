@@ -1,0 +1,34 @@
+{
+  "slug": "sun-vanishes",
+  "title": "What If the Sun Disappeared Right Now?",
+  "voice": "am_fenrir",
+  "lines": [
+    { "id": "hook", "parts": [
+      { "text": "The Sun could vanish right now,", "speed": 1.0, "pause": 0.30 },
+      { "text": "and Earth wouldn't know.", "speed": 0.9, "pause": 0.45 } ] },
+    { "id": "light", "parts": [
+      { "text": "Sunlight needs eight minutes and twenty seconds", "tts": "Sunlight needs eight minutes and twenty seconds,", "speed": 1.08, "pause": 0.10 },
+      { "text": "to cross a hundred and fifty million kilometers.", "speed": 1.08, "pause": 0.30 } ] },
+    { "id": "bright", "parts": [
+      { "text": "So the sky stays bright.", "speed": 1.0, "pause": 0.25 },
+      { "text": "The last light is still on its way.", "speed": 0.95, "pause": 0.45 } ] },
+    { "id": "gravity", "parts": [
+      { "text": "But here's the strange part.", "speed": 0.95, "pause": 0.40 },
+      { "text": "Gravity obeys the same speed limit.", "tts": "Gravity, obeys the same speed limit.", "speed": 0.92, "pause": 0.35 } ] },
+    { "id": "ghost", "parts": [
+      { "text": "So Earth keeps circling", "tts": "So Earth keeps circling,", "speed": 1.0, "pause": 0.12 },
+      { "text": "a star that isn't there.", "speed": 0.88, "pause": 0.50 } ] },
+    { "id": "impact", "parts": [
+      { "text": "Then, at eight twenty,", "speed": 1.05, "pause": 0.30 },
+      { "text": "the sky goes black,", "tts": "the sky goes black!", "speed": 0.95, "pause": 0.35 },
+      { "text": "and Earth flies off in a straight line.", "speed": 1.0, "pause": 0.55 } ] },
+    { "id": "payoff", "parts": [
+      { "text": "For eight minutes,", "speed": 0.92, "pause": 0.30 },
+      { "text": "we were orbiting a ghost.", "tts": "we were orbiting... a ghost.", "speed": 0.82, "pause": 0 } ] }
+  ],
+  "sources": [
+    "Light travel time: 1 au = 149,597,870.7 km / 299,792.458 km/s = 499.0 s (8 min 19 s). IAU 2012 Resolution B2.",
+    "Speed of gravity equals speed of light to within about 1 part in 10^15: Abbott et al. 2017, ApJL 848 L13 (GW170817 + GRB 170817A).",
+    "Thought experiment only: mass-energy cannot simply vanish in general relativity."
+  ]
+}
