@@ -1,0 +1,447 @@
+{
+ "slug": "lightning-thunder",
+ "fps": 30,
+ "duration": 27.542,
+ "beats": {
+  "drop": 0.309,
+  "hit": 14.483
+ },
+ "lines": [
+  {
+   "id": "hook",
+   "text": "A lightning bolt is five times hotter than the surface of the Sun.",
+   "start": 0.2,
+   "end": 3.587,
+   "words": [
+    {
+     "text": "A",
+     "start": 0.2,
+     "end": 0.309
+    },
+    {
+     "text": "lightning",
+     "start": 0.309,
+     "end": 0.814
+    },
+    {
+     "text": "bolt",
+     "start": 0.814,
+     "end": 1.071
+    },
+    {
+     "text": "is",
+     "start": 1.071,
+     "end": 1.23
+    },
+    {
+     "text": "five",
+     "start": 1.23,
+     "end": 1.487
+    },
+    {
+     "text": "times",
+     "start": 1.487,
+     "end": 1.794
+    },
+    {
+     "text": "hotter",
+     "start": 1.794,
+     "end": 2.15
+    },
+    {
+     "text": "than",
+     "start": 2.27,
+     "end": 2.483
+    },
+    {
+     "text": "the",
+     "start": 2.483,
+     "end": 2.655
+    },
+    {
+     "text": "surface",
+     "start": 2.655,
+     "end": 2.99
+    },
+    {
+     "text": "of",
+     "start": 2.99,
+     "end": 3.121
+    },
+    {
+     "text": "the",
+     "start": 3.121,
+     "end": 3.293
+    },
+    {
+     "text": "Sun.",
+     "start": 3.293,
+     "end": 3.587
+    }
+   ]
+  },
+  {
+   "id": "thin",
+   "text": "Yet the channel it burns through the air is barely wider than your thumb.",
+   "start": 4.037,
+   "end": 7.269,
+   "words": [
+    {
+     "text": "Yet",
+     "start": 4.037,
+     "end": 4.199
+    },
+    {
+     "text": "the",
+     "start": 4.199,
+     "end": 4.361
+    },
+    {
+     "text": "channel",
+     "start": 4.361,
+     "end": 4.678
+    },
+    {
+     "text": "it",
+     "start": 4.678,
+     "end": 4.801
+    },
+    {
+     "text": "burns",
+     "start": 4.801,
+     "end": 5.04
+    },
+    {
+     "text": "through",
+     "start": 5.04,
+     "end": 5.357
+    },
+    {
+     "text": "the",
+     "start": 5.357,
+     "end": 5.519
+    },
+    {
+     "text": "air",
+     "start": 5.519,
+     "end": 5.681
+    },
+    {
+     "text": "is",
+     "start": 5.781,
+     "end": 5.912
+    },
+    {
+     "text": "barely",
+     "start": 5.912,
+     "end": 6.208
+    },
+    {
+     "text": "wider",
+     "start": 6.208,
+     "end": 6.463
+    },
+    {
+     "text": "than",
+     "start": 6.463,
+     "end": 6.677
+    },
+    {
+     "text": "your",
+     "start": 6.677,
+     "end": 6.89
+    },
+    {
+     "text": "thumb.",
+     "start": 6.89,
+     "end": 7.269
+    }
+   ]
+  },
+  {
+   "id": "heat",
+   "text": "In an instant, that thin thread of air hits twenty-eight thousand degrees Celsius.",
+   "start": 7.669,
+   "end": 12.061,
+   "words": [
+    {
+     "text": "In",
+     "start": 7.669,
+     "end": 7.821
+    },
+    {
+     "text": "an",
+     "start": 7.821,
+     "end": 7.973
+    },
+    {
+     "text": "instant,",
+     "start": 7.973,
+     "end": 8.506
+    },
+    {
+     "text": "that",
+     "start": 8.706,
+     "end": 8.952
+    },
+    {
+     "text": "thin",
+     "start": 8.952,
+     "end": 9.197
+    },
+    {
+     "text": "thread",
+     "start": 9.197,
+     "end": 9.538
+    },
+    {
+     "text": "of",
+     "start": 9.538,
+     "end": 9.689
+    },
+    {
+     "text": "air",
+     "start": 9.689,
+     "end": 9.887
+    },
+    {
+     "text": "hits",
+     "start": 9.887,
+     "end": 10.133
+    },
+    {
+     "text": "twenty-eight",
+     "start": 10.133,
+     "end": 10.71
+    },
+    {
+     "text": "thousand",
+     "start": 10.71,
+     "end": 11.144
+    },
+    {
+     "text": "degrees",
+     "start": 11.144,
+     "end": 11.532
+    },
+    {
+     "text": "Celsius.",
+     "start": 11.532,
+     "end": 12.061
+    }
+   ]
+  },
+  {
+   "id": "explode",
+   "text": "Air that hot cannot stay still. It explodes outward.",
+   "start": 12.461,
+   "end": 15.588,
+   "words": [
+    {
+     "text": "Air",
+     "start": 12.461,
+     "end": 12.646
+    },
+    {
+     "text": "that",
+     "start": 12.646,
+     "end": 12.875
+    },
+    {
+     "text": "hot",
+     "start": 12.875,
+     "end": 13.06
+    },
+    {
+     "text": "cannot",
+     "start": 13.06,
+     "end": 13.376
+    },
+    {
+     "text": "stay",
+     "start": 13.376,
+     "end": 13.605
+    },
+    {
+     "text": "still.",
+     "start": 13.605,
+     "end": 14.01
+    },
+    {
+     "text": "It",
+     "start": 14.31,
+     "end": 14.483
+    },
+    {
+     "text": "explodes",
+     "start": 14.483,
+     "end": 14.981
+    },
+    {
+     "text": "outward.",
+     "start": 14.981,
+     "end": 15.588
+    }
+   ]
+  },
+  {
+   "id": "thunder",
+   "text": "That blast is thunder.",
+   "start": 16.038,
+   "end": 17.245,
+   "words": [
+    {
+     "text": "That",
+     "start": 16.038,
+     "end": 16.281
+    },
+    {
+     "text": "blast",
+     "start": 16.281,
+     "end": 16.571
+    },
+    {
+     "text": "is",
+     "start": 16.571,
+     "end": 16.721
+    },
+    {
+     "text": "thunder.",
+     "start": 16.721,
+     "end": 17.245
+    }
+   ]
+  },
+  {
+   "id": "count",
+   "text": "Count the seconds until you hear it. Every three seconds is about one kilometer.",
+   "start": 17.695,
+   "end": 21.906,
+   "words": [
+    {
+     "text": "Count",
+     "start": 17.695,
+     "end": 17.938
+    },
+    {
+     "text": "the",
+     "start": 17.938,
+     "end": 18.103
+    },
+    {
+     "text": "seconds",
+     "start": 18.103,
+     "end": 18.426
+    },
+    {
+     "text": "until",
+     "start": 18.426,
+     "end": 18.669
+    },
+    {
+     "text": "you",
+     "start": 18.669,
+     "end": 18.835
+    },
+    {
+     "text": "hear",
+     "start": 18.835,
+     "end": 19.039
+    },
+    {
+     "text": "it.",
+     "start": 19.039,
+     "end": 19.283
+    },
+    {
+     "text": "Every",
+     "start": 19.483,
+     "end": 19.8
+    },
+    {
+     "text": "three",
+     "start": 19.8,
+     "end": 20.117
+    },
+    {
+     "text": "seconds",
+     "start": 20.117,
+     "end": 20.536
+    },
+    {
+     "text": "is",
+     "start": 20.536,
+     "end": 20.7
+    },
+    {
+     "text": "about",
+     "start": 20.7,
+     "end": 21.017
+    },
+    {
+     "text": "one",
+     "start": 21.017,
+     "end": 21.231
+    },
+    {
+     "text": "kilometer.",
+     "start": 21.231,
+     "end": 21.906
+    }
+   ]
+  },
+  {
+   "id": "payoff",
+   "text": "You never hear lightning. You hear the air exploding.",
+   "start": 22.356,
+   "end": 25.742,
+   "words": [
+    {
+     "text": "You",
+     "start": 22.356,
+     "end": 22.533
+    },
+    {
+     "text": "never",
+     "start": 22.533,
+     "end": 22.794
+    },
+    {
+     "text": "hear",
+     "start": 22.794,
+     "end": 23.013
+    },
+    {
+     "text": "lightning.",
+     "start": 23.013,
+     "end": 23.568
+    },
+    {
+     "text": "You",
+     "start": 23.868,
+     "end": 24.122
+    },
+    {
+     "text": "hear",
+     "start": 24.122,
+     "end": 24.436
+    },
+    {
+     "text": "the",
+     "start": 24.436,
+     "end": 24.69
+    },
+    {
+     "text": "air",
+     "start": 24.69,
+     "end": 24.944
+    },
+    {
+     "text": "exploding.",
+     "start": 24.944,
+     "end": 25.742
+    }
+   ]
+  }
+ ]
+}

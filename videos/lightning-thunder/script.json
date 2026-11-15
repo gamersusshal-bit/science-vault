@@ -1,0 +1,34 @@
+{
+  "slug": "lightning-thunder",
+  "title": "Lightning Is 5x Hotter Than the Sun, and Thunder Is the Air Exploding",
+  "voice": "am_fenrir",
+  "beats": { "drop": { "line": "hook", "word": "lightning" }, "hit": { "line": "explode", "word": "explodes" } },
+  "lines": [
+    { "id": "hook", "parts": [
+      { "text": "A lightning bolt is five times hotter", "tts": "A lightning bolt is five times hotter,", "speed": 1.0, "pause": 0.12 },
+      { "text": "than the surface of the Sun.", "speed": 0.9, "pause": 0.45 } ] },
+    { "id": "thin", "parts": [
+      { "text": "Yet the channel it burns through the air", "tts": "Yet the channel it burns through the air,", "speed": 1.05, "pause": 0.10 },
+      { "text": "is barely wider than your thumb.", "speed": 0.95, "pause": 0.40 } ] },
+    { "id": "heat", "parts": [
+      { "text": "In an instant,", "speed": 1.0, "pause": 0.20 },
+      { "text": "that thin thread of air hits twenty-eight thousand degrees Celsius.", "speed": 1.02, "pause": 0.40 } ] },
+    { "id": "explode", "parts": [
+      { "text": "Air that hot cannot stay still.", "speed": 0.95, "pause": 0.30 },
+      { "text": "It explodes outward.", "tts": "It explodes outward!", "speed": 0.88, "pause": 0.45 } ] },
+    { "id": "thunder", "parts": [
+      { "text": "That blast is thunder.", "speed": 0.9, "pause": 0.45 } ] },
+    { "id": "count", "parts": [
+      { "text": "Count the seconds until you hear it.", "speed": 1.05, "pause": 0.20 },
+      { "text": "Every three seconds is about one kilometer.", "speed": 1.0, "pause": 0.45 } ] },
+    { "id": "payoff", "parts": [
+      { "text": "You never hear lightning.", "speed": 0.92, "pause": 0.30 },
+      { "text": "You hear the air exploding.", "tts": "You hear the air... exploding.", "speed": 0.82, "pause": 0 } ] }
+  ],
+  "sources": [
+    "Temperature: lightning heats the air around its channel to as much as 50,000 F (about 28,000 C), five times the Sun's surface. US National Weather Service, weather.gov/mlb/what_is_lightning.",
+    "Thunder: energy from the channel heats the air briefly to around 50,000 F, which causes the air to explode outward. NOAA National Severe Storms Laboratory, nssl.noaa.gov/education/svrwx101/lightning.",
+    "Channel width: the actual diameter of a lightning channel is one to two inches (about 2.5 to 5 cm). NOAA NSSL Severe Weather 101, lightning types. The script says 'barely wider than your thumb'.",
+    "Distance rule: thunder takes about five seconds to travel a mile, which is about three seconds per kilometre (speed of sound about 343 m/s). NWS lightning safety guidance."
+  ]
+}
