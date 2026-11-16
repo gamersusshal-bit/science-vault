@@ -8,7 +8,8 @@
       "field": "physics / space",
       "hero_visual": "expanding last-light ring + gravity tether + countdown timer",
       "status": "published",
-      "url": "https://www.youtube.com/watch?v=c03-_i_MhaE"
+      "url": "https://www.youtube.com/watch?v=c03-_i_MhaE",
+      "voice": "am_fenrir"
     },
     {
       "date": "2026-11-15",
@@ -17,7 +18,8 @@
       "field": "earth and weather",
       "hero_visual": "zoom into the lightning channel, superheated air molecules, expanding thunder front, flash-to-thunder counter",
       "status": "published",
-      "url": "https://www.youtube.com/watch?v=Ou8gKnw0mA0"
+      "url": "https://www.youtube.com/watch?v=Ou8gKnw0mA0",
+      "voice": "am_fenrir"
     },
     {
       "date": "2026-11-16",
@@ -30,7 +32,8 @@
       "draft": {
         "postId": "6e0d9224-fc1e-4a42-ba54-256770586a7d",
         "revision": "de84d2e5"
-      }
+      },
+      "voice": "am_fenrir"
     },
     {
       "date": "2026-11-16",
@@ -43,7 +46,8 @@
       "draft": {
         "postId": "fbfade6e-0219-48fe-9069-10daf06bcbf6",
         "revision": "73b05371"
-      }
+      },
+      "voice": "am_fenrir"
     }
   ]
 }

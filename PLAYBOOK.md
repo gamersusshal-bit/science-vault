@@ -31,6 +31,10 @@ Chrome for rendering is expected at `google-chrome`. Run everything from the rep
 Copy the shape of `videos/sun-vanishes/script.json`.
 
 - 60 to 85 spoken words, 7 lines at most, target 25 to 40 seconds.
+- Voice (owner's choice, 2026-11-16): each day, set `"voice": "am_fenrir"` in one
+  video's script and `"voice": "af_heart"` in the other. If only one video is made,
+  alternate with the voice of the most recent entry in `videos/_log.json`. Record the
+  voice used in each log entry as `"voice"`.
 - Line 1 is the hook: the contradiction, complete within 3 seconds of speech.
 - Each line adds new information. The last line is the payoff and should echo the hook.
 - Split lines into `parts`. Give each part a `speed` (0.82 to 1.08) and a `pause`
