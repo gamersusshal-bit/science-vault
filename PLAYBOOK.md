@@ -11,20 +11,60 @@ and say so. Fewer good videos beats the full count.
 
 Chrome for rendering is expected at `google-chrome`. Run everything from the repo root.
 
-## 1. Choose topics
+## 1. Choose topics (owner's direction, 2026-11-16: proven viral animated topics, made our own way)
 
-- Read `videos/_log.json`. Never repeat a topic, and do not use the same field or
-  the same hero visual as either of the last two videos.
-- Rotate fields: space, physics, earth and weather, biology, chemistry, the human body,
-  mathematics of nature, deep time.
-- A topic qualifies only if all of these hold:
+Topics now come from what is already going viral in animated explainer Shorts, checked
+against who actually watches this channel. We make our own original video on the idea:
+our own script, our own visuals, our own title. Never copy another channel's wording,
+shots, characters, thumbnail or title, and never re-upload anyone's footage.
+
+vidIQ calls cost 5 credits each and the account has about 150 a month, so research is
+cached in the repo and refreshed only when needed.
+
+1a. Audience: `research/audience.json`
+- If `checked` is more than 7 days old, call `vidiq_channel_analytics` once with
+  channelId `UClwsg9mIPTVoHTFwMblg9GA` and report `audience_demographics`, and save
+  the rows and today's date. Once the channel has views, also save `audience_geography`
+  on alternate weeks.
+- If the rows are empty (new channel), say so in the owner message and do not guess an
+  audience. When there is data, let it steer the pick and the wording: favour candidate
+  topics and vocabulary that suit the largest age group, and use units and everyday
+  references that suit the top countries.
+
+1b. Viral candidates: `research/viral_topics.json`
+- If fewer than 6 candidates have `"used": false`, or `refreshed` is more than 7 days
+  old, call `vidiq_outliers` once (contentType "short", limit 50, minViews 500000,
+  keyword about animated science / what-if / how-it-works explainers; vary the keyword
+  between refreshes). Add new ideas to the file with the evidence (views, breakout
+  score, video id of the example) and keep the old unused ones.
+- Record only the idea and the hook format, in our own words. Skip superhero, prank,
+  comedy, health-advice, biohacking and non-science results.
+- If vidIQ credits have run out, use the cache; if the cache is empty, pick by the
+  field rotation below and tell the owner the viral research could not run.
+
+1c. Pick two for today
+- Prefer the candidates with the strongest evidence (high views and a breakout score
+  well above 1, ideally seen on more than one channel).
+- Never repeat a topic in `videos/_log.json`, and do not use the same field or hero
+  visual as either of the last two videos. Fields: space, physics, earth and weather,
+  biology, chemistry, the human body, mathematics of nature, deep time, engineering
+  and how things work.
+- A topic still qualifies only if all of these hold:
   1. It can be stated as a contradiction or surprise in one sentence under 12 words.
   2. The explanation is a mechanism that can be drawn moving, not a list of facts.
   3. Every claim can be backed by a primary or authoritative source (journal paper,
      NASA/ESA/NOAA/USGS, a university, a standard textbook). Search the web and confirm.
+     A viral video is evidence of interest, never a source for facts.
   4. It is settled science or a clearly labelled thought experiment. No health advice,
      no contested or sensational claims, no "scientists are baffled".
-- Reject and replace any topic that fails. Record sources in the script file.
+- Reject and replace any topic that fails. Mark the chosen candidates `"used": true`
+  with the slug. Record sources in the script file.
+
+1d. Hook format
+- Open with the format that is working for that idea: "What if ...", "What happens
+  when ...", "Why you can't ...", "How ... actually works". Title and first line state
+  the question or surprise plainly; the claim in them must be true as worded.
+- In the owner message, name the viral evidence each topic was chosen on.
 
 ## 2. Write the script: `videos/<slug>/script.json`
 

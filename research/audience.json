@@ -1,0 +1,7 @@
+{
+  "note": "Channel audience from vidiq_channel_analytics (audience_demographics). Refresh weekly; see PLAYBOOK section 1a.",
+  "checked": "2026-11-16",
+  "demographics_rows": [],
+  "geography_rows": [],
+  "finding": "No demographic data yet: the channel is new and YouTube has not reported age or gender for the last 28 days."
+}

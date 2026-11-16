@@ -15,6 +15,7 @@ See PLAYBOOK.md for the full production procedure.
 
 Layout
 - PLAYBOOK.md                       how a video is chosen, written, built, checked, drafted
+- research/                        cached audience data and viral topic candidates (playbook section 1)
 - videos/<slug>/script.json         script, pacing, beats, sources
 - videos/<slug>/timeline.json       generated word-level timing
 - videos/_log.json                  every topic produced so far
