@@ -1,0 +1,467 @@
+{
+ "slug": "tree-from-air",
+ "fps": 30,
+ "duration": 29.041,
+ "beats": {
+  "drop": 1.524,
+  "hit": 23.858
+ },
+ "lines": [
+  {
+   "id": "hook",
+   "text": "A tree is built mostly from thin air, not from the ground.",
+   "start": 0.2,
+   "end": 3.39,
+   "words": [
+    {
+     "text": "A",
+     "start": 0.2,
+     "end": 0.3
+    },
+    {
+     "text": "tree",
+     "start": 0.3,
+     "end": 0.536
+    },
+    {
+     "text": "is",
+     "start": 0.536,
+     "end": 0.681
+    },
+    {
+     "text": "built",
+     "start": 0.681,
+     "end": 0.962
+    },
+    {
+     "text": "mostly",
+     "start": 0.962,
+     "end": 1.288
+    },
+    {
+     "text": "from",
+     "start": 1.288,
+     "end": 1.524
+    },
+    {
+     "text": "thin",
+     "start": 1.524,
+     "end": 1.76
+    },
+    {
+     "text": "air,",
+     "start": 1.76,
+     "end": 2.086
+    },
+    {
+     "text": "not",
+     "start": 2.336,
+     "end": 2.522
+    },
+    {
+     "text": "from",
+     "start": 2.522,
+     "end": 2.752
+    },
+    {
+     "text": "the",
+     "start": 2.752,
+     "end": 2.938
+    },
+    {
+     "text": "ground.",
+     "start": 2.938,
+     "end": 3.39
+    }
+   ]
+  },
+  {
+   "id": "pot",
+   "text": "In the sixteen hundreds, a scientist grew a willow for five years.",
+   "start": 3.84,
+   "end": 7.258,
+   "words": [
+    {
+     "text": "In",
+     "start": 3.84,
+     "end": 3.975
+    },
+    {
+     "text": "the",
+     "start": 3.975,
+     "end": 4.151
+    },
+    {
+     "text": "sixteen",
+     "start": 4.151,
+     "end": 4.496
+    },
+    {
+     "text": "hundreds,",
+     "start": 4.496,
+     "end": 5.009
+    },
+    {
+     "text": "a",
+     "start": 5.129,
+     "end": 5.232
+    },
+    {
+     "text": "scientist",
+     "start": 5.232,
+     "end": 5.708
+    },
+    {
+     "text": "grew",
+     "start": 5.708,
+     "end": 5.951
+    },
+    {
+     "text": "a",
+     "start": 5.951,
+     "end": 6.054
+    },
+    {
+     "text": "willow",
+     "start": 6.054,
+     "end": 6.39
+    },
+    {
+     "text": "for",
+     "start": 6.39,
+     "end": 6.586
+    },
+    {
+     "text": "five",
+     "start": 6.586,
+     "end": 6.829
+    },
+    {
+     "text": "years.",
+     "start": 6.829,
+     "end": 7.258
+    }
+   ]
+  },
+  {
+   "id": "weigh",
+   "text": "The tree gained about seventy-four kilograms. The soil lost barely sixty grams.",
+   "start": 7.608,
+   "end": 12.22,
+   "words": [
+    {
+     "text": "The",
+     "start": 7.608,
+     "end": 7.812
+    },
+    {
+     "text": "tree",
+     "start": 7.812,
+     "end": 8.063
+    },
+    {
+     "text": "gained",
+     "start": 8.063,
+     "end": 8.412
+    },
+    {
+     "text": "about",
+     "start": 8.412,
+     "end": 8.712
+    },
+    {
+     "text": "seventy-four",
+     "start": 8.712,
+     "end": 9.302
+    },
+    {
+     "text": "kilograms.",
+     "start": 9.302,
+     "end": 9.941
+    },
+    {
+     "text": "The",
+     "start": 10.241,
+     "end": 10.465
+    },
+    {
+     "text": "soil",
+     "start": 10.465,
+     "end": 10.741
+    },
+    {
+     "text": "lost",
+     "start": 10.741,
+     "end": 11.018
+    },
+    {
+     "text": "barely",
+     "start": 11.018,
+     "end": 11.401
+    },
+    {
+     "text": "sixty",
+     "start": 11.401,
+     "end": 11.73
+    },
+    {
+     "text": "grams.",
+     "start": 11.73,
+     "end": 12.22
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "text": "So where did the wood come from?",
+   "start": 12.669,
+   "end": 14.042,
+   "words": [
+    {
+     "text": "So",
+     "start": 12.669,
+     "end": 12.79
+    },
+    {
+     "text": "where",
+     "start": 12.79,
+     "end": 13.024
+    },
+    {
+     "text": "did",
+     "start": 13.024,
+     "end": 13.182
+    },
+    {
+     "text": "the",
+     "start": 13.182,
+     "end": 13.341
+    },
+    {
+     "text": "wood",
+     "start": 13.341,
+     "end": 13.537
+    },
+    {
+     "text": "come",
+     "start": 13.537,
+     "end": 13.733
+    },
+    {
+     "text": "from?",
+     "start": 13.733,
+     "end": 14.042
+    }
+   ]
+  },
+  {
+   "id": "leaves",
+   "text": "Leaves pull carbon dioxide from the air, and sunlight helps lock its carbon into sugar, then wood.",
+   "start": 14.542,
+   "end": 19.998,
+   "words": [
+    {
+     "text": "Leaves",
+     "start": 14.542,
+     "end": 14.883
+    },
+    {
+     "text": "pull",
+     "start": 14.883,
+     "end": 15.129
+    },
+    {
+     "text": "carbon",
+     "start": 15.129,
+     "end": 15.47
+    },
+    {
+     "text": "dioxide",
+     "start": 15.47,
+     "end": 15.858
+    },
+    {
+     "text": "from",
+     "start": 15.858,
+     "end": 16.105
+    },
+    {
+     "text": "the",
+     "start": 16.105,
+     "end": 16.303
+    },
+    {
+     "text": "air,",
+     "start": 16.303,
+     "end": 16.644
+    },
+    {
+     "text": "and",
+     "start": 16.844,
+     "end": 17.039
+    },
+    {
+     "text": "sunlight",
+     "start": 17.039,
+     "end": 17.465
+    },
+    {
+     "text": "helps",
+     "start": 17.465,
+     "end": 17.752
+    },
+    {
+     "text": "lock",
+     "start": 17.752,
+     "end": 17.993
+    },
+    {
+     "text": "its",
+     "start": 17.993,
+     "end": 18.187
+    },
+    {
+     "text": "carbon",
+     "start": 18.187,
+     "end": 18.521
+    },
+    {
+     "text": "into",
+     "start": 18.521,
+     "end": 18.762
+    },
+    {
+     "text": "sugar,",
+     "start": 18.762,
+     "end": 19.188
+    },
+    {
+     "text": "then",
+     "start": 19.338,
+     "end": 19.594
+    },
+    {
+     "text": "wood.",
+     "start": 19.594,
+     "end": 19.998
+    }
+   ]
+  },
+  {
+   "id": "carbon",
+   "text": "About half of dry wood is carbon, and that carbon came from the sky.",
+   "start": 20.398,
+   "end": 24.187,
+   "words": [
+    {
+     "text": "About",
+     "start": 20.398,
+     "end": 20.685
+    },
+    {
+     "text": "half",
+     "start": 20.685,
+     "end": 20.926
+    },
+    {
+     "text": "of",
+     "start": 20.926,
+     "end": 21.074
+    },
+    {
+     "text": "dry",
+     "start": 21.074,
+     "end": 21.268
+    },
+    {
+     "text": "wood",
+     "start": 21.268,
+     "end": 21.509
+    },
+    {
+     "text": "is",
+     "start": 21.509,
+     "end": 21.657
+    },
+    {
+     "text": "carbon,",
+     "start": 21.657,
+     "end": 22.129
+    },
+    {
+     "text": "and",
+     "start": 22.429,
+     "end": 22.622
+    },
+    {
+     "text": "that",
+     "start": 22.622,
+     "end": 22.86
+    },
+    {
+     "text": "carbon",
+     "start": 22.86,
+     "end": 23.189
+    },
+    {
+     "text": "came",
+     "start": 23.189,
+     "end": 23.427
+    },
+    {
+     "text": "from",
+     "start": 23.427,
+     "end": 23.665
+    },
+    {
+     "text": "the",
+     "start": 23.665,
+     "end": 23.858
+    },
+    {
+     "text": "sky.",
+     "start": 23.858,
+     "end": 24.187
+    }
+   ]
+  },
+  {
+   "id": "payoff",
+   "text": "A forest is air, turned solid.",
+   "start": 24.687,
+   "end": 27.241,
+   "words": [
+    {
+     "text": "A",
+     "start": 24.687,
+     "end": 24.807
+    },
+    {
+     "text": "forest",
+     "start": 24.807,
+     "end": 25.2
+    },
+    {
+     "text": "is",
+     "start": 25.2,
+     "end": 25.375
+    },
+    {
+     "text": "air,",
+     "start": 25.375,
+     "end": 25.768
+    },
+    {
+     "text": "turned",
+     "start": 26.118,
+     "end": 26.611
+    },
+    {
+     "text": "solid.",
+     "start": 26.611,
+     "end": 27.241
+    }
+   ]
+  }
+ ]
+}

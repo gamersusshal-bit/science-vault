@@ -1,0 +1,472 @@
+{
+ "slug": "sunflower-spirals",
+ "fps": 30,
+ "duration": 32.2,
+ "beats": {
+  "drop": 1.053,
+  "hit": 24.088
+ },
+ "lines": [
+  {
+   "id": "hook",
+   "text": "A sunflower can't count, yet its seeds follow Fibonacci numbers.",
+   "start": 0.2,
+   "end": 4.105,
+   "words": [
+    {
+     "text": "A",
+     "start": 0.2,
+     "end": 0.301
+    },
+    {
+     "text": "sunflower",
+     "start": 0.301,
+     "end": 0.768
+    },
+    {
+     "text": "can't",
+     "start": 0.768,
+     "end": 1.053
+    },
+    {
+     "text": "count,",
+     "start": 1.053,
+     "end": 1.474
+    },
+    {
+     "text": "yet",
+     "start": 1.774,
+     "end": 2.001
+    },
+    {
+     "text": "its",
+     "start": 2.001,
+     "end": 2.228
+    },
+    {
+     "text": "seeds",
+     "start": 2.228,
+     "end": 2.562
+    },
+    {
+     "text": "follow",
+     "start": 2.562,
+     "end": 2.951
+    },
+    {
+     "text": "Fibonacci",
+     "start": 2.951,
+     "end": 3.501
+    },
+    {
+     "text": "numbers.",
+     "start": 3.501,
+     "end": 4.105
+    }
+   ]
+  },
+  {
+   "id": "spirals",
+   "text": "Count the spirals. Often thirty-four one way, and fifty-five the other.",
+   "start": 4.555,
+   "end": 8.721,
+   "words": [
+    {
+     "text": "Count",
+     "start": 4.555,
+     "end": 4.846
+    },
+    {
+     "text": "the",
+     "start": 4.846,
+     "end": 5.042
+    },
+    {
+     "text": "spirals.",
+     "start": 5.042,
+     "end": 5.567
+    },
+    {
+     "text": "Often",
+     "start": 5.867,
+     "end": 6.175
+    },
+    {
+     "text": "thirty-four",
+     "start": 6.175,
+     "end": 6.733
+    },
+    {
+     "text": "one",
+     "start": 6.733,
+     "end": 6.942
+    },
+    {
+     "text": "way,",
+     "start": 6.942,
+     "end": 7.3
+    },
+    {
+     "text": "and",
+     "start": 7.55,
+     "end": 7.727
+    },
+    {
+     "text": "fifty-five",
+     "start": 7.727,
+     "end": 8.157
+    },
+    {
+     "text": "the",
+     "start": 8.157,
+     "end": 8.333
+    },
+    {
+     "text": "other.",
+     "start": 8.333,
+     "end": 8.721
+    }
+   ]
+  },
+  {
+   "id": "fib",
+   "text": "Fibonacci numbers: each one is the sum of the two before.",
+   "start": 9.121,
+   "end": 12.235,
+   "words": [
+    {
+     "text": "Fibonacci",
+     "start": 9.121,
+     "end": 9.66
+    },
+    {
+     "text": "numbers:",
+     "start": 9.66,
+     "end": 10.253
+    },
+    {
+     "text": "each",
+     "start": 10.453,
+     "end": 10.669
+    },
+    {
+     "text": "one",
+     "start": 10.669,
+     "end": 10.844
+    },
+    {
+     "text": "is",
+     "start": 10.844,
+     "end": 10.978
+    },
+    {
+     "text": "the",
+     "start": 10.978,
+     "end": 11.152
+    },
+    {
+     "text": "sum",
+     "start": 11.152,
+     "end": 11.327
+    },
+    {
+     "text": "of",
+     "start": 11.327,
+     "end": 11.461
+    },
+    {
+     "text": "the",
+     "start": 11.461,
+     "end": 11.635
+    },
+    {
+     "text": "two",
+     "start": 11.635,
+     "end": 11.81
+    },
+    {
+     "text": "before.",
+     "start": 11.81,
+     "end": 12.235
+    }
+   ]
+  },
+  {
+   "id": "rule",
+   "text": "The flower follows one rule. Each new seed grows a hundred and thirty-seven and a half degrees from the last.",
+   "start": 12.635,
+   "end": 18.867,
+   "words": [
+    {
+     "text": "The",
+     "start": 12.635,
+     "end": 12.827
+    },
+    {
+     "text": "flower",
+     "start": 12.827,
+     "end": 13.157
+    },
+    {
+     "text": "follows",
+     "start": 13.157,
+     "end": 13.532
+    },
+    {
+     "text": "one",
+     "start": 13.532,
+     "end": 13.724
+    },
+    {
+     "text": "rule.",
+     "start": 13.724,
+     "end": 14.099
+    },
+    {
+     "text": "Each",
+     "start": 14.449,
+     "end": 14.718
+    },
+    {
+     "text": "new",
+     "start": 14.718,
+     "end": 14.935
+    },
+    {
+     "text": "seed",
+     "start": 14.935,
+     "end": 15.205
+    },
+    {
+     "text": "grows",
+     "start": 15.205,
+     "end": 15.525
+    },
+    {
+     "text": "a",
+     "start": 15.525,
+     "end": 15.639
+    },
+    {
+     "text": "hundred",
+     "start": 15.639,
+     "end": 16.063
+    },
+    {
+     "text": "and",
+     "start": 16.063,
+     "end": 16.281
+    },
+    {
+     "text": "thirty-seven",
+     "start": 16.281,
+     "end": 16.912
+    },
+    {
+     "text": "and",
+     "start": 16.912,
+     "end": 17.129
+    },
+    {
+     "text": "a",
+     "start": 17.129,
+     "end": 17.243
+    },
+    {
+     "text": "half",
+     "start": 17.243,
+     "end": 17.512
+    },
+    {
+     "text": "degrees",
+     "start": 17.512,
+     "end": 17.936
+    },
+    {
+     "text": "from",
+     "start": 18.036,
+     "end": 18.282
+    },
+    {
+     "text": "the",
+     "start": 18.282,
+     "end": 18.48
+    },
+    {
+     "text": "last.",
+     "start": 18.48,
+     "end": 18.867
+    }
+   ]
+  },
+  {
+   "id": "nudge",
+   "text": "Nudge that angle slightly, and gaps open up.",
+   "start": 19.267,
+   "end": 21.876,
+   "words": [
+    {
+     "text": "Nudge",
+     "start": 19.267,
+     "end": 19.527
+    },
+    {
+     "text": "that",
+     "start": 19.527,
+     "end": 19.745
+    },
+    {
+     "text": "angle",
+     "start": 19.745,
+     "end": 20.005
+    },
+    {
+     "text": "slightly,",
+     "start": 20.005,
+     "end": 20.516
+    },
+    {
+     "text": "and",
+     "start": 20.816,
+     "end": 21.03
+    },
+    {
+     "text": "gaps",
+     "start": 21.03,
+     "end": 21.295
+    },
+    {
+     "text": "open",
+     "start": 21.295,
+     "end": 21.56
+    },
+    {
+     "text": "up.",
+     "start": 21.56,
+     "end": 21.876
+    }
+   ]
+  },
+  {
+   "id": "golden",
+   "text": "At the golden angle, the seeds pack tightly, and the spirals appear on their own.",
+   "start": 22.326,
+   "end": 26.764,
+   "words": [
+    {
+     "text": "At",
+     "start": 22.326,
+     "end": 22.462
+    },
+    {
+     "text": "the",
+     "start": 22.462,
+     "end": 22.641
+    },
+    {
+     "text": "golden",
+     "start": 22.641,
+     "end": 22.948
+    },
+    {
+     "text": "angle,",
+     "start": 22.948,
+     "end": 23.339
+    },
+    {
+     "text": "the",
+     "start": 23.589,
+     "end": 23.79
+    },
+    {
+     "text": "seeds",
+     "start": 23.79,
+     "end": 24.088
+    },
+    {
+     "text": "pack",
+     "start": 24.088,
+     "end": 24.337
+    },
+    {
+     "text": "tightly,",
+     "start": 24.337,
+     "end": 24.874
+    },
+    {
+     "text": "and",
+     "start": 25.174,
+     "end": 25.339
+    },
+    {
+     "text": "the",
+     "start": 25.339,
+     "end": 25.504
+    },
+    {
+     "text": "spirals",
+     "start": 25.504,
+     "end": 25.827
+    },
+    {
+     "text": "appear",
+     "start": 25.827,
+     "end": 26.11
+    },
+    {
+     "text": "on",
+     "start": 26.11,
+     "end": 26.236
+    },
+    {
+     "text": "their",
+     "start": 26.236,
+     "end": 26.48
+    },
+    {
+     "text": "own.",
+     "start": 26.48,
+     "end": 26.764
+    }
+   ]
+  },
+  {
+   "id": "payoff",
+   "text": "No counting. Just one angle, repeated.",
+   "start": 27.264,
+   "end": 30.4,
+   "words": [
+    {
+     "text": "No",
+     "start": 27.264,
+     "end": 27.453
+    },
+    {
+     "text": "counting.",
+     "start": 27.453,
+     "end": 28.176
+    },
+    {
+     "text": "Just",
+     "start": 28.526,
+     "end": 28.842
+    },
+    {
+     "text": "one",
+     "start": 28.842,
+     "end": 29.098
+    },
+    {
+     "text": "angle,",
+     "start": 29.098,
+     "end": 29.658
+    },
+    {
+     "text": "repeated.",
+     "start": 29.658,
+     "end": 30.4
+    }
+   ]
+  }
+ ]
+}
