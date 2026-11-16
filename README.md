@@ -21,5 +21,5 @@ Layout
 - videos/_log.json                  every topic produced so far
 - scripts/                          setup, voice, bed, make, check, stills, publish_renders
 - public/<slug>/*.wav               generated audio
-- src/primitives/                   Starfield, Captions, font loading (reusable)
+- src/primitives/                   Starfield, Captions, font loading, Fizz the mascot (reusable)
 - src/videos/                       one folder per scene, registered in index.ts

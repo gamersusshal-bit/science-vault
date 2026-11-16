@@ -75,6 +75,11 @@ Copy the shape of `videos/sun-vanishes/script.json`.
   video's script and `"voice": "af_heart"` in the other. If only one video is made,
   alternate with the voice of the most recent entry in `videos/_log.json`. Record the
   voice used in each log entry as `"voice"`.
+- Mascot test (owner's choice, 2026-11-16): one of the two daily videos has Fizz, the
+  lab mascot. On even calendar dates Fizz goes in the `am_fenrir` video, on odd dates
+  in the `af_heart` video, so the mascot is not tied to one voice. If only one video is
+  made, give it Fizz only if the most recent log entry did not have it. Record
+  `"fizz": true` or `false` in each log entry.
 - Line 1 is the hook: the contradiction, complete within 3 seconds of speech.
 - Each line adds new information. The last line is the payoff and should echo the hook.
 - Split lines into `parts`. Give each part a `speed` (0.82 to 1.08) and a `pause`
@@ -111,6 +116,14 @@ Rules:
 - Only use `remotion`, React and the fonts already installed. No network assets,
   no stock footage, no images of real people.
 - Register the video in `src/videos/index.ts`.
+- Fizz (when this video has the mascot): register it with `timeline: <its timeline json>`
+  and `fizz: true`; the composition then adds Fizz on top of the scene with automatic
+  cues (surprise at `beats.drop` and `beats.hit`, thinking on the question line,
+  pointing at the answer, laughing on the payoff). Pass `fizzCues` only if those land
+  badly. Keep the bottom-left corner, x 30 to 300 and y 1120 to 1435, free of key
+  visuals and labels. Fizz never speaks and is never written into the script; the
+  narration stays the same with or without it. Do not change Fizz's design, colours
+  or name; `out/fizz-sheet.png` (`npx remotion still fizz-sheet`) shows every mood.
 
 ## 4. Render and check
 
@@ -124,6 +137,8 @@ Rules:
   Also render 3 or 4 single frames at the key beats with
   `npx remotion still <slug> out/f.png --frame=N --browser-executable=$(command -v google-chrome)`
   and inspect them at full size.
+- With Fizz: also check in the stills that Fizz is fully on screen, does not cover the
+  main visual or a label, and reacts on the right beats.
 - At most two fix-and-rerender rounds per video. If it still fails, drop it.
 
 ## 5. Draft for approval (never publish without it)
@@ -149,6 +164,18 @@ Then:
   reply "post all", or name the ones to post or drop.
 - When the owner approves, publish those drafts, check status until each has a
   link, update `_log.json` to "published" with the URL, commit and push.
+
+## 6. Mascot comparison (once, after 14 days of the test)
+
+On the first run when at least 14 videos with `"fizz"` recorded in `videos/_log.json`
+are 3 or more days old, call `vidiq_channel_analytics` once for channelId
+`UClwsg9mIPTVoHTFwMblg9GA` with report `top_videos`, metrics engagedViews,
+averageViewPercentage, subscribersGained and likes, maxResults 50, covering the test
+period. Compare the median of each metric for videos with Fizz against without, and
+send the owner a short table with a plain recommendation: keep Fizz in every video,
+drop it, or keep testing if the difference is small or the samples are too few. Save
+the result in `research/fizz_test.json` so it is not repeated. Do not change the
+mascot rule above until the owner decides.
 
 ## 6. If something breaks
 
