@@ -80,6 +80,10 @@ Copy the shape of `videos/sun-vanishes/script.json`.
   in the `af_heart` video, so the mascot is not tied to one voice. If only one video is
   made, give it Fizz only if the most recent log entry did not have it. Record
   `"fizz": true` or `false` in each log entry.
+- Owner's instruction, 2026-11-17: NO Fizz in any video made on 2026-11-17. Both of
+  that day's videos get `"fizz": false` and no `fizz: true` in `src/videos/index.ts`.
+  The mascot test above resumes with the videos made on 2026-11-18, unless the owner
+  says otherwise. Do not count 2026-11-17's videos toward the 14 in section 6.
 - Line 1 is the hook: the contradiction, complete within 3 seconds of speech.
 - Each line adds new information. The last line is the payoff and should echo the hook.
 - Split lines into `parts`. Give each part a `speed` (0.82 to 1.08) and a `pause`
