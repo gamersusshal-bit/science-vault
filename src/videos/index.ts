@@ -7,6 +7,7 @@ import { SunflowerSpirals } from "./sunflowerSpirals/SunflowerSpirals";
 import { JetEngineFan } from "./jetEngineFan/JetEngineFan";
 import jetEngineFanTimeline from "../../videos/jet-engine-fan/timeline.json";
 import jetEngineFanScript from "../../videos/jet-engine-fan/script.json";
+import { SpinDizzy } from "./spinDizzy/SpinDizzy";
 import treeTimeline from "../../videos/tree-from-air/timeline.json";
 import sunflowerTimeline from "../../videos/sunflower-spirals/timeline.json";
 import lightningTimeline from "../../videos/lightning-thunder/timeline.json";
@@ -15,6 +16,8 @@ import sunVanishesScript from "../../videos/sun-vanishes/script.json";
 import lightningScript from "../../videos/lightning-thunder/script.json";
 import treeScript from "../../videos/tree-from-air/script.json";
 import sunflowerScript from "../../videos/sunflower-spirals/script.json";
+import spinDizzyTimeline from "../../videos/spin-dizzy/timeline.json";
+import spinDizzyScript from "../../videos/spin-dizzy/script.json";
 import type { ThumbSpec } from "../primitives/Thumbnail";
 
 /**
@@ -30,4 +33,5 @@ export const VIDEOS: { id: string; component: React.FC; duration: number; timeli
   { id: "tree-from-air", component: TreeFromAir, duration: treeTimeline.duration, thumb: treeScript.thumb },
   { id: "sunflower-spirals", component: SunflowerSpirals, duration: sunflowerTimeline.duration, thumb: sunflowerScript.thumb },
   { id: "jet-engine-fan", component: JetEngineFan, duration: jetEngineFanTimeline.duration, thumb: jetEngineFanScript.thumb },
+  { id: "spin-dizzy", component: SpinDizzy, duration: spinDizzyTimeline.duration, thumb: spinDizzyScript.thumb },
 ];

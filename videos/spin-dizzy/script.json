@@ -1,0 +1,157 @@
+{
+  "slug": "spin-dizzy",
+  "title": "Why You Still Feel Like You're Spinning After You Stop",
+  "voice": "af_heart",
+  "beats": {
+    "drop": {
+      "line": "hook",
+      "word": "stopped"
+    },
+    "hit": {
+      "line": "stop",
+      "word": "stop"
+    }
+  },
+  "lines": [
+    {
+      "id": "hook",
+      "parts": [
+        {
+          "text": "You stopped spinning.",
+          "speed": 1.0,
+          "pause": 0.25
+        },
+        {
+          "text": "So why is the room still turning?",
+          "speed": 0.9,
+          "pause": 0.45
+        }
+      ]
+    },
+    {
+      "id": "meter",
+      "parts": [
+        {
+          "text": "Your head reads zero.",
+          "speed": 1.0,
+          "pause": 0.3
+        },
+        {
+          "text": "Your inner ear disagrees.",
+          "speed": 0.92,
+          "pause": 0.45
+        }
+      ]
+    },
+    {
+      "id": "canal",
+      "parts": [
+        {
+          "text": "Each ear has three fluid rings,",
+          "speed": 1.03,
+          "pause": 0.15
+        },
+        {
+          "text": "with a flap of sensing hairs.",
+          "speed": 1.0,
+          "pause": 0.4
+        }
+      ]
+    },
+    {
+      "id": "start",
+      "parts": [
+        {
+          "text": "Start spinning, and the fluid lags,",
+          "speed": 1.04,
+          "pause": 0.12
+        },
+        {
+          "text": "bending the flap.",
+          "speed": 1.0,
+          "pause": 0.25
+        },
+        {
+          "text": "Your brain feels the turn.",
+          "speed": 0.98,
+          "pause": 0.45
+        }
+      ]
+    },
+    {
+      "id": "steady",
+      "parts": [
+        {
+          "text": "Keep spinning: the fluid catches up.",
+          "speed": 1.02,
+          "pause": 0.25
+        },
+        {
+          "text": "The flap straightens.",
+          "speed": 0.96,
+          "pause": 0.25
+        },
+        {
+          "text": "The feeling fades.",
+          "speed": 0.9,
+          "pause": 0.5
+        }
+      ]
+    },
+    {
+      "id": "stop",
+      "parts": [
+        {
+          "text": "Then you stop.",
+          "tts": "Then... you stop.",
+          "speed": 0.95,
+          "pause": 0.3
+        },
+        {
+          "text": "The fluid keeps going, bending the flap backwards.",
+          "speed": 1.02,
+          "pause": 0.3
+        },
+        {
+          "text": "Ear says spinning. Eyes say still.",
+          "tts": "Ear says spinning. Eyes, say still.",
+          "speed": 0.95,
+          "pause": 0.5
+        }
+      ]
+    },
+    {
+      "id": "payoff",
+      "parts": [
+        {
+          "text": "The room was never turning.",
+          "speed": 0.92,
+          "pause": 0.3
+        },
+        {
+          "text": "The fluid in your ear was.",
+          "tts": "The fluid in your ear... was.",
+          "speed": 0.84,
+          "pause": 0
+        }
+      ]
+    }
+  ],
+  "sources": [
+    "Three semicircular canals per ear, filled with endolymph, each with a gelatinous cupula in its ampulla into which hair cells extend their stereocilia: 'a series of three arch-shaped membranous tubes', 'filled with endolymph', 'hair cells extend stereocilia into the cupula'. Michigan State University Open Books, Introduction to Neuroscience, Vestibular System, openbooks.lib.msu.edu/introneuroscience1/chapter/vestibular-system/. Also FAA Pilot's Handbook of Aeronautical Knowledge ch. 17: 'three semicircular canals are positioned at approximate right angles to each other ... Each canal is filled with fluid and has a section full of fine hairs', faasafety.gov/files/events/GL/GL09/2017/GL0974893/Pilot's_Handbook_of_Aeronautical_Knowledge_-_Ch_17.pdf. Script: 'three rings of fluid, with a flap of sensing hairs' (the hairs belong to hair cells under the cupula; drawn simplified).",
+    "Start of a spin: 'the endolymph within the semicircular canals has a delay in movement due to inertia' and 'will move the cupula in the opposite direction of head movement', bending the stereocilia. MSU Open Books (above) and Foundations of Neuroscience (C. Lindgren), pressbooks.pub/neuroscience/chapter/vestibular-system. The canals detect head rotation and angular acceleration.",
+    "Steady spin: 'If the rotation continues, the endolymph catches up with the movement of the canal', 'the cupula is returned to the upright position', and the subject 'will report that he has ceased to rotate'. M. D. Mann, The Nervous System in Action, ch. 10 (physiology textbook, formerly hosted by the University of Nebraska Medical Center physiology department), michaeldmann.net/mann9.html. FAA PHAK ch. 17 figure: 'No sensation after fluid accelerates to same speed as tube wall'. No number of seconds is given in the script; on screen the time is compressed and labelled as a simplified model (Mann reports receptor adaptation within less than one minute; Columbia University lecture notes give about 25 s including brainstem processing, columbia.edu/itc/hs/medical/neuralsci/2003/lectures/21_vestibular.pdf).",
+    "Stopping: 'If the rotation is suddenly stopped, the canals immediately stop their rotation, but the endolymph does not', giving 'a sensation of rotation in the direction opposite to that he previously experienced' and 'a postrotatory nystagmus also in the direction opposite to the previous rotation'. Mann, michaeldmann.net/mann9.html. FAA PHAK ch. 17 figure: 'Sensation of turning in opposite direction as moving fluid deflects hairs in opposite direction'. MSU Open Books: the endolymph 'continues to move for a brief period of time due to inertia', which 'contributes to our feeling of dizziness when we stop rotating'.",
+    "Nystagmus (eye flicking shown on screen): vestibular nystagmus is slow eye movements driven by the canal signal plus quick resetting movements. Columbia University, Neural Science lecture 21 (Vestibular), columbia.edu/itc/hs/medical/neuralsci/2003/lectures/21_vestibular.pdf.",
+    "Ear versus eyes: differences between visual and vestibular inputs are a 'sensory mismatch' that can cause illusions of motion. FAA, Spatial Disorientation pilot safety brochure, faa.gov/pilots/safety/pilotsafetybrochures/SpatialD.pdf. The script only states the conflict ('Ear says spinning. Eyes say still.').",
+    "Simplified model: one canal (the horizontal one, which senses spinning about a vertical axis) is drawn as a full ring seen from above; speeds and times are scaled for the video. Not medical advice."
+  ],
+  "thumb": {
+    "at": 23.7,
+    "text": [
+      "YOU STOPPED.",
+      "FLUID DIDN'T"
+    ],
+    "accent": "#e2483d"
+  }
+}

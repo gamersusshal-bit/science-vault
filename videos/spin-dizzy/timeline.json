@@ -1,0 +1,487 @@
+{
+ "slug": "spin-dizzy",
+ "fps": 30,
+ "duration": 34.204,
+ "beats": {
+  "drop": 0.374,
+  "hit": 21.907
+ },
+ "lines": [
+  {
+   "id": "hook",
+   "text": "You stopped spinning. So why is the room still turning?",
+   "start": 0.2,
+   "end": 3.214,
+   "words": [
+    {
+     "text": "You",
+     "start": 0.2,
+     "end": 0.374
+    },
+    {
+     "text": "stopped",
+     "start": 0.374,
+     "end": 0.712
+    },
+    {
+     "text": "spinning.",
+     "start": 0.712,
+     "end": 1.216
+    },
+    {
+     "text": "So",
+     "start": 1.466,
+     "end": 1.616
+    },
+    {
+     "text": "why",
+     "start": 1.616,
+     "end": 1.812
+    },
+    {
+     "text": "is",
+     "start": 1.812,
+     "end": 1.962
+    },
+    {
+     "text": "the",
+     "start": 1.962,
+     "end": 2.158
+    },
+    {
+     "text": "room",
+     "start": 2.158,
+     "end": 2.401
+    },
+    {
+     "text": "still",
+     "start": 2.401,
+     "end": 2.69
+    },
+    {
+     "text": "turning?",
+     "start": 2.69,
+     "end": 3.214
+    }
+   ]
+  },
+  {
+   "id": "meter",
+   "text": "Your head reads zero. Your inner ear disagrees.",
+   "start": 3.664,
+   "end": 6.649,
+   "words": [
+    {
+     "text": "Your",
+     "start": 3.664,
+     "end": 3.909
+    },
+    {
+     "text": "head",
+     "start": 3.909,
+     "end": 4.154
+    },
+    {
+     "text": "reads",
+     "start": 4.154,
+     "end": 4.447
+    },
+    {
+     "text": "zero.",
+     "start": 4.447,
+     "end": 4.833
+    },
+    {
+     "text": "Your",
+     "start": 5.133,
+     "end": 5.407
+    },
+    {
+     "text": "inner",
+     "start": 5.407,
+     "end": 5.733
+    },
+    {
+     "text": "ear",
+     "start": 5.733,
+     "end": 5.954
+    },
+    {
+     "text": "disagrees.",
+     "start": 5.954,
+     "end": 6.649
+    }
+   ]
+  },
+  {
+   "id": "canal",
+   "text": "Each ear has three fluid rings, with a flap of sensing hairs.",
+   "start": 7.099,
+   "end": 10.459,
+   "words": [
+    {
+     "text": "Each",
+     "start": 7.099,
+     "end": 7.346
+    },
+    {
+     "text": "ear",
+     "start": 7.346,
+     "end": 7.545
+    },
+    {
+     "text": "has",
+     "start": 7.545,
+     "end": 7.745
+    },
+    {
+     "text": "three",
+     "start": 7.745,
+     "end": 8.039
+    },
+    {
+     "text": "fluid",
+     "start": 8.039,
+     "end": 8.334
+    },
+    {
+     "text": "rings,",
+     "start": 8.334,
+     "end": 8.77
+    },
+    {
+     "text": "with",
+     "start": 8.92,
+     "end": 9.161
+    },
+    {
+     "text": "a",
+     "start": 9.161,
+     "end": 9.263
+    },
+    {
+     "text": "flap",
+     "start": 9.263,
+     "end": 9.504
+    },
+    {
+     "text": "of",
+     "start": 9.504,
+     "end": 9.653
+    },
+    {
+     "text": "sensing",
+     "start": 9.653,
+     "end": 10.033
+    },
+    {
+     "text": "hairs.",
+     "start": 10.033,
+     "end": 10.459
+    }
+   ]
+  },
+  {
+   "id": "start",
+   "text": "Start spinning, and the fluid lags, bending the flap. Your brain feels the turn.",
+   "start": 10.859,
+   "end": 15.411,
+   "words": [
+    {
+     "text": "Start",
+     "start": 10.859,
+     "end": 11.138
+    },
+    {
+     "text": "spinning,",
+     "start": 11.138,
+     "end": 11.688
+    },
+    {
+     "text": "and",
+     "start": 11.688,
+     "end": 11.878
+    },
+    {
+     "text": "the",
+     "start": 11.878,
+     "end": 12.067
+    },
+    {
+     "text": "fluid",
+     "start": 12.067,
+     "end": 12.346
+    },
+    {
+     "text": "lags,",
+     "start": 12.346,
+     "end": 12.716
+    },
+    {
+     "text": "bending",
+     "start": 12.836,
+     "end": 13.215
+    },
+    {
+     "text": "the",
+     "start": 13.215,
+     "end": 13.409
+    },
+    {
+     "text": "flap.",
+     "start": 13.409,
+     "end": 13.788
+    },
+    {
+     "text": "Your",
+     "start": 14.038,
+     "end": 14.276
+    },
+    {
+     "text": "brain",
+     "start": 14.276,
+     "end": 14.56
+    },
+    {
+     "text": "feels",
+     "start": 14.56,
+     "end": 14.843
+    },
+    {
+     "text": "the",
+     "start": 14.843,
+     "end": 15.036
+    },
+    {
+     "text": "turn.",
+     "start": 15.036,
+     "end": 15.411
+    }
+   ]
+  },
+  {
+   "id": "steady",
+   "text": "Keep spinning: the fluid catches up. The flap straightens. The feeling fades.",
+   "start": 15.861,
+   "end": 20.782,
+   "words": [
+    {
+     "text": "Keep",
+     "start": 15.861,
+     "end": 16.117
+    },
+    {
+     "text": "spinning:",
+     "start": 16.117,
+     "end": 16.717
+    },
+    {
+     "text": "the",
+     "start": 16.717,
+     "end": 16.924
+    },
+    {
+     "text": "fluid",
+     "start": 16.924,
+     "end": 17.229
+    },
+    {
+     "text": "catches",
+     "start": 17.229,
+     "end": 17.632
+    },
+    {
+     "text": "up.",
+     "start": 17.632,
+     "end": 17.937
+    },
+    {
+     "text": "The",
+     "start": 18.187,
+     "end": 18.387
+    },
+    {
+     "text": "flap",
+     "start": 18.387,
+     "end": 18.635
+    },
+    {
+     "text": "straightens.",
+     "start": 18.635,
+     "end": 19.359
+    },
+    {
+     "text": "The",
+     "start": 19.609,
+     "end": 19.837
+    },
+    {
+     "text": "feeling",
+     "start": 19.837,
+     "end": 20.282
+    },
+    {
+     "text": "fades.",
+     "start": 20.282,
+     "end": 20.782
+    }
+   ]
+  },
+  {
+   "id": "stop",
+   "text": "Then you stop. The fluid keeps going, bending the flap backwards. Ear says spinning. Eyes say still.",
+   "start": 21.282,
+   "end": 28.034,
+   "words": [
+    {
+     "text": "Then",
+     "start": 21.282,
+     "end": 21.628
+    },
+    {
+     "text": "you",
+     "start": 21.628,
+     "end": 21.907
+    },
+    {
+     "text": "stop.",
+     "start": 21.907,
+     "end": 22.452
+    },
+    {
+     "text": "The",
+     "start": 22.752,
+     "end": 22.955
+    },
+    {
+     "text": "fluid",
+     "start": 22.955,
+     "end": 23.254
+    },
+    {
+     "text": "keeps",
+     "start": 23.254,
+     "end": 23.554
+    },
+    {
+     "text": "going,",
+     "start": 23.554,
+     "end": 23.998
+    },
+    {
+     "text": "bending",
+     "start": 23.998,
+     "end": 24.395
+    },
+    {
+     "text": "the",
+     "start": 24.395,
+     "end": 24.598
+    },
+    {
+     "text": "flap",
+     "start": 24.598,
+     "end": 24.849
+    },
+    {
+     "text": "backwards.",
+     "start": 24.849,
+     "end": 25.487
+    },
+    {
+     "text": "Ear",
+     "start": 25.787,
+     "end": 26.022
+    },
+    {
+     "text": "says",
+     "start": 26.022,
+     "end": 26.312
+    },
+    {
+     "text": "spinning.",
+     "start": 26.312,
+     "end": 26.995
+    },
+    {
+     "text": "Eyes",
+     "start": 26.995,
+     "end": 27.285
+    },
+    {
+     "text": "say",
+     "start": 27.285,
+     "end": 27.52
+    },
+    {
+     "text": "still.",
+     "start": 27.52,
+     "end": 28.034
+    }
+   ]
+  },
+  {
+   "id": "payoff",
+   "text": "The room was never turning. The fluid in your ear was.",
+   "start": 28.534,
+   "end": 32.404,
+   "words": [
+    {
+     "text": "The",
+     "start": 28.534,
+     "end": 28.736
+    },
+    {
+     "text": "room",
+     "start": 28.736,
+     "end": 28.985
+    },
+    {
+     "text": "was",
+     "start": 28.985,
+     "end": 29.187
+    },
+    {
+     "text": "never",
+     "start": 29.187,
+     "end": 29.484
+    },
+    {
+     "text": "turning.",
+     "start": 29.484,
+     "end": 30.021
+    },
+    {
+     "text": "The",
+     "start": 30.321,
+     "end": 30.611
+    },
+    {
+     "text": "fluid",
+     "start": 30.611,
+     "end": 31.039
+    },
+    {
+     "text": "in",
+     "start": 31.039,
+     "end": 31.259
+    },
+    {
+     "text": "your",
+     "start": 31.259,
+     "end": 31.618
+    },
+    {
+     "text": "ear",
+     "start": 31.618,
+     "end": 31.908
+    },
+    {
+     "text": "was.",
+     "start": 31.908,
+     "end": 32.404
+    }
+   ]
+  }
+ ]
+}
