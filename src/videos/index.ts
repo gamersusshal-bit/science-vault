@@ -20,6 +20,4 @@ export const VIDEOS: { id: string; component: React.FC; duration: number; timeli
   { id: "lightning-thunder", component: LightningThunder, duration: lightningTimeline.duration },
   { id: "tree-from-air", component: TreeFromAir, duration: treeTimeline.duration },
   { id: "sunflower-spirals", component: SunflowerSpirals, duration: sunflowerTimeline.duration },
-  // Mascot demo only (not for upload): the tree video with Fizz added.
-  { id: "fizz-demo", component: TreeFromAir, duration: treeTimeline.duration, timeline: treeTimeline, fizz: true },
 ];
