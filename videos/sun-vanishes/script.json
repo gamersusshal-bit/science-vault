@@ -133,5 +133,13 @@
     "Light travel time: 1 au = 149,597,870.7 km / 299,792.458 km/s = 499.0 s (8 min 19 s). IAU 2012 Resolution B2.",
     "Speed of gravity equals speed of light to within about 1 part in 10^15: Abbott et al. 2017, ApJL 848 L13 (GW170817 + GRB 170817A).",
     "Thought experiment only: mass-energy cannot simply vanish in general relativity."
-  ]
+  ],
+  "thumb": {
+    "at": 6.0,
+    "text": [
+      "IF THE SUN",
+      "VANISHED"
+    ],
+    "accent": "#ffd166"
+  }
 }

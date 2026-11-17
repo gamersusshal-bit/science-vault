@@ -2,32 +2,139 @@
   "slug": "sunflower-spirals",
   "title": "Sunflowers Can't Count, Yet Their Seeds Follow Fibonacci Numbers",
   "voice": "am_fenrir",
-  "beats": { "drop": { "line": "hook", "word": "count" }, "hit": { "line": "golden", "word": "pack" } },
+  "beats": {
+    "drop": {
+      "line": "hook",
+      "word": "count"
+    },
+    "hit": {
+      "line": "golden",
+      "word": "pack"
+    }
+  },
   "lines": [
-    { "id": "hook", "parts": [
-      { "text": "A sunflower can't count,", "speed": 1.0, "pause": 0.3 },
-      { "text": "yet its seeds follow Fibonacci numbers.", "speed": 0.9, "pause": 0.45 } ] },
-    { "id": "spirals", "parts": [
-      { "text": "Count the spirals.", "speed": 1.0, "pause": 0.3 },
-      { "text": "Often thirty-four one way,", "speed": 1.02, "pause": 0.25 },
-      { "text": "and fifty-five the other.", "speed": 0.98, "pause": 0.4 } ] },
-    { "id": "fib", "parts": [
-      { "text": "Fibonacci numbers:", "speed": 1.0, "pause": 0.2 },
-      { "text": "each one is the sum of the two before.", "speed": 1.05, "pause": 0.4 } ] },
-    { "id": "rule", "parts": [
-      { "text": "The flower follows one rule.", "speed": 0.95, "pause": 0.35 },
-      { "text": "Each new seed grows a hundred and thirty-seven and a half degrees", "tts": "Each new seed grows a hundred and thirty-seven and a half degrees,", "speed": 1.05, "pause": 0.1 },
-      { "text": "from the last.", "speed": 0.95, "pause": 0.4 } ] },
-    { "id": "nudge", "parts": [
-      { "text": "Nudge that angle slightly,", "speed": 1.0, "pause": 0.3 },
-      { "text": "and gaps open up.", "speed": 0.92, "pause": 0.45 } ] },
-    { "id": "golden", "parts": [
-      { "text": "At the golden angle,", "speed": 0.98, "pause": 0.25 },
-      { "text": "the seeds pack tightly,", "speed": 0.95, "pause": 0.3 },
-      { "text": "and the spirals appear on their own.", "speed": 1.0, "pause": 0.5 } ] },
-    { "id": "payoff", "parts": [
-      { "text": "No counting.", "speed": 0.92, "pause": 0.35 },
-      { "text": "Just one angle, repeated.", "tts": "Just one angle... repeated.", "speed": 0.84, "pause": 0 } ] }
+    {
+      "id": "hook",
+      "parts": [
+        {
+          "text": "A sunflower can't count,",
+          "speed": 1.0,
+          "pause": 0.3
+        },
+        {
+          "text": "yet its seeds follow Fibonacci numbers.",
+          "speed": 0.9,
+          "pause": 0.45
+        }
+      ]
+    },
+    {
+      "id": "spirals",
+      "parts": [
+        {
+          "text": "Count the spirals.",
+          "speed": 1.0,
+          "pause": 0.3
+        },
+        {
+          "text": "Often thirty-four one way,",
+          "speed": 1.02,
+          "pause": 0.25
+        },
+        {
+          "text": "and fifty-five the other.",
+          "speed": 0.98,
+          "pause": 0.4
+        }
+      ]
+    },
+    {
+      "id": "fib",
+      "parts": [
+        {
+          "text": "Fibonacci numbers:",
+          "speed": 1.0,
+          "pause": 0.2
+        },
+        {
+          "text": "each one is the sum of the two before.",
+          "speed": 1.05,
+          "pause": 0.4
+        }
+      ]
+    },
+    {
+      "id": "rule",
+      "parts": [
+        {
+          "text": "The flower follows one rule.",
+          "speed": 0.95,
+          "pause": 0.35
+        },
+        {
+          "text": "Each new seed grows a hundred and thirty-seven and a half degrees",
+          "tts": "Each new seed grows a hundred and thirty-seven and a half degrees,",
+          "speed": 1.05,
+          "pause": 0.1
+        },
+        {
+          "text": "from the last.",
+          "speed": 0.95,
+          "pause": 0.4
+        }
+      ]
+    },
+    {
+      "id": "nudge",
+      "parts": [
+        {
+          "text": "Nudge that angle slightly,",
+          "speed": 1.0,
+          "pause": 0.3
+        },
+        {
+          "text": "and gaps open up.",
+          "speed": 0.92,
+          "pause": 0.45
+        }
+      ]
+    },
+    {
+      "id": "golden",
+      "parts": [
+        {
+          "text": "At the golden angle,",
+          "speed": 0.98,
+          "pause": 0.25
+        },
+        {
+          "text": "the seeds pack tightly,",
+          "speed": 0.95,
+          "pause": 0.3
+        },
+        {
+          "text": "and the spirals appear on their own.",
+          "speed": 1.0,
+          "pause": 0.5
+        }
+      ]
+    },
+    {
+      "id": "payoff",
+      "parts": [
+        {
+          "text": "No counting.",
+          "speed": 0.92,
+          "pause": 0.35
+        },
+        {
+          "text": "Just one angle, repeated.",
+          "tts": "Just one angle... repeated.",
+          "speed": 0.84,
+          "pause": 0
+        }
+      ]
+    }
   ],
   "sources": [
     "Spiral counts: a domestic sunflower head with '34 spirals running clockwise and 55 spirals running counterclockwise'; '21 and 34 for a small capitulum, up to 89 and 144 or even 144 and 233 for large ones'. Prusinkiewicz and Lindenmayer, The Algorithmic Beauty of Plants (Springer, 1990), chapter 4, algorithmicbotany.org/papers/abop/abop-ch4.pdf.",
@@ -36,5 +143,13 @@
     "Sensitivity: The Algorithmic Beauty of Plants figure 4.2 compares divergence angles of 137.3, 137.5 ('the correct value') and 137.6 degrees to show 'the critical role of the divergence angle'. The scene draws the same model at 137.3 degrees for the 'nudge' line.",
     "Fibonacci sequence definition (1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89): standard mathematics.",
     "Simplification to note: in the real plant new florets form near the centre and older ones are pushed outward; the scene draws the Vogel model, numbering seeds from the centre out."
-  ]
+  ],
+  "thumb": {
+    "at": 8.6,
+    "text": [
+      "WHY 34",
+      "AND 55?"
+    ],
+    "accent": "#ff8a5c"
+  }
 }

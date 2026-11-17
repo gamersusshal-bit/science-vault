@@ -128,6 +128,21 @@ Rules:
   and inspect them at full size.
 - At most two fix-and-rerender rounds per video. If it still fails, drop it.
 
+### 4b. Thumbnail
+
+Add a "thumb" block to the script and render it:
+
+    "thumb": { "at": 17.6, "text": ["A TREE IS", "MADE OF AIR"], "accent": "#b8f25c" }
+    scripts/thumb.sh <slug>     # writes thumbs/<slug>.jpg (1080x1920 JPEG, under 2 MB)
+
+- `at` = the second of the video with the clearest hero image (the mechanism visible,
+  nothing mid-transition). `text` = two short lines, 12 characters or fewer each, that
+  state the surprise and are true as worded. `accent` = the scene's accent colour.
+- Open the JPEG and check it: both lines readable at small size, hero visual clear in
+  the middle band, nothing clipped. Fix `at` or the text and re-render if not.
+- Commit `thumbs/<slug>.jpg` to main and push before drafting, so it has a public link:
+  `https://raw.githubusercontent.com/gamersusshal-bit/science-vault/main/thumbs/<slug>.jpg`
+
 ## 5. Draft for approval (never publish without it)
 
     scripts/publish_renders.sh <slug> [<slug> ...]   # prints one public link per video
@@ -140,6 +155,11 @@ For each link:
    clickbait, 5 to 8 tags, media = the uploadId, and a description of 2 or 3 plain
    sentences plus `#shorts` and three topic hashtags. If it is a thought experiment,
    say so in the description.
+   Thumbnail: `vidiq_upload_image` with `image` = the thumbnail's public link, then pass
+   the returned imageId as `thumbnailImageId` on the YouTube destination. YouTube only
+   accepts uploaded Shorts thumbnails from some channels (Partner Program at launch,
+   July 2026); a refused thumbnail does not fail the upload. Always send the JPEG to
+   the owner as well, and say in the owner message whether YouTube took it.
 3. Do NOT call `vidiq_social_post_publish`. Publishing happens only after the owner
    replies with approval in the session.
 

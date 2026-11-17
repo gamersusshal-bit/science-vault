@@ -2,34 +2,136 @@
   "slug": "tree-from-air",
   "title": "A Tree Is Built Mostly From Air, Not Soil",
   "voice": "am_fenrir",
-  "beats": { "drop": { "line": "hook", "word": "thin" }, "hit": { "line": "carbon", "word": "sky" } },
+  "beats": {
+    "drop": {
+      "line": "hook",
+      "word": "thin"
+    },
+    "hit": {
+      "line": "carbon",
+      "word": "sky"
+    }
+  },
   "lines": [
-    { "id": "hook", "parts": [
-      { "text": "A tree is built mostly from thin air,", "speed": 1.0, "pause": 0.25 },
-      { "text": "not from the ground.", "speed": 0.9, "pause": 0.45 } ] },
-    { "id": "pot", "parts": [
-      { "text": "In the sixteen hundreds,", "speed": 1.05, "pause": 0.12 },
-      { "text": "a scientist grew a willow for five years.", "speed": 1.05, "pause": 0.35 } ] },
-    { "id": "weigh", "parts": [
-      { "text": "The tree gained about seventy-four kilograms.", "speed": 1.02, "pause": 0.3 },
-      { "text": "The soil lost barely sixty grams.", "speed": 0.94, "pause": 0.45 } ] },
-    { "id": "question", "parts": [
-      { "text": "So where did the wood come from?", "speed": 0.95, "pause": 0.5 } ] },
-    { "id": "leaves", "parts": [
-      { "text": "Leaves pull carbon dioxide from the air,", "speed": 1.02, "pause": 0.2 },
-      { "text": "and sunlight helps lock its carbon into sugar,", "speed": 1.05, "pause": 0.15 },
-      { "text": "then wood.", "speed": 0.92, "pause": 0.4 } ] },
-    { "id": "carbon", "parts": [
-      { "text": "About half of dry wood is carbon,", "speed": 1.0, "pause": 0.3 },
-      { "text": "and that carbon came from the sky.", "speed": 0.92, "pause": 0.5 } ] },
-    { "id": "payoff", "parts": [
-      { "text": "A forest is air,", "speed": 0.92, "pause": 0.35 },
-      { "text": "turned solid.", "tts": "turned... solid.", "speed": 0.82, "pause": 0 } ] }
+    {
+      "id": "hook",
+      "parts": [
+        {
+          "text": "A tree is built mostly from thin air,",
+          "speed": 1.0,
+          "pause": 0.25
+        },
+        {
+          "text": "not from the ground.",
+          "speed": 0.9,
+          "pause": 0.45
+        }
+      ]
+    },
+    {
+      "id": "pot",
+      "parts": [
+        {
+          "text": "In the sixteen hundreds,",
+          "speed": 1.05,
+          "pause": 0.12
+        },
+        {
+          "text": "a scientist grew a willow for five years.",
+          "speed": 1.05,
+          "pause": 0.35
+        }
+      ]
+    },
+    {
+      "id": "weigh",
+      "parts": [
+        {
+          "text": "The tree gained about seventy-four kilograms.",
+          "speed": 1.02,
+          "pause": 0.3
+        },
+        {
+          "text": "The soil lost barely sixty grams.",
+          "speed": 0.94,
+          "pause": 0.45
+        }
+      ]
+    },
+    {
+      "id": "question",
+      "parts": [
+        {
+          "text": "So where did the wood come from?",
+          "speed": 0.95,
+          "pause": 0.5
+        }
+      ]
+    },
+    {
+      "id": "leaves",
+      "parts": [
+        {
+          "text": "Leaves pull carbon dioxide from the air,",
+          "speed": 1.02,
+          "pause": 0.2
+        },
+        {
+          "text": "and sunlight helps lock its carbon into sugar,",
+          "speed": 1.05,
+          "pause": 0.15
+        },
+        {
+          "text": "then wood.",
+          "speed": 0.92,
+          "pause": 0.4
+        }
+      ]
+    },
+    {
+      "id": "carbon",
+      "parts": [
+        {
+          "text": "About half of dry wood is carbon,",
+          "speed": 1.0,
+          "pause": 0.3
+        },
+        {
+          "text": "and that carbon came from the sky.",
+          "speed": 0.92,
+          "pause": 0.5
+        }
+      ]
+    },
+    {
+      "id": "payoff",
+      "parts": [
+        {
+          "text": "A forest is air,",
+          "speed": 0.92,
+          "pause": 0.35
+        },
+        {
+          "text": "turned solid.",
+          "tts": "turned... solid.",
+          "speed": 0.82,
+          "pause": 0
+        }
+      ]
+    }
   ],
   "sources": [
     "Willow experiment: 5 lb willow shoot in 200 lb of oven-dried soil; after five years the tree weighed 169 lb and about 3 oz, and the soil weighed 200 lb less about 2 oz. Gain 164 lb 3 oz = about 74 kg; soil loss about 2 oz = about 57 g (script: 'barely sixty grams'). J. B. van Helmont, Ortus Medicinae (published posthumously, 1648); translated text at College of St Benedict / St John's University, faculty.csbsju.edu/ssaupe/biol115/van_helmont.htm. Van Helmont himself concluded the wood came from water; the video does not repeat that conclusion.",
     "Carbon share: 'the commonly assumed value of 50% for the carbon content of dry wood is satisfactory for most purposes'. G. Matthews, The Carbon Content of Trees, UK Forestry Commission Technical Paper 4 (1993), cdn.forestresearch.gov.uk/1993/09/fctp004.pdf.",
     "Origin of the carbon: 'Carbon constitutes approximately 50% the dry mass of trees' and carbon dioxide is 'removed from the atmosphere by trees through photosynthesis'. ForestLearning (Forest and Wood Products Australia), How carbon is stored in trees and wood products.",
     "Simplification to note: living wood is also roughly half water, which comes from the soil, and about 5% of dry matter is soil minerals. 'Mostly from air' refers to the dry mass. Photosynthesis first makes sugars, which the tree converts to cellulose and lignin."
-  ]
+  ],
+  "thumb": {
+    "at": 17.6,
+    "text": [
+      "A TREE IS",
+      "MADE OF AIR"
+    ],
+    "accent": "#b8f25c"
+  }
 }
