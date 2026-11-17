@@ -4,6 +4,9 @@ import { SunVanishes } from "./sunVanishes/SunVanishes";
 import { LightningThunder } from "./lightningThunder/LightningThunder";
 import { TreeFromAir } from "./treeFromAir/TreeFromAir";
 import { SunflowerSpirals } from "./sunflowerSpirals/SunflowerSpirals";
+import { JetEngineFan } from "./jetEngineFan/JetEngineFan";
+import jetEngineFanTimeline from "../../videos/jet-engine-fan/timeline.json";
+import jetEngineFanScript from "../../videos/jet-engine-fan/script.json";
 import treeTimeline from "../../videos/tree-from-air/timeline.json";
 import sunflowerTimeline from "../../videos/sunflower-spirals/timeline.json";
 import lightningTimeline from "../../videos/lightning-thunder/timeline.json";
@@ -26,4 +29,5 @@ export const VIDEOS: { id: string; component: React.FC; duration: number; timeli
   { id: "lightning-thunder", component: LightningThunder, duration: lightningTimeline.duration, thumb: lightningScript.thumb },
   { id: "tree-from-air", component: TreeFromAir, duration: treeTimeline.duration, thumb: treeScript.thumb },
   { id: "sunflower-spirals", component: SunflowerSpirals, duration: sunflowerTimeline.duration, thumb: sunflowerScript.thumb },
+  { id: "jet-engine-fan", component: JetEngineFan, duration: jetEngineFanTimeline.duration, thumb: jetEngineFanScript.thumb },
 ];

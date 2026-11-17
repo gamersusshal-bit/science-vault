@@ -1,0 +1,71 @@
+{
+  "slug": "jet-engine-fan",
+  "title": "Most of a Jet Engine's Thrust Never Touches the Fire",
+  "voice": "am_fenrir",
+  "beats": {
+    "drop": { "line": "hook", "word": "push" },
+    "hit": { "line": "thrust", "word": "eighty" }
+  },
+  "lines": [
+    {
+      "id": "hook",
+      "parts": [
+        { "text": "Most of a jet's push", "tts": "Most of a jet's push,", "speed": 1.0, "pause": 0.12 },
+        { "text": "never touches the fire.", "speed": 0.88, "pause": 0.45 }
+      ]
+    },
+    {
+      "id": "ratio",
+      "parts": [
+        { "text": "For every kilo of air through the core,", "speed": 1.05, "pause": 0.15 },
+        { "text": "about ten go around it.", "speed": 0.95, "pause": 0.4 }
+      ]
+    },
+    {
+      "id": "remove",
+      "parts": [
+        { "text": "Remove the fan,", "speed": 0.98, "pause": 0.3 },
+        { "text": "and you get an old turbojet:", "tts": "and you get an old turbojet.", "speed": 1.02, "pause": 0.2 },
+        { "text": "loud and thirsty.", "speed": 0.92, "pause": 0.45 }
+      ]
+    },
+    {
+      "id": "core",
+      "parts": [
+        { "text": "The core squeezes its share", "speed": 1.04, "pause": 0.12 },
+        { "text": "and burns fuel at about seventeen hundred degrees.", "speed": 1.05, "pause": 0.3 }
+      ]
+    },
+    {
+      "id": "shaft",
+      "parts": [
+        { "text": "That hot gas spins turbines,", "speed": 1.03, "pause": 0.15 },
+        { "text": "and a shaft drives the giant fan.", "speed": 0.98, "pause": 0.4 }
+      ]
+    },
+    {
+      "id": "thrust",
+      "parts": [
+        { "text": "The fan makes up to", "speed": 1.0, "pause": 0.1 },
+        { "text": "eighty percent of the thrust.", "tts": "eighty percent of the thrust!", "speed": 0.92, "pause": 0.5 }
+      ]
+    },
+    {
+      "id": "payoff",
+      "parts": [
+        { "text": "The fire doesn't push the plane.", "speed": 0.92, "pause": 0.3 },
+        { "text": "It spins the fan that does.", "tts": "It spins the fan... that does.", "speed": 0.84, "pause": 0 }
+      ]
+    }
+  ],
+  "sources": [
+    "Bypass ratio about 10:1 (for every unit of air through the core, about ten go around it): GE Aerospace, GE9X product page, 'approximate 10:1 bypass ratio'. https://www.geaerospace.com/commercial/engines/ge9x",
+    "Fan diameter 134 in (3.4 m), shown on screen: GE Aerospace, GE9X product page. https://www.geaerospace.com/commercial/engines/ge9x",
+    "Bypass flow generates up to 80 percent of the thrust; bypass ratio up to 12:1 on the most advanced turbofans; fuel-air mixture burns at approximately 1,700 degrees Celsius: MTU Aero Engines, AEROREPORT 'How does a turbofan engine work?'. https://aeroreport.de/en/good-to-know/how-does-a-turbofan-engine-work",
+    "80-90 percent of the air drawn in by the fan is exhausted through the fan nozzle and provides most of the engine's thrust; combustor exhaust passes through the turbine, which turns the shaft driving the fan and compressor: National Academies of Sciences, Engineering, and Medicine (2016), Commercial Aircraft Propulsion and Energy Systems Research, ch. 2. https://www.nationalacademies.org/read/23490/chapter/6",
+    "A turbofan generates more thrust for nearly the same fuel used by the core, and turbofans are more fuel efficient than basic turbojets ('thirsty' turbojet); fan air goes around the core like air through a propeller: NASA Glenn Research Center, Beginner's Guide to Aeronautics, Turbofan Thrust. https://www.grc.nasa.gov/www/k-12/BGP/aturbf.html",
+    "Turbojets produce high-velocity hot exhaust jets at takeoff and were noisy; turbofans reduced noise by lowering jet exhaust velocity ('loud' turbojet): Huff and Envia, NASA Glenn, 'Jet Engine Noise Generation, Prediction and Control' (2004). https://ntrs.nasa.gov/citations/20050198876",
+    "Simplified cutaway: stage counts, proportions and particle counts are illustrative, not to scale."
+  ],
+  "thumb": { "at": 21.0, "text": ["MOST THRUST", "IS FAN AIR"], "accent": "#7fe3ff" }
+}

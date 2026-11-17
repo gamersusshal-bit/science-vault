@@ -1,0 +1,472 @@
+{
+ "slug": "jet-engine-fan",
+ "fps": 30,
+ "duration": 28.01,
+ "beats": {
+  "drop": 1.126,
+  "hit": 20.551
+ },
+ "lines": [
+  {
+   "id": "hook",
+   "text": "Most of a jet's push never touches the fire.",
+   "start": 0.2,
+   "end": 2.849,
+   "words": [
+    {
+     "text": "Most",
+     "start": 0.2,
+     "end": 0.487
+    },
+    {
+     "text": "of",
+     "start": 0.487,
+     "end": 0.663
+    },
+    {
+     "text": "a",
+     "start": 0.663,
+     "end": 0.784
+    },
+    {
+     "text": "jet's",
+     "start": 0.784,
+     "end": 1.126
+    },
+    {
+     "text": "push",
+     "start": 1.126,
+     "end": 1.413
+    },
+    {
+     "text": "never",
+     "start": 1.533,
+     "end": 1.838
+    },
+    {
+     "text": "touches",
+     "start": 1.838,
+     "end": 2.24
+    },
+    {
+     "text": "the",
+     "start": 2.24,
+     "end": 2.447
+    },
+    {
+     "text": "fire.",
+     "start": 2.447,
+     "end": 2.849
+    }
+   ]
+  },
+  {
+   "id": "ratio",
+   "text": "For every kilo of air through the core, about ten go around it.",
+   "start": 3.3,
+   "end": 6.465,
+   "words": [
+    {
+     "text": "For",
+     "start": 3.3,
+     "end": 3.467
+    },
+    {
+     "text": "every",
+     "start": 3.467,
+     "end": 3.715
+    },
+    {
+     "text": "kilo",
+     "start": 3.715,
+     "end": 3.922
+    },
+    {
+     "text": "of",
+     "start": 3.922,
+     "end": 4.05
+    },
+    {
+     "text": "air",
+     "start": 4.05,
+     "end": 4.217
+    },
+    {
+     "text": "through",
+     "start": 4.217,
+     "end": 4.545
+    },
+    {
+     "text": "the",
+     "start": 4.545,
+     "end": 4.712
+    },
+    {
+     "text": "core,",
+     "start": 4.712,
+     "end": 5.04
+    },
+    {
+     "text": "about",
+     "start": 5.189,
+     "end": 5.483
+    },
+    {
+     "text": "ten",
+     "start": 5.483,
+     "end": 5.681
+    },
+    {
+     "text": "go",
+     "start": 5.681,
+     "end": 5.832
+    },
+    {
+     "text": "around",
+     "start": 5.832,
+     "end": 6.172
+    },
+    {
+     "text": "it.",
+     "start": 6.172,
+     "end": 6.465
+    }
+   ]
+  },
+  {
+   "id": "remove",
+   "text": "Remove the fan, and you get an old turbojet: loud and thirsty.",
+   "start": 6.865,
+   "end": 10.68,
+   "words": [
+    {
+     "text": "Remove",
+     "start": 6.865,
+     "end": 7.192
+    },
+    {
+     "text": "the",
+     "start": 7.192,
+     "end": 7.383
+    },
+    {
+     "text": "fan,",
+     "start": 7.383,
+     "end": 7.71
+    },
+    {
+     "text": "and",
+     "start": 8.01,
+     "end": 8.196
+    },
+    {
+     "text": "you",
+     "start": 8.196,
+     "end": 8.382
+    },
+    {
+     "text": "get",
+     "start": 8.382,
+     "end": 8.567
+    },
+    {
+     "text": "an",
+     "start": 8.567,
+     "end": 8.709
+    },
+    {
+     "text": "old",
+     "start": 8.709,
+     "end": 8.894
+    },
+    {
+     "text": "turbojet:",
+     "start": 8.894,
+     "end": 9.434
+    },
+    {
+     "text": "loud",
+     "start": 9.634,
+     "end": 9.898
+    },
+    {
+     "text": "and",
+     "start": 9.898,
+     "end": 10.111
+    },
+    {
+     "text": "thirsty.",
+     "start": 10.111,
+     "end": 10.68
+    }
+   ]
+  },
+  {
+   "id": "core",
+   "text": "The core squeezes its share and burns fuel at about seventeen hundred degrees.",
+   "start": 11.13,
+   "end": 15.215,
+   "words": [
+    {
+     "text": "The",
+     "start": 11.13,
+     "end": 11.314
+    },
+    {
+     "text": "core",
+     "start": 11.314,
+     "end": 11.543
+    },
+    {
+     "text": "squeezes",
+     "start": 11.543,
+     "end": 11.947
+    },
+    {
+     "text": "its",
+     "start": 11.947,
+     "end": 12.132
+    },
+    {
+     "text": "share",
+     "start": 12.132,
+     "end": 12.404
+    },
+    {
+     "text": "and",
+     "start": 12.524,
+     "end": 12.731
+    },
+    {
+     "text": "burns",
+     "start": 12.731,
+     "end": 13.037
+    },
+    {
+     "text": "fuel",
+     "start": 13.037,
+     "end": 13.293
+    },
+    {
+     "text": "at",
+     "start": 13.293,
+     "end": 13.451
+    },
+    {
+     "text": "about",
+     "start": 13.451,
+     "end": 13.756
+    },
+    {
+     "text": "seventeen",
+     "start": 13.756,
+     "end": 14.259
+    },
+    {
+     "text": "hundred",
+     "start": 14.259,
+     "end": 14.663
+    },
+    {
+     "text": "degrees.",
+     "start": 14.663,
+     "end": 15.215
+    }
+   ]
+  },
+  {
+   "id": "shaft",
+   "text": "That hot gas spins turbines, and a shaft drives the giant fan.",
+   "start": 15.515,
+   "end": 18.954,
+   "words": [
+    {
+     "text": "That",
+     "start": 15.515,
+     "end": 15.767
+    },
+    {
+     "text": "hot",
+     "start": 15.767,
+     "end": 15.97
+    },
+    {
+     "text": "gas",
+     "start": 15.97,
+     "end": 16.173
+    },
+    {
+     "text": "spins",
+     "start": 16.173,
+     "end": 16.472
+    },
+    {
+     "text": "turbines,",
+     "start": 16.472,
+     "end": 17.062
+    },
+    {
+     "text": "and",
+     "start": 17.212,
+     "end": 17.407
+    },
+    {
+     "text": "a",
+     "start": 17.407,
+     "end": 17.51
+    },
+    {
+     "text": "shaft",
+     "start": 17.51,
+     "end": 17.799
+    },
+    {
+     "text": "drives",
+     "start": 17.799,
+     "end": 18.134
+    },
+    {
+     "text": "the",
+     "start": 18.134,
+     "end": 18.33
+    },
+    {
+     "text": "giant",
+     "start": 18.33,
+     "end": 18.618
+    },
+    {
+     "text": "fan.",
+     "start": 18.618,
+     "end": 18.954
+    }
+   ]
+  },
+  {
+   "id": "thrust",
+   "text": "The fan makes up to eighty percent of the thrust.",
+   "start": 19.354,
+   "end": 21.932,
+   "words": [
+    {
+     "text": "The",
+     "start": 19.354,
+     "end": 19.573
+    },
+    {
+     "text": "fan",
+     "start": 19.573,
+     "end": 19.793
+    },
+    {
+     "text": "makes",
+     "start": 19.793,
+     "end": 20.117
+    },
+    {
+     "text": "up",
+     "start": 20.117,
+     "end": 20.284
+    },
+    {
+     "text": "to",
+     "start": 20.284,
+     "end": 20.451
+    },
+    {
+     "text": "eighty",
+     "start": 20.551,
+     "end": 20.852
+    },
+    {
+     "text": "percent",
+     "start": 20.852,
+     "end": 21.195
+    },
+    {
+     "text": "of",
+     "start": 21.195,
+     "end": 21.329
+    },
+    {
+     "text": "the",
+     "start": 21.329,
+     "end": 21.505
+    },
+    {
+     "text": "thrust.",
+     "start": 21.505,
+     "end": 21.932
+    }
+   ]
+  },
+  {
+   "id": "payoff",
+   "text": "The fire doesn't push the plane. It spins the fan that does.",
+   "start": 22.432,
+   "end": 26.21,
+   "words": [
+    {
+     "text": "The",
+     "start": 22.432,
+     "end": 22.62
+    },
+    {
+     "text": "fire",
+     "start": 22.62,
+     "end": 22.853
+    },
+    {
+     "text": "doesn't",
+     "start": 22.853,
+     "end": 23.222
+    },
+    {
+     "text": "push",
+     "start": 23.222,
+     "end": 23.455
+    },
+    {
+     "text": "the",
+     "start": 23.455,
+     "end": 23.643
+    },
+    {
+     "text": "plane.",
+     "start": 23.643,
+     "end": 24.056
+    },
+    {
+     "text": "It",
+     "start": 24.356,
+     "end": 24.546
+    },
+    {
+     "text": "spins",
+     "start": 24.546,
+     "end": 24.915
+    },
+    {
+     "text": "the",
+     "start": 24.915,
+     "end": 25.165
+    },
+    {
+     "text": "fan",
+     "start": 25.165,
+     "end": 25.414
+    },
+    {
+     "text": "that",
+     "start": 25.414,
+     "end": 25.723
+    },
+    {
+     "text": "does.",
+     "start": 25.723,
+     "end": 26.21
+    }
+   ]
+  }
+ ]
+}
