@@ -68,6 +68,37 @@ cached in the repo and refreshed only when needed.
 
 ## 2. Write the script: `videos/<slug>/script.json`
 
+### 2a. Story structure (owner-approved 2026-11-17, from the first four videos' retention)
+
+What the first four retention curves showed (small audiences, so treat as direction,
+not proof): Sun and Lightning, which had a visible event in the first second, kept
+57-62% past the first swipe; Trees, where nothing moved during the hook, kept 47%.
+Trees and Sunflower, whose hooks stated the answer over a still picture, both lost a
+sharp step at 4-5 s as the hook ended. Sun, whose countdown target was announced by
+5 s, stayed almost flat from 10 s to the end. Sunflower lost most viewers in a stretch
+of small numbers and an almost empty frame (10-15 s), before its best demonstration.
+
+Every Short follows these seven beats:
+1. Event (0-1 s): something visibly happens on screen in the first second. A title
+   over a still picture is not an event.
+2. Question (by 3 s): the hook sets up a contradiction and leaves it open. Do not
+   state the answer in the hook ("a tree is made of air"); state the puzzle ("this
+   tree gained 74 kilograms; the soil lost 60 grams").
+3. Meter: a visible counter, clock or readout heading to a value the viewer can
+   predict. Say or show its target within the first 5 s.
+4. Mechanism: one continuous world, cause before effect, one new picture per line.
+   No jump to history or background straight after the hook.
+5. Break it: show what happens without the key ingredient (a nudged angle, an
+   empty pot, a robot without feedback). Put the strongest demonstration in the
+   first third, not the last.
+6. Second climax at least as big as the first, built from the same world.
+7. Payoff echoes the hook, over a picture that is still moving.
+Also: no frame that is mostly empty, no number shown as small text when it can be a
+picture (a bar, a scale, a size comparison), and simplified models are labelled.
+
+### 2b. Script rules
+
+
 Copy the shape of `videos/sun-vanishes/script.json`.
 
 - 60 to 85 spoken words, 7 lines at most, target 25 to 40 seconds.
@@ -120,9 +151,14 @@ Rules:
     scripts/stills.sh <slug>    # writes out/<slug>.sheet.png
 
 - `make.sh` must print PASS (20 to 58 s, 1080x1920, 30 fps, about -14 LUFS, no dead air).
+- `make.sh` also prints a motion line. `WARN little change during a-b s` is not a fail;
+  look at those seconds on the contact sheet and fix them unless the stillness is deliberate.
+  It is most important in the first 4 seconds.
 - Open the contact sheet image and look at it. Reject and fix if: text overlaps
   other text or the main visual, anything is clipped, a frame is empty, captions
   collide with the scene, or consecutive frames look the same for more than 3 seconds.
+  Check the seven beats of 2a against the sheet: is there an event by 1 s, is the
+  question open at 3 s, is the meter's target known by 5 s?
   Also render 3 or 4 single frames at the key beats with
   `npx remotion still <slug> out/f.png --frame=N --browser-executable=$(command -v google-chrome)`
   and inspect them at full size.
