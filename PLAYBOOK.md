@@ -102,10 +102,11 @@ picture (a bar, a scale, a size comparison), and simplified models are labelled.
 Copy the shape of `videos/sun-vanishes/script.json`.
 
 - 60 to 85 spoken words, 7 lines at most, target 25 to 40 seconds.
-- Voice (owner's choice, 2026-11-16): each day, set `"voice": "am_fenrir"` in one
-  video's script and `"voice": "af_heart"` in the other. If only one video is made,
-  alternate with the voice of the most recent entry in `videos/_log.json`. Record the
-  voice used in each log entry as `"voice"`.
+- Voice (owner's choice, 2026-11-17, replaces the earlier fenrir/heart alternation):
+  every video uses `"voice": "af_heart"`. The owner found it warm and expressive and
+  the male voice (am_fenrir) bland. Do not use am_fenrir or any other voice unless the
+  owner asks. Record the voice in each log entry as `"voice"`. Shape the read with
+  `parts` (speed, pause, `tts` punctuation) so it keeps that emotion.
 - No mascot (owner's decision, 2026-11-17): Fizz is not used in any video. Never set
   `fizz: true` in `src/videos/index.ts`, and record `"fizz": false` in each log entry.
 - Line 1 is the hook: the contradiction, complete within 3 seconds of speech.
