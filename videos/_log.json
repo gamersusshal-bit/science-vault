@@ -71,7 +71,7 @@
     {
       "date": "2026-11-17",
       "slug": "spin-dizzy",
-      "title": "Why You Still Feel Like You're Spinning After You Stop",
+      "title": "Why the Room Keeps Spinning After You Stop",
       "field": "the human body",
       "hero_visual": "top-down spinning figure, zoom into a semicircular canal ring with fluid and cupula flap, HEAD vs EAR FLUID readouts",
       "voice": "af_heart",
@@ -80,7 +80,7 @@
       "url": "",
       "draft": {
         "postId": "17ff7e89-9bb9-4869-beba-d8ae3c2056e9",
-        "revision": "4171867d"
+        "revision": "f88e36ee"
       }
     }
   ]
