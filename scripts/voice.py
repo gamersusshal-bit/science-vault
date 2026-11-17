@@ -46,12 +46,12 @@ buf = np.zeros(int(total*sr_out), dtype=np.float32)
 for st, s in chunks:
     a = int(st*sr_out); buf[a:a+len(s)] += s
 buf *= 0.7/np.max(np.abs(buf))
-sf.write("/tmp/_dry.wav", buf, sr_out)
+sf.write(f"/tmp/_dry_{slug}.wav", buf, sr_out)
 # Voice treatment: warmth, presence, gentle compression, and a short dark room tail.
 chain = ("highpass=f=70,equalizer=f=170:t=q:w=1:g=3,equalizer=f=3200:t=q:w=1.2:g=2.5,"
          "acompressor=threshold=-20dB:ratio=3:attack=8:release=160:makeup=3,"
          "aecho=0.85:0.6:55|110:0.10|0.06,alimiter=limit=0.9")
-subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", "/tmp/_dry.wav", "-af", chain, "-ar", "48000", wav_out], check=True)
+subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", f"/tmp/_dry_{slug}.wav", "-af", chain, "-ar", "48000", wav_out], check=True)
 find = lambda lid, w: next(x["start"] for l in lines if l["id"] == lid for x in l["words"] if x["text"].lower().startswith(w.lower()))
 beats = {name: find(b["line"], b["word"]) for name, b in script.get("beats", {}).items()}
 json.dump({"slug": slug, "fps": 30, "duration": round(total, 3), "beats": beats, "lines": lines}, open(out_json, "w"), indent=1)
