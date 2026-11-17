@@ -40,7 +40,8 @@
       "hook_format": "Why do we ...",
       "field": "the human body",
       "evidence": "628K views in a week (pWWXgpYkCmA)",
-      "used": false
+      "used": true,
+      "slug": "spin-dizzy"
     },
     {
       "idea": "Why pinecones close in the rain and open when dry",
@@ -68,7 +69,8 @@
       "hook_format": "How ... actually works",
       "field": "engineering",
       "evidence": "933K views, 261x (lDzOPtb24B0)",
-      "used": false
+      "used": true,
+      "slug": "jet-engine-fan"
     },
     {
       "idea": "How a helicopter stays up and steers",
