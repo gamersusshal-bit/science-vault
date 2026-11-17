@@ -52,6 +52,36 @@
       },
       "voice": "am_fenrir",
       "fizz": false
+    },
+    {
+      "date": "2026-11-17",
+      "slug": "jet-engine-fan",
+      "title": "Most of a Jet Engine's Thrust Never Touches the Fire",
+      "field": "engineering and how things work",
+      "hero_visual": "turbofan cutaway with cold bypass air and hot core flow, 10:1 bypass meter, fan-removed turbojet comparison, fan vs core thrust bar",
+      "voice": "am_fenrir",
+      "fizz": false,
+      "status": "drafted",
+      "url": "",
+      "draft": {
+        "postId": "bf77f5ad-b7d6-42d5-87b8-3f3609df1146",
+        "revision": "f37b6a0e"
+      }
+    },
+    {
+      "date": "2026-11-17",
+      "slug": "spin-dizzy",
+      "title": "Why You Still Feel Like You're Spinning After You Stop",
+      "field": "the human body",
+      "hero_visual": "top-down spinning figure, zoom into a semicircular canal ring with fluid and cupula flap, HEAD vs EAR FLUID readouts",
+      "voice": "af_heart",
+      "fizz": false,
+      "status": "drafted",
+      "url": "",
+      "draft": {
+        "postId": "17ff7e89-9bb9-4869-beba-d8ae3c2056e9",
+        "revision": "4171867d"
+      }
     }
   ]
 }
