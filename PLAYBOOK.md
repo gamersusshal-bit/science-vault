@@ -48,7 +48,7 @@ cached in the repo and refreshed only when needed.
 - Never repeat a topic in `videos/_log.json`, and do not use the same field or hero
   visual as either of the last two videos. Fields: space, physics, earth and weather,
   biology, chemistry, the human body, mathematics of nature, deep time, engineering
-  and how things work.
+  and how things work, computing and games.
 - A topic still qualifies only if all of these hold:
   1. It can be stated as a contradiction or surprise in one sentence under 12 words.
   2. The explanation is a mechanism that can be drawn moving, not a list of facts.
@@ -65,6 +65,29 @@ cached in the repo and refreshed only when needed.
   when ...", "Why you can't ...", "How ... actually works". Title and first line state
   the question or surprise plainly; the claim in them must be true as worded.
 - In the owner message, name the viral evidence each topic was chosen on.
+
+1e. Owner's topic requests (these override 1b and 1c for the date named)
+
+**2026-11-18: one GTA 6 Short and one tech Short.**
+- GTA 6 Short. Rockstar's newswire set the launch for 19 November 2026; re-check on
+  the day, because it has moved before. The angle must be real science or technology
+  that the viewer can watch working, not game news, rumours or leaks. Good angles:
+  how a console draws a huge open city without holding all of it in memory (streaming,
+  level of detail, culling), how sunlight, reflections and water are rendered, or how
+  a game makes a crowd or traffic feel alive. Claims about GTA 6 itself only if Rockstar
+  or a named first-hand source states them; general graphics claims need technical
+  sources (GPU vendor or engine documentation, graphics textbooks, papers).
+  Copyright and branding: no Rockstar or GTA logos, artwork, screenshots, trailer
+  frames, characters, fonts or look-alike styles, in the video or the thumbnail. Build
+  an original, generic city. The title and description may name "GTA 6" plainly as the
+  subject. Don't say or imply that the channel is connected to Rockstar.
+- Tech Short: a technology topic in a different field from the GTA one and from the
+  last two log entries (engineering, the human body). Prefer an unused candidate from
+  `research/viral_topics.json` with strong evidence (for example the fluorescent tube
+  that lights up under power lines), or AI, robotics or everyday gadgets if you can
+  source the mechanism properly.
+- Field name for the GTA Short in the log: "computing and games". Both use the
+  af_heart voice and the seven beats of 2a.
 
 ## 2. Write the script: `videos/<slug>/script.json`
 
