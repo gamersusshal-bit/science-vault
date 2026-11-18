@@ -82,6 +82,34 @@
         "postId": "17ff7e89-9bb9-4869-beba-d8ae3c2056e9",
         "revision": "f88e36ee"
       }
+    },
+    {
+      "date": "2026-11-18",
+      "slug": "city-streaming",
+      "title": "How Can a Console Hold a City as Big as GTA 6's?",
+      "field": "computing and games",
+      "hero_visual": "top-down original night city, car with view cone, dashed not-drawn footprints, far simple models, lime memory ring streaming streets, console memory bar vs limit",
+      "voice": "af_heart",
+      "fizz": false,
+      "status": "drafted",
+      "draft": {
+        "postId": "3892c520-8bf3-41ca-947c-4c52555e9a30",
+        "revision": "f3da0d21"
+      }
+    },
+    {
+      "date": "2026-11-18",
+      "slug": "power-line-tube",
+      "title": "Why a Tube Light Glows Under Power Lines With No Wires",
+      "field": "physics",
+      "hero_visual": "side view of a pylon end-on with field lines to the ground, fluorescent tube glowing, laid flat goes dark, zoom inside to electrons, mercury atoms, UV and coating, field of 1,000+ tubes lighting up",
+      "voice": "af_heart",
+      "fizz": false,
+      "status": "drafted",
+      "draft": {
+        "postId": "8c57a005-2a55-40db-9325-e58a0de5fabe",
+        "revision": "ff76c0f3"
+      }
     }
   ]
 }
