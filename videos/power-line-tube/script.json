@@ -1,0 +1,149 @@
+{
+  "slug": "power-line-tube",
+  "title": "Why a Tube Light Glows Under Power Lines With No Wires",
+  "voice": "af_heart",
+  "beats": {
+    "drop": {
+      "line": "hook",
+      "word": "wires"
+    },
+    "hit": {
+      "line": "field",
+      "word": "field"
+    }
+  },
+  "lines": [
+    {
+      "id": "hook",
+      "parts": [
+        {
+          "text": "No wires, no battery.",
+          "speed": 0.98,
+          "pause": 0.25
+        },
+        {
+          "text": "So why is this tube glowing?",
+          "speed": 0.9,
+          "pause": 0.45
+        }
+      ]
+    },
+    {
+      "id": "meter",
+      "parts": [
+        {
+          "text": "Under a big power line,",
+          "speed": 1.02,
+          "pause": 0.12
+        },
+        {
+          "text": "the air carries four thousand volts per metre.",
+          "speed": 1.0,
+          "pause": 0.45
+        }
+      ]
+    },
+    {
+      "id": "flat",
+      "parts": [
+        {
+          "text": "Lay it flat,",
+          "speed": 0.98,
+          "pause": 0.15
+        },
+        {
+          "text": "it goes dark.",
+          "speed": 0.9,
+          "pause": 0.35
+        },
+        {
+          "text": "Stand it up,",
+          "speed": 0.98,
+          "pause": 0.15
+        },
+        {
+          "text": "it glows.",
+          "speed": 0.9,
+          "pause": 0.45
+        }
+      ]
+    },
+    {
+      "id": "push",
+      "parts": [
+        {
+          "text": "The field points down and flips fifty times a second,",
+          "speed": 1.04,
+          "pause": 0.12
+        },
+        {
+          "text": "shaking electrons along the tube.",
+          "speed": 1.0,
+          "pause": 0.4
+        }
+      ]
+    },
+    {
+      "id": "mercury",
+      "parts": [
+        {
+          "text": "They hit mercury atoms, giving off ultraviolet,",
+          "speed": 1.02,
+          "pause": 0.12
+        },
+        {
+          "text": "which the coating turns white.",
+          "speed": 0.98,
+          "pause": 0.45
+        }
+      ]
+    },
+    {
+      "id": "field",
+      "parts": [
+        {
+          "text": "An artist planted over a thousand tubes under a line",
+          "speed": 1.04,
+          "pause": 0.12
+        },
+        {
+          "text": "and lit a whole field.",
+          "tts": "and lit a whole field!",
+          "speed": 0.94,
+          "pause": 0.5
+        }
+      ]
+    },
+    {
+      "id": "payoff",
+      "parts": [
+        {
+          "text": "No wires.",
+          "speed": 0.9,
+          "pause": 0.3
+        },
+        {
+          "text": "The power line reaches through the air.",
+          "tts": "The power line... reaches through the air.",
+          "speed": 0.84,
+          "pause": 0
+        }
+      ]
+    }
+  ],
+  "sources": [
+    "Electric field under the line: typical 4.2 kV/m directly under a 400 kV line, 0.1 kV/m at 50 m, 0.0 at 100 m (National Grid EMF unit, emfs.info, https://emfs.info/electricity-system-and-sources/overhead-line/transmission); typical 3,000-5,000 V/m and maximum 11,000 V/m under the largest lines (https://emfs.info/sources/overhead/summaries/statistics/).",
+    "The field is produced by the line's voltage (emfs.info, transmission page). UK and Indian grids alternate at 50 Hz, so the field reverses direction fifty times a second (US grid: 60 Hz).",
+    "Field points down near the ground: the ground behaves as a conductor and an electric field meets a conductor's surface at right angles (standard electrostatics, e.g. Griffiths, Introduction to Electrodynamics, 4th ed., sec. 2.5). A horizontal tube therefore lies almost along a line of equal voltage and gets almost no voltage between its ends; an upright tube spans the field. Simplified model, labelled on screen.",
+    "Fluorescent lamp: a glass tube of argon and mercury vapour; when current flows the gas is ionized and emits ultraviolet radiation; the phosphor coating absorbs the ultraviolet and fluoresces as visible light. Encyclopaedia Britannica, 'Fluorescent lamp', https://www.britannica.com/technology/fluorescent-lamp",
+    "Art installation 'Field' by Richard Box, 2004, near Bristol UK: 1,301 tubes per the artist (Times Higher Education, 20 Feb 2004, https://www.timeshighereducation.com/node/49575), 'several thousand' per the University of Bristol press release (https://bristol.ac.uk/news/2004/360.html); the bulbs 'pick up the waste emission from the overhead power line'. Script says 'over a thousand', true for both."
+  ],
+  "thumb": {
+    "at": 11.9,
+    "text": [
+      "NO WIRES.",
+      "STILL GLOWS."
+    ],
+    "accent": "#7fffd4"
+  }
+}

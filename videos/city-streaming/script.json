@@ -1,0 +1,145 @@
+{
+  "slug": "city-streaming",
+  "title": "How Can a Console Hold a City as Big as GTA 6's?",
+  "voice": "af_heart",
+  "beats": {
+    "drop": {
+      "line": "hook",
+      "word": "console"
+    },
+    "hit": {
+      "line": "floor",
+      "word": "floor"
+    }
+  },
+  "lines": [
+    {
+      "id": "hook",
+      "parts": [
+        {
+          "text": "Your console can't hold this whole city at once.",
+          "speed": 1.04,
+          "pause": 0.25
+        },
+        {
+          "text": "So how are you driving through it?",
+          "speed": 0.92,
+          "pause": 0.45
+        }
+      ]
+    },
+    {
+      "id": "cheat",
+      "parts": [
+        {
+          "text": "Open world games cheat,",
+          "tts": "Open world games... cheat.",
+          "speed": 0.98,
+          "pause": 0.2
+        },
+        {
+          "text": "and each trick pushes this bar under the limit.",
+          "speed": 1.04,
+          "pause": 0.4
+        }
+      ]
+    },
+    {
+      "id": "cull",
+      "parts": [
+        {
+          "text": "One.",
+          "speed": 0.95,
+          "pause": 0.2
+        },
+        {
+          "text": "Anything outside your view isn't drawn.",
+          "speed": 1.0,
+          "pause": 0.4
+        }
+      ]
+    },
+    {
+      "id": "lod",
+      "parts": [
+        {
+          "text": "Two.",
+          "speed": 0.95,
+          "pause": 0.2
+        },
+        {
+          "text": "Far buildings swap to simpler models, too small to notice.",
+          "speed": 1.02,
+          "pause": 0.4
+        }
+      ]
+    },
+    {
+      "id": "stream",
+      "parts": [
+        {
+          "text": "Three.",
+          "speed": 0.95,
+          "pause": 0.2
+        },
+        {
+          "text": "Only the streets near you sit in memory.",
+          "speed": 1.0,
+          "pause": 0.15
+        },
+        {
+          "text": "The rest waits on the drive.",
+          "speed": 0.96,
+          "pause": 0.45
+        }
+      ]
+    },
+    {
+      "id": "floor",
+      "parts": [
+        {
+          "text": "Floor it,",
+          "tts": "Floor it!",
+          "speed": 1.04,
+          "pause": 0.15
+        },
+        {
+          "text": "and streets load ahead while the ones behind get dropped.",
+          "speed": 1.04,
+          "pause": 0.5
+        }
+      ]
+    },
+    {
+      "id": "payoff",
+      "parts": [
+        {
+          "text": "The city fits,",
+          "speed": 0.92,
+          "pause": 0.3
+        },
+        {
+          "text": "because most of it isn't really there.",
+          "tts": "because most of it... isn't really there.",
+          "speed": 0.84,
+          "pause": 0
+        }
+      ]
+    }
+  ],
+  "sources": [
+    "Frustum culling: 'The objects outside of the camera's field of view (the view frustum) aren't visible, and can be culled'; 'Culled objects outside of the camera's view frustum are no longer rendered'. Epic Games, Unreal Engine 5 documentation, Visibility and Occlusion Culling, https://dev.epicgames.com/documentation/unreal-engine/visibility-and-occlusion-culling-in-unreal-engine",
+    "Level of detail: distant objects are drawn with simpler meshes whose difference is too small on screen to notice. Akenine-Moller, Haines, Hoffman et al., Real-Time Rendering, 4th ed. (CRC Press 2018), ch. 19.9 'Level of Detail'; Godot Engine docs, Optimizing 3D performance (Level of detail section).",
+    "Streaming: World Partition 'provides you with an automatic streaming system to load and unload those cells based on distance from a streaming source', 'such as the player'. Epic Games, Unreal Engine 5 documentation, World Partition, https://dev.epicgames.com/documentation/unreal-engine/world-partition-in-unreal-engine",
+    "Console memory is limited: PlayStation 5 has 16 GB of GDDR6 shared memory (Sony, Mark Cerny 'Road to PS5', 18 March 2020, reported by Gematsu https://www.gematsu.com/2020/03/ps5-technical-specifications-announced).",
+    "GTA 6 launch date 19 November 2026: Rockstar Newswire, https://www.rockstargames.com/newswire/article/ak3ak31a49a221/grand-theft-auto-vi-is-now-set-to-launch-november-19-2026 (rechecked 2026-11-18). No claim is made about GTA 6's own engine; the video shows the general techniques with a simplified, original model city. The memory bar is illustrative, not measured."
+  ],
+  "thumb": {
+    "at": 12.0,
+    "text": [
+      "DRAWS ONLY",
+      "WHAT YOU SEE"
+    ],
+    "accent": "#c6ff3d"
+  }
+}

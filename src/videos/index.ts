@@ -18,6 +18,12 @@ import treeScript from "../../videos/tree-from-air/script.json";
 import sunflowerScript from "../../videos/sunflower-spirals/script.json";
 import spinDizzyTimeline from "../../videos/spin-dizzy/timeline.json";
 import spinDizzyScript from "../../videos/spin-dizzy/script.json";
+import { CityStreaming } from "./cityStreaming/CityStreaming";
+import cityStreamingTimeline from "../../videos/city-streaming/timeline.json";
+import cityStreamingScript from "../../videos/city-streaming/script.json";
+import { PowerLineTube } from "./powerLineTube/PowerLineTube";
+import powerLineTubeTimeline from "../../videos/power-line-tube/timeline.json";
+import powerLineTubeScript from "../../videos/power-line-tube/script.json";
 import type { ThumbSpec } from "../primitives/Thumbnail";
 
 /**
@@ -34,4 +40,6 @@ export const VIDEOS: { id: string; component: React.FC; duration: number; timeli
   { id: "sunflower-spirals", component: SunflowerSpirals, duration: sunflowerTimeline.duration, thumb: sunflowerScript.thumb },
   { id: "jet-engine-fan", component: JetEngineFan, duration: jetEngineFanTimeline.duration, thumb: jetEngineFanScript.thumb },
   { id: "spin-dizzy", component: SpinDizzy, duration: spinDizzyTimeline.duration, thumb: spinDizzyScript.thumb },
+  { id: "city-streaming", component: CityStreaming, duration: cityStreamingTimeline.duration, thumb: cityStreamingScript.thumb },
+  { id: "power-line-tube", component: PowerLineTube, duration: powerLineTubeTimeline.duration, thumb: powerLineTubeScript.thumb },
 ];

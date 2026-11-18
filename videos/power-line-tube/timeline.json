@@ -1,0 +1,492 @@
+{
+ "slug": "power-line-tube",
+ "fps": 30,
+ "duration": 32.743,
+ "beats": {
+  "drop": 0.38,
+  "hit": 26.393
+ },
+ "lines": [
+  {
+   "id": "hook",
+   "text": "No wires, no battery. So why is this tube glowing?",
+   "start": 0.2,
+   "end": 3.585,
+   "words": [
+    {
+     "text": "No",
+     "start": 0.2,
+     "end": 0.38
+    },
+    {
+     "text": "wires,",
+     "start": 0.38,
+     "end": 0.898
+    },
+    {
+     "text": "no",
+     "start": 0.898,
+     "end": 1.078
+    },
+    {
+     "text": "battery.",
+     "start": 1.078,
+     "end": 1.708
+    },
+    {
+     "text": "So",
+     "start": 1.958,
+     "end": 2.12
+    },
+    {
+     "text": "why",
+     "start": 2.12,
+     "end": 2.332
+    },
+    {
+     "text": "is",
+     "start": 2.332,
+     "end": 2.493
+    },
+    {
+     "text": "this",
+     "start": 2.493,
+     "end": 2.756
+    },
+    {
+     "text": "tube",
+     "start": 2.756,
+     "end": 3.019
+    },
+    {
+     "text": "glowing?",
+     "start": 3.019,
+     "end": 3.585
+    }
+   ]
+  },
+  {
+   "id": "meter",
+   "text": "Under a big power line, the air carries four thousand volts per metre.",
+   "start": 4.035,
+   "end": 7.769,
+   "words": [
+    {
+     "text": "Under",
+     "start": 4.035,
+     "end": 4.324
+    },
+    {
+     "text": "a",
+     "start": 4.324,
+     "end": 4.426
+    },
+    {
+     "text": "big",
+     "start": 4.426,
+     "end": 4.622
+    },
+    {
+     "text": "power",
+     "start": 4.622,
+     "end": 4.911
+    },
+    {
+     "text": "line,",
+     "start": 4.911,
+     "end": 5.293
+    },
+    {
+     "text": "the",
+     "start": 5.413,
+     "end": 5.608
+    },
+    {
+     "text": "air",
+     "start": 5.608,
+     "end": 5.804
+    },
+    {
+     "text": "carries",
+     "start": 5.804,
+     "end": 6.186
+    },
+    {
+     "text": "four",
+     "start": 6.186,
+     "end": 6.428
+    },
+    {
+     "text": "thousand",
+     "start": 6.428,
+     "end": 6.856
+    },
+    {
+     "text": "volts",
+     "start": 6.856,
+     "end": 7.145
+    },
+    {
+     "text": "per",
+     "start": 7.145,
+     "end": 7.341
+    },
+    {
+     "text": "metre.",
+     "start": 7.341,
+     "end": 7.769
+    }
+   ]
+  },
+  {
+   "id": "flat",
+   "text": "Lay it flat, it goes dark. Stand it up, it glows.",
+   "start": 8.219,
+   "end": 12.247,
+   "words": [
+    {
+     "text": "Lay",
+     "start": 8.219,
+     "end": 8.453
+    },
+    {
+     "text": "it",
+     "start": 8.453,
+     "end": 8.631
+    },
+    {
+     "text": "flat,",
+     "start": 8.631,
+     "end": 9.087
+    },
+    {
+     "text": "it",
+     "start": 9.237,
+     "end": 9.419
+    },
+    {
+     "text": "goes",
+     "start": 9.419,
+     "end": 9.716
+    },
+    {
+     "text": "dark.",
+     "start": 9.716,
+     "end": 10.183
+    },
+    {
+     "text": "Stand",
+     "start": 10.533,
+     "end": 10.831
+    },
+    {
+     "text": "it",
+     "start": 10.831,
+     "end": 10.985
+    },
+    {
+     "text": "up,",
+     "start": 10.985,
+     "end": 11.283
+    },
+    {
+     "text": "it",
+     "start": 11.433,
+     "end": 11.643
+    },
+    {
+     "text": "glows.",
+     "start": 11.643,
+     "end": 12.247
+    }
+   ]
+  },
+  {
+   "id": "push",
+   "text": "The field points down and flips fifty times a second, shaking electrons along the tube.",
+   "start": 12.697,
+   "end": 17.389,
+   "words": [
+    {
+     "text": "The",
+     "start": 12.697,
+     "end": 12.896
+    },
+    {
+     "text": "field",
+     "start": 12.896,
+     "end": 13.19
+    },
+    {
+     "text": "points",
+     "start": 13.19,
+     "end": 13.531
+    },
+    {
+     "text": "down",
+     "start": 13.531,
+     "end": 13.777
+    },
+    {
+     "text": "and",
+     "start": 13.777,
+     "end": 13.976
+    },
+    {
+     "text": "flips",
+     "start": 13.976,
+     "end": 14.27
+    },
+    {
+     "text": "fifty",
+     "start": 14.27,
+     "end": 14.564
+    },
+    {
+     "text": "times",
+     "start": 14.564,
+     "end": 14.858
+    },
+    {
+     "text": "a",
+     "start": 14.858,
+     "end": 14.962
+    },
+    {
+     "text": "second,",
+     "start": 14.962,
+     "end": 15.445
+    },
+    {
+     "text": "shaking",
+     "start": 15.565,
+     "end": 15.969
+    },
+    {
+     "text": "electrons",
+     "start": 15.969,
+     "end": 16.472
+    },
+    {
+     "text": "along",
+     "start": 16.472,
+     "end": 16.778
+    },
+    {
+     "text": "the",
+     "start": 16.778,
+     "end": 16.985
+    },
+    {
+     "text": "tube.",
+     "start": 16.985,
+     "end": 17.389
+    }
+   ]
+  },
+  {
+   "id": "mercury",
+   "text": "They hit mercury atoms, giving off ultraviolet, which the coating turns white.",
+   "start": 17.789,
+   "end": 22.244,
+   "words": [
+    {
+     "text": "They",
+     "start": 17.789,
+     "end": 18.063
+    },
+    {
+     "text": "hit",
+     "start": 18.063,
+     "end": 18.284
+    },
+    {
+     "text": "mercury",
+     "start": 18.284,
+     "end": 18.716
+    },
+    {
+     "text": "atoms,",
+     "start": 18.716,
+     "end": 19.201
+    },
+    {
+     "text": "giving",
+     "start": 19.201,
+     "end": 19.581
+    },
+    {
+     "text": "off",
+     "start": 19.581,
+     "end": 19.802
+    },
+    {
+     "text": "ultraviolet,",
+     "start": 19.802,
+     "end": 20.604
+    },
+    {
+     "text": "which",
+     "start": 20.724,
+     "end": 21.001
+    },
+    {
+     "text": "the",
+     "start": 21.001,
+     "end": 21.189
+    },
+    {
+     "text": "coating",
+     "start": 21.189,
+     "end": 21.555
+    },
+    {
+     "text": "turns",
+     "start": 21.555,
+     "end": 21.832
+    },
+    {
+     "text": "white.",
+     "start": 21.832,
+     "end": 22.244
+    }
+   ]
+  },
+  {
+   "id": "field",
+   "text": "An artist planted over a thousand tubes under a line and lit a whole field.",
+   "start": 22.694,
+   "end": 26.811,
+   "words": [
+    {
+     "text": "An",
+     "start": 22.694,
+     "end": 22.857
+    },
+    {
+     "text": "artist",
+     "start": 22.857,
+     "end": 23.226
+    },
+    {
+     "text": "planted",
+     "start": 23.226,
+     "end": 23.646
+    },
+    {
+     "text": "over",
+     "start": 23.646,
+     "end": 23.912
+    },
+    {
+     "text": "a",
+     "start": 23.912,
+     "end": 24.024
+    },
+    {
+     "text": "thousand",
+     "start": 24.024,
+     "end": 24.495
+    },
+    {
+     "text": "tubes",
+     "start": 24.495,
+     "end": 24.813
+    },
+    {
+     "text": "under",
+     "start": 24.813,
+     "end": 25.13
+    },
+    {
+     "text": "a",
+     "start": 25.13,
+     "end": 25.243
+    },
+    {
+     "text": "line",
+     "start": 25.243,
+     "end": 25.509
+    },
+    {
+     "text": "and",
+     "start": 25.629,
+     "end": 25.82
+    },
+    {
+     "text": "lit",
+     "start": 25.82,
+     "end": 26.011
+    },
+    {
+     "text": "a",
+     "start": 26.011,
+     "end": 26.111
+    },
+    {
+     "text": "whole",
+     "start": 26.111,
+     "end": 26.393
+    },
+    {
+     "text": "field.",
+     "start": 26.393,
+     "end": 26.811
+    }
+   ]
+  },
+  {
+   "id": "payoff",
+   "text": "No wires. The power line reaches through the air.",
+   "start": 27.311,
+   "end": 30.943,
+   "words": [
+    {
+     "text": "No",
+     "start": 27.311,
+     "end": 27.55
+    },
+    {
+     "text": "wires.",
+     "start": 27.55,
+     "end": 28.239
+    },
+    {
+     "text": "The",
+     "start": 28.539,
+     "end": 28.771
+    },
+    {
+     "text": "power",
+     "start": 28.771,
+     "end": 29.115
+    },
+    {
+     "text": "line",
+     "start": 29.115,
+     "end": 29.403
+    },
+    {
+     "text": "reaches",
+     "start": 29.403,
+     "end": 29.857
+    },
+    {
+     "text": "through",
+     "start": 29.857,
+     "end": 30.311
+    },
+    {
+     "text": "the",
+     "start": 30.311,
+     "end": 30.544
+    },
+    {
+     "text": "air.",
+     "start": 30.544,
+     "end": 30.943
+    }
+   ]
+  }
+ ]
+}

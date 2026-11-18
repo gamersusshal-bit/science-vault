@@ -84,7 +84,8 @@
       "hook_format": "How ...",
       "field": "physics",
       "evidence": "10.1M views (vbY_yoS3s7Q)",
-      "used": false
+      "used": true,
+      "slug": "power-line-tube"
     },
     {
       "idea": "If you doubled in size every day, how soon would you outgrow the Earth",
