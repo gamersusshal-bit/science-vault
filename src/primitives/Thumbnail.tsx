@@ -40,3 +40,39 @@ export const Thumbnail: React.FC<{ scene: React.FC; spec: ThumbSpec }> = ({ scen
     </AbsoluteFill>
   );
 };
+
+/**
+ * Thumbnail for a weekly long video (1920x1080, PLAYBOOK section 6): scene frame on the right,
+ * two big lines of text on a dark panel on the left. Keep the hero visual in the right 60%.
+ */
+const fitWide = (line: string) => Math.min(150, Math.floor(820 / (line.length * 0.6)));
+
+export const LandscapeThumbnail: React.FC<{ scene: React.FC; spec: ThumbSpec }> = ({ scene: Scene, spec }) => {
+  useFonts();
+  const [top, ...rest] = spec.text;
+  const bottom = rest.join(" ");
+  const base: React.CSSProperties = {
+    position: "absolute",
+    left: 70,
+    width: 860,
+    fontFamily: FONT,
+    fontWeight: 700,
+    lineHeight: 1,
+    letterSpacing: -3,
+    whiteSpace: "nowrap",
+  };
+  return (
+    <AbsoluteFill style={{ backgroundColor: "#000" }}>
+      <Scene />
+      <AbsoluteFill
+        style={{
+          background:
+            "linear-gradient(90deg, rgb(6,8,14) 0px, rgb(6,8,14) 760px, rgba(6,8,14,0) 1000px)",
+        }}
+      />
+      <div style={{ ...base, top: 470 - fitWide(top), fontSize: fitWide(top), color: "#ffffff" }}>{top}</div>
+      <div style={{ ...base, top: 520, fontSize: fitWide(bottom), color: spec.accent }}>{bottom}</div>
+      <div style={{ ...base, top: 900, fontSize: 40, letterSpacing: 12, color: "rgba(255,255,255,0.7)" }}>LEARNIT</div>
+    </AbsoluteFill>
+  );
+};

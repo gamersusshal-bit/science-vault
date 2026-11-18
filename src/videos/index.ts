@@ -32,8 +32,9 @@ import type { ThumbSpec } from "../primitives/Thumbnail";
  * (see src/primitives/Fizz.tsx). fizzCues overrides the automatic cues.
  * Leave both out for a video without the mascot.
  * thumb comes from the script's "thumb" block and registers <slug>-thumb (scripts/thumb.sh).
+ * width/height default to a 1080x1920 Short; weekly long videos set width: 1920, height: 1080 (PLAYBOOK section 6).
  */
-export const VIDEOS: { id: string; component: React.FC; duration: number; timeline?: unknown; fizz?: boolean; fizzCues?: FizzCue[]; thumb?: ThumbSpec }[] = [
+export const VIDEOS: { id: string; component: React.FC; duration: number; timeline?: unknown; fizz?: boolean; fizzCues?: FizzCue[]; thumb?: ThumbSpec; width?: number; height?: number }[] = [
   { id: "sun-vanishes", component: SunVanishes, duration: sunVanishesTimeline.duration, thumb: sunVanishesScript.thumb },
   { id: "lightning-thunder", component: LightningThunder, duration: lightningTimeline.duration, thumb: lightningScript.thumb },
   { id: "tree-from-air", component: TreeFromAir, duration: treeTimeline.duration, thumb: treeScript.thumb },

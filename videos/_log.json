@@ -1,5 +1,5 @@
 {
-  "note": "Every topic ever produced. Check this before choosing topics so nothing repeats. Add an entry when a video is drafted; fill url when it is published.",
+  "note": "Every topic ever produced. Check this before choosing topics so nothing repeats. Add an entry when a video is drafted; fill url when it is published. Each Short has a series and its number in that series (PLAYBOOK 2d); long videos have \"format\": \"long\" (PLAYBOOK 6).",
   "videos": [
     {
       "date": "2026-11-15",
@@ -10,7 +10,10 @@
       "status": "published",
       "url": "https://www.youtube.com/watch?v=c03-_i_MhaE",
       "voice": "am_fenrir",
-      "fizz": false
+      "fizz": false,
+      "series": "What If",
+      "series_no": 1,
+      "format": "short"
     },
     {
       "date": "2026-11-15",
@@ -21,7 +24,10 @@
       "status": "published",
       "url": "https://www.youtube.com/watch?v=Ou8gKnw0mA0",
       "voice": "am_fenrir",
-      "fizz": false
+      "fizz": false,
+      "series": "Why It Happens",
+      "series_no": 1,
+      "format": "short"
     },
     {
       "date": "2026-11-16",
@@ -36,7 +42,10 @@
         "revision": "de84d2e5"
       },
       "voice": "am_fenrir",
-      "fizz": false
+      "fizz": false,
+      "series": "Why It Happens",
+      "series_no": 2,
+      "format": "short"
     },
     {
       "date": "2026-11-16",
@@ -51,7 +60,10 @@
         "revision": "73b05371"
       },
       "voice": "am_fenrir",
-      "fizz": false
+      "fizz": false,
+      "series": "Why It Happens",
+      "series_no": 3,
+      "format": "short"
     },
     {
       "date": "2026-11-17",
@@ -66,7 +78,10 @@
       "draft": {
         "postId": "bf77f5ad-b7d6-42d5-87b8-3f3609df1146",
         "revision": "f37b6a0e"
-      }
+      },
+      "series": "How It Works",
+      "series_no": 1,
+      "format": "short"
     },
     {
       "date": "2026-11-17",
@@ -81,7 +96,10 @@
       "draft": {
         "postId": "17ff7e89-9bb9-4869-beba-d8ae3c2056e9",
         "revision": "f88e36ee"
-      }
+      },
+      "series": "Why It Happens",
+      "series_no": 4,
+      "format": "short"
     },
     {
       "date": "2026-11-18",
@@ -96,7 +114,10 @@
         "postId": "3892c520-8bf3-41ca-947c-4c52555e9a30",
         "revision": "f3da0d21"
       },
-      "url": "https://www.youtube.com/watch?v=sW7fD11mzJY"
+      "url": "https://www.youtube.com/watch?v=sW7fD11mzJY",
+      "series": "How It Works",
+      "series_no": 2,
+      "format": "short"
     },
     {
       "date": "2026-11-18",
@@ -111,7 +132,10 @@
         "postId": "8c57a005-2a55-40db-9325-e58a0de5fabe",
         "revision": "ff76c0f3"
       },
-      "url": "https://www.youtube.com/watch?v=MRxXyvPJZ2A"
+      "url": "https://www.youtube.com/watch?v=MRxXyvPJZ2A",
+      "series": "How It Works",
+      "series_no": 3,
+      "format": "short"
     }
   ]
 }

@@ -220,6 +220,27 @@ rules against it.
 - jet-engine-fan: "This engine burns fuel, but the fire barely pushes the plane. So what does?"
 - city-streaming: "This city is three times too big for your console. Watch it fit."
 
+### 2d. Series (owner's decision, 2026-11-18: give viewers a reason to subscribe)
+
+Every Short belongs to one of three running series. Pick the series that fits the topic,
+and take its next number from `videos/_log.json` (the highest `series_no` in that series,
+plus one):
+- **What If**: a labelled thought experiment ("The Sun just vanished…").
+- **How It Works**: technology, engineering, computing and games.
+- **Why It Happens**: nature, weather, the body, biology, the mathematics of nature.
+
+Use it in three places:
+- **Scene:** `<SeriesTag name="How It Works" n={4} accent={ACCENT} until={hookEnd} />` from
+  `src/primitives/SeriesTag.tsx`. It shows from frame 0 at top=150 and fades out at the end
+  of the hook, so keep the scene's own HUD clear of y 140-210 until then.
+- **Title:** add " | How It Works #4" at the end if the title stays under 70 characters.
+  Otherwise make "How It Works #4" the first line of the description.
+- **Log:** record `"series"` and `"series_no"` in the log entry.
+
+End every description with one short question that viewers can answer in a comment, about
+their own experience of the topic ("Have you ever seen a tube light glow on its own?").
+Put that question in the owner message too, in case they want to pin it as a comment.
+
 ## 3. Build the scene: `src/videos/<camelSlug>/<Name>.tsx`
 
 Read `src/videos/sunVanishes/SunVanishes.tsx` first; it is the reference for quality
@@ -244,6 +265,7 @@ Rules:
   `staticFile("<slug>/bed.wav")` at volume 0.6.
 - Only use `remotion`, React and the fonts already installed. No network assets,
   no stock footage, no images of real people.
+- Include the series chip from 2d (`SeriesTag`).
 - Register the video in `src/videos/index.ts`.
 
 ## 4. Render and check
@@ -290,8 +312,9 @@ For each link:
    platformAccountId `UClwsg9mIPTVoHTFwMblg9GA`, `privacyStatus` "public",
    `categoryId` 28, a title under 70 characters that states the surprise without
    clickbait, 5 to 8 tags, media = the uploadId, and a description of 2 or 3 plain
-   sentences plus `#shorts` and three topic hashtags. If it is a thought experiment,
-   say so in the description.
+   sentences, then the comment question from 2d, then `#shorts` and three topic hashtags.
+   Add the series name to the title or description as 2d says. If it is a thought
+   experiment, say so in the description.
    Thumbnail: `vidiq_upload_image` with `image` = the thumbnail's public link, then pass
    the returned imageId as `thumbnailImageId` on the YouTube destination. YouTube only
    accepts uploaded Shorts thumbnails from some channels (Partner Program at launch,
@@ -309,7 +332,67 @@ Then:
 - When the owner approves, publish those drafts, check status until each has a
   link, update `_log.json` to "published" with the URL, commit and push.
 
-## 6. If something breaks
+## 6. Weekly long video (owner's decision, 2026-11-18: build watch hours)
+
+Shorts views never count toward the Partner Program's watch-hour target, so one long video
+goes out each week. It is made by its own weekly scheduled task (Sundays), not the daily
+Shorts run. Everything in sections 1-5 applies, except what this section changes.
+
+**Topic.** Take one Short from the past seven days and go deeper: the full mechanism, two or
+three related surprises and the wider picture. Choose the one with the most views if
+`vidiq_user_videos` or YouTube shows them cheaply; otherwise choose the topic with the most
+to add. Do not just repeat the Short. Give the video a `"related_shorts"` list of the slugs it
+expands on.
+
+**Script (`videos/<slug>-long/script.json`, `"format": "long"`).**
+- 4 to 6 minutes, about 600 to 850 spoken words, `af_heart` voice. Lines can be longer, but
+  each line still gets its own new picture.
+- Structure:
+  - Cold open (0-15 s): the hook process from 2c, with an event in the first second.
+  - Promise (15-25 s): say plainly what the viewer will see by the end ("…and by the end
+    you'll see why a whole field lit up").
+  - Four to six chapters of 40-70 s each. Each chapter opens with its own one-line question
+    and ends on a small reveal that leads into the next.
+  - A climax that pays off the promise.
+  - A payoff that echoes the cold open, then one line pointing to the Short series ("For the
+    thirty-second version of more ideas like this, follow How It Works.").
+- Add `"chapters"`: a list of `{ "title", "line" }` items, where `line` is the line id the
+  chapter starts at. The draft's chapter timestamps come from these.
+- Same sourcing rules: every claim checked and listed in `sources`.
+
+**Scene.**
+- 1920 x 1080, 30 fps. Register it with `width: 1920, height: 1080`; the composition and
+  thumbnail follow from that.
+- One world per chapter, and the camera should move between them rather than cut where it
+  can. Something changes on screen at least every 3 s.
+- Captions at top=880. Keep the safe area 60 px in from every edge.
+- Original visuals only. It may borrow ideas from the week's Short scene, but do not paste
+  the vertical scene in.
+
+**Render and check.**
+- `scripts/make.sh <slug>-long` checks it as long format: 180-600 s, 1920x1080, 30 fps,
+  loudness, dead air. A five-minute render takes roughly 30-45 minutes on this machine,
+  so run it in the background and inspect stills of each chapter while it runs.
+- Contact sheet and full-size stills as in section 4, with at least one still per chapter.
+  Two fix rounds at most; if it still fails, report it and skip that week.
+- Thumbnail: the same "thumb" block. A landscape video gets the 1920x1080 thumbnail
+  layout (text panel on the left, hero image in the right 60%).
+
+**Draft.**
+- `RENDERS_BRANCH=renders-long scripts/publish_renders.sh <slug>-long`. This uses its own
+  branch, so the daily Shorts run never overwrites the link.
+- `vidiq_video_upload`, then `vidiq_social_post_draft_create` as in section 5, but:
+  - no `#shorts`;
+  - a title under 70 characters;
+  - the description is 3-4 sentences, then the chapter list (`0:00 Intro` first, at least
+    three chapters of 10 s or more, times taken from `timeline.json`), then the sources;
+  - `categoryId` 28, and the thumbnail as in section 5.
+- Never publish without the owner's approval. After publishing, tell the owner which
+  Shorts to link to it. YouTube Studio > each Short > Related video lets a Short point
+  viewers to the long video, and that can't be set through vidIQ.
+- Log it with `"format": "long"` and `"related_shorts"`.
+
+## 7. If something breaks
 
 Do not work around it silently. Skip what cannot be done, finish what can, and
 report plainly what failed and why (setup, render, upload, drafting).

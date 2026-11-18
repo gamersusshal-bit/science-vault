@@ -1,11 +1,13 @@
 """Automatic quality gate for a rendered Short. Exits non-zero on failure."""
 import json, re, subprocess, sys
 f = sys.argv[1]; fails = []
+long = len(sys.argv) > 2 and sys.argv[2] == "long"  # weekly 16:9 video (PLAYBOOK section 6)
+W, H, DMIN, DMAX = (1920, 1080, 180, 600) if long else (1080, 1920, 20, 58)
 p = json.loads(subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration:stream=codec_type,width,height,r_frame_rate",
                                "-of", "json", f], capture_output=True, text=True).stdout)
 dur = float(p["format"]["duration"]); v = next(s for s in p["streams"] if s["codec_type"] == "video")
-if not (20 <= dur <= 58): fails.append(f"duration {dur:.1f}s outside 20-58s")
-if (v["width"], v["height"]) != (1080, 1920): fails.append(f'size {v["width"]}x{v["height"]}')
+if not (DMIN <= dur <= DMAX): fails.append(f"duration {dur:.1f}s outside {DMIN}-{DMAX}s")
+if (v["width"], v["height"]) != (W, H): fails.append(f'size {v["width"]}x{v["height"]}')
 if v["r_frame_rate"] != "30/1": fails.append(f'fps {v["r_frame_rate"]}')
 err = subprocess.run(["ffmpeg", "-hide_banner", "-i", f, "-af", "ebur128", "-vn", "-f", "null", "-"], capture_output=True, text=True).stderr
 lufs = float(re.findall(r"I:\s+(-?[\d.]+) LUFS", err)[-1])
