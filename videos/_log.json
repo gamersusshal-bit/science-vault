@@ -91,11 +91,12 @@
       "hero_visual": "top-down original night city, car with view cone, dashed not-drawn footprints, far simple models, lime memory ring streaming streets, console memory bar vs limit",
       "voice": "af_heart",
       "fizz": false,
-      "status": "drafted",
+      "status": "published",
       "draft": {
         "postId": "3892c520-8bf3-41ca-947c-4c52555e9a30",
         "revision": "f3da0d21"
-      }
+      },
+      "url": "https://www.youtube.com/watch?v=sW7fD11mzJY"
     },
     {
       "date": "2026-11-18",
@@ -105,11 +106,12 @@
       "hero_visual": "side view of a pylon end-on with field lines to the ground, fluorescent tube glowing, laid flat goes dark, zoom inside to electrons, mercury atoms, UV and coating, field of 1,000+ tubes lighting up",
       "voice": "af_heart",
       "fizz": false,
-      "status": "drafted",
+      "status": "published",
       "draft": {
         "postId": "8c57a005-2a55-40db-9325-e58a0de5fabe",
         "revision": "ff76c0f3"
-      }
+      },
+      "url": "https://www.youtube.com/watch?v=MRxXyvPJZ2A"
     }
   ]
 }
