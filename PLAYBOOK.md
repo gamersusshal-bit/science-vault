@@ -132,7 +132,8 @@ Copy the shape of `videos/sun-vanishes/script.json`.
   `parts` (speed, pause, `tts` punctuation) so it keeps that emotion.
 - No mascot (owner's decision, 2026-11-17): Fizz is not used in any video. Never set
   `fizz: true` in `src/videos/index.ts`, and record `"fizz": false` in each log entry.
-- Line 1 is the hook: the contradiction, complete within 3 seconds of speech.
+- Line 1 is the hook: the contradiction, complete within 3 seconds of speech. Choose it
+  with the hook process in 2c, and keep its candidates in the script.
 - Each line adds new information. The last line is the payoff and should echo the hook.
 - Split lines into `parts`. Give each part a `speed` (0.82 to 1.08) and a `pause`
   (0.1 to 0.55 s): slower on the hook's second half and the payoff, a held pause
@@ -142,6 +143,82 @@ Copy the shape of `videos/sun-vanishes/script.json`.
   where the climax lands. The sound bed is built around these two moments.
 - `sources`: one entry per factual claim, with the figure and where it comes from.
 - Re-read every number against its source before continuing.
+
+### 2c. Hooks and retention: lessons from the first eight scripts (owner's request, 2026-11-18)
+
+A review of all eight published scripts (sun-vanishes to power-line-tube). It is judged
+on the scripts themselves plus the retention notes in 2a. No new retention data yet: the
+vidIQ credits had run out on 2026-11-18. When credits are back, pull
+`vidiq_channel_analytics_extended` report `shorts_stayed_to_watch` once and check these
+rules against it.
+
+**What worked**
+- Hooks that ask about something the viewer can see or has felt, then leave it open:
+  "You stopped spinning. So why is the room still turning?" (spin-dizzy);
+  "No wires, no battery. So why is this tube glowing?" (power-line-tube).
+- A demonstration you can *see* fail early: the tube laid flat goes dark at 8 s
+  (power-line-tube); the angle nudged until gaps open (sunflower-spirals).
+- A mid-video re-hook: "But here's the strange part." (sun-vanishes), at the point where
+  Shorts usually lose viewers.
+- Payoffs of 8 words or fewer that flip the hook: "The room was never turning. The fluid
+  in your ear was." "The fire doesn't push the plane. It spins the fan that does."
+
+**What to stop doing**
+1. Stating the answer in the hook. "A tree is built mostly from thin air", "A lightning bolt
+   is five times hotter than the Sun" and "A sunflower can't count, yet its seeds follow
+   Fibonacci numbers" give the viewer the punchline, so there is no reason to stay. A fact
+   is not a hook unless it leaves a *why* or *how* open.
+2. Long hooks. city-streaming (16 words, 4.5 s) and sunflower-spirals (4.1 s) took too long
+   to reach the question. Keep the hook to 12 words or fewer, with the question complete by
+   about 2.5 s.
+3. A weak line 2. Line 2 is where the 4-5 s drop happens. Bad line 2s seen so far:
+   - history: "In the sixteen hundreds, a scientist…"
+   - a number dump: "Sunlight needs eight minutes and twenty seconds to cross a hundred and fifty
+     million kilometers"
+   - talking about the video itself: "each trick pushes this bar under the limit"
+
+   Line 2 must raise the stakes or start the demonstration. It should name the meter's
+   target in the world's own terms.
+4. Abstract openings. The first three words must be concrete and on screen ("No wires, no
+   battery"; "You stopped spinning"), never "A … is …" or "Open world games…".
+5. More than two numbers in a video. Every number after the second becomes a picture with
+   no number spoken.
+6. Lists without a count. "One. Two. Three." works only if the hook promised the count
+   ("three tricks"), so the viewer knows how long to stay.
+
+**The hook process (do this every time, before writing the rest)**
+1. Write five candidate hooks for the topic, at least two of them in a format that is new for
+   this channel. Mix the formats: a *question about what is on screen*, "*you* + an
+   experience the viewer has had", a *contradiction with two numbers* ("gained seventy
+   kilos; the soil lost sixty grams"), *something happening right now* ("The Sun just
+   vanished."), and a *dare or prediction* ("Watch this bar. It has to get under the line.").
+2. Score each one from 0 to 2 on six tests. Write the scores in the script as
+   `"hook_candidates"`:
+   1. Under 12 words.
+   2. Something visibly happens while it is spoken.
+   3. The question is still open at the end.
+   4. It is about *you* or *this*, the thing on screen.
+   5. The first three words are concrete.
+   6. True as worded.
+3. Use the top scorer. On a tie, pick the one whose answer comes latest in the script.
+4. Say the hook aloud at the planned speed. If it is over 3 s, cut words; do not speed it up.
+
+**Shape of the rest (7 lines, about 30 s)**
+- Line 2 (about 3-7 s): raise the stakes or set the meter's target.
+- Lines 3-4: the "break it" demonstration, then the mechanism, each line with a new picture.
+- About 50-60 % in: a re-hook, either a one-line twist or a new question ("But here's the
+  strange part." "So why doesn't it stop?"). It opens a second loop that the climax closes.
+- Climax: the biggest picture, built from the same world.
+- Payoff: 8 words or fewer. It answers the hook in different words, ideally so that the
+  video loops cleanly into its first line.
+
+**Rewrites of earlier hooks, as models (not for reuse: those topics are taken)**
+- sun-vanishes: "The Sun just vanished. So why is it still daytime?"
+- lightning-thunder: "You've never actually heard lightning. So what's that boom?"
+- tree-from-air: "This tree got seventy kilos heavier. The soil barely changed."
+- sunflower-spirals: "This flower can't count. So how did it get these exact numbers?"
+- jet-engine-fan: "This engine burns fuel, but the fire barely pushes the plane. So what does?"
+- city-streaming: "This city is three times too big for your console. Watch it fit."
 
 ## 3. Build the scene: `src/videos/<camelSlug>/<Name>.tsx`
 
