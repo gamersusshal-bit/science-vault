@@ -89,6 +89,34 @@ cached in the repo and refreshed only when needed.
 - Field name for the GTA Short in the log: "computing and games". Both use the
   af_heart voice and the seven beats of 2a.
 
+1f. Performance check (owner's request, 2026-11-19: analyse the channel and feed it back into content)
+
+vidIQ gives about 150 credits a month and every analytics call costs 5, so the budget is
+fixed: about 20 credits a week on performance, 5 on viral research (1b), and the rest kept
+spare for the weekly long video. Daily runs spend nothing unless a check below is due.
+- Every run, free: `vidiq_user_channels` for subscribers, total views and video count. Append
+  a snapshot to `research/performance.json` (never overwrite older ones).
+- Mondays, if `vidiq_balance` shows at least 25 credits, in this order:
+  1. `vidiq_channel_analytics_extended` report `shorts_stayed_to_watch` for the last 28 days
+     (stayed-to-watch % per Short; the most direct test of the hook).
+  2. `vidiq_channel_analytics` report `top_videos` with metrics engagedViews,
+     averageViewPercentage, subscribersGained, likes, shares, last 28 days.
+  3. `vidiq_channel_analytics` report `traffic_sources` (Shorts feed vs search vs other).
+  4. `audience_demographics` if `research/audience.json` is over 7 days old (1a).
+  Save the rows in `research/performance.json`.
+- Turn the numbers into rules, then into content:
+  - Rank the Shorts by stayed-to-watch. Compare the top two and bottom two openings and write
+    one lesson in 2c only when the gap is clear (10 points or more); with small samples, say so.
+  - Prefer the series and fields of the top third for the next week's picks (1c still applies:
+    never the same field twice in a row).
+  - If views per new subscriber is over 1,000, the follow prompt (section 3, `SeriesOutro`)
+    and the comment question are the first things to change, not the topics.
+- In the owner message, give the current subscriber and view totals, the change since the
+  last snapshot, and a one-line prediction for the next 7 days. Base the prediction on the
+  channel's own average views per Short and label it as a rough estimate.
+- If credits are 0 or a call fails, say so in the owner message and use only the free snapshot.
+  Never estimate per-video numbers you did not read.
+
 ## 2. Write the script: `videos/<slug>/script.json`
 
 ### 2a. Story structure (owner-approved 2026-11-17, from the first four videos' retention)
@@ -266,6 +294,11 @@ Rules:
 - Only use `remotion`, React and the fonts already installed. No network assets,
   no stock footage, no images of real people.
 - Include the series chip from 2d (`SeriesTag`).
+- Include the follow prompt `<SeriesOutro name="How It Works" next={5} accent={ACCENT} />` from
+  `src/primitives/SeriesOutro.tsx` (`next` = this Short's series number + 1). It is visual only and
+  shows for the last 1.8 s at top=1330, so keep in-world labels out of y 1300-1410 at the end.
+  Added 2026-11-19: the channel had about 1,350 views per new subscriber, and nothing in the
+  Shorts asked viewers to follow the series.
 - Register the video in `src/videos/index.ts`.
 
 ## 4. Render and check

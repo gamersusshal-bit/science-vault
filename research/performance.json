@@ -1,0 +1,22 @@
+{
+  "note": "Channel performance snapshots (PLAYBOOK section 1f). Add one entry per check; never overwrite old ones. Numbers are exactly as the tool returned them.",
+  "snapshots": [
+    {
+      "date": "2026-11-19",
+      "source": "vidiq_user_channels (free call)",
+      "subscribers": 8,
+      "total_views": 10796,
+      "videos": 10,
+      "per_video": null,
+      "limits": "vidIQ credits were at 0 (renew 2026-12-03), so per-video views, retention, stayed-to-watch, traffic sources and demographics could not be pulled. YouTube's own pages and feed refused automated reads. The two Shorts published today (pinecone-weather, helicopter-tail-rotor) had had no time to collect views.",
+      "derived": {
+        "views_per_published_short_before_today": "about 1,350 (10,796 views over the 8 Shorts published 2026-11-15 to 2026-11-18)",
+        "views_per_new_subscriber": "about 1,350 (10,796 / 8)"
+      },
+      "flags": [
+        "Public handle is @science-vault-c9n, an auto-generated-looking handle that doesn't match the channel name LearnIT or @sush15427. Worth fixing in YouTube Studio > Customization > Basic info.",
+        "An automated read of the spin-dizzy Short (fD_tuDMX1BM) showed 'Video unavailable'. This may be a fetch artifact; the owner should confirm in Studio that it is still public."
+      ]
+    }
+  ]
+}
