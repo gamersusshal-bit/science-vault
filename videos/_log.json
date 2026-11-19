@@ -145,14 +145,15 @@
       "hero_visual": "rain-soaked forest-floor pinecone on a golden-angle turntable closing and opening, side-view scale cross-section (one layer swells straight; two-layer strip curls), seeds on the wind, grey fossil cone on a stone slab closing in rain, SCALES OPEN bar to SHUT",
       "voice": "af_heart",
       "fizz": false,
-      "status": "drafted",
+      "status": "published",
       "draft": {
         "postId": "602ff8d7-5c6d-408f-b11c-303be8370704",
         "revision": "8ead0bd1"
       },
       "series": "Why It Happens",
       "series_no": 5,
-      "format": "short"
+      "format": "short",
+      "url": "https://www.youtube.com/watch?v=uZ4NC02xQXs"
     },
     {
       "date": "2026-11-19",
@@ -162,14 +163,15 @@
       "hero_visual": "top-down helicopter over a dark helipad inside a heading compass ring, tail rotor stopped and body spinning, torque and counter-twist arrows, tail-rotor air puffs, pan to a generic tandem-rotor helicopter with opposite rotation arrows, NOSE OFF THE LINE degree meter",
       "voice": "af_heart",
       "fizz": false,
-      "status": "drafted",
+      "status": "published",
       "draft": {
         "postId": "f3596d16-aa57-4fc3-bd87-aeec9d06be58",
         "revision": "68cd621a"
       },
       "series": "How It Works",
       "series_no": 4,
-      "format": "short"
+      "format": "short",
+      "url": "https://www.youtube.com/watch?v=TUp_Qd6skF8"
     }
   ]
 }
