@@ -269,6 +269,40 @@ End every description with one short question that viewers can answer in a comme
 their own experience of the topic ("Have you ever seen a tube light glow on its own?").
 Put that question in the owner message too, in case they want to pin it as a comment.
 
+### 2e. What the first Studio data says (owner's export, 2026-11-19)
+
+Ten Shorts, 11,656 views, 7 net subscribers. Files in `research/studio/`, numbers in
+`research/performance.json`. Small samples: treat these as tests to run, not laws.
+
+- **Every Short stops at the first batch.** Each got 1,200-1,750 views, mostly within a day,
+  then almost nothing. None has been pushed past YouTube's first test, so what decides growth
+  is how long that first batch watches, not topics, titles or thumbnails (thumbnails got
+  1,303 impressions in total).
+- **One Short held viewers: sun-vanishes, 69% average view (20.7 of 30 s).** Every other
+  Short is at 29-45%, i.e. most viewers leave around 9-13 s. sun-vanishes was the only
+  "What If", and it had a visible countdown with a known end on screen from the first seconds.
+- **The five newest Shorts average about 32%**, below the first five (45%, or 39% without
+  sun-vanishes). The question-style hooks of 2c, the af_heart voice and the topics all changed
+  at the same time, so the data can't say which one caused it. Don't drop 2c, but don't
+  treat it as proven either.
+- **Subscribers came from "What If" (2 from 1 Short) and "Why It Happens" (7 from 5).**
+  "How It Works" has 0 from 4.
+
+Rules from this, until the next Monday check (1f) says otherwise:
+1. **Run a What If test.** For the next four days, one of the two daily Shorts is a labelled
+   "What If" thought experiment with the sun-vanishes shape: the event in the first second,
+   a countdown or meter with a stated end point, the world changing as it runs. Unused
+   candidates in `research/viral_topics.json` that fit: falling into a black hole, a tunnel
+   through the Earth, doubling in size every day.
+2. **Every Short needs a running clock or meter the viewer is waiting on** (2a beat 3 is now
+   required, not optional), and its end point is said aloud by 5 s.
+3. **Kill the 10-second cliff.** The 8-12 s stretch must contain the first big visible change
+   (the "break it" demonstration of 2a). Check the contact sheet frame nearest 10 s: if it
+   looks like the frame at 6 s, rework that line.
+4. **How It Works pauses to one in four Shorts** until one of them gains a subscriber.
+5. In each owner message, list the latest Studio average-view % for every Short from the
+   last 7 days next to the new drafts, so the trend is visible.
+
 ## 3. Build the scene: `src/videos/<camelSlug>/<Name>.tsx`
 
 Read `src/videos/sunVanishes/SunVanishes.tsx` first; it is the reference for quality

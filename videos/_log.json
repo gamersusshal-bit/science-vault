@@ -81,7 +81,8 @@
       },
       "series": "How It Works",
       "series_no": 1,
-      "format": "short"
+      "format": "short",
+      "title_live": "Most of a Jet Engine's Thrust Never Touches the Fire #airplane #airforce #engineering #engine"
     },
     {
       "date": "2026-11-17",
@@ -92,14 +93,16 @@
       "voice": "af_heart",
       "fizz": false,
       "status": "published",
-      "url": "https://www.youtube.com/watch?v=fD_tuDMX1BM",
+      "url": "https://www.youtube.com/watch?v=L0TDYoAHhh0",
       "draft": {
         "postId": "17ff7e89-9bb9-4869-beba-d8ae3c2056e9",
         "revision": "f88e36ee"
       },
       "series": "Why It Happens",
       "series_no": 4,
-      "format": "short"
+      "format": "short",
+      "note": "Studio export of 2026-11-19 lists this Short as L0TDYoAHhh0; the earlier id fD_tuDMX1BM shows Video unavailable.",
+      "title_live": "Why You Still Feel Like You’re Spinning After You Stop?  #ear #humanbody #humanity #biology #science"
     },
     {
       "date": "2026-11-18",
@@ -117,7 +120,8 @@
       "url": "https://www.youtube.com/watch?v=sW7fD11mzJY",
       "series": "How It Works",
       "series_no": 2,
-      "format": "short"
+      "format": "short",
+      "title_live": "Every Far Building in GTA 6 Is Probably a Fake #GTA6 #gamedev"
     },
     {
       "date": "2026-11-18",
