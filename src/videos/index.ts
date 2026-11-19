@@ -24,6 +24,12 @@ import cityStreamingScript from "../../videos/city-streaming/script.json";
 import { PowerLineTube } from "./powerLineTube/PowerLineTube";
 import powerLineTubeTimeline from "../../videos/power-line-tube/timeline.json";
 import powerLineTubeScript from "../../videos/power-line-tube/script.json";
+import { HelicopterTailRotor } from "./helicopterTailRotor/HelicopterTailRotor";
+import helicopterTailRotorTimeline from "../../videos/helicopter-tail-rotor/timeline.json";
+import helicopterTailRotorScript from "../../videos/helicopter-tail-rotor/script.json";
+import { PineconeWeather } from "./pineconeWeather/PineconeWeather";
+import pineconeWeatherTimeline from "../../videos/pinecone-weather/timeline.json";
+import pineconeWeatherScript from "../../videos/pinecone-weather/script.json";
 import type { ThumbSpec } from "../primitives/Thumbnail";
 
 /**
@@ -43,4 +49,6 @@ export const VIDEOS: { id: string; component: React.FC; duration: number; timeli
   { id: "spin-dizzy", component: SpinDizzy, duration: spinDizzyTimeline.duration, thumb: spinDizzyScript.thumb },
   { id: "city-streaming", component: CityStreaming, duration: cityStreamingTimeline.duration, thumb: cityStreamingScript.thumb },
   { id: "power-line-tube", component: PowerLineTube, duration: powerLineTubeTimeline.duration, thumb: powerLineTubeScript.thumb },
+  { id: "helicopter-tail-rotor", component: HelicopterTailRotor, duration: helicopterTailRotorTimeline.duration, thumb: helicopterTailRotorScript.thumb },
+  { id: "pinecone-weather", component: PineconeWeather, duration: pineconeWeatherTimeline.duration, thumb: pineconeWeatherScript.thumb },
 ];

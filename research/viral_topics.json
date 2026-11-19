@@ -48,7 +48,8 @@
       "hook_format": "Why ...",
       "field": "biology",
       "evidence": "2.9M views, 1.6x (tlUPOfJ25fs)",
-      "used": false
+      "used": true,
+      "slug": "pinecone-weather"
     },
     {
       "idea": "How a coconut fills itself with water",
@@ -77,7 +78,8 @@
       "hook_format": "How ... actually works",
       "field": "engineering",
       "evidence": "1.4M views, 3x (Y4IpUtBs-ns)",
-      "used": false
+      "used": true,
+      "slug": "helicopter-tail-rotor"
     },
     {
       "idea": "Why a fluorescent tube lights up under power lines with no wires",

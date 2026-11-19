@@ -1,0 +1,227 @@
+{
+  "slug": "pinecone-weather",
+  "title": "Why a Dead Pinecone Still Moves When It Gets Wet | Why It Happens #5",
+  "voice": "af_heart",
+  "series": "Why It Happens",
+  "series_no": 5,
+  "hook_candidates": [
+    {
+      "text": "This pinecone is dead. So why is it moving?",
+      "scores": {
+        "under_12_words": 2,
+        "visible_event": 2,
+        "question_open": 2,
+        "about_this": 2,
+        "concrete_start": 2,
+        "true_as_worded": 2
+      },
+      "total": 12,
+      "chosen": true
+    },
+    {
+      "text": "Drop water on this cone. Watch it shut by itself.",
+      "scores": {
+        "under_12_words": 2,
+        "visible_event": 2,
+        "question_open": 1,
+        "about_this": 2,
+        "concrete_start": 2,
+        "true_as_worded": 2
+      },
+      "total": 11
+    },
+    {
+      "text": "This cone is eleven million years old. It still moves.",
+      "scores": {
+        "under_12_words": 2,
+        "visible_event": 1,
+        "question_open": 1,
+        "about_this": 2,
+        "concrete_start": 2,
+        "true_as_worded": 1
+      },
+      "total": 9,
+      "note": "true only for the fossil cones, and spends the climax in the hook"
+    },
+    {
+      "text": "You've seen pinecones closed after rain. Nothing alive closed them.",
+      "scores": {
+        "under_12_words": 1,
+        "visible_event": 0,
+        "question_open": 1,
+        "about_this": 1,
+        "concrete_start": 1,
+        "true_as_worded": 2
+      },
+      "total": 6
+    },
+    {
+      "text": "Watch this gap. A dead cone is about to close it.",
+      "scores": {
+        "under_12_words": 2,
+        "visible_event": 1,
+        "question_open": 1,
+        "about_this": 2,
+        "concrete_start": 2,
+        "true_as_worded": 2
+      },
+      "total": 10
+    }
+  ],
+  "beats": {
+    "drop": {
+      "line": "hook",
+      "word": "pinecone"
+    },
+    "hit": {
+      "line": "fossil",
+      "word": "still"
+    }
+  },
+  "lines": [
+    {
+      "id": "hook",
+      "parts": [
+        {
+          "text": "This pinecone is dead.",
+          "speed": 0.98,
+          "pause": 0.25
+        },
+        {
+          "text": "So why is it moving?",
+          "speed": 0.9,
+          "pause": 0.45
+        }
+      ]
+    },
+    {
+      "id": "meter",
+      "parts": [
+        {
+          "text": "Get it wet,",
+          "speed": 1.0,
+          "pause": 0.12
+        },
+        {
+          "text": "and every scale has to swing shut.",
+          "speed": 0.98,
+          "pause": 0.4
+        }
+      ]
+    },
+    {
+      "id": "one",
+      "parts": [
+        {
+          "text": "Give a scale one layer,",
+          "speed": 1.0,
+          "pause": 0.12
+        },
+        {
+          "text": "and it just swells.",
+          "speed": 0.96,
+          "pause": 0.2
+        },
+        {
+          "text": "No bend.",
+          "speed": 0.9,
+          "pause": 0.4
+        }
+      ]
+    },
+    {
+      "id": "two",
+      "parts": [
+        {
+          "text": "A real scale has two.",
+          "speed": 1.0,
+          "pause": 0.15
+        },
+        {
+          "text": "The bottom one stretches when wet,",
+          "speed": 1.03,
+          "pause": 0.1
+        },
+        {
+          "text": "the top barely does.",
+          "speed": 1.0,
+          "pause": 0.15
+        },
+        {
+          "text": "So it curls.",
+          "tts": "So... it curls.",
+          "speed": 0.92,
+          "pause": 0.4
+        }
+      ]
+    },
+    {
+      "id": "dry",
+      "parts": [
+        {
+          "text": "Dry air shrinks it back,",
+          "speed": 1.02,
+          "pause": 0.1
+        },
+        {
+          "text": "opening the cone so wind can take the seeds.",
+          "speed": 1.02,
+          "pause": 0.45
+        }
+      ]
+    },
+    {
+      "id": "fossil",
+      "parts": [
+        {
+          "text": "But here's the strange part.",
+          "speed": 0.95,
+          "pause": 0.35
+        },
+        {
+          "text": "Fossil cones over eleven million years old",
+          "speed": 1.0,
+          "pause": 0.1
+        },
+        {
+          "text": "still do it.",
+          "tts": "still do it!",
+          "speed": 0.9,
+          "pause": 0.5
+        }
+      ]
+    },
+    {
+      "id": "payoff",
+      "parts": [
+        {
+          "text": "Nothing alive.",
+          "speed": 0.9,
+          "pause": 0.3
+        },
+        {
+          "text": "Just wood, reading the weather.",
+          "tts": "Just wood... reading the weather.",
+          "speed": 0.84,
+          "pause": 0
+        }
+      ]
+    }
+  ],
+  "sources": [
+    "Cones close in wet conditions and open in dry conditions; the scale movement is passive and needs no metabolic energy: University of Freiburg press release on Poppinga et al. 2017, https://www.bio.uni-freiburg.de/news/20170111-speck-en ; Poppinga S. et al., 'Hygroscopic motions of fossil conifer cones', Scientific Reports 7, 40302 (2017), https://www.nature.com/articles/srep40302 .",
+    "'Dead': the scale tissue that does the moving (sclereids and sclerenchyma fibres) is dead at maturity, and the motion is purely passive swelling and shrinking (Poppinga et al. 2017; Dawson, Vincent & Rocca, 'How pine cones open', Nature 390, 668 (1997), https://www.nature.com/articles/37745 ).",
+    "Two layers: a highly swellable lower sclereid layer (cells about 20% longer when wet) under a much less swellable upper layer of sclerenchyma strands; the lower layer swelling bends the scale up and closes the cone, and drying pulls it down and opens it (Poppinga et al. 2017 introduction; Freiburg 2022 press release, https://www.bio.uni-freiburg.de/news/20220531-speck-en ). Freiburg 2022 (Advanced Science) shows the real tissue is more complex, with several swelling layers; the video labels its two-layer picture 'SIMPLIFIED MODEL'.",
+    "One layer alone does not bend: a uniformly swelling strip just gets longer; bending needs two layers that swell by different amounts (bilayer principle, Reyssat & Mahadevan, 'Hygromorphs: from pine cones to biomimetic bilayers', J. R. Soc. Interface 6, 951 (2009)). Shown as a labelled model.",
+    "Seeds are released when it is dry and they can be carried far by wind; under wet conditions, unfavourable for wind dispersal, the cone stays closed (Freiburg 2022 press release; Poppinga et al. 2017).",
+    "Fossil cones from the middle Miocene, about 16.5 to 11.5 million years old, and from the Eemian (126,000-113,000 years) still open and close their scales with moisture (Poppinga et al. 2017; Freiburg 2017 press release). Script says 'over eleven million years old', true for the Miocene cones."
+  ],
+  "thumb": {
+    "at": 19.0,
+    "text": [
+      "DEAD CONE.",
+      "STILL MOVES."
+    ],
+    "accent": "#ffb347"
+  }
+}

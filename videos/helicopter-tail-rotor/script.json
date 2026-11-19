@@ -1,0 +1,200 @@
+{
+  "slug": "helicopter-tail-rotor",
+  "title": "Why Helicopters Spin Without Their Tiny Tail Rotor | How It Works #4",
+  "voice": "af_heart",
+  "series": "How It Works",
+  "series_no": 4,
+  "hook_candidates": [
+    {
+      "text": "Stop this rotor, and the helicopter spins. Why?",
+      "scores": {
+        "under_12_words": 2,
+        "visible_event": 2,
+        "question_open": 2,
+        "about_this": 2,
+        "concrete_start": 2,
+        "true_as_worded": 2
+      },
+      "total": 12,
+      "chosen": true
+    },
+    {
+      "text": "Why does a helicopter need a second, tiny propeller?",
+      "scores": {
+        "under_12_words": 2,
+        "visible_event": 0,
+        "question_open": 2,
+        "about_this": 1,
+        "concrete_start": 1,
+        "true_as_worded": 2
+      },
+      "total": 8
+    },
+    {
+      "text": "Watch this nose. It has to stay on the line.",
+      "scores": {
+        "under_12_words": 2,
+        "visible_event": 1,
+        "question_open": 1,
+        "about_this": 2,
+        "concrete_start": 2,
+        "true_as_worded": 2
+      },
+      "total": 10
+    },
+    {
+      "text": "You've seen the little tail rotor. It isn't for steering forward.",
+      "scores": {
+        "under_12_words": 1,
+        "visible_event": 0,
+        "question_open": 1,
+        "about_this": 2,
+        "concrete_start": 1,
+        "true_as_worded": 2
+      },
+      "total": 7
+    },
+    {
+      "text": "One big rotor, one tiny one. The tiny one holds it straight.",
+      "scores": {
+        "under_12_words": 1,
+        "visible_event": 1,
+        "question_open": 0,
+        "about_this": 2,
+        "concrete_start": 2,
+        "true_as_worded": 2
+      },
+      "total": 8
+    }
+  ],
+  "beats": {
+    "drop": {
+      "line": "hook",
+      "word": "stop"
+    },
+    "hit": {
+      "line": "tandem",
+      "word": "cancel"
+    }
+  },
+  "lines": [
+    {
+      "id": "hook",
+      "parts": [
+        {
+          "text": "Stop this rotor,",
+          "speed": 1.0,
+          "pause": 0.15
+        },
+        {
+          "text": "and the helicopter spins. Why?",
+          "tts": "and the helicopter spins... Why?",
+          "speed": 0.95,
+          "pause": 0.4
+        }
+      ]
+    },
+    {
+      "id": "meter",
+      "parts": [
+        {
+          "text": "Watch the nose.",
+          "speed": 0.98,
+          "pause": 0.2
+        },
+        {
+          "text": "To hover, it has to stay on this line.",
+          "speed": 1.0,
+          "pause": 0.4
+        }
+      ]
+    },
+    {
+      "id": "twist",
+      "parts": [
+        {
+          "text": "The engine twists the big rotor one way,",
+          "speed": 1.04,
+          "pause": 0.15
+        },
+        {
+          "text": "so the body gets twisted the other way.",
+          "speed": 0.98,
+          "pause": 0.4
+        }
+      ]
+    },
+    {
+      "id": "tail",
+      "parts": [
+        {
+          "text": "The little rotor blows air sideways,",
+          "speed": 1.02,
+          "pause": 0.12
+        },
+        {
+          "text": "pushing the tail back against that twist.",
+          "speed": 0.98,
+          "pause": 0.45
+        }
+      ]
+    },
+    {
+      "id": "rehook",
+      "parts": [
+        {
+          "text": "So why doesn't this giant need one?",
+          "speed": 0.94,
+          "pause": 0.4
+        }
+      ]
+    },
+    {
+      "id": "tandem",
+      "parts": [
+        {
+          "text": "Its two rotors spin in opposite directions,",
+          "speed": 1.02,
+          "pause": 0.15
+        },
+        {
+          "text": "so the twists cancel out.",
+          "tts": "so the twists cancel out!",
+          "speed": 0.94,
+          "pause": 0.5
+        }
+      ]
+    },
+    {
+      "id": "payoff",
+      "parts": [
+        {
+          "text": "That little rotor",
+          "speed": 0.92,
+          "pause": 0.2
+        },
+        {
+          "text": "is fighting the big one.",
+          "tts": "is fighting... the big one.",
+          "speed": 0.84,
+          "pause": 0
+        }
+      ]
+    }
+  ],
+  "sources": [
+    "Torque reaction: FAA Helicopter Flying Handbook (FAA-H-8083-21B) ch.1 p.1-4: the main rotor causes 'the body of the helicopter to turn in the opposite direction of the rotor' (Newton's third law); ch.3 p.3-4: the fuselage rotates 'in the opposite direction of the main rotor blades unless counteracted and controlled.' https://www.faa.gov/sites/faa.gov/files/regulations_policies/handbooks_manuals/aviation/helicopter_flying_handbook/hfh_ch01.pdf , https://www.faa.gov/sites/faa.gov/files/regulations_policies/handbooks_manuals/aviation/helicopter_flying_handbook/hfh_ch03.pdf",
+    "Hook ('stop this rotor, and the helicopter spins'): follows directly from ch.3 p.3-4 above: with the tail rotor's counter-thrust removed, nothing counteracts the torque, so the fuselage turns opposite to the main rotor. Shown as a labelled demo on a simplified top view.",
+    "Tail rotor: FAA HFH ch.1 p.1-3: a vertically mounted rotor providing 'lift horizontally as thrust to counteract torque effect'; ch.1 p.1-6 and ch.3 p.3-4/3-5: the antitorque pedals change tail-rotor blade pitch and thrust, yawing the nose and controlling heading. US Army ACCP AL0966 lesson 3, para 3.6: tail rotor 'produces thrust in a horizontal plane opposite to the torque reaction'. https://www.globalsecurity.org/military/library/policy/army/accp/al0966/le3.htm",
+    "Tandem rotors: FAA HFH ch.1 p.1-5: 'Tandem rotor helicopters, however, use counter-rotating rotors, each canceling out the other's torque'; ch.3 p.3-5: rotors 'rotating in opposite directions to counteract the torque rather than a tail rotor.' Example: Boeing CH-47 Chinook (named in description only; the on-screen tandem helicopter is generic original artwork).",
+    "Simplified model: the small main-rotor tilt that also offsets tail-rotor drift, and tail-rotor drag, are not shown."
+  ],
+  "thumb": {
+    "at": 11.4,
+    "text": [
+      "TAIL ROTOR",
+      "OFF = SPIN"
+    ],
+    "accent": "#ff7a1a"
+  }
+}
