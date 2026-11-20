@@ -30,6 +30,12 @@ import helicopterTailRotorScript from "../../videos/helicopter-tail-rotor/script
 import { PineconeWeather } from "./pineconeWeather/PineconeWeather";
 import pineconeWeatherTimeline from "../../videos/pinecone-weather/timeline.json";
 import pineconeWeatherScript from "../../videos/pinecone-weather/script.json";
+import { EarthTunnel } from "./earthTunnel/EarthTunnel";
+import earthTunnelTimeline from "../../videos/earth-tunnel/timeline.json";
+import earthTunnelScript from "../../videos/earth-tunnel/script.json";
+import { ShellDissolving } from "./shellDissolving/ShellDissolving";
+import shellDissolvingTimeline from "../../videos/shell-dissolving/timeline.json";
+import shellDissolvingScript from "../../videos/shell-dissolving/script.json";
 import type { ThumbSpec } from "../primitives/Thumbnail";
 
 /**
@@ -51,4 +57,6 @@ export const VIDEOS: { id: string; component: React.FC; duration: number; timeli
   { id: "power-line-tube", component: PowerLineTube, duration: powerLineTubeTimeline.duration, thumb: powerLineTubeScript.thumb },
   { id: "helicopter-tail-rotor", component: HelicopterTailRotor, duration: helicopterTailRotorTimeline.duration, thumb: helicopterTailRotorScript.thumb },
   { id: "pinecone-weather", component: PineconeWeather, duration: pineconeWeatherTimeline.duration, thumb: pineconeWeatherScript.thumb },
+  { id: "earth-tunnel", component: EarthTunnel, duration: earthTunnelTimeline.duration, thumb: earthTunnelScript.thumb },
+  { id: "shell-dissolving", component: ShellDissolving, duration: shellDissolvingTimeline.duration, thumb: shellDissolvingScript.thumb },
 ];

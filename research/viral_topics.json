@@ -19,7 +19,8 @@
       "hook_format": "What if you ...",
       "field": "physics / thought experiment",
       "evidence": "1.6M views, 4.9x (IZzQ3ac_FxU)",
-      "used": false
+      "used": true,
+      "slug": "earth-tunnel"
     },
     {
       "idea": "What actually happens if you fall into a black hole",
@@ -137,7 +138,8 @@
       "hook_format": "Why ... is bad",
       "field": "chemistry",
       "evidence": "3.3M views (iAhdUlUxlrw)",
-      "used": false
+      "used": true,
+      "slug": "shell-dissolving"
     }
   ]
 }

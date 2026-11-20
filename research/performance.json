@@ -1,199 +1,211 @@
 {
-  "note": "Channel performance snapshots (PLAYBOOK section 1f). Add one entry per check; never overwrite old ones. Numbers are exactly as the tool returned them.",
-  "snapshots": [
+ "note": "Channel performance snapshots (PLAYBOOK section 1f). Add one entry per check; never overwrite old ones. Numbers are exactly as the tool returned them.",
+ "snapshots": [
+  {
+   "date": "2026-11-19",
+   "source": "vidiq_user_channels (free call)",
+   "subscribers": 8,
+   "total_views": 10796,
+   "videos": 10,
+   "per_video": null,
+   "limits": "vidIQ credits were at 0 (renew 2026-12-03), so per-video views, retention, stayed-to-watch, traffic sources and demographics could not be pulled. YouTube's own pages and feed refused automated reads. The two Shorts published today (pinecone-weather, helicopter-tail-rotor) had had no time to collect views.",
+   "derived": {
+    "views_per_published_short_before_today": "about 1,350 (10,796 views over the 8 Shorts published 2026-11-15 to 2026-11-18)",
+    "views_per_new_subscriber": "about 1,350 (10,796 / 8)"
+   },
+   "flags": [
+    "Public handle is @science-vault-c9n, an auto-generated-looking handle that doesn't match the channel name LearnIT or @sush15427. Worth fixing in YouTube Studio > Customization > Basic info.",
+    "An automated read of the spin-dizzy Short (fD_tuDMX1BM) showed 'Video unavailable'. This may be a fetch artifact; the owner should confirm in Studio that it is still public."
+   ]
+  },
+  {
+   "date": "2026-11-19",
+   "source": "YouTube Studio export uploaded by the owner (Content, 2026-10-22 to 2026-11-19), raw files in research/studio/",
+   "totals": {
+    "views": 11656,
+    "watch_hours": 41.1957,
+    "subscribers_gained": 7,
+    "thumbnail_impressions": 1303,
+    "thumbnail_ctr_pct": 2.07
+   },
+   "daily_views": {
+    "2026-11-15": 3429,
+    "2026-11-16": 1971,
+    "2026-11-17": 2970,
+    "2026-11-18": 3286
+   },
+   "per_video": [
     {
-      "date": "2026-11-19",
-      "source": "vidiq_user_channels (free call)",
-      "subscribers": 8,
-      "total_views": 10796,
-      "videos": 10,
-      "per_video": null,
-      "limits": "vidIQ credits were at 0 (renew 2026-12-03), so per-video views, retention, stayed-to-watch, traffic sources and demographics could not be pulled. YouTube's own pages and feed refused automated reads. The two Shorts published today (pinecone-weather, helicopter-tail-rotor) had had no time to collect views.",
-      "derived": {
-        "views_per_published_short_before_today": "about 1,350 (10,796 views over the 8 Shorts published 2026-11-15 to 2026-11-18)",
-        "views_per_new_subscriber": "about 1,350 (10,796 / 8)"
-      },
-      "flags": [
-        "Public handle is @science-vault-c9n, an auto-generated-looking handle that doesn't match the channel name LearnIT or @sush15427. Worth fixing in YouTube Studio > Customization > Basic info.",
-        "An automated read of the spin-dizzy Short (fD_tuDMX1BM) showed 'Video unavailable'. This may be a fetch artifact; the owner should confirm in Studio that it is still public."
-      ]
+     "id": "c03-_i_MhaE",
+     "title": "The Sun Could Vanish and Earth Wouldn't Know for 8 Minutes",
+     "published": "Nov 15, 2026",
+     "duration_s": 30,
+     "views": 1744,
+     "watch_hours": 10.044,
+     "subscribers": 2,
+     "thumb_impressions": 27,
+     "thumb_ctr_pct": 7.41,
+     "avg_view_s": 20.7,
+     "avg_view_pct": 69.1,
+     "best_day_share_pct": 89,
+     "slug": "sun-vanishes"
     },
     {
-      "date": "2026-11-19",
-      "source": "YouTube Studio export uploaded by the owner (Content, 2026-10-22 to 2026-11-19), raw files in research/studio/",
-      "totals": {
-        "views": 11656,
-        "watch_hours": 41.1957,
-        "subscribers_gained": 7,
-        "thumbnail_impressions": 1303,
-        "thumbnail_ctr_pct": 2.07
-      },
-      "daily_views": {
-        "2026-11-15": 3429,
-        "2026-11-16": 1971,
-        "2026-11-17": 2970,
-        "2026-11-18": 3286
-      },
-      "per_video": [
-        {
-          "id": "c03-_i_MhaE",
-          "title": "The Sun Could Vanish and Earth Wouldn't Know for 8 Minutes",
-          "published": "Nov 15, 2026",
-          "duration_s": 30,
-          "views": 1744,
-          "watch_hours": 10.044,
-          "subscribers": 2,
-          "thumb_impressions": 27,
-          "thumb_ctr_pct": 7.41,
-          "avg_view_s": 20.7,
-          "avg_view_pct": 69.1,
-          "best_day_share_pct": 89,
-          "slug": "sun-vanishes"
-        },
-        {
-          "id": "yK1ATBs8elQ",
-          "title": "A Tree Is Built Mostly From Air, Not Soil",
-          "published": "Nov 16, 2026",
-          "duration_s": 30,
-          "views": 1415,
-          "watch_hours": 3.7394,
-          "subscribers": 1,
-          "thumb_impressions": 232,
-          "thumb_ctr_pct": 1.72,
-          "avg_view_s": 9.5,
-          "avg_view_pct": 31.7,
-          "best_day_share_pct": 59,
-          "slug": "tree-from-air"
-        },
-        {
-          "id": "5AjOT6voTjo",
-          "title": "Most of a Jet Engine's Thrust Never Touches the Fire #airplane #airforce #engineering #engine",
-          "published": "Nov 17, 2026",
-          "duration_s": 29,
-          "views": 1412,
-          "watch_hours": 4.7087,
-          "subscribers": 0,
-          "thumb_impressions": 53,
-          "thumb_ctr_pct": 1.89,
-          "avg_view_s": 12.0,
-          "avg_view_pct": 41.4,
-          "best_day_share_pct": 91,
-          "slug": "jet-engine-fan"
-        },
-        {
-          "id": "vmrXFa_1H10",
-          "title": "Sunflowers Can't Count, Yet Their Seeds Follow Fibonacci Numbers",
-          "published": "Nov 16, 2026",
-          "duration_s": 33,
-          "views": 1341,
-          "watch_hours": 4.5028,
-          "subscribers": 1,
-          "thumb_impressions": 218,
-          "thumb_ctr_pct": 3.67,
-          "avg_view_s": 12.1,
-          "avg_view_pct": 36.6,
-          "best_day_share_pct": 67,
-          "slug": "sunflower-spirals"
-        },
-        {
-          "id": "Ou8gKnw0mA0",
-          "title": "Lightning Is 5x Hotter Than the Sun. Thunder Is Air Exploding.",
-          "published": "Nov 15, 2026",
-          "duration_s": 28,
-          "views": 1292,
-          "watch_hours": 4.5321,
-          "subscribers": 3,
-          "thumb_impressions": 44,
-          "thumb_ctr_pct": 4.55,
-          "avg_view_s": 12.6,
-          "avg_view_pct": 45.1,
-          "best_day_share_pct": 95,
-          "slug": "lightning-thunder"
-        },
-        {
-          "id": "sW7fD11mzJY",
-          "title": "Every Far Building in GTA 6 Is Probably a Fake #GTA6 #gamedev",
-          "published": "Nov 18, 2026",
-          "duration_s": 32,
-          "views": 1278,
-          "watch_hours": 4.6042,
-          "subscribers": 0,
-          "thumb_impressions": 428,
-          "thumb_ctr_pct": 0.93,
-          "avg_view_s": 13.0,
-          "avg_view_pct": 40.5,
-          "best_day_share_pct": null,
-          "slug": "city-streaming"
-        },
-        {
-          "id": "MRxXyvPJZ2A",
-          "title": "Why a Tube Light Glows Under Power Lines With No Wires",
-          "published": "Nov 18, 2026",
-          "duration_s": 33,
-          "views": 1224,
-          "watch_hours": 3.2971,
-          "subscribers": 0,
-          "thumb_impressions": 266,
-          "thumb_ctr_pct": 1.5,
-          "avg_view_s": 9.7,
-          "avg_view_pct": 29.4,
-          "best_day_share_pct": null,
-          "slug": "power-line-tube"
-        },
-        {
-          "id": "L0TDYoAHhh0",
-          "title": "Why You Still Feel Like You’re Spinning After You Stop?  #ear #humanbody #humanity #biology #science",
-          "published": "Nov 17, 2026",
-          "duration_s": 35,
-          "views": 1205,
-          "watch_hours": 3.6578,
-          "subscribers": 2,
-          "thumb_impressions": 7,
-          "thumb_ctr_pct": 0.0,
-          "avg_view_s": 10.9,
-          "avg_view_pct": 31.2,
-          "best_day_share_pct": null,
-          "slug": "spin-dizzy"
-        },
-        {
-          "id": "TUp_Qd6skF8",
-          "title": "Why Helicopters Spin Without Their Tiny Tail Rotor | How It Works #4",
-          "published": "Nov 19, 2026",
-          "duration_s": 28,
-          "views": 314,
-          "watch_hours": 0.7375,
-          "subscribers": 0,
-          "thumb_impressions": 25,
-          "thumb_ctr_pct": 8.0,
-          "avg_view_s": 8.5,
-          "avg_view_pct": 30.2,
-          "best_day_share_pct": null,
-          "slug": "helicopter-tail-rotor"
-        },
-        {
-          "id": "uZ4NC02xQXs",
-          "title": "Why a Dead Pinecone Still Moves When It Gets Wet | Why It Happens #5",
-          "published": "Nov 19, 2026",
-          "duration_s": 32,
-          "views": 291,
-          "watch_hours": 0.7913,
-          "subscribers": 0,
-          "thumb_impressions": 1,
-          "thumb_ctr_pct": 0.0,
-          "avg_view_s": 9.8,
-          "avg_view_pct": 30.6,
-          "best_day_share_pct": null,
-          "slug": "pinecone-weather"
-        }
-      ],
-      "derived_notes": [
-        "avg_view_s = watch hours x 3600 / views; avg_view_pct = avg_view_s / duration. Studio's own 'stayed to watch' was not in the export.",
-        "Every Short got 1,200-1,750 views, 59-95% of them on its best day, then almost nothing: each gets the Shorts feed's first test batch and none has been pushed further.",
-        "Average view: sun-vanishes 69% (20.7 s). All others 29-45%. The five newest (spin-dizzy, city-streaming, power-line-tube, helicopter, pinecone) average about 32%.",
-        "am_fenrir Shorts averaged 45% (39% without sun-vanishes); af_heart Shorts averaged 32%. Voice, hook style and date all changed together, so this does not isolate the voice.",
-        "Subscribers per Short (sum 9; the Total row says 7, net of losses): What If 2 from 1 Short (sun-vanishes); Why It Happens 7 from 5 (lightning 3, spin-dizzy 2, tree 1, sunflower 1, pinecone 0 so far); How It Works 0 from 4.",
-        "Thumbnail impressions are small (1,303 in total); thumbnails matter little next to the Shorts feed."
-      ]
+     "id": "yK1ATBs8elQ",
+     "title": "A Tree Is Built Mostly From Air, Not Soil",
+     "published": "Nov 16, 2026",
+     "duration_s": 30,
+     "views": 1415,
+     "watch_hours": 3.7394,
+     "subscribers": 1,
+     "thumb_impressions": 232,
+     "thumb_ctr_pct": 1.72,
+     "avg_view_s": 9.5,
+     "avg_view_pct": 31.7,
+     "best_day_share_pct": 59,
+     "slug": "tree-from-air"
+    },
+    {
+     "id": "5AjOT6voTjo",
+     "title": "Most of a Jet Engine's Thrust Never Touches the Fire #airplane #airforce #engineering #engine",
+     "published": "Nov 17, 2026",
+     "duration_s": 29,
+     "views": 1412,
+     "watch_hours": 4.7087,
+     "subscribers": 0,
+     "thumb_impressions": 53,
+     "thumb_ctr_pct": 1.89,
+     "avg_view_s": 12.0,
+     "avg_view_pct": 41.4,
+     "best_day_share_pct": 91,
+     "slug": "jet-engine-fan"
+    },
+    {
+     "id": "vmrXFa_1H10",
+     "title": "Sunflowers Can't Count, Yet Their Seeds Follow Fibonacci Numbers",
+     "published": "Nov 16, 2026",
+     "duration_s": 33,
+     "views": 1341,
+     "watch_hours": 4.5028,
+     "subscribers": 1,
+     "thumb_impressions": 218,
+     "thumb_ctr_pct": 3.67,
+     "avg_view_s": 12.1,
+     "avg_view_pct": 36.6,
+     "best_day_share_pct": 67,
+     "slug": "sunflower-spirals"
+    },
+    {
+     "id": "Ou8gKnw0mA0",
+     "title": "Lightning Is 5x Hotter Than the Sun. Thunder Is Air Exploding.",
+     "published": "Nov 15, 2026",
+     "duration_s": 28,
+     "views": 1292,
+     "watch_hours": 4.5321,
+     "subscribers": 3,
+     "thumb_impressions": 44,
+     "thumb_ctr_pct": 4.55,
+     "avg_view_s": 12.6,
+     "avg_view_pct": 45.1,
+     "best_day_share_pct": 95,
+     "slug": "lightning-thunder"
+    },
+    {
+     "id": "sW7fD11mzJY",
+     "title": "Every Far Building in GTA 6 Is Probably a Fake #GTA6 #gamedev",
+     "published": "Nov 18, 2026",
+     "duration_s": 32,
+     "views": 1278,
+     "watch_hours": 4.6042,
+     "subscribers": 0,
+     "thumb_impressions": 428,
+     "thumb_ctr_pct": 0.93,
+     "avg_view_s": 13.0,
+     "avg_view_pct": 40.5,
+     "best_day_share_pct": null,
+     "slug": "city-streaming"
+    },
+    {
+     "id": "MRxXyvPJZ2A",
+     "title": "Why a Tube Light Glows Under Power Lines With No Wires",
+     "published": "Nov 18, 2026",
+     "duration_s": 33,
+     "views": 1224,
+     "watch_hours": 3.2971,
+     "subscribers": 0,
+     "thumb_impressions": 266,
+     "thumb_ctr_pct": 1.5,
+     "avg_view_s": 9.7,
+     "avg_view_pct": 29.4,
+     "best_day_share_pct": null,
+     "slug": "power-line-tube"
+    },
+    {
+     "id": "L0TDYoAHhh0",
+     "title": "Why You Still Feel Like You’re Spinning After You Stop?  #ear #humanbody #humanity #biology #science",
+     "published": "Nov 17, 2026",
+     "duration_s": 35,
+     "views": 1205,
+     "watch_hours": 3.6578,
+     "subscribers": 2,
+     "thumb_impressions": 7,
+     "thumb_ctr_pct": 0.0,
+     "avg_view_s": 10.9,
+     "avg_view_pct": 31.2,
+     "best_day_share_pct": null,
+     "slug": "spin-dizzy"
+    },
+    {
+     "id": "TUp_Qd6skF8",
+     "title": "Why Helicopters Spin Without Their Tiny Tail Rotor | How It Works #4",
+     "published": "Nov 19, 2026",
+     "duration_s": 28,
+     "views": 314,
+     "watch_hours": 0.7375,
+     "subscribers": 0,
+     "thumb_impressions": 25,
+     "thumb_ctr_pct": 8.0,
+     "avg_view_s": 8.5,
+     "avg_view_pct": 30.2,
+     "best_day_share_pct": null,
+     "slug": "helicopter-tail-rotor"
+    },
+    {
+     "id": "uZ4NC02xQXs",
+     "title": "Why a Dead Pinecone Still Moves When It Gets Wet | Why It Happens #5",
+     "published": "Nov 19, 2026",
+     "duration_s": 32,
+     "views": 291,
+     "watch_hours": 0.7913,
+     "subscribers": 0,
+     "thumb_impressions": 1,
+     "thumb_ctr_pct": 0.0,
+     "avg_view_s": 9.8,
+     "avg_view_pct": 30.6,
+     "best_day_share_pct": null,
+     "slug": "pinecone-weather"
     }
-  ]
+   ],
+   "derived_notes": [
+    "avg_view_s = watch hours x 3600 / views; avg_view_pct = avg_view_s / duration. Studio's own 'stayed to watch' was not in the export.",
+    "Every Short got 1,200-1,750 views, 59-95% of them on its best day, then almost nothing: each gets the Shorts feed's first test batch and none has been pushed further.",
+    "Average view: sun-vanishes 69% (20.7 s). All others 29-45%. The five newest (spin-dizzy, city-streaming, power-line-tube, helicopter, pinecone) average about 32%.",
+    "am_fenrir Shorts averaged 45% (39% without sun-vanishes); af_heart Shorts averaged 32%. Voice, hook style and date all changed together, so this does not isolate the voice.",
+    "Subscribers per Short (sum 9; the Total row says 7, net of losses): What If 2 from 1 Short (sun-vanishes); Why It Happens 7 from 5 (lightning 3, spin-dizzy 2, tree 1, sunflower 1, pinecone 0 so far); How It Works 0 from 4.",
+    "Thumbnail impressions are small (1,303 in total); thumbnails matter little next to the Shorts feed."
+   ]
+  },
+  {
+   "date": "2026-11-20",
+   "source": "vidiq_user_channels (free call)",
+   "subscribers": 8,
+   "total_views": 13753,
+   "videos": 10,
+   "change_since_2026-11-19_free_snapshot": {
+    "subscribers": 0,
+    "total_views": 2957
+   },
+   "limits": "Friday run: no paid analytics due (Mondays only, PLAYBOOK 1f)."
+  }
+ ]
 }
