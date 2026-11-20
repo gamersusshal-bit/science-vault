@@ -185,14 +185,15 @@
       "hero_visual": "Earth cross-section (crust, mantle, outer and inner core to scale) with a straight tunnel; small astronaut jumps in, FALL TIME clock to 38:11 with speed bar, air-filled run swings and sticks at the centre, vacuum run with gravity arrow shrinking to GRAVITY: ZERO, shoot-through and arrival flash, endless-swing trail",
       "voice": "af_heart",
       "fizz": false,
-      "status": "drafted",
+      "status": "published",
       "draft": {
         "postId": "c9bdb71b-ad3b-460e-b533-66f9b106ca29",
         "revision": "c05999f5"
       },
       "series": "What If",
       "series_no": 2,
-      "format": "short"
+      "format": "short",
+      "url": "https://www.youtube.com/watch?v=FSV48dVBVW0"
     },
     {
       "date": "2026-11-20",
@@ -202,14 +203,15 @@
       "hero_visual": "underwater side view with air above, CO2 molecules crossing the surface and turning into carbonic acid, sea butterfly (pteropod) with coiled shell, carbonate triangles, magenta hydrogen ions, no-CO2 test where the shell grows, shell pitting and flaking, OCEAN ACIDITY bar to +30% with dashed 2100 projection",
       "voice": "af_heart",
       "fizz": false,
-      "status": "drafted",
+      "status": "published",
       "draft": {
         "postId": "890775ca-5662-470c-be5b-1b9f0c6df22d",
         "revision": "8491d633"
       },
       "series": "Why It Happens",
       "series_no": 6,
-      "format": "short"
+      "format": "short",
+      "url": "https://www.youtube.com/watch?v=rNi9wLfC2sE"
     }
   ]
 }
