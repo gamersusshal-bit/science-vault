@@ -221,14 +221,15 @@
    "hero_visual": "orange generic person doubling daily on a log-zoom camera from house and trees to Everest to standing on Earth; DAY counter and height readout, doubling-scale meter to EARTH'S WIDTH, '+1 BODY A DAY' inset stack vs building, Earth-width vs height bars, yesterday ghost",
    "voice": "af_heart",
    "fizz": false,
-   "status": "drafted",
+   "status": "published",
    "draft": {
     "postId": "509b28ff-ec93-4769-843d-f2f786163793",
     "revision": "970deaa7"
    },
    "series": "What If",
    "series_no": 3,
-   "format": "short"
+   "format": "short",
+   "url": "https://www.youtube.com/watch?v=tMUK2xHeC4M"
   },
   {
    "date": "2026-11-21",
@@ -238,14 +239,15 @@
    "hero_visual": "green coconut drops in and is sealed, x-ray water, cracked cross-section (husk fibre, shell, meat, water), zoom into free nuclei, water droplets to meat, cells forming from the edge inward turning jelly to hard white meat; MONTH clock and WATER bar 684 to 332 mL with HALF target",
    "voice": "af_heart",
    "fizz": false,
-   "status": "drafted",
+   "status": "published",
    "draft": {
     "postId": "11c12325-8c00-4fb9-971c-3c9eb4b2ecfb",
     "revision": "16a7bcab"
    },
    "series": "Why It Happens",
    "series_no": 7,
-   "format": "short"
+   "format": "short",
+   "url": "https://www.youtube.com/watch?v=EGsiDw65CIE"
   }
  ]
 }
