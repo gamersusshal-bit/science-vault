@@ -1,217 +1,251 @@
 {
-  "note": "Every topic ever produced. Check this before choosing topics so nothing repeats. Add an entry when a video is drafted; fill url when it is published. Each Short has a series and its number in that series (PLAYBOOK 2d); long videos have \"format\": \"long\" (PLAYBOOK 6).",
-  "videos": [
-    {
-      "date": "2026-11-15",
-      "slug": "sun-vanishes",
-      "title": "The Sun Could Vanish and Earth Wouldn't Know for 8 Minutes",
-      "field": "physics / space",
-      "hero_visual": "expanding last-light ring + gravity tether + countdown timer",
-      "status": "published",
-      "url": "https://www.youtube.com/watch?v=c03-_i_MhaE",
-      "voice": "am_fenrir",
-      "fizz": false,
-      "series": "What If",
-      "series_no": 1,
-      "format": "short"
-    },
-    {
-      "date": "2026-11-15",
-      "slug": "lightning-thunder",
-      "title": "Lightning Is 5x Hotter Than the Sun. Thunder Is Air Exploding.",
-      "field": "earth and weather",
-      "hero_visual": "zoom into the lightning channel, superheated air molecules, expanding thunder front, flash-to-thunder counter",
-      "status": "published",
-      "url": "https://www.youtube.com/watch?v=Ou8gKnw0mA0",
-      "voice": "am_fenrir",
-      "fizz": false,
-      "series": "Why It Happens",
-      "series_no": 1,
-      "format": "short"
-    },
-    {
-      "date": "2026-11-16",
-      "slug": "tree-from-air",
-      "title": "A Tree Is Built Mostly From Air, Not Soil",
-      "field": "biology",
-      "hero_visual": "potted willow on a scale, CO2 molecules flying into the canopy, carbon dots filling the trunk, 50% carbon bar",
-      "status": "published",
-      "url": "https://www.youtube.com/watch?v=yK1ATBs8elQ",
-      "draft": {
-        "postId": "6e0d9224-fc1e-4a42-ba54-256770586a7d",
-        "revision": "de84d2e5"
-      },
-      "voice": "am_fenrir",
-      "fizz": false,
-      "series": "Why It Happens",
-      "series_no": 2,
-      "format": "short"
-    },
-    {
-      "date": "2026-11-16",
-      "slug": "sunflower-spirals",
-      "title": "Sunflowers Can't Count, Yet Their Seeds Follow Fibonacci Numbers",
-      "field": "mathematics of nature",
-      "hero_visual": "sunflower seed head built seed by seed at the golden angle, 34 and 55 spiral families, angle readout nudged to 137.3 and back",
-      "status": "published",
-      "url": "https://www.youtube.com/watch?v=vmrXFa_1H10",
-      "draft": {
-        "postId": "fbfade6e-0219-48fe-9069-10daf06bcbf6",
-        "revision": "73b05371"
-      },
-      "voice": "am_fenrir",
-      "fizz": false,
-      "series": "Why It Happens",
-      "series_no": 3,
-      "format": "short"
-    },
-    {
-      "date": "2026-11-17",
-      "slug": "jet-engine-fan",
-      "title": "Most of a Jet Engine's Thrust Never Touches the Fire",
-      "field": "engineering and how things work",
-      "hero_visual": "turbofan cutaway with cold bypass air and hot core flow, 10:1 bypass meter, fan-removed turbojet comparison, fan vs core thrust bar",
-      "voice": "am_fenrir",
-      "fizz": false,
-      "status": "published",
-      "url": "https://www.youtube.com/watch?v=5AjOT6voTjo",
-      "draft": {
-        "postId": "bf77f5ad-b7d6-42d5-87b8-3f3609df1146",
-        "revision": "f37b6a0e"
-      },
-      "series": "How It Works",
-      "series_no": 1,
-      "format": "short",
-      "title_live": "Most of a Jet Engine's Thrust Never Touches the Fire #airplane #airforce #engineering #engine"
-    },
-    {
-      "date": "2026-11-17",
-      "slug": "spin-dizzy",
-      "title": "Why the Room Keeps Spinning After You Stop",
-      "field": "the human body",
-      "hero_visual": "top-down spinning figure, zoom into a semicircular canal ring with fluid and cupula flap, HEAD vs EAR FLUID readouts",
-      "voice": "af_heart",
-      "fizz": false,
-      "status": "published",
-      "url": "https://www.youtube.com/watch?v=L0TDYoAHhh0",
-      "draft": {
-        "postId": "17ff7e89-9bb9-4869-beba-d8ae3c2056e9",
-        "revision": "f88e36ee"
-      },
-      "series": "Why It Happens",
-      "series_no": 4,
-      "format": "short",
-      "note": "Studio export of 2026-11-19 lists this Short as L0TDYoAHhh0; the earlier id fD_tuDMX1BM shows Video unavailable.",
-      "title_live": "Why You Still Feel Like You’re Spinning After You Stop?  #ear #humanbody #humanity #biology #science"
-    },
-    {
-      "date": "2026-11-18",
-      "slug": "city-streaming",
-      "title": "How Can a Console Hold a City as Big as GTA 6's?",
-      "field": "computing and games",
-      "hero_visual": "top-down original night city, car with view cone, dashed not-drawn footprints, far simple models, lime memory ring streaming streets, console memory bar vs limit",
-      "voice": "af_heart",
-      "fizz": false,
-      "status": "published",
-      "draft": {
-        "postId": "3892c520-8bf3-41ca-947c-4c52555e9a30",
-        "revision": "f3da0d21"
-      },
-      "url": "https://www.youtube.com/watch?v=sW7fD11mzJY",
-      "series": "How It Works",
-      "series_no": 2,
-      "format": "short",
-      "title_live": "Every Far Building in GTA 6 Is Probably a Fake #GTA6 #gamedev"
-    },
-    {
-      "date": "2026-11-18",
-      "slug": "power-line-tube",
-      "title": "Why a Tube Light Glows Under Power Lines With No Wires",
-      "field": "physics",
-      "hero_visual": "side view of a pylon end-on with field lines to the ground, fluorescent tube glowing, laid flat goes dark, zoom inside to electrons, mercury atoms, UV and coating, field of 1,000+ tubes lighting up",
-      "voice": "af_heart",
-      "fizz": false,
-      "status": "published",
-      "draft": {
-        "postId": "8c57a005-2a55-40db-9325-e58a0de5fabe",
-        "revision": "ff76c0f3"
-      },
-      "url": "https://www.youtube.com/watch?v=MRxXyvPJZ2A",
-      "series": "How It Works",
-      "series_no": 3,
-      "format": "short"
-    },
-    {
-      "date": "2026-11-19",
-      "slug": "pinecone-weather",
-      "title": "Why a Dead Pinecone Still Moves When It Gets Wet | Why It Happens #5",
-      "field": "biology",
-      "hero_visual": "rain-soaked forest-floor pinecone on a golden-angle turntable closing and opening, side-view scale cross-section (one layer swells straight; two-layer strip curls), seeds on the wind, grey fossil cone on a stone slab closing in rain, SCALES OPEN bar to SHUT",
-      "voice": "af_heart",
-      "fizz": false,
-      "status": "published",
-      "draft": {
-        "postId": "602ff8d7-5c6d-408f-b11c-303be8370704",
-        "revision": "8ead0bd1"
-      },
-      "series": "Why It Happens",
-      "series_no": 5,
-      "format": "short",
-      "url": "https://www.youtube.com/watch?v=uZ4NC02xQXs"
-    },
-    {
-      "date": "2026-11-19",
-      "slug": "helicopter-tail-rotor",
-      "title": "Why Helicopters Spin Without Their Tiny Tail Rotor | How It Works #4",
-      "field": "engineering and how things work",
-      "hero_visual": "top-down helicopter over a dark helipad inside a heading compass ring, tail rotor stopped and body spinning, torque and counter-twist arrows, tail-rotor air puffs, pan to a generic tandem-rotor helicopter with opposite rotation arrows, NOSE OFF THE LINE degree meter",
-      "voice": "af_heart",
-      "fizz": false,
-      "status": "published",
-      "draft": {
-        "postId": "f3596d16-aa57-4fc3-bd87-aeec9d06be58",
-        "revision": "68cd621a"
-      },
-      "series": "How It Works",
-      "series_no": 4,
-      "format": "short",
-      "url": "https://www.youtube.com/watch?v=TUp_Qd6skF8"
-    },
-    {
-      "date": "2026-11-20",
-      "slug": "earth-tunnel",
-      "title": "What If You Jumped Into a Hole Through the Earth? | What If #2",
-      "field": "physics",
-      "hero_visual": "Earth cross-section (crust, mantle, outer and inner core to scale) with a straight tunnel; small astronaut jumps in, FALL TIME clock to 38:11 with speed bar, air-filled run swings and sticks at the centre, vacuum run with gravity arrow shrinking to GRAVITY: ZERO, shoot-through and arrival flash, endless-swing trail",
-      "voice": "af_heart",
-      "fizz": false,
-      "status": "published",
-      "draft": {
-        "postId": "c9bdb71b-ad3b-460e-b533-66f9b106ca29",
-        "revision": "c05999f5"
-      },
-      "series": "What If",
-      "series_no": 2,
-      "format": "short",
-      "url": "https://www.youtube.com/watch?v=FSV48dVBVW0"
-    },
-    {
-      "date": "2026-11-20",
-      "slug": "shell-dissolving",
-      "title": "Why Extra CO2 in the Air Can Dissolve Seashells | Why It Happens #6",
-      "field": "chemistry",
-      "hero_visual": "underwater side view with air above, CO2 molecules crossing the surface and turning into carbonic acid, sea butterfly (pteropod) with coiled shell, carbonate triangles, magenta hydrogen ions, no-CO2 test where the shell grows, shell pitting and flaking, OCEAN ACIDITY bar to +30% with dashed 2100 projection",
-      "voice": "af_heart",
-      "fizz": false,
-      "status": "published",
-      "draft": {
-        "postId": "890775ca-5662-470c-be5b-1b9f0c6df22d",
-        "revision": "8491d633"
-      },
-      "series": "Why It Happens",
-      "series_no": 6,
-      "format": "short",
-      "url": "https://www.youtube.com/watch?v=rNi9wLfC2sE"
-    }
-  ]
+ "note": "Every topic ever produced. Check this before choosing topics so nothing repeats. Add an entry when a video is drafted; fill url when it is published. Each Short has a series and its number in that series (PLAYBOOK 2d); long videos have \"format\": \"long\" (PLAYBOOK 6).",
+ "videos": [
+  {
+   "date": "2026-11-15",
+   "slug": "sun-vanishes",
+   "title": "The Sun Could Vanish and Earth Wouldn't Know for 8 Minutes",
+   "field": "physics / space",
+   "hero_visual": "expanding last-light ring + gravity tether + countdown timer",
+   "status": "published",
+   "url": "https://www.youtube.com/watch?v=c03-_i_MhaE",
+   "voice": "am_fenrir",
+   "fizz": false,
+   "series": "What If",
+   "series_no": 1,
+   "format": "short"
+  },
+  {
+   "date": "2026-11-15",
+   "slug": "lightning-thunder",
+   "title": "Lightning Is 5x Hotter Than the Sun. Thunder Is Air Exploding.",
+   "field": "earth and weather",
+   "hero_visual": "zoom into the lightning channel, superheated air molecules, expanding thunder front, flash-to-thunder counter",
+   "status": "published",
+   "url": "https://www.youtube.com/watch?v=Ou8gKnw0mA0",
+   "voice": "am_fenrir",
+   "fizz": false,
+   "series": "Why It Happens",
+   "series_no": 1,
+   "format": "short"
+  },
+  {
+   "date": "2026-11-16",
+   "slug": "tree-from-air",
+   "title": "A Tree Is Built Mostly From Air, Not Soil",
+   "field": "biology",
+   "hero_visual": "potted willow on a scale, CO2 molecules flying into the canopy, carbon dots filling the trunk, 50% carbon bar",
+   "status": "published",
+   "url": "https://www.youtube.com/watch?v=yK1ATBs8elQ",
+   "draft": {
+    "postId": "6e0d9224-fc1e-4a42-ba54-256770586a7d",
+    "revision": "de84d2e5"
+   },
+   "voice": "am_fenrir",
+   "fizz": false,
+   "series": "Why It Happens",
+   "series_no": 2,
+   "format": "short"
+  },
+  {
+   "date": "2026-11-16",
+   "slug": "sunflower-spirals",
+   "title": "Sunflowers Can't Count, Yet Their Seeds Follow Fibonacci Numbers",
+   "field": "mathematics of nature",
+   "hero_visual": "sunflower seed head built seed by seed at the golden angle, 34 and 55 spiral families, angle readout nudged to 137.3 and back",
+   "status": "published",
+   "url": "https://www.youtube.com/watch?v=vmrXFa_1H10",
+   "draft": {
+    "postId": "fbfade6e-0219-48fe-9069-10daf06bcbf6",
+    "revision": "73b05371"
+   },
+   "voice": "am_fenrir",
+   "fizz": false,
+   "series": "Why It Happens",
+   "series_no": 3,
+   "format": "short"
+  },
+  {
+   "date": "2026-11-17",
+   "slug": "jet-engine-fan",
+   "title": "Most of a Jet Engine's Thrust Never Touches the Fire",
+   "field": "engineering and how things work",
+   "hero_visual": "turbofan cutaway with cold bypass air and hot core flow, 10:1 bypass meter, fan-removed turbojet comparison, fan vs core thrust bar",
+   "voice": "am_fenrir",
+   "fizz": false,
+   "status": "published",
+   "url": "https://www.youtube.com/watch?v=5AjOT6voTjo",
+   "draft": {
+    "postId": "bf77f5ad-b7d6-42d5-87b8-3f3609df1146",
+    "revision": "f37b6a0e"
+   },
+   "series": "How It Works",
+   "series_no": 1,
+   "format": "short",
+   "title_live": "Most of a Jet Engine's Thrust Never Touches the Fire #airplane #airforce #engineering #engine"
+  },
+  {
+   "date": "2026-11-17",
+   "slug": "spin-dizzy",
+   "title": "Why the Room Keeps Spinning After You Stop",
+   "field": "the human body",
+   "hero_visual": "top-down spinning figure, zoom into a semicircular canal ring with fluid and cupula flap, HEAD vs EAR FLUID readouts",
+   "voice": "af_heart",
+   "fizz": false,
+   "status": "published",
+   "url": "https://www.youtube.com/watch?v=L0TDYoAHhh0",
+   "draft": {
+    "postId": "17ff7e89-9bb9-4869-beba-d8ae3c2056e9",
+    "revision": "f88e36ee"
+   },
+   "series": "Why It Happens",
+   "series_no": 4,
+   "format": "short",
+   "note": "Studio export of 2026-11-19 lists this Short as L0TDYoAHhh0; the earlier id fD_tuDMX1BM shows Video unavailable.",
+   "title_live": "Why You Still Feel Like You’re Spinning After You Stop?  #ear #humanbody #humanity #biology #science"
+  },
+  {
+   "date": "2026-11-18",
+   "slug": "city-streaming",
+   "title": "How Can a Console Hold a City as Big as GTA 6's?",
+   "field": "computing and games",
+   "hero_visual": "top-down original night city, car with view cone, dashed not-drawn footprints, far simple models, lime memory ring streaming streets, console memory bar vs limit",
+   "voice": "af_heart",
+   "fizz": false,
+   "status": "published",
+   "draft": {
+    "postId": "3892c520-8bf3-41ca-947c-4c52555e9a30",
+    "revision": "f3da0d21"
+   },
+   "url": "https://www.youtube.com/watch?v=sW7fD11mzJY",
+   "series": "How It Works",
+   "series_no": 2,
+   "format": "short",
+   "title_live": "Every Far Building in GTA 6 Is Probably a Fake #GTA6 #gamedev"
+  },
+  {
+   "date": "2026-11-18",
+   "slug": "power-line-tube",
+   "title": "Why a Tube Light Glows Under Power Lines With No Wires",
+   "field": "physics",
+   "hero_visual": "side view of a pylon end-on with field lines to the ground, fluorescent tube glowing, laid flat goes dark, zoom inside to electrons, mercury atoms, UV and coating, field of 1,000+ tubes lighting up",
+   "voice": "af_heart",
+   "fizz": false,
+   "status": "published",
+   "draft": {
+    "postId": "8c57a005-2a55-40db-9325-e58a0de5fabe",
+    "revision": "ff76c0f3"
+   },
+   "url": "https://www.youtube.com/watch?v=MRxXyvPJZ2A",
+   "series": "How It Works",
+   "series_no": 3,
+   "format": "short"
+  },
+  {
+   "date": "2026-11-19",
+   "slug": "pinecone-weather",
+   "title": "Why a Dead Pinecone Still Moves When It Gets Wet | Why It Happens #5",
+   "field": "biology",
+   "hero_visual": "rain-soaked forest-floor pinecone on a golden-angle turntable closing and opening, side-view scale cross-section (one layer swells straight; two-layer strip curls), seeds on the wind, grey fossil cone on a stone slab closing in rain, SCALES OPEN bar to SHUT",
+   "voice": "af_heart",
+   "fizz": false,
+   "status": "published",
+   "draft": {
+    "postId": "602ff8d7-5c6d-408f-b11c-303be8370704",
+    "revision": "8ead0bd1"
+   },
+   "series": "Why It Happens",
+   "series_no": 5,
+   "format": "short",
+   "url": "https://www.youtube.com/watch?v=uZ4NC02xQXs"
+  },
+  {
+   "date": "2026-11-19",
+   "slug": "helicopter-tail-rotor",
+   "title": "Why Helicopters Spin Without Their Tiny Tail Rotor | How It Works #4",
+   "field": "engineering and how things work",
+   "hero_visual": "top-down helicopter over a dark helipad inside a heading compass ring, tail rotor stopped and body spinning, torque and counter-twist arrows, tail-rotor air puffs, pan to a generic tandem-rotor helicopter with opposite rotation arrows, NOSE OFF THE LINE degree meter",
+   "voice": "af_heart",
+   "fizz": false,
+   "status": "published",
+   "draft": {
+    "postId": "f3596d16-aa57-4fc3-bd87-aeec9d06be58",
+    "revision": "68cd621a"
+   },
+   "series": "How It Works",
+   "series_no": 4,
+   "format": "short",
+   "url": "https://www.youtube.com/watch?v=TUp_Qd6skF8"
+  },
+  {
+   "date": "2026-11-20",
+   "slug": "earth-tunnel",
+   "title": "What If You Jumped Into a Hole Through the Earth? | What If #2",
+   "field": "physics",
+   "hero_visual": "Earth cross-section (crust, mantle, outer and inner core to scale) with a straight tunnel; small astronaut jumps in, FALL TIME clock to 38:11 with speed bar, air-filled run swings and sticks at the centre, vacuum run with gravity arrow shrinking to GRAVITY: ZERO, shoot-through and arrival flash, endless-swing trail",
+   "voice": "af_heart",
+   "fizz": false,
+   "status": "published",
+   "draft": {
+    "postId": "c9bdb71b-ad3b-460e-b533-66f9b106ca29",
+    "revision": "c05999f5"
+   },
+   "series": "What If",
+   "series_no": 2,
+   "format": "short",
+   "url": "https://www.youtube.com/watch?v=FSV48dVBVW0"
+  },
+  {
+   "date": "2026-11-20",
+   "slug": "shell-dissolving",
+   "title": "Why Extra CO2 in the Air Can Dissolve Seashells | Why It Happens #6",
+   "field": "chemistry",
+   "hero_visual": "underwater side view with air above, CO2 molecules crossing the surface and turning into carbonic acid, sea butterfly (pteropod) with coiled shell, carbonate triangles, magenta hydrogen ions, no-CO2 test where the shell grows, shell pitting and flaking, OCEAN ACIDITY bar to +30% with dashed 2100 projection",
+   "voice": "af_heart",
+   "fizz": false,
+   "status": "published",
+   "draft": {
+    "postId": "890775ca-5662-470c-be5b-1b9f0c6df22d",
+    "revision": "8491d633"
+   },
+   "series": "Why It Happens",
+   "series_no": 6,
+   "format": "short",
+   "url": "https://www.youtube.com/watch?v=rNi9wLfC2sE"
+  },
+  {
+   "date": "2026-11-21",
+   "slug": "doubling-giant",
+   "title": "What If You Doubled in Size Every Day? | What If #3",
+   "field": "mathematics of nature",
+   "hero_visual": "orange generic person doubling daily on a log-zoom camera from house and trees to Everest to standing on Earth; DAY counter and height readout, doubling-scale meter to EARTH'S WIDTH, '+1 BODY A DAY' inset stack vs building, Earth-width vs height bars, yesterday ghost",
+   "voice": "af_heart",
+   "fizz": false,
+   "status": "drafted",
+   "draft": {
+    "postId": "509b28ff-ec93-4769-843d-f2f786163793",
+    "revision": "970deaa7"
+   },
+   "series": "What If",
+   "series_no": 3,
+   "format": "short"
+  },
+  {
+   "date": "2026-11-21",
+   "slug": "coconut-water",
+   "title": "How Does Water Get Inside a Sealed Coconut? | Why It Happens #7",
+   "field": "biology",
+   "hero_visual": "green coconut drops in and is sealed, x-ray water, cracked cross-section (husk fibre, shell, meat, water), zoom into free nuclei, water droplets to meat, cells forming from the edge inward turning jelly to hard white meat; MONTH clock and WATER bar 684 to 332 mL with HALF target",
+   "voice": "af_heart",
+   "fizz": false,
+   "status": "drafted",
+   "draft": {
+    "postId": "11c12325-8c00-4fb9-971c-3c9eb4b2ecfb",
+    "revision": "16a7bcab"
+   },
+   "series": "Why It Happens",
+   "series_no": 7,
+   "format": "short"
+  }
+ ]
 }
