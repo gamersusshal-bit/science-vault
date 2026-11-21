@@ -57,7 +57,8 @@
       "hook_format": "How ... actually works",
       "field": "biology",
       "evidence": "10.3M views (uK7yoNzJ3WI)",
-      "used": false
+      "used": true,
+      "slug": "coconut-water"
     },
     {
       "idea": "How a rocket engine actually works",
@@ -95,7 +96,8 @@
       "hook_format": "If I ... every day",
       "field": "mathematics of nature / thought experiment",
       "evidence": "1.8M views in 2 days, 37.6K views/hour (Tyfav4to288)",
-      "used": false
+      "used": true,
+      "slug": "doubling-giant"
     },
     {
       "idea": "How deep the ocean really is, shown to scale",

@@ -1,0 +1,472 @@
+{
+ "slug": "doubling-giant",
+ "fps": 30,
+ "duration": 29.038,
+ "beats": {
+  "drop": 0.403,
+  "hit": 21.601
+ },
+ "lines": [
+  {
+   "id": "hook",
+   "text": "You double every day. When do you outgrow Earth?",
+   "start": 0.2,
+   "end": 2.845,
+   "words": [
+    {
+     "text": "You",
+     "start": 0.2,
+     "end": 0.403
+    },
+    {
+     "text": "double",
+     "start": 0.403,
+     "end": 0.75
+    },
+    {
+     "text": "every",
+     "start": 0.75,
+     "end": 1.05
+    },
+    {
+     "text": "day.",
+     "start": 1.05,
+     "end": 1.397
+    },
+    {
+     "text": "When",
+     "start": 1.547,
+     "end": 1.772
+    },
+    {
+     "text": "do",
+     "start": 1.772,
+     "end": 1.911
+    },
+    {
+     "text": "you",
+     "start": 1.911,
+     "end": 2.093
+    },
+    {
+     "text": "outgrow",
+     "start": 2.093,
+     "end": 2.447
+    },
+    {
+     "text": "Earth?",
+     "start": 2.447,
+     "end": 2.845
+    }
+   ]
+  },
+  {
+   "id": "meter",
+   "text": "Watch the counter. It stops when you're wider than the whole planet.",
+   "start": 3.245,
+   "end": 6.684,
+   "words": [
+    {
+     "text": "Watch",
+     "start": 3.245,
+     "end": 3.533
+    },
+    {
+     "text": "the",
+     "start": 3.533,
+     "end": 3.728
+    },
+    {
+     "text": "counter.",
+     "start": 3.728,
+     "end": 4.247
+    },
+    {
+     "text": "It",
+     "start": 4.367,
+     "end": 4.505
+    },
+    {
+     "text": "stops",
+     "start": 4.505,
+     "end": 4.772
+    },
+    {
+     "text": "when",
+     "start": 4.772,
+     "end": 4.996
+    },
+    {
+     "text": "you're",
+     "start": 4.996,
+     "end": 5.306
+    },
+    {
+     "text": "wider",
+     "start": 5.306,
+     "end": 5.573
+    },
+    {
+     "text": "than",
+     "start": 5.573,
+     "end": 5.797
+    },
+    {
+     "text": "the",
+     "start": 5.797,
+     "end": 5.978
+    },
+    {
+     "text": "whole",
+     "start": 5.978,
+     "end": 6.245
+    },
+    {
+     "text": "planet.",
+     "start": 6.245,
+     "end": 6.684
+    }
+   ]
+  },
+  {
+   "id": "everest",
+   "text": "Before two weeks are up, you're taller than Everest.",
+   "start": 7.084,
+   "end": 9.69,
+   "words": [
+    {
+     "text": "Before",
+     "start": 7.084,
+     "end": 7.377
+    },
+    {
+     "text": "two",
+     "start": 7.377,
+     "end": 7.549
+    },
+    {
+     "text": "weeks",
+     "start": 7.549,
+     "end": 7.801
+    },
+    {
+     "text": "are",
+     "start": 7.801,
+     "end": 7.973
+    },
+    {
+     "text": "up,",
+     "start": 7.973,
+     "end": 8.226
+    },
+    {
+     "text": "you're",
+     "start": 8.325,
+     "end": 8.645
+    },
+    {
+     "text": "taller",
+     "start": 8.645,
+     "end": 8.964
+    },
+    {
+     "text": "than",
+     "start": 8.964,
+     "end": 9.194
+    },
+    {
+     "text": "Everest.",
+     "start": 9.194,
+     "end": 9.69
+    }
+   ]
+  },
+  {
+   "id": "adder",
+   "text": "Add one body a day instead, and you've barely left the street.",
+   "start": 9.99,
+   "end": 13.016,
+   "words": [
+    {
+     "text": "Add",
+     "start": 9.99,
+     "end": 10.184
+    },
+    {
+     "text": "one",
+     "start": 10.184,
+     "end": 10.377
+    },
+    {
+     "text": "body",
+     "start": 10.377,
+     "end": 10.616
+    },
+    {
+     "text": "a",
+     "start": 10.616,
+     "end": 10.717
+    },
+    {
+     "text": "day",
+     "start": 10.717,
+     "end": 10.91
+    },
+    {
+     "text": "instead,",
+     "start": 10.91,
+     "end": 11.426
+    },
+    {
+     "text": "and",
+     "start": 11.526,
+     "end": 11.689
+    },
+    {
+     "text": "you've",
+     "start": 11.689,
+     "end": 11.97
+    },
+    {
+     "text": "barely",
+     "start": 11.97,
+     "end": 12.251
+    },
+    {
+     "text": "left",
+     "start": 12.251,
+     "end": 12.454
+    },
+    {
+     "text": "the",
+     "start": 12.454,
+     "end": 12.618
+    },
+    {
+     "text": "street.",
+     "start": 12.618,
+     "end": 13.016
+    }
+   ]
+  },
+  {
+   "id": "rehook",
+   "text": "But here's the strange part. The day before you outgrow Earth, you're only about half its size.",
+   "start": 13.416,
+   "end": 18.518,
+   "words": [
+    {
+     "text": "But",
+     "start": 13.416,
+     "end": 13.605
+    },
+    {
+     "text": "here's",
+     "start": 13.605,
+     "end": 13.93
+    },
+    {
+     "text": "the",
+     "start": 13.93,
+     "end": 14.12
+    },
+    {
+     "text": "strange",
+     "start": 14.12,
+     "end": 14.49
+    },
+    {
+     "text": "part.",
+     "start": 14.49,
+     "end": 14.86
+    },
+    {
+     "text": "The",
+     "start": 15.16,
+     "end": 15.342
+    },
+    {
+     "text": "day",
+     "start": 15.342,
+     "end": 15.525
+    },
+    {
+     "text": "before",
+     "start": 15.525,
+     "end": 15.839
+    },
+    {
+     "text": "you",
+     "start": 15.839,
+     "end": 16.021
+    },
+    {
+     "text": "outgrow",
+     "start": 16.021,
+     "end": 16.378
+    },
+    {
+     "text": "Earth,",
+     "start": 16.378,
+     "end": 16.779
+    },
+    {
+     "text": "you're",
+     "start": 16.879,
+     "end": 17.205
+    },
+    {
+     "text": "only",
+     "start": 17.205,
+     "end": 17.44
+    },
+    {
+     "text": "about",
+     "start": 17.44,
+     "end": 17.721
+    },
+    {
+     "text": "half",
+     "start": 17.721,
+     "end": 17.956
+    },
+    {
+     "text": "its",
+     "start": 17.956,
+     "end": 18.146
+    },
+    {
+     "text": "size.",
+     "start": 18.146,
+     "end": 18.518
+    }
+   ]
+  },
+  {
+   "id": "climax",
+   "text": "One more doubling, on day twenty-three, and you're taller than the planet is wide.",
+   "start": 18.918,
+   "end": 23.247,
+   "words": [
+    {
+     "text": "One",
+     "start": 18.918,
+     "end": 19.108
+    },
+    {
+     "text": "more",
+     "start": 19.108,
+     "end": 19.343
+    },
+    {
+     "text": "doubling,",
+     "start": 19.343,
+     "end": 19.895
+    },
+    {
+     "text": "on",
+     "start": 19.895,
+     "end": 20.04
+    },
+    {
+     "text": "day",
+     "start": 20.04,
+     "end": 20.23
+    },
+    {
+     "text": "twenty-three,",
+     "start": 20.23,
+     "end": 20.918
+    },
+    {
+     "text": "and",
+     "start": 21.068,
+     "end": 21.264
+    },
+    {
+     "text": "you're",
+     "start": 21.264,
+     "end": 21.601
+    },
+    {
+     "text": "taller",
+     "start": 21.601,
+     "end": 21.938
+    },
+    {
+     "text": "than",
+     "start": 21.938,
+     "end": 22.181
+    },
+    {
+     "text": "the",
+     "start": 22.181,
+     "end": 22.377
+    },
+    {
+     "text": "planet",
+     "start": 22.377,
+     "end": 22.714
+    },
+    {
+     "text": "is",
+     "start": 22.714,
+     "end": 22.864
+    },
+    {
+     "text": "wide.",
+     "start": 22.864,
+     "end": 23.247
+    }
+   ]
+  },
+  {
+   "id": "payoff",
+   "text": "Half its size yesterday. Bigger than Earth today.",
+   "start": 23.697,
+   "end": 27.238,
+   "words": [
+    {
+     "text": "Half",
+     "start": 23.697,
+     "end": 23.963
+    },
+    {
+     "text": "its",
+     "start": 23.963,
+     "end": 24.178
+    },
+    {
+     "text": "size",
+     "start": 24.178,
+     "end": 24.444
+    },
+    {
+     "text": "yesterday.",
+     "start": 24.444,
+     "end": 25.12
+    },
+    {
+     "text": "Bigger",
+     "start": 25.37,
+     "end": 25.854
+    },
+    {
+     "text": "than",
+     "start": 25.854,
+     "end": 26.203
+    },
+    {
+     "text": "Earth",
+     "start": 26.203,
+     "end": 26.62
+    },
+    {
+     "text": "today.",
+     "start": 26.62,
+     "end": 27.238
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,210 @@
+{
+  "slug": "coconut-water",
+  "title": "How Does Water Get Inside a Sealed Coconut? | Why It Happens #7",
+  "voice": "af_heart",
+  "series": "Why It Happens",
+  "series_no": 7,
+  "format": "short",
+  "hook_candidates": [
+    {
+      "text": "This coconut is sealed. So how did water get in?",
+      "scores": {
+        "under_12_words": 2,
+        "visible_event": 2,
+        "question_open": 2,
+        "about_this": 2,
+        "concrete_start": 2,
+        "true_as_worded": 2
+      },
+      "total": 12,
+      "chosen": true
+    },
+    {
+      "text": "No hole, no crack. So where did this water come from?",
+      "scores": {
+        "under_12_words": 2,
+        "visible_event": 2,
+        "question_open": 2,
+        "about_this": 2,
+        "concrete_start": 2,
+        "true_as_worded": 2
+      },
+      "total": 12
+    },
+    {
+      "text": "Watch this water. By ripening, half of it vanishes.",
+      "scores": {
+        "under_12_words": 2,
+        "visible_event": 1,
+        "question_open": 2,
+        "about_this": 2,
+        "concrete_start": 1,
+        "true_as_worded": 2
+      },
+      "total": 10
+    },
+    {
+      "text": "You've drunk coconut water. You've never asked how it got in.",
+      "scores": {
+        "under_12_words": 1,
+        "visible_event": 0,
+        "question_open": 2,
+        "about_this": 2,
+        "concrete_start": 1,
+        "true_as_worded": 2
+      },
+      "total": 8
+    },
+    {
+      "text": "Coconut water is the seed itself, still liquid.",
+      "scores": {
+        "under_12_words": 2,
+        "visible_event": 0,
+        "question_open": 0,
+        "about_this": 1,
+        "concrete_start": 1,
+        "true_as_worded": 2
+      },
+      "total": 6
+    }
+  ],
+  "beats": {
+    "drop": {
+      "line": "hook",
+      "word": "sealed"
+    },
+    "hit": {
+      "line": "climax",
+      "word": "white"
+    }
+  },
+  "lines": [
+    {
+      "id": "hook",
+      "parts": [
+        {
+          "text": "This coconut is sealed.",
+          "speed": 1.0,
+          "pause": 0.15
+        },
+        {
+          "text": "So how did water get in?",
+          "speed": 0.9,
+          "pause": 0.4
+        }
+      ]
+    },
+    {
+      "id": "meter",
+      "parts": [
+        {
+          "text": "Watch the water.",
+          "speed": 1.0,
+          "pause": 0.12
+        },
+        {
+          "text": "By the time it's ripe, about half is gone.",
+          "speed": 1.0,
+          "pause": 0.4,
+          "tts": "By the time it's ripe, about half, is gone."
+        }
+      ]
+    },
+    {
+      "id": "young",
+      "parts": [
+        {
+          "text": "Crack one young,",
+          "speed": 1.0,
+          "pause": 0.12
+        },
+        {
+          "text": "and it's nearly all water, the meat a thin jelly.",
+          "speed": 1.0,
+          "pause": 0.4,
+          "tts": "and it's nearly all water. The meat, a thin jelly."
+        }
+      ]
+    },
+    {
+      "id": "seed",
+      "parts": [
+        {
+          "text": "Because nothing poured it in.",
+          "speed": 1.0,
+          "pause": 0.15
+        },
+        {
+          "text": "It grew there: a soup of nuclei, no cell walls.",
+          "speed": 1.0,
+          "pause": 0.4,
+          "tts": "It grew there. A soup of nuclei, with no cell walls."
+        }
+      ]
+    },
+    {
+      "id": "rehook",
+      "parts": [
+        {
+          "text": "But here's the strange part.",
+          "speed": 0.95,
+          "pause": 0.3
+        },
+        {
+          "text": "The meat is made from the water.",
+          "speed": 0.92,
+          "pause": 0.4
+        }
+      ]
+    },
+    {
+      "id": "climax",
+      "parts": [
+        {
+          "text": "Walls form from the edge inward,",
+          "speed": 1.02,
+          "pause": 0.1
+        },
+        {
+          "text": "jelly first, then hard white meat.",
+          "speed": 0.95,
+          "pause": 0.45,
+          "tts": "jelly first, then hard, white meat!"
+        }
+      ]
+    },
+    {
+      "id": "payoff",
+      "parts": [
+        {
+          "text": "The water isn't in the seed.",
+          "speed": 0.9,
+          "pause": 0.2
+        },
+        {
+          "text": "It is the seed.",
+          "speed": 0.84,
+          "pause": 0,
+          "tts": "It is... the seed."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    "Coconut water is the liquid part of the endosperm, the seed's food tissue; meat is the cellular endosperm: Yong J.W.H., Ge L., Ng Y.F., Tan S.N. (2009) 'The chemical composition and biological properties of coconut (Cocos nucifera L.) water', Molecules 14(12):5144-5164, doi:10.3390/molecules14125144. Also Selvaraju et al. (2026), 'Matured coconut water: nutritional profile and preservation methods', in Coconut-Based Beverages and Products (Elsevier), doi:10.1016/B978-0-443-26532-7.00006-X: 'The endosperm (seed), which is separated into liquid endosperm (coconut water) and cellular endosperm (coconut flesh)'.",
+    "Sealed: 'the liquid endosperm is sterile and contained in a hermetic chamber' (Selvaraju et al. 2026, citing Prades et al. 2012).",
+    "Free nuclei, no walls: 'Initially, the endosperm is a liquid containing free nuclei ... several cycles of division without cytokinesis' (Yong et al. 2009).",
+    "Walls form from the edge inward; jelly then hard white meat: 'Cytokinesis then occurs, progressing from the periphery towards the center ... At first, the cellular endosperm is translucent and jelly-like, but it later hardens at maturity to become white flesh' (Yong et al. 2009).",
+    "Water used to make the meat; water peaks at 7-9 months, nut matures in about 12 months; volume 684 mL (5-6 months), 518 mL (8-9), 332 mL (over 12) = about half gone: Tetra Pak Coconut Handbook, ch. 3 'Composition', Table 3.1 (citing Tan et al. 2014), https://coconuthandbook.tetrapak.com/node/63: 'during maturation, coconut water is used to form coconut flesh inside the fruit'.",
+    "Nutrients reach the endosperm from the seed's surrounding cell walls (apoplasm), moved cell to cell (Yong et al. 2009); shown as a simplified inflow arrow from the stalk end, not narrated.",
+    "Simplified model labelled on screen: cross-section not to scale; month clock and volume bar use the Table 3.1 values."
+  ],
+  "thumb": {
+    "at": 18.0,
+    "text": [
+      "WHO FILLED",
+      "THE COCONUT?"
+    ],
+    "accent": "#7ee0c3"
+  }
+}

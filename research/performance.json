@@ -206,6 +206,18 @@
     "total_views": 2957
    },
    "limits": "Friday run: no paid analytics due (Mondays only, PLAYBOOK 1f)."
+  },
+  {
+   "date": "2026-11-21",
+   "source": "vidiq_user_channels (free call)",
+   "subscribers": 9,
+   "total_views": 14011,
+   "videos": 12,
+   "change_since_2026-11-20_free_snapshot": {
+    "subscribers": 1,
+    "total_views": 258
+   },
+   "limits": "Saturday run: no paid analytics due (Mondays only, PLAYBOOK 1f). Per-Short numbers not read."
   }
  ]
 }

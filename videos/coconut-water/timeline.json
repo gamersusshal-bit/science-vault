@@ -1,0 +1,487 @@
+{
+ "slug": "coconut-water",
+ "fps": 30,
+ "duration": 29.724,
+ "beats": {
+  "drop": 1.002,
+  "hit": 23.518
+ },
+ "lines": [
+  {
+   "id": "hook",
+   "text": "This coconut is sealed. So how did water get in?",
+   "start": 0.2,
+   "end": 3.061,
+   "words": [
+    {
+     "text": "This",
+     "start": 0.2,
+     "end": 0.451
+    },
+    {
+     "text": "coconut",
+     "start": 0.451,
+     "end": 0.847
+    },
+    {
+     "text": "is",
+     "start": 0.847,
+     "end": 1.002
+    },
+    {
+     "text": "sealed.",
+     "start": 1.002,
+     "end": 1.495
+    },
+    {
+     "text": "So",
+     "start": 1.645,
+     "end": 1.806
+    },
+    {
+     "text": "how",
+     "start": 1.806,
+     "end": 2.017
+    },
+    {
+     "text": "did",
+     "start": 2.017,
+     "end": 2.228
+    },
+    {
+     "text": "water",
+     "start": 2.228,
+     "end": 2.539
+    },
+    {
+     "text": "get",
+     "start": 2.539,
+     "end": 2.75
+    },
+    {
+     "text": "in?",
+     "start": 2.75,
+     "end": 3.061
+    }
+   ]
+  },
+  {
+   "id": "meter",
+   "text": "Watch the water. By the time it's ripe, about half is gone.",
+   "start": 3.461,
+   "end": 6.607,
+   "words": [
+    {
+     "text": "Watch",
+     "start": 3.461,
+     "end": 3.74
+    },
+    {
+     "text": "the",
+     "start": 3.74,
+     "end": 3.929
+    },
+    {
+     "text": "water.",
+     "start": 3.929,
+     "end": 4.342
+    },
+    {
+     "text": "By",
+     "start": 4.462,
+     "end": 4.603
+    },
+    {
+     "text": "the",
+     "start": 4.603,
+     "end": 4.788
+    },
+    {
+     "text": "time",
+     "start": 4.788,
+     "end": 5.016
+    },
+    {
+     "text": "it's",
+     "start": 5.016,
+     "end": 5.245
+    },
+    {
+     "text": "ripe,",
+     "start": 5.245,
+     "end": 5.605
+    },
+    {
+     "text": "about",
+     "start": 5.605,
+     "end": 5.878
+    },
+    {
+     "text": "half",
+     "start": 5.878,
+     "end": 6.106
+    },
+    {
+     "text": "is",
+     "start": 6.106,
+     "end": 6.247
+    },
+    {
+     "text": "gone.",
+     "start": 6.247,
+     "end": 6.607
+    }
+   ]
+  },
+  {
+   "id": "young",
+   "text": "Crack one young, and it's nearly all water, the meat a thin jelly.",
+   "start": 7.007,
+   "end": 10.984,
+   "words": [
+    {
+     "text": "Crack",
+     "start": 7.007,
+     "end": 7.29
+    },
+    {
+     "text": "one",
+     "start": 7.29,
+     "end": 7.482
+    },
+    {
+     "text": "young,",
+     "start": 7.482,
+     "end": 7.901
+    },
+    {
+     "text": "and",
+     "start": 8.021,
+     "end": 8.243
+    },
+    {
+     "text": "it's",
+     "start": 8.243,
+     "end": 8.519
+    },
+    {
+     "text": "nearly",
+     "start": 8.519,
+     "end": 8.899
+    },
+    {
+     "text": "all",
+     "start": 8.899,
+     "end": 9.122
+    },
+    {
+     "text": "water,",
+     "start": 9.122,
+     "end": 9.608
+    },
+    {
+     "text": "the",
+     "start": 9.608,
+     "end": 9.831
+    },
+    {
+     "text": "meat",
+     "start": 9.831,
+     "end": 10.106
+    },
+    {
+     "text": "a",
+     "start": 10.106,
+     "end": 10.222
+    },
+    {
+     "text": "thin",
+     "start": 10.222,
+     "end": 10.497
+    },
+    {
+     "text": "jelly.",
+     "start": 10.497,
+     "end": 10.984
+    }
+   ]
+  },
+  {
+   "id": "seed",
+   "text": "Because nothing poured it in. It grew there: a soup of nuclei, no cell walls.",
+   "start": 11.384,
+   "end": 16.063,
+   "words": [
+    {
+     "text": "Because",
+     "start": 11.384,
+     "end": 11.747
+    },
+    {
+     "text": "nothing",
+     "start": 11.747,
+     "end": 12.111
+    },
+    {
+     "text": "poured",
+     "start": 12.111,
+     "end": 12.43
+    },
+    {
+     "text": "it",
+     "start": 12.43,
+     "end": 12.572
+    },
+    {
+     "text": "in.",
+     "start": 12.572,
+     "end": 12.847
+    },
+    {
+     "text": "It",
+     "start": 12.997,
+     "end": 13.172
+    },
+    {
+     "text": "grew",
+     "start": 13.172,
+     "end": 13.457
+    },
+    {
+     "text": "there:",
+     "start": 13.457,
+     "end": 13.96
+    },
+    {
+     "text": "a",
+     "start": 13.96,
+     "end": 14.081
+    },
+    {
+     "text": "soup",
+     "start": 14.081,
+     "end": 14.366
+    },
+    {
+     "text": "of",
+     "start": 14.366,
+     "end": 14.541
+    },
+    {
+     "text": "nuclei,",
+     "start": 14.541,
+     "end": 15.099
+    },
+    {
+     "text": "no",
+     "start": 15.099,
+     "end": 15.274
+    },
+    {
+     "text": "cell",
+     "start": 15.274,
+     "end": 15.559
+    },
+    {
+     "text": "walls.",
+     "start": 15.559,
+     "end": 16.063
+    }
+   ]
+  },
+  {
+   "id": "rehook",
+   "text": "But here's the strange part. The meat is made from the water.",
+   "start": 16.463,
+   "end": 19.987,
+   "words": [
+    {
+     "text": "But",
+     "start": 16.463,
+     "end": 16.652
+    },
+    {
+     "text": "here's",
+     "start": 16.652,
+     "end": 16.977
+    },
+    {
+     "text": "the",
+     "start": 16.977,
+     "end": 17.167
+    },
+    {
+     "text": "strange",
+     "start": 17.167,
+     "end": 17.537
+    },
+    {
+     "text": "part.",
+     "start": 17.537,
+     "end": 17.906
+    },
+    {
+     "text": "The",
+     "start": 18.206,
+     "end": 18.412
+    },
+    {
+     "text": "meat",
+     "start": 18.412,
+     "end": 18.666
+    },
+    {
+     "text": "is",
+     "start": 18.666,
+     "end": 18.823
+    },
+    {
+     "text": "made",
+     "start": 18.823,
+     "end": 19.077
+    },
+    {
+     "text": "from",
+     "start": 19.077,
+     "end": 19.332
+    },
+    {
+     "text": "the",
+     "start": 19.332,
+     "end": 19.537
+    },
+    {
+     "text": "water.",
+     "start": 19.537,
+     "end": 19.987
+    }
+   ]
+  },
+  {
+   "id": "climax",
+   "text": "Walls form from the edge inward, jelly first, then hard white meat.",
+   "start": 20.387,
+   "end": 24.296,
+   "words": [
+    {
+     "text": "Walls",
+     "start": 20.387,
+     "end": 20.667
+    },
+    {
+     "text": "form",
+     "start": 20.667,
+     "end": 20.902
+    },
+    {
+     "text": "from",
+     "start": 20.902,
+     "end": 21.138
+    },
+    {
+     "text": "the",
+     "start": 21.138,
+     "end": 21.327
+    },
+    {
+     "text": "edge",
+     "start": 21.327,
+     "end": 21.562
+    },
+    {
+     "text": "inward,",
+     "start": 21.562,
+     "end": 22.024
+    },
+    {
+     "text": "jelly",
+     "start": 22.124,
+     "end": 22.459
+    },
+    {
+     "text": "first,",
+     "start": 22.459,
+     "end": 22.956
+    },
+    {
+     "text": "then",
+     "start": 22.956,
+     "end": 23.237
+    },
+    {
+     "text": "hard",
+     "start": 23.237,
+     "end": 23.518
+    },
+    {
+     "text": "white",
+     "start": 23.518,
+     "end": 23.853
+    },
+    {
+     "text": "meat.",
+     "start": 23.853,
+     "end": 24.296
+    }
+   ]
+  },
+  {
+   "id": "payoff",
+   "text": "The water isn't in the seed. It is the seed.",
+   "start": 24.746,
+   "end": 27.924,
+   "words": [
+    {
+     "text": "The",
+     "start": 24.746,
+     "end": 24.934
+    },
+    {
+     "text": "water",
+     "start": 24.934,
+     "end": 25.211
+    },
+    {
+     "text": "isn't",
+     "start": 25.211,
+     "end": 25.488
+    },
+    {
+     "text": "in",
+     "start": 25.488,
+     "end": 25.631
+    },
+    {
+     "text": "the",
+     "start": 25.631,
+     "end": 25.819
+    },
+    {
+     "text": "seed.",
+     "start": 25.819,
+     "end": 26.186
+    },
+    {
+     "text": "It",
+     "start": 26.386,
+     "end": 26.648
+    },
+    {
+     "text": "is",
+     "start": 26.648,
+     "end": 26.91
+    },
+    {
+     "text": "the",
+     "start": 26.91,
+     "end": 27.253
+    },
+    {
+     "text": "seed.",
+     "start": 27.253,
+     "end": 27.924
+    }
+   ]
+  }
+ ]
+}
