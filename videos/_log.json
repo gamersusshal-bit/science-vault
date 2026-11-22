@@ -277,7 +277,7 @@
    "hero_visual": "side-view sunset mountain highway; orange-cab truck with glowing brake drums and smoke on a downgrade, RUNAWAY TRUCK RAMP sign, zoom into the front wheel on hard road vs round loose stones, wheels sinking and plowing gravel mounds and spray; KM/H speedometer 100 to 0 and GRAVEL USED bar to 150 m; road vs gravel resistance bars",
    "voice": "af_heart",
    "fizz": false,
-   "status": "drafted",
+   "status": "published",
    "series": "How It Works",
    "series_no": 5,
    "format": "short",
@@ -285,7 +285,8 @@
    "draft": {
     "postId": "f4d3a884-6378-4c32-b5bd-5e4a839cbd9c",
     "revision": "53e98212"
-   }
+   },
+   "url": "https://www.youtube.com/watch?v=hiYYgYA81a4"
   }
  ]
 }
