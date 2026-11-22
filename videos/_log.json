@@ -257,7 +257,7 @@
    "hero_visual": "16:9 cut-away Earth (blueprint-teal background, molten layers) with a horizontal tunnel; real-Earth vs perfect-planet race clocks, gravity-vs-depth graph peaking at the core edge, weightless inset, slanted London-Paris and city tunnels, air-damped swing trace, thermometer, Kola depth bar, satellite whose shadow matches the faller and an orbit squashed edge-on",
    "voice": "af_heart",
    "fizz": false,
-   "status": "drafted",
+   "status": "published",
    "draft": {
     "postId": "d23a2575-5042-4ad8-8dd9-49b4dd7758b2",
     "revision": "1017bd69"
@@ -267,7 +267,8 @@
    "related_shorts": [
     "earth-tunnel"
    ],
-   "duration_s": 255.0
+   "duration_s": 255.0,
+   "url": "https://www.youtube.com/watch?v=O1SHPQ5mtrQ"
   },
   {
    "date": "2026-11-22",
