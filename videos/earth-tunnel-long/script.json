@@ -1,0 +1,738 @@
+{
+  "slug": "earth-tunnel-long",
+  "title": "What If You Fell Through the Earth? The Full 38-Minute Trip",
+  "format": "long",
+  "voice": "af_heart",
+  "series": "What If",
+  "related_shorts": [
+    "earth-tunnel"
+  ],
+  "thought_experiment": "Labelled thought experiment: a straight, sealed, airless tunnel; no heat, no Earth rotation. 'Perfect planet' means a uniform-density Earth; 'real Earth' means the PREM density model used by Klotz (2015).",
+  "pick_reason": "Weekly long video expands one Short from the last seven days. Per-Short views were not re-read (vidiq_user_videos costs 5 credits). earth-tunnel was chosen as the topic with the most to add, and because What If is the channel's best-holding series (PLAYBOOK 2e).",
+  "hook_candidates": [
+    {
+      "text": "You just fell into a hole through Earth. Where do you stop?",
+      "scores": {
+        "under_12_words": 2,
+        "visible_event": 2,
+        "question_open": 2,
+        "about_this": 2,
+        "concrete_start": 2,
+        "true_as_worded": 2
+      },
+      "total": 12,
+      "chosen": true
+    },
+    {
+      "text": "Thirty-eight minutes to fall through Earth. Forty-two through a perfect one.",
+      "format": "contradiction with two numbers (new for the channel)",
+      "scores": {
+        "under_12_words": 2,
+        "visible_event": 1,
+        "question_open": 2,
+        "about_this": 1,
+        "concrete_start": 1,
+        "true_as_worded": 2
+      },
+      "total": 9
+    },
+    {
+      "text": "Watch these two balls. One falls through Earth. One orbits it.",
+      "format": "dare or prediction (new for the channel)",
+      "scores": {
+        "under_12_words": 2,
+        "visible_event": 2,
+        "question_open": 1,
+        "about_this": 2,
+        "concrete_start": 2,
+        "true_as_worded": 2
+      },
+      "total": 11
+    },
+    {
+      "text": "London to Paris takes longer than falling through the whole planet.",
+      "format": "contradiction",
+      "scores": {
+        "under_12_words": 1,
+        "visible_event": 0,
+        "question_open": 1,
+        "about_this": 0,
+        "concrete_start": 1,
+        "true_as_worded": 1
+      },
+      "total": 4
+    },
+    {
+      "text": "At the centre, gravity is zero. So why don't you stop?",
+      "format": "question about what is on screen",
+      "scores": {
+        "under_12_words": 2,
+        "visible_event": 1,
+        "question_open": 2,
+        "about_this": 1,
+        "concrete_start": 1,
+        "true_as_worded": 2
+      },
+      "total": 9
+    }
+  ],
+  "beats": {
+    "drop": {
+      "line": "hook",
+      "word": "fell"
+    },
+    "hit": {
+      "line": "shadow",
+      "word": "exactly"
+    }
+  },
+  "chapters": [
+    {
+      "title": "Intro",
+      "line": "hook"
+    },
+    {
+      "title": "Does gravity get stronger as you fall?",
+      "line": "q1"
+    },
+    {
+      "title": "The ride: weightless at orbital speed",
+      "line": "q2"
+    },
+    {
+      "title": "Why London to Paris takes longer",
+      "line": "q3"
+    },
+    {
+      "title": "Why nobody has dug one",
+      "line": "q4"
+    },
+    {
+      "title": "The secret: your fall is an orbit",
+      "line": "q5"
+    },
+    {
+      "title": "So where do you stop?",
+      "line": "payoff"
+    }
+  ],
+  "lines": [
+    {
+      "id": "hook",
+      "parts": [
+        {
+          "text": "You just fell into a hole through Earth.",
+          "speed": 1.02,
+          "pause": 0.15
+        },
+        {
+          "text": "Where do you stop?",
+          "speed": 0.9,
+          "pause": 0.45
+        }
+      ]
+    },
+    {
+      "id": "meter",
+      "parts": [
+        {
+          "text": "The tunnel is sealed and empty, and the far side is thirty-eight minutes away.",
+          "speed": 1.0,
+          "pause": 0.25
+        },
+        {
+          "text": "On a perfect, even planet, the same fall takes forty-two.",
+          "tts": "On a perfect, even planet, the same fall takes, forty-two.",
+          "speed": 0.98,
+          "pause": 0.3
+        },
+        {
+          "text": "So why does the real Earth get you there four minutes sooner?",
+          "speed": 0.94,
+          "pause": 0.45
+        }
+      ]
+    },
+    {
+      "id": "promise",
+      "parts": [
+        {
+          "text": "By the end, you'll see why this fall keeps perfect time with a satellite,",
+          "speed": 1.0,
+          "pause": 0.15
+        },
+        {
+          "text": "and why a short tunnel from London to Paris would take longer than the whole planet.",
+          "speed": 0.98,
+          "pause": 0.6
+        }
+      ]
+    },
+    {
+      "id": "q1",
+      "parts": [
+        {
+          "text": "First question.",
+          "speed": 0.95,
+          "pause": 0.2
+        },
+        {
+          "text": "As you fall, does gravity get stronger, or weaker?",
+          "speed": 0.96,
+          "pause": 0.45
+        }
+      ]
+    },
+    {
+      "id": "shell",
+      "parts": [
+        {
+          "text": "Only the Earth below you pulls you down.",
+          "speed": 1.0,
+          "pause": 0.2
+        },
+        {
+          "text": "The rock above you pulls in every direction at once, so its pull cancels out.",
+          "speed": 1.0,
+          "pause": 0.4
+        }
+      ]
+    },
+    {
+      "id": "uniform",
+      "parts": [
+        {
+          "text": "On a perfect, even planet, that means gravity fades steadily,",
+          "speed": 1.0,
+          "pause": 0.1
+        },
+        {
+          "text": "all the way down to zero at the centre.",
+          "speed": 0.95,
+          "pause": 0.45
+        }
+      ]
+    },
+    {
+      "id": "core",
+      "parts": [
+        {
+          "text": "But the real Earth isn't even.",
+          "speed": 0.96,
+          "pause": 0.2
+        },
+        {
+          "text": "Its core is mostly iron, packed far tighter than the rock above it.",
+          "speed": 1.0,
+          "pause": 0.4
+        }
+      ]
+    },
+    {
+      "id": "stronger",
+      "parts": [
+        {
+          "text": "So as you drop through the mantle, you leave very little mass behind you,",
+          "speed": 1.0,
+          "pause": 0.1
+        },
+        {
+          "text": "while you close in on that heavy core.",
+          "speed": 0.98,
+          "pause": 0.2
+        },
+        {
+          "text": "Gravity actually gets stronger.",
+          "speed": 0.92,
+          "pause": 0.45
+        }
+      ]
+    },
+    {
+      "id": "peak",
+      "parts": [
+        {
+          "text": "It peaks at the edge of the core, about a tenth stronger than at the surface,",
+          "speed": 1.0,
+          "pause": 0.15
+        },
+        {
+          "text": "and only then falls to zero.",
+          "speed": 0.95,
+          "pause": 0.3
+        },
+        {
+          "text": "That extra pull is the first clue to our missing four minutes.",
+          "speed": 0.96,
+          "pause": 0.6
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "parts": [
+        {
+          "text": "So what does the ride actually feel like?",
+          "speed": 0.96,
+          "pause": 0.45
+        }
+      ]
+    },
+    {
+      "id": "float",
+      "parts": [
+        {
+          "text": "From the moment you drop, you're weightless, like an astronaut,",
+          "speed": 1.0,
+          "pause": 0.1
+        },
+        {
+          "text": "because you and everything around you are falling together.",
+          "speed": 1.0,
+          "pause": 0.4
+        }
+      ]
+    },
+    {
+      "id": "speedup",
+      "parts": [
+        {
+          "text": "The pull gets gentler near the middle, but it never lets go,",
+          "speed": 1.0,
+          "pause": 0.1
+        },
+        {
+          "text": "so you keep gaining speed, all the way to the centre.",
+          "speed": 0.98,
+          "pause": 0.4
+        }
+      ]
+    },
+    {
+      "id": "centre",
+      "parts": [
+        {
+          "text": "There, gravity is zero, and on a perfect planet you're moving at about eight kilometres every second.",
+          "speed": 0.98,
+          "pause": 0.2
+        },
+        {
+          "text": "That's fast enough to orbit the Earth.",
+          "speed": 0.94,
+          "pause": 0.45
+        }
+      ]
+    },
+    {
+      "id": "coast",
+      "parts": [
+        {
+          "text": "Nothing pushes back, so you shoot straight through.",
+          "speed": 1.02,
+          "pause": 0.2
+        },
+        {
+          "text": "Now every metre is uphill. You slow, and slow,",
+          "tts": "Now every metre is uphill. You slow... and slow,",
+          "speed": 0.96,
+          "pause": 0.15
+        },
+        {
+          "text": "and reach the far side just as your speed hits zero.",
+          "speed": 0.96,
+          "pause": 0.45
+        }
+      ]
+    },
+    {
+      "id": "sooner",
+      "parts": [
+        {
+          "text": "On the real Earth, that strong pull deep down gets you moving faster, sooner.",
+          "speed": 1.0,
+          "pause": 0.2
+        },
+        {
+          "text": "That's where the four minutes went.",
+          "speed": 0.94,
+          "pause": 0.6
+        }
+      ]
+    },
+    {
+      "id": "behind",
+      "parts": [
+        {
+          "text": "Your perfect-planet twin is still climbing,",
+          "speed": 1.0,
+          "pause": 0.1
+        },
+        {
+          "text": "four minutes behind, toward a finish line you've already crossed.",
+          "speed": 0.96,
+          "pause": 0.6
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "parts": [
+        {
+          "text": "But here's the strange part.",
+          "speed": 0.94,
+          "pause": 0.25
+        },
+        {
+          "text": "The tunnel doesn't have to go through the middle.",
+          "speed": 0.98,
+          "pause": 0.45
+        }
+      ]
+    },
+    {
+      "id": "angle",
+      "parts": [
+        {
+          "text": "Dig it at a slant, from London to Paris.",
+          "speed": 1.0,
+          "pause": 0.2
+        },
+        {
+          "text": "Now gravity points partly into the wall, and only a slice of it pulls you along.",
+          "speed": 1.0,
+          "pause": 0.4
+        }
+      ]
+    },
+    {
+      "id": "cancel",
+      "parts": [
+        {
+          "text": "But the tunnel is also far shorter.",
+          "speed": 0.98,
+          "pause": 0.15
+        },
+        {
+          "text": "And on a perfect planet, those two effects cancel exactly.",
+          "speed": 0.96,
+          "pause": 0.45
+        }
+      ]
+    },
+    {
+      "id": "same",
+      "parts": [
+        {
+          "text": "A short hop, a long one, or straight through the centre:",
+          "speed": 1.0,
+          "pause": 0.15
+        },
+        {
+          "text": "every straight tunnel takes the same forty-two minutes.",
+          "speed": 0.94,
+          "pause": 0.45
+        }
+      ]
+    },
+    {
+      "id": "tiny",
+      "parts": [
+        {
+          "text": "Even a tunnel a few kilometres long, under a single city,",
+          "speed": 1.0,
+          "pause": 0.1
+        },
+        {
+          "text": "would still take forty-two minutes.",
+          "speed": 0.94,
+          "pause": 0.45
+        }
+      ]
+    },
+    {
+      "id": "london",
+      "parts": [
+        {
+          "text": "On the real Earth, short tunnels stay near forty-two, while the longest drop toward thirty-eight.",
+          "speed": 1.0,
+          "pause": 0.25
+        },
+        {
+          "text": "So London to Paris would take longer than falling through the whole planet.",
+          "speed": 0.94,
+          "pause": 0.6
+        }
+      ]
+    },
+    {
+      "id": "why3",
+      "parts": [
+        {
+          "text": "Why? A short tunnel never leaves the outer rock,",
+          "speed": 1.0,
+          "pause": 0.1
+        },
+        {
+          "text": "so it never feels that extra pull near the core.",
+          "speed": 0.98,
+          "pause": 0.15
+        },
+        {
+          "text": "Only the long ones dive deep enough to use it.",
+          "speed": 0.96,
+          "pause": 0.6
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "parts": [
+        {
+          "text": "So why hasn't anyone built one?",
+          "speed": 0.96,
+          "pause": 0.45
+        }
+      ]
+    },
+    {
+      "id": "air",
+      "parts": [
+        {
+          "text": "Start with air.",
+          "speed": 0.96,
+          "pause": 0.2
+        },
+        {
+          "text": "Drag steals a little speed on every swing,",
+          "speed": 1.0,
+          "pause": 0.1
+        },
+        {
+          "text": "so you rock back and forth, less each time, until you hang at the centre.",
+          "speed": 0.98,
+          "pause": 0.45
+        }
+      ]
+    },
+    {
+      "id": "heat",
+      "parts": [
+        {
+          "text": "Then there's heat.",
+          "speed": 0.96,
+          "pause": 0.2
+        },
+        {
+          "text": "Near the centre, the Earth is about six thousand degrees Celsius, roughly as hot as the surface of the Sun.",
+          "speed": 0.98,
+          "pause": 0.45
+        }
+      ]
+    },
+    {
+      "id": "liquid",
+      "parts": [
+        {
+          "text": "The outer core is liquid metal,",
+          "speed": 0.98,
+          "pause": 0.15
+        },
+        {
+          "text": "and the pressure down there is millions of times the air pressure on your skin.",
+          "speed": 0.98,
+          "pause": 0.2
+        },
+        {
+          "text": "No wall we know how to build would hold.",
+          "speed": 0.96,
+          "pause": 0.45
+        }
+      ]
+    },
+    {
+      "id": "kola",
+      "parts": [
+        {
+          "text": "And the deepest hole ever drilled, in northern Russia, stopped about twelve kilometres down.",
+          "speed": 1.0,
+          "pause": 0.2
+        },
+        {
+          "text": "That's not even a fifth of one percent of the way to the centre.",
+          "speed": 0.96,
+          "pause": 0.2
+        },
+        {
+          "text": "The rock at the bottom was already as hot as an oven.",
+          "speed": 0.98,
+          "pause": 0.4
+        }
+      ]
+    },
+    {
+      "id": "thought",
+      "parts": [
+        {
+          "text": "So this stays a thought experiment.",
+          "speed": 0.96,
+          "pause": 0.15
+        },
+        {
+          "text": "But it hides one last surprise.",
+          "speed": 0.92,
+          "pause": 0.6
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "parts": [
+        {
+          "text": "Remember that top speed? Fast enough to orbit.",
+          "speed": 0.96,
+          "pause": 0.45
+        }
+      ]
+    },
+    {
+      "id": "sat",
+      "parts": [
+        {
+          "text": "Picture a satellite skimming just above the ground, with no air to slow it,",
+          "speed": 1.0,
+          "pause": 0.1
+        },
+        {
+          "text": "passing overhead at the moment you jump.",
+          "speed": 0.98,
+          "pause": 0.4
+        }
+      ]
+    },
+    {
+      "id": "period",
+      "parts": [
+        {
+          "text": "On a perfect planet, one lap takes eighty-four minutes.",
+          "speed": 0.98,
+          "pause": 0.2
+        },
+        {
+          "text": "Half a lap is forty-two.",
+          "speed": 0.92,
+          "pause": 0.45
+        }
+      ]
+    },
+    {
+      "id": "pull",
+      "parts": [
+        {
+          "text": "Seen from the side, the satellite's pull toward the middle grows with its distance from the centre,",
+          "speed": 1.0,
+          "pause": 0.15
+        },
+        {
+          "text": "just like yours does in the tunnel.",
+          "speed": 0.96,
+          "pause": 0.45
+        }
+      ]
+    },
+    {
+      "id": "shadow",
+      "parts": [
+        {
+          "text": "Now watch its shadow on the tunnel.",
+          "speed": 0.96,
+          "pause": 0.3
+        },
+        {
+          "text": "It moves exactly like you.",
+          "speed": 0.9,
+          "pause": 0.2
+        },
+        {
+          "text": "Same top speed at the centre, same arrival at the far side.",
+          "speed": 0.98,
+          "pause": 0.45
+        }
+      ]
+    },
+    {
+      "id": "edgeon",
+      "parts": [
+        {
+          "text": "Your fall is an orbit, seen edge on.",
+          "speed": 0.9,
+          "pause": 0.3
+        },
+        {
+          "text": "Turn the circle sideways, and the satellite simply becomes you.",
+          "speed": 0.96,
+          "pause": 0.4
+        },
+        {
+          "text": "And every straight tunnel swings to the beat of that same orbit.",
+          "speed": 0.96,
+          "pause": 0.6
+        }
+      ]
+    },
+    {
+      "id": "payoff",
+      "parts": [
+        {
+          "text": "So where do you stop?",
+          "speed": 0.92,
+          "pause": 0.3
+        },
+        {
+          "text": "In an empty tunnel, you don't.",
+          "speed": 0.92,
+          "pause": 0.25
+        },
+        {
+          "text": "You fall, and rise, and fall again, keeping time with a satellite you'll never see.",
+          "tts": "You fall, and rise, and fall again... keeping time with a satellite you'll never see.",
+          "speed": 0.9,
+          "pause": 0.6
+        }
+      ]
+    },
+    {
+      "id": "outro",
+      "parts": [
+        {
+          "text": "For the thirty-second version of more ideas like this, follow What If.",
+          "speed": 1.0,
+          "pause": 0
+        }
+      ]
+    }
+  ],
+  "sources": [
+    "Fall time through a straight tunnel via the centre: 38 min 11 s with the PREM density model, 42 min 12 s for a uniform-density Earth (38 min 0 s with constant gravity). Klotz, A. R. (2015), 'The gravity tunnel in a non-uniform Earth', American Journal of Physics 83, 231, doi:10.1119/1.4898780; arXiv:1308.1342. The four-minute gap is 42:12 minus 38:11.",
+    "Only the mass below you pulls (the outer shell's pull cancels): Newton's shell theorem, as used in Klotz 2015 Sec. II.",
+    "Uniform Earth: gravity falls linearly to zero at the centre. Real Earth: 'the gravitational field strength actually increases below the surface, reaching a maximum of about 1.09 g, before decreasing in a roughly linear matter through the core to the center', with density reaching 13 tonnes per cubic metre at the centre (Klotz 2015, PREM).",
+    "Core is mostly iron, denser than the mantle; core-mantle boundary about 2,900 km deep: USGS, 'This Dynamic Earth: Inside the Earth' (pubs.usgs.gov/gip/dynamic/inside.html).",
+    "Weightless during the fall: free fall, no contact with the walls in a frictionless airless tunnel (standard mechanics; the traveller and capsule share the same acceleration).",
+    "Peak speed at the centre near 8 km/s for a uniform Earth, and the period and peak speed 'are the same for a circular orbit at Earth's surface'; oscillation period 84 minutes, so 42 minutes to fall through (Klotz 2015 Sec. II.1). Shown as a speed bar; the PREM peak speed is not quoted in the video.",
+    "Arrival at the far side with zero speed and endless oscillation without friction: energy conservation in the same model (Klotz 2015; standard gravity-train result). With air, drag damps the swing until the traveller rests at the centre (phys.org, 2015-03, 'New way to calculate how long it would take to fall through a hole in the Earth', notes the textbook answer ignores air resistance).",
+    "Any chord takes the same time in a uniform Earth: 'any cord path ... can be traversed in the same amount of time' (Klotz 2015; Cooper, P. W. (1966) 'Through the Earth in forty minutes', Am. J. Phys. 34, 68). Real Earth: 'the PREM time decreases with increasing path length, from near 42 minutes for short paths ... to 38 minutes as it approaches the diameter-length fall' (Klotz 2015). London to Paris is a short chord, so near 42 minutes, longer than the 38-minute diameter fall.",
+    "Temperature near the centre about 6,000 C (6000 +/- 500 C at the inner core boundary): ESRF press release, 25 April 2013, on Anzellini et al. (2013), Science 340, 464. Sun's visible surface about 5,500 C: NASA, science.nasa.gov/sun/facts.",
+    "Outer core is liquid metal (iron-nickel): National Geographic Education, 'Core' (education.nationalgeographic.org/resource/core); USGS 'Inside the Earth'. Pressure 'millions of times' air pressure: PREM gives about 136 GPa at the core-mantle boundary and about 364 GPa at the centre (Dziewonski and Anderson 1981, Phys. Earth Planet. Inter. 25, 297), i.e. roughly 1.3 to 3.6 million atmospheres.",
+    "Satellite's sideways pull grows with its sideways distance: for a circular orbit at the surface, the component of gravity along the tunnel is g times x over R, the same law as inside a uniform Earth (Klotz 2015: period and peak speed are the same as for a circular orbit at Earth's surface).",
+    "Short tunnels stay near 42 minutes in the real Earth because they stay in the outer layers; long ones pass through the strong-gravity region near the core (Klotz 2015, Sec. III, chord paths in PREM).",
+    "Deepest hole: Kola Superdeep Borehole, about 12,262 m, drilling stopped 1992, bottom temperature about 180 C ('almost twice as hot as they'd predicted'): Scientific American, 'How deep is the deepest hole in the world?'. 12.262 km / 6,371 km mean radius = 0.19%, i.e. under a fifth of one percent. 'As hot as an oven' refers to 180 C, a typical home baking temperature.",
+    "Simplifications, labelled on screen: thought experiment; no heat, no air (except where shown), no Earth rotation; the satellite-shadow picture is exact only for the uniform 'perfect planet' (Klotz 2015)."
+  ],
+  "thumb": {
+    "at": 247.5,
+    "text": [
+      "FALL THROUGH",
+      "THE EARTH?"
+    ],
+    "accent": "#ffb347"
+  }
+}

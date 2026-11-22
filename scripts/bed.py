@@ -42,7 +42,7 @@ L += 0.050*pad_l*pad_gate; R += 0.050*pad_r*pad_gate
 
 # 2) Vanish: reverse suck into a sub drop
 suck = bp(rng.standard_normal(n), 300, 5000)*np.clip((t-(TV-0.55))/0.55, 0, 1)**3*(t < TV)
-boom = np.sin(2*np.pi*(38+50*np.exp(-(t-TV)*9))*np.maximum(t-TV, 0))*env_at(TV, 0.005, 0.55)
+boom = np.sin(2*np.pi*(38+50*np.exp(-np.maximum(t-TV, 0)*9))*np.maximum(t-TV, 0))*env_at(TV, 0.005, 0.55)
 L += 0.22*suck + 0.55*boom; R += 0.22*suck + 0.55*boom
 
 # 3) Clock: soft tick every half second while the last light travels
@@ -60,7 +60,7 @@ ris = (0.5*bp(rng.standard_normal(n), 800, 7000) + 0.5*sweep)*ris_e
 L += 0.15*ris; R += 0.15*ris
 
 # 5) Impact at 8:20, then cold near-silence with a single high tone
-hit = np.sin(2*np.pi*(32+70*np.exp(-(t-TH)*7))*np.maximum(t-TH, 0))*env_at(TH, 0.004, 0.9)
+hit = np.sin(2*np.pi*(32+70*np.exp(-np.maximum(t-TH, 0)*7))*np.maximum(t-TH, 0))*env_at(TH, 0.004, 0.9)
 crack = lp(rng.standard_normal(n), 2500)*env_at(TH, 0.002, 0.12)
 L += 0.75*hit + 0.25*crack; R += 0.75*hit + 0.25*crack
 cold = (np.sin(2*np.pi*587.33*t) + 0.5*np.sin(2*np.pi*880.0*t + 1.0))*sm(TH+0.3, TH+2.5)*(1 - sm(D-1.2, D))

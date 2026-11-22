@@ -70,6 +70,8 @@ export const LandscapeThumbnail: React.FC<{ scene: React.FC; spec: ThumbSpec }> 
             "linear-gradient(90deg, rgb(6,8,14) 0px, rgb(6,8,14) 760px, rgba(6,8,14,0) 1000px)",
         }}
       />
+      {/* Cover the caption band (top=880) so narration captions never show in the thumbnail. */}
+      <AbsoluteFill style={{ background: "linear-gradient(180deg, rgba(6,8,14,0) 0px, rgba(6,8,14,0) 840px, rgb(6,8,14) 880px)" }} />
       <div style={{ ...base, top: 470 - fitWide(top), fontSize: fitWide(top), color: "#ffffff" }}>{top}</div>
       <div style={{ ...base, top: 520, fontSize: fitWide(bottom), color: spec.accent }}>{bottom}</div>
       <div style={{ ...base, top: 900, fontSize: 40, letterSpacing: 12, color: "rgba(255,255,255,0.7)" }}>LEARNIT</div>

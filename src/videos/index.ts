@@ -42,6 +42,9 @@ import doublingGiantScript from "../../videos/doubling-giant/script.json";
 import { CoconutWater } from "./coconutWater/CoconutWater";
 import coconutWaterTimeline from "../../videos/coconut-water/timeline.json";
 import coconutWaterScript from "../../videos/coconut-water/script.json";
+import { EarthTunnelLong } from "./earthTunnelLong/EarthTunnelLong";
+import earthTunnelLongTimeline from "../../videos/earth-tunnel-long/timeline.json";
+import earthTunnelLongScript from "../../videos/earth-tunnel-long/script.json";
 import type { ThumbSpec } from "../primitives/Thumbnail";
 
 /**
@@ -67,4 +70,5 @@ export const VIDEOS: { id: string; component: React.FC; duration: number; timeli
   { id: "shell-dissolving", component: ShellDissolving, duration: shellDissolvingTimeline.duration, thumb: shellDissolvingScript.thumb },
   { id: "doubling-giant", component: DoublingGiant, duration: doublingGiantTimeline.duration, thumb: doublingGiantScript.thumb },
   { id: "coconut-water", component: CoconutWater, duration: coconutWaterTimeline.duration, thumb: coconutWaterScript.thumb },
+  { id: "earth-tunnel-long", component: EarthTunnelLong, duration: earthTunnelLongTimeline.duration, thumb: earthTunnelLongScript.thumb, width: 1920, height: 1080 },
 ];
