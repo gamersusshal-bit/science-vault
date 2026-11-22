@@ -281,7 +281,11 @@
    "series": "How It Works",
    "series_no": 5,
    "format": "short",
-   "duration_s": 29.6
+   "duration_s": 29.6,
+   "draft": {
+    "postId": "f4d3a884-6378-4c32-b5bd-5e4a839cbd9c",
+    "revision": "53e98212"
+   }
   }
  ]
 }
