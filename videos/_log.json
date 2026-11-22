@@ -268,6 +268,20 @@
     "earth-tunnel"
    ],
    "duration_s": 255.0
+  },
+  {
+   "date": "2026-11-22",
+   "slug": "runaway-ramp",
+   "title": "Why Runaway Trucks Steer Into Gravel | How It Works #5",
+   "field": "engineering and how things work",
+   "hero_visual": "side-view sunset mountain highway; orange-cab truck with glowing brake drums and smoke on a downgrade, RUNAWAY TRUCK RAMP sign, zoom into the front wheel on hard road vs round loose stones, wheels sinking and plowing gravel mounds and spray; KM/H speedometer 100 to 0 and GRAVEL USED bar to 150 m; road vs gravel resistance bars",
+   "voice": "af_heart",
+   "fizz": false,
+   "status": "drafted",
+   "series": "How It Works",
+   "series_no": 5,
+   "format": "short",
+   "duration_s": 29.6
   }
  ]
 }

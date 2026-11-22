@@ -1,0 +1,482 @@
+{
+ "slug": "runaway-ramp",
+ "fps": 30,
+ "duration": 29.551,
+ "beats": {
+  "drop": 0.766,
+  "hit": 24.112
+ },
+ "lines": [
+  {
+   "id": "hook",
+   "text": "This truck's brakes overheated. So why steer into gravel?",
+   "start": 0.2,
+   "end": 3.256,
+   "words": [
+    {
+     "text": "This",
+     "start": 0.2,
+     "end": 0.42
+    },
+    {
+     "text": "truck's",
+     "start": 0.42,
+     "end": 0.766
+    },
+    {
+     "text": "brakes",
+     "start": 0.766,
+     "end": 1.07
+    },
+    {
+     "text": "overheated.",
+     "start": 1.07,
+     "end": 1.669
+    },
+    {
+     "text": "So",
+     "start": 1.819,
+     "end": 1.978
+    },
+    {
+     "text": "why",
+     "start": 1.978,
+     "end": 2.186
+    },
+    {
+     "text": "steer",
+     "start": 2.186,
+     "end": 2.493
+    },
+    {
+     "text": "into",
+     "start": 2.493,
+     "end": 2.751
+    },
+    {
+     "text": "gravel?",
+     "start": 2.751,
+     "end": 3.256
+    }
+   ]
+  },
+  {
+   "id": "meter",
+   "text": "It's doing a hundred. This gravel must stop it in a hundred and fifty meters.",
+   "start": 3.656,
+   "end": 7.661,
+   "words": [
+    {
+     "text": "It's",
+     "start": 3.656,
+     "end": 3.877
+    },
+    {
+     "text": "doing",
+     "start": 3.877,
+     "end": 4.14
+    },
+    {
+     "text": "a",
+     "start": 4.14,
+     "end": 4.233
+    },
+    {
+     "text": "hundred.",
+     "start": 4.233,
+     "end": 4.708
+    },
+    {
+     "text": "This",
+     "start": 4.828,
+     "end": 5.073
+    },
+    {
+     "text": "gravel",
+     "start": 5.073,
+     "end": 5.412
+    },
+    {
+     "text": "must",
+     "start": 5.412,
+     "end": 5.656
+    },
+    {
+     "text": "stop",
+     "start": 5.656,
+     "end": 5.901
+    },
+    {
+     "text": "it",
+     "start": 5.901,
+     "end": 6.052
+    },
+    {
+     "text": "in",
+     "start": 6.052,
+     "end": 6.202
+    },
+    {
+     "text": "a",
+     "start": 6.202,
+     "end": 6.306
+    },
+    {
+     "text": "hundred",
+     "start": 6.306,
+     "end": 6.691
+    },
+    {
+     "text": "and",
+     "start": 6.691,
+     "end": 6.889
+    },
+    {
+     "text": "fifty",
+     "start": 6.889,
+     "end": 7.181
+    },
+    {
+     "text": "meters.",
+     "start": 7.181,
+     "end": 7.661
+    }
+   ]
+  },
+  {
+   "id": "road",
+   "text": "On hard road, the tires barely sink, so it just keeps rolling.",
+   "start": 8.011,
+   "end": 11.617,
+   "words": [
+    {
+     "text": "On",
+     "start": 8.011,
+     "end": 8.19
+    },
+    {
+     "text": "hard",
+     "start": 8.19,
+     "end": 8.481
+    },
+    {
+     "text": "road,",
+     "start": 8.481,
+     "end": 8.939
+    },
+    {
+     "text": "the",
+     "start": 9.039,
+     "end": 9.239
+    },
+    {
+     "text": "tires",
+     "start": 9.239,
+     "end": 9.533
+    },
+    {
+     "text": "barely",
+     "start": 9.533,
+     "end": 9.875
+    },
+    {
+     "text": "sink,",
+     "start": 9.875,
+     "end": 10.265
+    },
+    {
+     "text": "so",
+     "start": 10.365,
+     "end": 10.503
+    },
+    {
+     "text": "it",
+     "start": 10.503,
+     "end": 10.641
+    },
+    {
+     "text": "just",
+     "start": 10.641,
+     "end": 10.866
+    },
+    {
+     "text": "keeps",
+     "start": 10.866,
+     "end": 11.133
+    },
+    {
+     "text": "rolling.",
+     "start": 11.133,
+     "end": 11.617
+    }
+   ]
+  },
+  {
+   "id": "sink",
+   "text": "But these stones are round and loose. The wheels sink in.",
+   "start": 12.017,
+   "end": 15.169,
+   "words": [
+    {
+     "text": "But",
+     "start": 12.017,
+     "end": 12.2
+    },
+    {
+     "text": "these",
+     "start": 12.2,
+     "end": 12.47
+    },
+    {
+     "text": "stones",
+     "start": 12.47,
+     "end": 12.784
+    },
+    {
+     "text": "are",
+     "start": 12.784,
+     "end": 12.967
+    },
+    {
+     "text": "round",
+     "start": 12.967,
+     "end": 13.238
+    },
+    {
+     "text": "and",
+     "start": 13.238,
+     "end": 13.421
+    },
+    {
+     "text": "loose.",
+     "start": 13.421,
+     "end": 13.822
+    },
+    {
+     "text": "The",
+     "start": 14.022,
+     "end": 14.233
+    },
+    {
+     "text": "wheels",
+     "start": 14.233,
+     "end": 14.596
+    },
+    {
+     "text": "sink",
+     "start": 14.596,
+     "end": 14.857
+    },
+    {
+     "text": "in.",
+     "start": 14.857,
+     "end": 15.169
+    }
+   ]
+  },
+  {
+   "id": "shove",
+   "text": "Now every turn shoves gravel aside, and that work eats the speed.",
+   "start": 15.569,
+   "end": 19.21,
+   "words": [
+    {
+     "text": "Now",
+     "start": 15.569,
+     "end": 15.788
+    },
+    {
+     "text": "every",
+     "start": 15.788,
+     "end": 16.112
+    },
+    {
+     "text": "turn",
+     "start": 16.112,
+     "end": 16.383
+    },
+    {
+     "text": "shoves",
+     "start": 16.383,
+     "end": 16.758
+    },
+    {
+     "text": "gravel",
+     "start": 16.758,
+     "end": 17.133
+    },
+    {
+     "text": "aside,",
+     "start": 17.133,
+     "end": 17.613
+    },
+    {
+     "text": "and",
+     "start": 17.733,
+     "end": 17.92
+    },
+    {
+     "text": "that",
+     "start": 17.92,
+     "end": 18.151
+    },
+    {
+     "text": "work",
+     "start": 18.151,
+     "end": 18.383
+    },
+    {
+     "text": "eats",
+     "start": 18.383,
+     "end": 18.614
+    },
+    {
+     "text": "the",
+     "start": 18.614,
+     "end": 18.801
+    },
+    {
+     "text": "speed.",
+     "start": 18.801,
+     "end": 19.21
+    }
+   ]
+  },
+  {
+   "id": "stop",
+   "text": "Here's the trick. The deeper it sinks, the harder it plows, until the speed hits zero.",
+   "start": 19.61,
+   "end": 24.522,
+   "words": [
+    {
+     "text": "Here's",
+     "start": 19.61,
+     "end": 19.923
+    },
+    {
+     "text": "the",
+     "start": 19.923,
+     "end": 20.105
+    },
+    {
+     "text": "trick.",
+     "start": 20.105,
+     "end": 20.504
+    },
+    {
+     "text": "The",
+     "start": 20.804,
+     "end": 20.986
+    },
+    {
+     "text": "deeper",
+     "start": 20.986,
+     "end": 21.299
+    },
+    {
+     "text": "it",
+     "start": 21.299,
+     "end": 21.439
+    },
+    {
+     "text": "sinks,",
+     "start": 21.439,
+     "end": 21.838
+    },
+    {
+     "text": "the",
+     "start": 21.838,
+     "end": 22.021
+    },
+    {
+     "text": "harder",
+     "start": 22.021,
+     "end": 22.334
+    },
+    {
+     "text": "it",
+     "start": 22.334,
+     "end": 22.473
+    },
+    {
+     "text": "plows,",
+     "start": 22.473,
+     "end": 22.873
+    },
+    {
+     "text": "until",
+     "start": 23.023,
+     "end": 23.333
+    },
+    {
+     "text": "the",
+     "start": 23.333,
+     "end": 23.543
+    },
+    {
+     "text": "speed",
+     "start": 23.543,
+     "end": 23.852
+    },
+    {
+     "text": "hits",
+     "start": 23.852,
+     "end": 24.112
+    },
+    {
+     "text": "zero.",
+     "start": 24.112,
+     "end": 24.522
+    }
+   ]
+  },
+  {
+   "id": "payoff",
+   "text": "Gravel doesn't grip the truck. It swallows it.",
+   "start": 25.022,
+   "end": 27.751,
+   "words": [
+    {
+     "text": "Gravel",
+     "start": 25.022,
+     "end": 25.349
+    },
+    {
+     "text": "doesn't",
+     "start": 25.349,
+     "end": 25.721
+    },
+    {
+     "text": "grip",
+     "start": 25.721,
+     "end": 25.957
+    },
+    {
+     "text": "the",
+     "start": 25.957,
+     "end": 26.148
+    },
+    {
+     "text": "truck.",
+     "start": 26.148,
+     "end": 26.566
+    },
+    {
+     "text": "It",
+     "start": 26.766,
+     "end": 26.935
+    },
+    {
+     "text": "swallows",
+     "start": 26.935,
+     "end": 27.422
+    },
+    {
+     "text": "it.",
+     "start": 27.422,
+     "end": 27.751
+    }
+   ]
+  }
+ ]
+}

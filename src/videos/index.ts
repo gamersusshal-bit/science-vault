@@ -45,6 +45,12 @@ import coconutWaterScript from "../../videos/coconut-water/script.json";
 import { EarthTunnelLong } from "./earthTunnelLong/EarthTunnelLong";
 import earthTunnelLongTimeline from "../../videos/earth-tunnel-long/timeline.json";
 import earthTunnelLongScript from "../../videos/earth-tunnel-long/script.json";
+import { BlackHoleFall } from "./blackHoleFall/BlackHoleFall";
+import blackHoleFallTimeline from "../../videos/black-hole-fall/timeline.json";
+import blackHoleFallScript from "../../videos/black-hole-fall/script.json";
+import { RunawayRamp } from "./runawayRamp/RunawayRamp";
+import runawayRampTimeline from "../../videos/runaway-ramp/timeline.json";
+import runawayRampScript from "../../videos/runaway-ramp/script.json";
 import type { ThumbSpec } from "../primitives/Thumbnail";
 
 /**
@@ -71,4 +77,6 @@ export const VIDEOS: { id: string; component: React.FC; duration: number; timeli
   { id: "doubling-giant", component: DoublingGiant, duration: doublingGiantTimeline.duration, thumb: doublingGiantScript.thumb },
   { id: "coconut-water", component: CoconutWater, duration: coconutWaterTimeline.duration, thumb: coconutWaterScript.thumb },
   { id: "earth-tunnel-long", component: EarthTunnelLong, duration: earthTunnelLongTimeline.duration, thumb: earthTunnelLongScript.thumb, width: 1920, height: 1080 },
+  { id: "black-hole-fall", component: BlackHoleFall, duration: blackHoleFallTimeline.duration, thumb: blackHoleFallScript.thumb },
+  { id: "runaway-ramp", component: RunawayRamp, duration: runawayRampTimeline.duration, thumb: runawayRampScript.thumb },
 ];

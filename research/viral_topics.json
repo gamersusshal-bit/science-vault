@@ -27,7 +27,8 @@
       "hook_format": "What if you ...",
       "field": "space",
       "evidence": "514K views, 2.9x (HU189aN63A8)",
-      "used": false
+      "used": false,
+      "note": "2026-11-22: script (sourced) and scene exist at videos/black-hole-fall and src/videos/blackHoleFall, but the render was dropped after two fix rounds: in-world labels 'STILL IN ONE PIECE' / 'NO WAY BACK OUT' collide with the captions at about 22-24 s. Needs one small fix (move those labels up) and a re-render."
     },
     {
       "idea": "Why you land in the same spot when you jump inside a moving train",
@@ -118,7 +119,8 @@
       "hook_format": "Why this ...",
       "field": "engineering",
       "evidence": "759K views, 3x (L9xP6V1vApQ)",
-      "used": false
+      "used": true,
+      "slug": "runaway-ramp"
     },
     {
       "idea": "Why an ant survives a fall from any height",
