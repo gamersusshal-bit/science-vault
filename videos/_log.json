@@ -248,6 +248,26 @@
    "series_no": 7,
    "format": "short",
    "url": "https://www.youtube.com/watch?v=EGsiDw65CIE"
+  },
+  {
+   "date": "2026-11-22",
+   "slug": "earth-tunnel-long",
+   "title": "What If You Fell Through the Earth? The Full 38-Minute Trip",
+   "field": "physics",
+   "hero_visual": "16:9 cut-away Earth (blueprint-teal background, molten layers) with a horizontal tunnel; real-Earth vs perfect-planet race clocks, gravity-vs-depth graph peaking at the core edge, weightless inset, slanted London-Paris and city tunnels, air-damped swing trace, thermometer, Kola depth bar, satellite whose shadow matches the faller and an orbit squashed edge-on",
+   "voice": "af_heart",
+   "fizz": false,
+   "status": "drafted",
+   "draft": {
+    "postId": "d23a2575-5042-4ad8-8dd9-49b4dd7758b2",
+    "revision": "1017bd69"
+   },
+   "series": "What If",
+   "format": "long",
+   "related_shorts": [
+    "earth-tunnel"
+   ],
+   "duration_s": 255.0
   }
  ]
 }
