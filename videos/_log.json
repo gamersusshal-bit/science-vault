@@ -301,7 +301,11 @@
    "series": "What If",
    "series_no": 4,
    "format": "short",
-   "duration_s": 28.9
+   "duration_s": 28.9,
+   "draft": {
+    "postId": "650c1879-59db-4ccd-ac02-a51f89044821",
+    "revision": "fa045847"
+   }
   },
   {
    "date": "2026-11-23",
@@ -315,7 +319,11 @@
    "series": "Why It Happens",
    "series_no": 8,
    "format": "short",
-   "duration_s": 28.3
+   "duration_s": 28.3,
+   "draft": {
+    "postId": "41ea37ec-af89-4fd9-a858-047200e8ccbe",
+    "revision": "55b09887"
+   }
   }
  ]
 }
