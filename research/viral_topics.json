@@ -1,149 +1,152 @@
 {
-  "note": "Viral animated-explainer ideas found with vidiq_outliers. Ideas are in our own words; the video ids are evidence of interest only, never a source for facts or something to copy. See PLAYBOOK section 1b.",
-  "refreshed": "2026-11-16",
-  "query": {
-    "keyword": "animated science explainer: what happens if, how it works",
-    "contentType": "short",
-    "minViews": 500000
+ "note": "Viral animated-explainer ideas found with vidiq_outliers. Ideas are in our own words; the video ids are evidence of interest only, never a source for facts or something to copy. See PLAYBOOK section 1b.",
+ "refreshed": "2026-11-16",
+ "query": {
+  "keyword": "animated science explainer: what happens if, how it works",
+  "contentType": "short",
+  "minViews": 500000
+ },
+ "candidates": [
+  {
+   "idea": "What would happen if oxygen vanished for five seconds",
+   "hook_format": "What if X disappeared for 5 seconds",
+   "field": "chemistry / thought experiment",
+   "evidence": "1.5M views, 1.5x (L7XT8is8l3M); same series 2.7M-8M views",
+   "used": false
   },
-  "candidates": [
-    {
-      "idea": "What would happen if oxygen vanished for five seconds",
-      "hook_format": "What if X disappeared for 5 seconds",
-      "field": "chemistry / thought experiment",
-      "evidence": "1.5M views, 1.5x (L7XT8is8l3M); same series 2.7M-8M views",
-      "used": false
-    },
-    {
-      "idea": "What if you dug a tunnel straight through the Earth and jumped in",
-      "hook_format": "What if you ...",
-      "field": "physics / thought experiment",
-      "evidence": "1.6M views, 4.9x (IZzQ3ac_FxU)",
-      "used": true,
-      "slug": "earth-tunnel"
-    },
-    {
-      "idea": "What actually happens if you fall into a black hole",
-      "hook_format": "What if you ...",
-      "field": "space",
-      "evidence": "514K views, 2.9x (HU189aN63A8)",
-      "used": false,
-      "note": "2026-11-22: script (sourced) and scene exist at videos/black-hole-fall and src/videos/blackHoleFall, but the render was dropped after two fix rounds: in-world labels 'STILL IN ONE PIECE' / 'NO WAY BACK OUT' collide with the captions at about 22-24 s. Needs one small fix (move those labels up) and a re-render."
-    },
-    {
-      "idea": "Why you land in the same spot when you jump inside a moving train",
-      "hook_format": "What happens when ...",
-      "field": "physics",
-      "evidence": "537K views, 16x (Xiot0n5dRYM)",
-      "used": false
-    },
-    {
-      "idea": "Why spinning makes you dizzy: the fluid in your inner ear keeps moving",
-      "hook_format": "Why do we ...",
-      "field": "the human body",
-      "evidence": "628K views in a week (pWWXgpYkCmA)",
-      "used": true,
-      "slug": "spin-dizzy"
-    },
-    {
-      "idea": "Why pinecones close in the rain and open when dry",
-      "hook_format": "Why ...",
-      "field": "biology",
-      "evidence": "2.9M views, 1.6x (tlUPOfJ25fs)",
-      "used": true,
-      "slug": "pinecone-weather"
-    },
-    {
-      "idea": "How a coconut fills itself with water",
-      "hook_format": "How ... actually works",
-      "field": "biology",
-      "evidence": "10.3M views (uK7yoNzJ3WI)",
-      "used": true,
-      "slug": "coconut-water"
-    },
-    {
-      "idea": "How a rocket engine actually works",
-      "hook_format": "How ... actually works",
-      "field": "engineering",
-      "evidence": "2.3M views (oy2kU79pdzo)",
-      "used": false
-    },
-    {
-      "idea": "How a jet engine works: suck, squeeze, burn, blow",
-      "hook_format": "How ... actually works",
-      "field": "engineering",
-      "evidence": "933K views, 261x (lDzOPtb24B0)",
-      "used": true,
-      "slug": "jet-engine-fan"
-    },
-    {
-      "idea": "How a helicopter stays up and steers",
-      "hook_format": "How ... actually works",
-      "field": "engineering",
-      "evidence": "1.4M views, 3x (Y4IpUtBs-ns)",
-      "used": true,
-      "slug": "helicopter-tail-rotor"
-    },
-    {
-      "idea": "Why a fluorescent tube lights up under power lines with no wires",
-      "hook_format": "How ...",
-      "field": "physics",
-      "evidence": "10.1M views (vbY_yoS3s7Q)",
-      "used": true,
-      "slug": "power-line-tube"
-    },
-    {
-      "idea": "If you doubled in size every day, how soon would you outgrow the Earth",
-      "hook_format": "If I ... every day",
-      "field": "mathematics of nature / thought experiment",
-      "evidence": "1.8M views in 2 days, 37.6K views/hour (Tyfav4to288)",
-      "used": true,
-      "slug": "doubling-giant"
-    },
-    {
-      "idea": "How deep the ocean really is, shown to scale",
-      "hook_format": "scale reveal",
-      "field": "earth and weather",
-      "evidence": "2.3M views (6mWbDfLcFzo)",
-      "used": false
-    },
-    {
-      "idea": "Could a bullet fired on the Moon orbit and come back to you",
-      "hook_format": "Could ...",
-      "field": "space / thought experiment",
-      "evidence": "1.1M views, 35x (oQr6aRBiAco)",
-      "used": false
-    },
-    {
-      "idea": "Why runaway trucks steer into a gravel ramp",
-      "hook_format": "Why this ...",
-      "field": "engineering",
-      "evidence": "759K views, 3x (L9xP6V1vApQ)",
-      "used": true,
-      "slug": "runaway-ramp"
-    },
-    {
-      "idea": "Why an ant survives a fall from any height",
-      "hook_format": "Why ...",
-      "field": "physics / biology",
-      "evidence": "537K views, 2.2x (E67NqSbxs1c)",
-      "used": false
-    },
-    {
-      "idea": "What if every mosquito vanished",
-      "hook_format": "What if every ...",
-      "field": "biology",
-      "evidence": "3.1M views, 1261x (XbojaY7plKo); 4.1M views, 4.2x (HueGEr8PWP8)",
-      "used": false,
-      "care": "Ecologists disagree on the consequences; only make it if every claim can be sourced and the uncertainty is stated."
-    },
-    {
-      "idea": "Why turning the ocean into soda would be a disaster (ocean acidification)",
-      "hook_format": "Why ... is bad",
-      "field": "chemistry",
-      "evidence": "3.3M views (iAhdUlUxlrw)",
-      "used": true,
-      "slug": "shell-dissolving"
-    }
-  ]
+  {
+   "idea": "What if you dug a tunnel straight through the Earth and jumped in",
+   "hook_format": "What if you ...",
+   "field": "physics / thought experiment",
+   "evidence": "1.6M views, 4.9x (IZzQ3ac_FxU)",
+   "used": true,
+   "slug": "earth-tunnel"
+  },
+  {
+   "idea": "What actually happens if you fall into a black hole",
+   "hook_format": "What if you ...",
+   "field": "space",
+   "evidence": "514K views, 2.9x (HU189aN63A8)",
+   "used": true,
+   "note": "2026-11-22: script (sourced) and scene exist at videos/black-hole-fall and src/videos/blackHoleFall, but the render was dropped after two fix rounds: in-world labels 'STILL IN ONE PIECE' / 'NO WAY BACK OUT' collide with the captions at about 22-24 s. Needs one small fix (move those labels up) and a re-render. 2026-11-23: labels moved above the edge, caption backing added, astronaut kept above captions; passed and drafted.",
+   "slug": "black-hole-fall"
+  },
+  {
+   "idea": "Why you land in the same spot when you jump inside a moving train",
+   "hook_format": "What happens when ...",
+   "field": "physics",
+   "evidence": "537K views, 16x (Xiot0n5dRYM)",
+   "used": false
+  },
+  {
+   "idea": "Why spinning makes you dizzy: the fluid in your inner ear keeps moving",
+   "hook_format": "Why do we ...",
+   "field": "the human body",
+   "evidence": "628K views in a week (pWWXgpYkCmA)",
+   "used": true,
+   "slug": "spin-dizzy"
+  },
+  {
+   "idea": "Why pinecones close in the rain and open when dry",
+   "hook_format": "Why ...",
+   "field": "biology",
+   "evidence": "2.9M views, 1.6x (tlUPOfJ25fs)",
+   "used": true,
+   "slug": "pinecone-weather"
+  },
+  {
+   "idea": "How a coconut fills itself with water",
+   "hook_format": "How ... actually works",
+   "field": "biology",
+   "evidence": "10.3M views (uK7yoNzJ3WI)",
+   "used": true,
+   "slug": "coconut-water"
+  },
+  {
+   "idea": "How a rocket engine actually works",
+   "hook_format": "How ... actually works",
+   "field": "engineering",
+   "evidence": "2.3M views (oy2kU79pdzo)",
+   "used": false
+  },
+  {
+   "idea": "How a jet engine works: suck, squeeze, burn, blow",
+   "hook_format": "How ... actually works",
+   "field": "engineering",
+   "evidence": "933K views, 261x (lDzOPtb24B0)",
+   "used": true,
+   "slug": "jet-engine-fan"
+  },
+  {
+   "idea": "How a helicopter stays up and steers",
+   "hook_format": "How ... actually works",
+   "field": "engineering",
+   "evidence": "1.4M views, 3x (Y4IpUtBs-ns)",
+   "used": true,
+   "slug": "helicopter-tail-rotor"
+  },
+  {
+   "idea": "Why a fluorescent tube lights up under power lines with no wires",
+   "hook_format": "How ...",
+   "field": "physics",
+   "evidence": "10.1M views (vbY_yoS3s7Q)",
+   "used": true,
+   "slug": "power-line-tube"
+  },
+  {
+   "idea": "If you doubled in size every day, how soon would you outgrow the Earth",
+   "hook_format": "If I ... every day",
+   "field": "mathematics of nature / thought experiment",
+   "evidence": "1.8M views in 2 days, 37.6K views/hour (Tyfav4to288)",
+   "used": true,
+   "slug": "doubling-giant"
+  },
+  {
+   "idea": "How deep the ocean really is, shown to scale",
+   "hook_format": "scale reveal",
+   "field": "earth and weather",
+   "evidence": "2.3M views (6mWbDfLcFzo)",
+   "used": true,
+   "slug": "red-fish-dark",
+   "note": "2026-11-23: used as the angle for red-fish-dark (why deep-sea fish are red: colours fade with depth on a 1,000 m depth meter), not a pure scale reveal."
+  },
+  {
+   "idea": "Could a bullet fired on the Moon orbit and come back to you",
+   "hook_format": "Could ...",
+   "field": "space / thought experiment",
+   "evidence": "1.1M views, 35x (oQr6aRBiAco)",
+   "used": false
+  },
+  {
+   "idea": "Why runaway trucks steer into a gravel ramp",
+   "hook_format": "Why this ...",
+   "field": "engineering",
+   "evidence": "759K views, 3x (L9xP6V1vApQ)",
+   "used": true,
+   "slug": "runaway-ramp"
+  },
+  {
+   "idea": "Why an ant survives a fall from any height",
+   "hook_format": "Why ...",
+   "field": "physics / biology",
+   "evidence": "537K views, 2.2x (E67NqSbxs1c)",
+   "used": false
+  },
+  {
+   "idea": "What if every mosquito vanished",
+   "hook_format": "What if every ...",
+   "field": "biology",
+   "evidence": "3.1M views, 1261x (XbojaY7plKo); 4.1M views, 4.2x (HueGEr8PWP8)",
+   "used": false,
+   "care": "Ecologists disagree on the consequences; only make it if every claim can be sourced and the uncertainty is stated."
+  },
+  {
+   "idea": "Why turning the ocean into soda would be a disaster (ocean acidification)",
+   "hook_format": "Why ... is bad",
+   "field": "chemistry",
+   "evidence": "3.3M views (iAhdUlUxlrw)",
+   "used": true,
+   "slug": "shell-dissolving"
+  }
+ ]
 }

@@ -142,7 +142,7 @@
     },
     {
      "id": "L0TDYoAHhh0",
-     "title": "Why You Still Feel Like You\u2019re Spinning After You Stop?  #ear #humanbody #humanity #biology #science",
+     "title": "Why You Still Feel Like You’re Spinning After You Stop?  #ear #humanbody #humanity #biology #science",
      "published": "Nov 17, 2026",
      "duration_s": 35,
      "views": 1205,
@@ -230,6 +230,18 @@
     "total_views": 59
    },
    "limits": "Sunday run: no paid analytics due (Mondays only, PLAYBOOK 1f). Per-Short numbers not read."
+  },
+  {
+   "date": "2026-11-23",
+   "source": "vidiq_user_channels (free call)",
+   "subscribers": 10,
+   "total_views": 16804,
+   "videos": 12,
+   "change_since_2026-11-22_free_snapshot": {
+    "subscribers": 0,
+    "total_views": 2734
+   },
+   "limits": "Monday run: paid analytics (PLAYBOOK 1f) skipped because vidiq_balance showed 0 credits (renews 2026-12-03). Per-Short numbers not read. vidIQ reports 12 videos while the log has 15 published Shorts/long videos; not investigated."
   }
  ]
 }

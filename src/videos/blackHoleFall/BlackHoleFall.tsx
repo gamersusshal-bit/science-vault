@@ -96,7 +96,7 @@ export const BlackHoleFall: React.FC = () => {
   // Giant world: edge is a huge arc whose top sits at EDGE_Y.
   const EDGE_Y = 1120;
   const GR = 2600;
-  const yGiant = EDGE_Y - 40 - 520 * Math.sqrt(kmGiant / 5000) + (t > T_HIT ? (t - T_HIT) * 70 : 0);
+  const yGiant = EDGE_Y - 40 - 440 * Math.sqrt(kmGiant / 5000) + (t > T_HIT ? Math.min(110, (t - T_HIT) * 30) : 0);
 
   // ---------- Camera ----------
   const zoomIn = interpolate(t, [STRETCH.start - 0.3, STRETCH.start + 0.8, SPAG.end - 0.2, TWIST.start + 0.6], [0, 1, 1, 0], {
@@ -257,9 +257,9 @@ export const BlackHoleFall: React.FC = () => {
         <Tag x={CX - 330} y={HOLE_Y - 560 + 90} color="#ffd9b0" o={twistO} size={34}>SMALL ONE</Tag>
         <Tag x={CX} y={EDGE_Y + 150} color={ACCENT} o={twistO} size={52}>GIANT BLACK HOLE</Tag>
         <Tag x={CX} y={EDGE_Y + 215} color="rgba(230,215,255,0.85)" o={twistO} size={34}>MILLIONS OF SUNS</Tag>
-        <Tag x={CX} y={EDGE_Y - 30} color={ACCENT} o={toGiant * (1 - crossedO)} size={34}>THE EDGE</Tag>
-        <Tag x={CX} y={EDGE_Y + 250} color="#ffffff" o={crossedO * (1 - trapO)} size={50}>STILL IN ONE PIECE</Tag>
-        <Tag x={CX} y={EDGE_Y + 250} color="#ff8a8a" o={trapO * crossedO} size={50}>NO WAY BACK OUT</Tag>
+        <Tag x={CX} y={EDGE_Y - 30} color={ACCENT} o={toGiant * interpolate(t, [T_HIT, T_HIT + 0.3], [1, 0], clamp)} size={34}>THE EDGE</Tag>
+        <Tag x={CX} y={EDGE_Y - 300} color="#ffffff" o={crossedO * (1 - trapO)} size={50}>STILL IN ONE PIECE</Tag>
+        <Tag x={CX} y={EDGE_Y - 300} color="#ff8a8a" o={trapO * crossedO} size={50}>NO WAY BACK OUT</Tag>
       </AbsoluteFill>
 
       {/* Labels pinned to the faller, drawn in screen space so the zoom never clips them */}
@@ -321,6 +321,9 @@ export const BlackHoleFall: React.FC = () => {
         THOUGHT EXPERIMENT · SIMPLIFIED MODEL
       </div>
 
+      {/* Caption backing so captions stay readable over the bright disc */}
+      <div style={{ position: "absolute", left: 0, top: 1390, width: 1080, height: 300,
+        background: "linear-gradient(180deg, rgba(5,3,12,0) 0%, rgba(5,3,12,0.78) 30%, rgba(5,3,12,0.78) 75%, rgba(5,3,12,0) 100%)" }} />
       <Captions lines={timeline.lines} top={1440} accent={ACCENT} />
       <SeriesOutro name="What If" next={5} accent={ACCENT} />
     </AbsoluteFill>

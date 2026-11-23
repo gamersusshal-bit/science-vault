@@ -51,6 +51,9 @@ import blackHoleFallScript from "../../videos/black-hole-fall/script.json";
 import { RunawayRamp } from "./runawayRamp/RunawayRamp";
 import runawayRampTimeline from "../../videos/runaway-ramp/timeline.json";
 import runawayRampScript from "../../videos/runaway-ramp/script.json";
+import { RedFishDark } from "./redFishDark/RedFishDark";
+import redFishDarkTimeline from "../../videos/red-fish-dark/timeline.json";
+import redFishDarkScript from "../../videos/red-fish-dark/script.json";
 import type { ThumbSpec } from "../primitives/Thumbnail";
 
 /**
@@ -79,4 +82,5 @@ export const VIDEOS: { id: string; component: React.FC; duration: number; timeli
   { id: "earth-tunnel-long", component: EarthTunnelLong, duration: earthTunnelLongTimeline.duration, thumb: earthTunnelLongScript.thumb, width: 1920, height: 1080 },
   { id: "black-hole-fall", component: BlackHoleFall, duration: blackHoleFallTimeline.duration, thumb: blackHoleFallScript.thumb },
   { id: "runaway-ramp", component: RunawayRamp, duration: runawayRampTimeline.duration, thumb: runawayRampScript.thumb },
+  { id: "red-fish-dark", component: RedFishDark, duration: redFishDarkTimeline.duration, thumb: redFishDarkScript.thumb },
 ];

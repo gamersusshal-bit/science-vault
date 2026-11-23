@@ -1,0 +1,457 @@
+{
+ "slug": "red-fish-dark",
+ "fps": 30,
+ "duration": 28.238,
+ "beats": {
+  "drop": 0.432,
+  "hit": 14.832
+ },
+ "lines": [
+  {
+   "id": "hook",
+   "text": "This fish is bright red. So how does red help it hide?",
+   "start": 0.2,
+   "end": 3.227,
+   "words": [
+    {
+     "text": "This",
+     "start": 0.2,
+     "end": 0.432
+    },
+    {
+     "text": "fish",
+     "start": 0.432,
+     "end": 0.664
+    },
+    {
+     "text": "is",
+     "start": 0.664,
+     "end": 0.807
+    },
+    {
+     "text": "bright",
+     "start": 0.807,
+     "end": 1.128
+    },
+    {
+     "text": "red.",
+     "start": 1.128,
+     "end": 1.449
+    },
+    {
+     "text": "So",
+     "start": 1.599,
+     "end": 1.755
+    },
+    {
+     "text": "how",
+     "start": 1.755,
+     "end": 1.96
+    },
+    {
+     "text": "does",
+     "start": 1.96,
+     "end": 2.213
+    },
+    {
+     "text": "red",
+     "start": 2.213,
+     "end": 2.418
+    },
+    {
+     "text": "help",
+     "start": 2.418,
+     "end": 2.671
+    },
+    {
+     "text": "it",
+     "start": 2.671,
+     "end": 2.827
+    },
+    {
+     "text": "hide?",
+     "start": 2.827,
+     "end": 3.227
+    }
+   ]
+  },
+  {
+   "id": "meter",
+   "text": "Follow it down. At a thousand meters, sunlight runs out.",
+   "start": 3.627,
+   "end": 7.015,
+   "words": [
+    {
+     "text": "Follow",
+     "start": 3.627,
+     "end": 3.987
+    },
+    {
+     "text": "it",
+     "start": 3.987,
+     "end": 4.148
+    },
+    {
+     "text": "down.",
+     "start": 4.148,
+     "end": 4.558
+    },
+    {
+     "text": "At",
+     "start": 4.708,
+     "end": 4.867
+    },
+    {
+     "text": "a",
+     "start": 4.867,
+     "end": 4.976
+    },
+    {
+     "text": "thousand",
+     "start": 4.976,
+     "end": 5.434
+    },
+    {
+     "text": "meters,",
+     "start": 5.434,
+     "end": 5.941
+    },
+    {
+     "text": "sunlight",
+     "start": 5.941,
+     "end": 6.398
+    },
+    {
+     "text": "runs",
+     "start": 6.398,
+     "end": 6.657
+    },
+    {
+     "text": "out.",
+     "start": 6.657,
+     "end": 7.015
+    }
+   ]
+  },
+  {
+   "id": "fade",
+   "text": "Water soaks up sunlight, color by color, and red goes first.",
+   "start": 7.365,
+   "end": 11.088,
+   "words": [
+    {
+     "text": "Water",
+     "start": 7.365,
+     "end": 7.688
+    },
+    {
+     "text": "soaks",
+     "start": 7.688,
+     "end": 8.011
+    },
+    {
+     "text": "up",
+     "start": 8.011,
+     "end": 8.178
+    },
+    {
+     "text": "sunlight,",
+     "start": 8.178,
+     "end": 8.814
+    },
+    {
+     "text": "color",
+     "start": 8.814,
+     "end": 9.137
+    },
+    {
+     "text": "by",
+     "start": 9.137,
+     "end": 9.303
+    },
+    {
+     "text": "color,",
+     "start": 9.303,
+     "end": 9.783
+    },
+    {
+     "text": "and",
+     "start": 9.883,
+     "end": 10.105
+    },
+    {
+     "text": "red",
+     "start": 10.105,
+     "end": 10.327
+    },
+    {
+     "text": "goes",
+     "start": 10.327,
+     "end": 10.602
+    },
+    {
+     "text": "first.",
+     "start": 10.602,
+     "end": 11.088
+    }
+   ]
+  },
+  {
+   "id": "black",
+   "text": "By one hundred meters, no red light is left. It turns black.",
+   "start": 11.438,
+   "end": 15.354,
+   "words": [
+    {
+     "text": "By",
+     "start": 11.438,
+     "end": 11.603
+    },
+    {
+     "text": "one",
+     "start": 11.603,
+     "end": 11.819
+    },
+    {
+     "text": "hundred",
+     "start": 11.819,
+     "end": 12.24
+    },
+    {
+     "text": "meters,",
+     "start": 12.24,
+     "end": 12.764
+    },
+    {
+     "text": "no",
+     "start": 12.764,
+     "end": 12.929
+    },
+    {
+     "text": "red",
+     "start": 12.929,
+     "end": 13.145
+    },
+    {
+     "text": "light",
+     "start": 13.145,
+     "end": 13.463
+    },
+    {
+     "text": "is",
+     "start": 13.463,
+     "end": 13.628
+    },
+    {
+     "text": "left.",
+     "start": 13.628,
+     "end": 14.049
+    },
+    {
+     "text": "It",
+     "start": 14.299,
+     "end": 14.481
+    },
+    {
+     "text": "turns",
+     "start": 14.481,
+     "end": 14.832
+    },
+    {
+     "text": "black.",
+     "start": 14.832,
+     "end": 15.354
+    }
+   ]
+  },
+  {
+   "id": "twist",
+   "text": "So why not blue? Blue light reaches deepest, so blue would show.",
+   "start": 15.804,
+   "end": 19.426,
+   "words": [
+    {
+     "text": "So",
+     "start": 15.804,
+     "end": 15.967
+    },
+    {
+     "text": "why",
+     "start": 15.967,
+     "end": 16.181
+    },
+    {
+     "text": "not",
+     "start": 16.181,
+     "end": 16.396
+    },
+    {
+     "text": "blue?",
+     "start": 16.396,
+     "end": 16.814
+    },
+    {
+     "text": "Blue",
+     "start": 17.014,
+     "end": 17.248
+    },
+    {
+     "text": "light",
+     "start": 17.248,
+     "end": 17.527
+    },
+    {
+     "text": "reaches",
+     "start": 17.527,
+     "end": 17.896
+    },
+    {
+     "text": "deepest,",
+     "start": 17.896,
+     "end": 18.4
+    },
+    {
+     "text": "so",
+     "start": 18.4,
+     "end": 18.544
+    },
+    {
+     "text": "blue",
+     "start": 18.544,
+     "end": 18.778
+    },
+    {
+     "text": "would",
+     "start": 18.778,
+     "end": 19.057
+    },
+    {
+     "text": "show.",
+     "start": 19.057,
+     "end": 19.426
+    }
+   ]
+  },
+  {
+   "id": "climax",
+   "text": "In the last blue glow, red looks black, until even that runs out.",
+   "start": 19.776,
+   "end": 23.713,
+   "words": [
+    {
+     "text": "In",
+     "start": 19.776,
+     "end": 19.93
+    },
+    {
+     "text": "the",
+     "start": 19.93,
+     "end": 20.132
+    },
+    {
+     "text": "last",
+     "start": 20.132,
+     "end": 20.383
+    },
+    {
+     "text": "blue",
+     "start": 20.383,
+     "end": 20.633
+    },
+    {
+     "text": "glow,",
+     "start": 20.633,
+     "end": 21.028
+    },
+    {
+     "text": "red",
+     "start": 21.028,
+     "end": 21.23
+    },
+    {
+     "text": "looks",
+     "start": 21.23,
+     "end": 21.528
+    },
+    {
+     "text": "black,",
+     "start": 21.528,
+     "end": 21.971
+    },
+    {
+     "text": "until",
+     "start": 22.121,
+     "end": 22.462
+    },
+    {
+     "text": "even",
+     "start": 22.462,
+     "end": 22.747
+    },
+    {
+     "text": "that",
+     "start": 22.747,
+     "end": 23.033
+    },
+    {
+     "text": "runs",
+     "start": 23.033,
+     "end": 23.318
+    },
+    {
+     "text": "out.",
+     "start": 23.318,
+     "end": 23.713
+    }
+   ]
+  },
+  {
+   "id": "payoff",
+   "text": "Down here, red is the color of nothing.",
+   "start": 24.163,
+   "end": 26.438,
+   "words": [
+    {
+     "text": "Down",
+     "start": 24.163,
+     "end": 24.423
+    },
+    {
+     "text": "here,",
+     "start": 24.423,
+     "end": 24.832
+    },
+    {
+     "text": "red",
+     "start": 24.832,
+     "end": 25.041
+    },
+    {
+     "text": "is",
+     "start": 25.041,
+     "end": 25.201
+    },
+    {
+     "text": "the",
+     "start": 25.201,
+     "end": 25.41
+    },
+    {
+     "text": "color",
+     "start": 25.41,
+     "end": 25.72
+    },
+    {
+     "text": "of",
+     "start": 25.72,
+     "end": 25.879
+    },
+    {
+     "text": "nothing.",
+     "start": 25.879,
+     "end": 26.438
+    }
+   ]
+  }
+ ]
+}

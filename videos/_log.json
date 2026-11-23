@@ -288,6 +288,34 @@
     "revision": "53e98212"
    },
    "url": "https://www.youtube.com/watch?v=hiYYgYA81a4"
+  },
+  {
+   "date": "2026-11-23",
+   "slug": "black-hole-fall",
+   "title": "What If You Fell Into a Black Hole? | What If #4",
+   "field": "space",
+   "hero_visual": "purple-glow stellar black hole with orange accretion ring; astronaut jumps in, KM TO THE EDGE counter from 5,000 with log STRETCH G bar, head/feet pull arrows, astronaut stretched thin (spaghetti), small hole shrinks away as a giant black hole's curved edge rises, astronaut crosses intact, NO WAY BACK OUT",
+   "voice": "af_heart",
+   "fizz": false,
+   "status": "drafted",
+   "series": "What If",
+   "series_no": 4,
+   "format": "short",
+   "duration_s": 28.9
+  },
+  {
+   "date": "2026-11-23",
+   "slug": "red-fish-dark",
+   "title": "Why Deep-Sea Fish Are Red | Why It Happens #8",
+   "field": "earth and weather",
+   "hero_visual": "side-view ocean descent from a dusk surface: red fish dives in, five coloured sunlight beams and a SUNLIGHT LEFT colour-bar meter fading red first, DEPTH readout and left depth ruler to 1,000 M NO SUNLIGHT, fish's colour computed from remaining light turns black at 100 m, blue fish arrives and stays visible, last blue fades, dashed red ghost outline of the hidden fish",
+   "voice": "af_heart",
+   "fizz": false,
+   "status": "drafted",
+   "series": "Why It Happens",
+   "series_no": 8,
+   "format": "short",
+   "duration_s": 28.3
   }
  ]
 }
