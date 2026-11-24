@@ -369,7 +369,13 @@ Add a "thumb" block to the script and render it:
 - Commit `thumbs/<slug>.jpg` to main and push before drafting, so it has a public link:
   `https://raw.githubusercontent.com/gamersusshal-bit/science-vault/main/thumbs/<slug>.jpg`
 
-## 5. Draft for approval (never publish without it)
+## 5. Schedule with a veto window (owner's decision, 2026-11-24: auto with veto)
+
+The owner no longer approves each video. Every video that passes all the gates in
+sections 2-4 is scheduled to go public at **18:00 India time (12:30 UTC)** on the day
+of the run, and the owner gets the MP4s and a message they can veto from. A video that
+fails a gate is never scheduled. If a run reaches this step after 17:30 India time, use
+18:00 the next day instead.
 
     scripts/publish_renders.sh <slug> [<slug> ...]   # prints one public link per video
 
@@ -377,7 +383,8 @@ For each link:
 1. `vidiq_video_upload` with `url` = the link. Keep the `uploadId`.
 2. `vidiq_social_post_draft_create` with one YOUTUBE destination:
    platformAccountId `UClwsg9mIPTVoHTFwMblg9GA`, `privacyStatus` "public",
-   `categoryId` 28, a title under 70 characters that states the surprise without
+   `categoryId` 28, `publishAt` = the 18:00 India time above as ISO 8601 with
+   `+05:30`, a title under 70 characters that states the surprise without
    clickbait, 5 to 8 tags, media = the uploadId, and a description of 2 or 3 plain
    sentences, then the comment question from 2d, then `#shorts` and three topic hashtags.
    Add the series name to the title or description as 2d says. If it is a thought
@@ -386,18 +393,33 @@ For each link:
    the returned imageId as `thumbnailImageId` on the YouTube destination. YouTube only
    accepts uploaded Shorts thumbnails from some channels (Partner Program at launch,
    July 2026); a refused thumbnail does not fail the upload. Always send the JPEG to
-   the owner as well, and say in the owner message whether YouTube took it.
-3. Do NOT call `vidiq_social_post_publish`. Publishing happens only after the owner
-   replies with approval in the session.
+   the owner as well.
+3. If the draft comes back `ready`, call `vidiq_social_post_publish` with its postId and
+   revision. This schedules it; it does not go out before `publishAt`. Then call
+   `vidiq_social_post_status` once and record what it says (scheduled, or a failure).
+   If the draft is not ready or publishing is refused, do not retry with changes the
+   owner has not seen: report it and leave it as a draft.
 
 Then:
-- Add each video to `videos/_log.json` with status "drafted".
+- Add each video to `videos/_log.json` with status "scheduled", `"publish_at"` and the
+  draft's postId and revision.
 - Commit the new script, timeline, scene and log to `main` and push.
-- Send the owner the MP4 files and one message listing, per video: title, the
-  one-sentence hook, duration, sources, and anything you are unsure about. End with:
-  reply "post all", or name the ones to post or drop.
-- When the owner approves, publish those drafts, check status until each has a
-  link, update `_log.json` to "published" with the URL, commit and push.
+- Send the owner the MP4 files, then one message listing, per video: title, the
+  one-sentence hook, duration, sources, the scheduled time, and anything you are unsure
+  about (always: the voice and sound are unreviewed, because you cannot hear audio).
+  Tell them how to stop one before 18:00: reply "drop <slug>" in this run's session,
+  or delete or set it to private in YouTube Studio if it already appears there.
+- If the owner replies "drop <slug>" (or "drop all"), cancel it with
+  `vidiq_social_post_draft_update` (postId, `replaceScheduled` true, removing the
+  publish time), confirm with `vidiq_social_post_status`, set its log status to
+  "dropped", commit and push. Any other change they ask for: make it in the draft and
+  confirm the new state with them.
+- Start of every run (before section 1): for each log entry with status "scheduled" whose
+  `publish_at` has passed, call `vidiq_social_post_status` with its postId. If it has a
+  link, set status "published" and `url`. If it failed, set "failed" and tell the owner in
+  that run's message. Commit with the rest of the run.
+- The notification at the end of the run always names the videos scheduled and the time.
+  If nothing passed, say so and why.
 
 ## 6. Weekly long video (owner's decision, 2026-11-18: build watch hours)
 
@@ -454,8 +476,8 @@ expands on.
   - the description is 3-4 sentences, then the chapter list (`0:00 Intro` first, at least
     three chapters of 10 s or more, times taken from `timeline.json`), then the sources;
   - `categoryId` 28, and the thumbnail as in section 5.
-- Never publish without the owner's approval. After publishing, tell the owner which
-  Shorts to link to it. YouTube Studio > each Short > Related video lets a Short point
+- Schedule it as section 5 says (veto window), but for 18:00 India time on the run's
+  Sunday; log it "scheduled". In the owner message, tell them which Shorts to link to it. YouTube Studio > each Short > Related video lets a Short point
   viewers to the long video, and that can't be set through vidIQ.
 - Log it with `"format": "long"` and `"related_shorts"`.
 
