@@ -355,7 +355,7 @@
    "hero_visual": "daytime side view of a skyscraper; ant slips off the roof ledge and falls past scrolling windows beside a generic spread-eagle person, FALL SPEED bars (YOU to 200 km/h, ANT stuck at 7 with JOG tick), zoom with one red WEIGHT arrow vs a row of lime AIR PUSH arrows, ant scaled up to human size with SURFACE x100 vs WEIGHT x1000 bars, giant ant speeds up and cracks the pavement, small ant walks away",
    "voice": "af_heart",
    "fizz": false,
-   "status": "draft",
+   "status": "scheduled",
    "series": "Why It Happens",
    "series_no": 9,
    "format": "short",
@@ -364,8 +364,8 @@
    "postId": "b65f9ee4-0cea-4b15-bcea-631a517964bc",
    "revision": "a66ed3d4",
    "publicationId": "51c6e074-21e8-40d9-9723-200966fa5339",
-   "url": null,
-   "note": "Passed all gates. Scheduling refused at 06:44 UTC: vidIQ free-plan limit of 3 YouTube uploads a day (resets 08:00 UTC). Retry booked for 08:05 UTC in this session.",
+   "url": "https://www.youtube.com/watch?v=ZoDe02ePVhg",
+   "note": "Passed all gates. First scheduling attempt refused at 06:44 UTC (vidIQ free-plan limit of 3 YouTube uploads a day); scheduled at 08:06 UTC after the reset.",
    "viral_evidence": "537K views, 2.2x breakout (E67NqSbxs1c)"
   }
  ]
