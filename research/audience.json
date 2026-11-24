@@ -1,7 +1,115 @@
 {
-  "note": "Channel audience from vidiq_channel_analytics (audience_demographics). Refresh weekly; see PLAYBOOK section 1a.",
-  "checked": "2026-11-16",
-  "demographics_rows": [],
-  "geography_rows": [],
-  "finding": "No demographic data yet: the channel is new and YouTube has not reported age or gender for the last 28 days."
+ "note": "Channel audience from vidiq_channel_analytics (audience_demographics). Refresh weekly; see PLAYBOOK section 1a.",
+ "checked": "2026-11-24",
+ "demographics_rows": [
+  [
+   "age13-17",
+   "female",
+   2.8
+  ],
+  [
+   "age13-17",
+   "male",
+   15.1
+  ],
+  [
+   "age18-24",
+   "female",
+   1.5
+  ],
+  [
+   "age18-24",
+   "male",
+   13.8
+  ],
+  [
+   "age25-34",
+   "female",
+   4.9
+  ],
+  [
+   "age25-34",
+   "male",
+   26.8
+  ],
+  [
+   "age35-44",
+   "female",
+   6.8
+  ],
+  [
+   "age35-44",
+   "male",
+   14.2
+  ],
+  [
+   "age45-54",
+   "female",
+   3.1
+  ],
+  [
+   "age45-54",
+   "male",
+   7.6
+  ],
+  [
+   "age55-64",
+   "male",
+   2.5
+  ],
+  [
+   "age65-",
+   "female",
+   0.3
+  ],
+  [
+   "age65-",
+   "male",
+   0.7
+  ]
+ ],
+ "geography_rows": [
+  [
+   "US",
+   10455
+  ],
+  [
+   "IN",
+   1839
+  ],
+  [
+   "PH",
+   1377
+  ],
+  [
+   "ID",
+   1120
+  ],
+  [
+   "VN",
+   283
+  ],
+  [
+   "BD",
+   276
+  ],
+  [
+   "GB",
+   244
+  ],
+  [
+   "TR",
+   186
+  ],
+  [
+   "AU",
+   163
+  ],
+  [
+   "MY",
+   136
+  ]
+ ],
+ "finding": "Largest group 25-34 (32%), then 13-17 and 35-44 (about 18-21% each); 82% male. US is 55% of views, then India, Philippines, Indonesia. Use plain everyday English, and give metric units with an everyday comparison US viewers know.",
+ "source": "Composio YouTube Analytics, 28 days to 2026-11-23"
 }

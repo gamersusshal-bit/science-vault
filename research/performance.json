@@ -242,6 +242,191 @@
     "total_views": 2734
    },
    "limits": "Monday run: paid analytics (PLAYBOOK 1f) skipped because vidiq_balance showed 0 credits (renews 2026-12-03). Per-Short numbers not read. vidIQ reports 12 videos while the log has 15 published Shorts/long videos; not investigated."
+  },
+  {
+   "date": "2026-11-24",
+   "source": "Composio YouTube Analytics (YOUTUBE_QUERY_ANALYTICS, channel==MINE), free",
+   "window": "2026-10-27..2026-11-23 (data lags 1-2 days; the 23 Nov Shorts are not in it yet)",
+   "top_videos": [
+    {
+     "id": "c03-_i_MhaE",
+     "views": 1738,
+     "engagedViews": 830,
+     "averageViewDuration_s": 42,
+     "averageViewPercentage": 142.19,
+     "subscribersGained": 2,
+     "likes": 26,
+     "shares": 0,
+     "slug": "sun-vanishes"
+    },
+    {
+     "id": "TUp_Qd6skF8",
+     "views": 1728,
+     "engagedViews": 735,
+     "averageViewDuration_s": 22,
+     "averageViewPercentage": 80.69,
+     "subscribersGained": 0,
+     "likes": 20,
+     "shares": 0,
+     "slug": "helicopter-tail-rotor"
+    },
+    {
+     "id": "5AjOT6voTjo",
+     "views": 1448,
+     "engagedViews": 856,
+     "averageViewDuration_s": 19,
+     "averageViewPercentage": 66.53,
+     "subscribersGained": 0,
+     "likes": 28,
+     "shares": 1,
+     "slug": "jet-engine-fan"
+    },
+    {
+     "id": "FSV48dVBVW0",
+     "views": 1421,
+     "engagedViews": 669,
+     "averageViewDuration_s": 24,
+     "averageViewPercentage": 83.03,
+     "subscribersGained": 2,
+     "likes": 22,
+     "shares": 0,
+     "slug": "earth-tunnel"
+    },
+    {
+     "id": "yK1ATBs8elQ",
+     "views": 1412,
+     "engagedViews": 635,
+     "averageViewDuration_s": 19,
+     "averageViewPercentage": 63.88,
+     "subscribersGained": 0,
+     "likes": 41,
+     "shares": 2,
+     "slug": "tree-from-air"
+    },
+    {
+     "id": "uZ4NC02xQXs",
+     "views": 1409,
+     "engagedViews": 796,
+     "averageViewDuration_s": 20,
+     "averageViewPercentage": 65.52,
+     "subscribersGained": 1,
+     "likes": 25,
+     "shares": 0,
+     "slug": "pinecone-weather"
+    },
+    {
+     "id": "vmrXFa_1H10",
+     "views": 1355,
+     "engagedViews": 724,
+     "averageViewDuration_s": 21,
+     "averageViewPercentage": 64.51,
+     "subscribersGained": 0,
+     "likes": 26,
+     "shares": 0,
+     "slug": "sunflower-spirals"
+    },
+    {
+     "id": "tMUK2xHeC4M",
+     "views": 1323,
+     "engagedViews": 637,
+     "averageViewDuration_s": 41,
+     "averageViewPercentage": 137.32,
+     "subscribersGained": 2,
+     "likes": 12,
+     "shares": 0,
+     "slug": "doubling-giant"
+    },
+    {
+     "id": "sW7fD11mzJY",
+     "views": 1315,
+     "engagedViews": 592,
+     "averageViewDuration_s": 27,
+     "averageViewPercentage": 84.61,
+     "subscribersGained": 0,
+     "likes": 23,
+     "shares": 0,
+     "slug": "city-streaming"
+    },
+    {
+     "id": "Ou8gKnw0mA0",
+     "views": 1288,
+     "engagedViews": 639,
+     "averageViewDuration_s": 24,
+     "averageViewPercentage": 87.51,
+     "subscribersGained": 3,
+     "likes": 46,
+     "shares": 0,
+     "slug": "lightning-thunder"
+    },
+    {
+     "id": "EGsiDw65CIE",
+     "views": 1284,
+     "engagedViews": 568,
+     "averageViewDuration_s": 33,
+     "averageViewPercentage": 112.67,
+     "subscribersGained": 1,
+     "likes": 13,
+     "shares": 0,
+     "slug": "coconut-water"
+    },
+    {
+     "id": "MRxXyvPJZ2A",
+     "views": 1279,
+     "engagedViews": 602,
+     "averageViewDuration_s": 18,
+     "averageViewPercentage": 56.4,
+     "subscribersGained": 0,
+     "likes": 12,
+     "shares": 0,
+     "slug": "power-line-tube"
+    },
+    {
+     "id": "L0TDYoAHhh0",
+     "views": 1205,
+     "engagedViews": 659,
+     "averageViewDuration_s": 18,
+     "averageViewPercentage": 52.09,
+     "subscribersGained": 2,
+     "likes": 12,
+     "shares": 0,
+     "slug": "spin-dizzy"
+    },
+    {
+     "id": "rNi9wLfC2sE",
+     "views": 1095,
+     "engagedViews": 538,
+     "averageViewDuration_s": 13,
+     "averageViewPercentage": 44.32,
+     "subscribersGained": 0,
+     "likes": 7,
+     "shares": 0,
+     "slug": "shell-dissolving"
+    },
+    {
+     "id": "hiYYgYA81a4",
+     "views": 380,
+     "engagedViews": 176,
+     "averageViewDuration_s": 20,
+     "averageViewPercentage": 67.17,
+     "subscribersGained": 0,
+     "likes": 8,
+     "shares": 0,
+     "slug": "runaway-ramp"
+    }
+   ],
+   "traffic_sources": {
+    "SHORTS": 18691,
+    "YT_SEARCH": 798,
+    "YT_OTHER_PAGE": 313,
+    "YT_CHANNEL": 22,
+    "SUBSCRIBER": 12,
+    "PLAYLIST": 2,
+    "NO_LINK_OTHER": 1
+   },
+   "notes": [
+    "averageViewPercentage over 100 means viewers looped the Short.",
+    "Not Studio's stayed-to-watch metric; that is only in vidiq_channel_analytics_extended."
+   ]
   }
  ]
 }

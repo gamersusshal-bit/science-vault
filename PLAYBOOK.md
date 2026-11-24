@@ -21,15 +21,14 @@ shots, characters, thumbnail or title, and never re-upload anyone's footage.
 vidIQ calls cost 5 credits each and the account has about 150 a month, so research is
 cached in the repo and refreshed only when needed.
 
-1a. Audience: `research/audience.json`
-- If `checked` is more than 7 days old, call `vidiq_channel_analytics` once with
-  channelId `UClwsg9mIPTVoHTFwMblg9GA` and report `audience_demographics`, and save
-  the rows and today's date. Once the channel has views, also save `audience_geography`
-  on alternate weeks.
-- If the rows are empty (new channel), say so in the owner message and do not guess an
-  audience. When there is data, let it steer the pick and the wording: favour candidate
-  topics and vocabulary that suit the largest age group, and use units and everyday
-  references that suit the top countries.
+1a. Audience: `research/audience.json` (Composio, free; owner's decision 2026-11-24)
+- If `checked` is more than 7 days old, read it with Composio `YOUTUBE_QUERY_ANALYTICS`
+  (ids `channel==MINE`, last 28 days): metrics `viewerPercentage` with dimensions
+  `ageGroup,gender`, and metrics `views` with dimension `country` (sort `-views`, 10 rows).
+  Save the rows and today's date.
+- Let it steer the pick and the wording: favour topics and vocabulary that suit the largest
+  age group, and units and everyday references that suit the top countries.
+- If Composio is not available in the run, say so in the owner message and keep the cache.
 
 1b. Viral candidates: `research/viral_topics.json`
 - If fewer than 6 candidates have `"used": false`, or `refreshed` is more than 7 days
@@ -89,33 +88,38 @@ cached in the repo and refreshed only when needed.
 - Field name for the GTA Short in the log: "computing and games". Both use the
   af_heart voice and the seven beats of 2a.
 
-1f. Performance check (owner's request, 2026-11-19: analyse the channel and feed it back into content)
+1f. Performance check (owner's request 2026-11-19; analytics moved to Composio 2026-11-24)
 
-vidIQ gives about 150 credits a month and every analytics call costs 5, so the budget is
-fixed: about 20 credits a week on performance, 5 on viral research (1b), and the rest kept
-spare for the weekly long video. Daily runs spend nothing unless a check below is due.
-- Every run, free: `vidiq_user_channels` for subscribers, total views and video count. Append
-  a snapshot to `research/performance.json` (never overwrite older ones).
-- Mondays, if `vidiq_balance` shows at least 25 credits, in this order:
-  1. `vidiq_channel_analytics_extended` report `shorts_stayed_to_watch` for the last 28 days
-     (stayed-to-watch % per Short; the most direct test of the hook).
-  2. `vidiq_channel_analytics` report `top_videos` with metrics engagedViews,
-     averageViewPercentage, subscribersGained, likes, shares, last 28 days.
-  3. `vidiq_channel_analytics` report `traffic_sources` (Shorts feed vs search vs other).
-  4. `audience_demographics` if `research/audience.json` is over 7 days old (1a).
-  Save the rows in `research/performance.json`.
+Uploading, drafting and scheduling stay on vidIQ. Channel analytics come from the Composio
+YouTube connection (YouTube Analytics API), which costs no vidIQ credits. Load it with tool
+search (`COMPOSIO_SEARCH_TOOLS`, then `COMPOSIO_MULTI_EXECUTE_TOOL` with `YOUTUBE_QUERY_ANALYTICS`).
+- Every run: `vidiq_user_channels` (free) for subscribers, total views and video count, plus
+  Composio `YOUTUBE_GET_VIDEO_DETAILS_BATCH` (parts statistics,status) for the Shorts of the
+  last 7 days in the log. Append a snapshot to `research/performance.json` (never overwrite).
+- Mondays, with Composio `YOUTUBE_QUERY_ANALYTICS` (ids `channel==MINE`, last 28 days):
+  1. dimension `video`, metrics `views,engagedViews,averageViewDuration,averageViewPercentage,subscribersGained,likes,shares`,
+     sort `-views`, maxResults 50. Map video ids to slugs through the `url` in the log.
+  2. dimension `insightTrafficSourceType`, metric `views` (Shorts feed vs search vs other).
+  3. the audience reads in 1a if they are due.
+  Save the rows in `research/performance.json`. The data lags 1-2 days, so the newest
+  Shorts may be missing; say so rather than guessing. averageViewPercentage over 100 means
+  viewers looped the Short.
+- Studio's stayed-to-watch % is not in the YouTube Analytics API. Only if `vidiq_balance`
+  shows at least 10 credits, also pull `vidiq_channel_analytics_extended` report
+  `shorts_stayed_to_watch` for the last 28 days; otherwise rank by averageViewPercentage.
 - Turn the numbers into rules, then into content:
-  - Rank the Shorts by stayed-to-watch. Compare the top two and bottom two openings and write
-    one lesson in 2c only when the gap is clear (10 points or more); with small samples, say so.
+  - Rank the Shorts by stayed-to-watch if you have it, else by averageViewPercentage. Compare
+    the top two and bottom two openings and write one lesson in 2c only when the gap is clear
+    (10 points or more); with small samples, say so.
   - Prefer the series and fields of the top third for the next week's picks (1c still applies:
     never the same field twice in a row).
   - If views per new subscriber is over 1,000, the follow prompt (section 3, `SeriesOutro`)
     and the comment question are the first things to change, not the topics.
 - In the owner message, give the current subscriber and view totals, the change since the
-  last snapshot, and a one-line prediction for the next 7 days. Base the prediction on the
-  channel's own average views per Short and label it as a rough estimate.
-- If credits are 0 or a call fails, say so in the owner message and use only the free snapshot.
-  Never estimate per-video numbers you did not read.
+  last snapshot, each recent Short's views and average view %, and a one-line prediction
+  for the next 7 days (rough estimate from the channel's own average views per Short).
+- If Composio is not available or a call fails, say so in the owner message and use only the
+  free vidIQ snapshot. Never estimate per-video numbers you did not read.
 
 ## 2. Write the script: `videos/<slug>/script.json`
 
@@ -300,8 +304,8 @@ Rules from this, until the next Monday check (1f) says otherwise:
    (the "break it" demonstration of 2a). Check the contact sheet frame nearest 10 s: if it
    looks like the frame at 6 s, rework that line.
 4. **How It Works pauses to one in four Shorts** until one of them gains a subscriber.
-5. In each owner message, list the latest Studio average-view % for every Short from the
-   last 7 days next to the new drafts, so the trend is visible.
+5. In each owner message, list the latest average-view % (Composio, 1f) for every Short
+   from the last 7 days next to the new videos, so the trend is visible.
 
 ## 3. Build the scene: `src/videos/<camelSlug>/<Name>.tsx`
 
