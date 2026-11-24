@@ -102,7 +102,7 @@
    "series_no": 4,
    "format": "short",
    "note": "Studio export of 2026-11-19 lists this Short as L0TDYoAHhh0; the earlier id fD_tuDMX1BM shows Video unavailable.",
-   "title_live": "Why You Still Feel Like You’re Spinning After You Stop?  #ear #humanbody #humanity #biology #science"
+   "title_live": "Why You Still Feel Like You\u2019re Spinning After You Stop?  #ear #humanbody #humanity #biology #science"
   },
   {
    "date": "2026-11-18",
@@ -326,6 +326,47 @@
     "revision": "55b09887"
    },
    "url": "https://www.youtube.com/watch?v=mR_LtSKPdU8"
+  },
+  {
+   "date": "2026-11-24",
+   "slug": "oxygen-vanishes",
+   "title": "What If Oxygen Vanished for Five Seconds? | What If #5",
+   "field": "chemistry",
+   "hero_visual": "night backyard with campfire, candles and camping stove; red O2 molecules pop out of the air among blue N2, slow-motion OXYGEN BACK IN clock 5.00 to 0.00 with NITROGEN/O2 air bar losing its fifth, flames choke and coals glow, zoom on fuel with oxygen arriving then nothing to grab, fireworks keep bursting, cut-away firework star with oxidizer grains feeding oxygen to fuel grains",
+   "voice": "af_heart",
+   "fizz": false,
+   "status": "scheduled",
+   "series": "What If",
+   "series_no": 5,
+   "format": "short",
+   "duration_s": 31.3,
+   "publish_at": "2026-11-24T18:00:00+05:30",
+   "postId": "90a1044b-864a-4fc6-84fd-edccb7cfa3fb",
+   "revision": "e34b37e8",
+   "publicationId": "316cf148-3274-4cb0-b68d-dddbfe1a815f",
+   "url": "https://www.youtube.com/watch?v=upOy089nbDg",
+   "viral_evidence": "1.5M views, 1.5x breakout (L7XT8is8l3M); same series 2.7M-8M views"
+  },
+  {
+   "date": "2026-11-24",
+   "slug": "ant-fall",
+   "title": "Why an Ant Survives a Skyscraper Fall | Why It Happens #9",
+   "field": "physics",
+   "hero_visual": "daytime side view of a skyscraper; ant slips off the roof ledge and falls past scrolling windows beside a generic spread-eagle person, FALL SPEED bars (YOU to 200 km/h, ANT stuck at 7 with JOG tick), zoom with one red WEIGHT arrow vs a row of lime AIR PUSH arrows, ant scaled up to human size with SURFACE x100 vs WEIGHT x1000 bars, giant ant speeds up and cracks the pavement, small ant walks away",
+   "voice": "af_heart",
+   "fizz": false,
+   "status": "draft",
+   "series": "Why It Happens",
+   "series_no": 9,
+   "format": "short",
+   "duration_s": 29.1,
+   "publish_at": "2026-11-24T18:00:00+05:30",
+   "postId": "b65f9ee4-0cea-4b15-bcea-631a517964bc",
+   "revision": "a66ed3d4",
+   "publicationId": "51c6e074-21e8-40d9-9723-200966fa5339",
+   "url": null,
+   "note": "Passed all gates. Scheduling refused at 06:44 UTC: vidIQ free-plan limit of 3 YouTube uploads a day (resets 08:00 UTC). Retry booked for 08:05 UTC in this session.",
+   "viral_evidence": "537K views, 2.2x breakout (E67NqSbxs1c)"
   }
  ]
 }
