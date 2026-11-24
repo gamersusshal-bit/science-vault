@@ -1,0 +1,477 @@
+{
+ "slug": "ant-fall",
+ "fps": 30,
+ "duration": 28.986,
+ "beats": {
+  "drop": 0.628,
+  "hit": 23.593
+ },
+ "lines": [
+  {
+   "id": "hook",
+   "text": "This ant fell off a skyscraper. So why is it walking?",
+   "start": 0.2,
+   "end": 3.307,
+   "words": [
+    {
+     "text": "This",
+     "start": 0.2,
+     "end": 0.436
+    },
+    {
+     "text": "ant",
+     "start": 0.436,
+     "end": 0.628
+    },
+    {
+     "text": "fell",
+     "start": 0.628,
+     "end": 0.864
+    },
+    {
+     "text": "off",
+     "start": 0.864,
+     "end": 1.055
+    },
+    {
+     "text": "a",
+     "start": 1.055,
+     "end": 1.155
+    },
+    {
+     "text": "skyscraper.",
+     "start": 1.155,
+     "end": 1.801
+    },
+    {
+     "text": "So",
+     "start": 1.981,
+     "end": 2.151
+    },
+    {
+     "text": "why",
+     "start": 2.151,
+     "end": 2.373
+    },
+    {
+     "text": "is",
+     "start": 2.373,
+     "end": 2.543
+    },
+    {
+     "text": "it",
+     "start": 2.543,
+     "end": 2.713
+    },
+    {
+     "text": "walking?",
+     "start": 2.713,
+     "end": 3.307
+    }
+   ]
+  },
+  {
+   "id": "meter",
+   "text": "Watch the speed. You'd reach two hundred kilometres an hour.",
+   "start": 3.657,
+   "end": 6.652,
+   "words": [
+    {
+     "text": "Watch",
+     "start": 3.657,
+     "end": 3.956
+    },
+    {
+     "text": "the",
+     "start": 3.956,
+     "end": 4.158
+    },
+    {
+     "text": "speed.",
+     "start": 4.158,
+     "end": 4.601
+    },
+    {
+     "text": "You'd",
+     "start": 4.751,
+     "end": 5.0
+    },
+    {
+     "text": "reach",
+     "start": 5.0,
+     "end": 5.249
+    },
+    {
+     "text": "two",
+     "start": 5.249,
+     "end": 5.417
+    },
+    {
+     "text": "hundred",
+     "start": 5.417,
+     "end": 5.746
+    },
+    {
+     "text": "kilometres",
+     "start": 5.746,
+     "end": 6.195
+    },
+    {
+     "text": "an",
+     "start": 6.195,
+     "end": 6.323
+    },
+    {
+     "text": "hour.",
+     "start": 6.323,
+     "end": 6.652
+    }
+   ]
+  },
+  {
+   "id": "limit",
+   "text": "The ant tops out almost at once, slower than you jog.",
+   "start": 7.002,
+   "end": 10.164,
+   "words": [
+    {
+     "text": "The",
+     "start": 7.002,
+     "end": 7.211
+    },
+    {
+     "text": "ant",
+     "start": 7.211,
+     "end": 7.421
+    },
+    {
+     "text": "tops",
+     "start": 7.421,
+     "end": 7.681
+    },
+    {
+     "text": "out",
+     "start": 7.681,
+     "end": 7.891
+    },
+    {
+     "text": "almost",
+     "start": 7.891,
+     "end": 8.251
+    },
+    {
+     "text": "at",
+     "start": 8.251,
+     "end": 8.411
+    },
+    {
+     "text": "once,",
+     "start": 8.411,
+     "end": 8.82
+    },
+    {
+     "text": "slower",
+     "start": 8.94,
+     "end": 9.311
+    },
+    {
+     "text": "than",
+     "start": 9.311,
+     "end": 9.578
+    },
+    {
+     "text": "you",
+     "start": 9.578,
+     "end": 9.794
+    },
+    {
+     "text": "jog.",
+     "start": 9.794,
+     "end": 10.164
+    }
+   ]
+  },
+  {
+   "id": "why",
+   "text": "Gravity pulls its whole body, air pushes its surface, and an ant is nearly all surface.",
+   "start": 10.564,
+   "end": 15.78,
+   "words": [
+    {
+     "text": "Gravity",
+     "start": 10.564,
+     "end": 10.96
+    },
+    {
+     "text": "pulls",
+     "start": 10.96,
+     "end": 11.26
+    },
+    {
+     "text": "its",
+     "start": 11.26,
+     "end": 11.463
+    },
+    {
+     "text": "whole",
+     "start": 11.463,
+     "end": 11.762
+    },
+    {
+     "text": "body,",
+     "start": 11.762,
+     "end": 12.159
+    },
+    {
+     "text": "air",
+     "start": 12.279,
+     "end": 12.475
+    },
+    {
+     "text": "pushes",
+     "start": 12.475,
+     "end": 12.811
+    },
+    {
+     "text": "its",
+     "start": 12.811,
+     "end": 13.007
+    },
+    {
+     "text": "surface,",
+     "start": 13.007,
+     "end": 13.53
+    },
+    {
+     "text": "and",
+     "start": 13.68,
+     "end": 13.916
+    },
+    {
+     "text": "an",
+     "start": 13.916,
+     "end": 14.095
+    },
+    {
+     "text": "ant",
+     "start": 14.095,
+     "end": 14.331
+    },
+    {
+     "text": "is",
+     "start": 14.331,
+     "end": 14.511
+    },
+    {
+     "text": "nearly",
+     "start": 14.511,
+     "end": 14.915
+    },
+    {
+     "text": "all",
+     "start": 14.915,
+     "end": 15.151
+    },
+    {
+     "text": "surface.",
+     "start": 15.151,
+     "end": 15.78
+    }
+   ]
+  },
+  {
+   "id": "twist",
+   "text": "But here's the strange part. Scale the ant up to your size.",
+   "start": 16.23,
+   "end": 19.7,
+   "words": [
+    {
+     "text": "But",
+     "start": 16.23,
+     "end": 16.419
+    },
+    {
+     "text": "here's",
+     "start": 16.419,
+     "end": 16.744
+    },
+    {
+     "text": "the",
+     "start": 16.744,
+     "end": 16.933
+    },
+    {
+     "text": "strange",
+     "start": 16.933,
+     "end": 17.303
+    },
+    {
+     "text": "part.",
+     "start": 17.303,
+     "end": 17.673
+    },
+    {
+     "text": "Scale",
+     "start": 18.023,
+     "end": 18.326
+    },
+    {
+     "text": "the",
+     "start": 18.326,
+     "end": 18.53
+    },
+    {
+     "text": "ant",
+     "start": 18.53,
+     "end": 18.735
+    },
+    {
+     "text": "up",
+     "start": 18.735,
+     "end": 18.891
+    },
+    {
+     "text": "to",
+     "start": 18.891,
+     "end": 19.047
+    },
+    {
+     "text": "your",
+     "start": 19.047,
+     "end": 19.3
+    },
+    {
+     "text": "size.",
+     "start": 19.3,
+     "end": 19.7
+    }
+   ]
+  },
+  {
+   "id": "climax",
+   "text": "Its weight grows far faster than its surface. Now the fall would break it.",
+   "start": 20.05,
+   "end": 24.195,
+   "words": [
+    {
+     "text": "Its",
+     "start": 20.05,
+     "end": 20.248
+    },
+    {
+     "text": "weight",
+     "start": 20.248,
+     "end": 20.586
+    },
+    {
+     "text": "grows",
+     "start": 20.586,
+     "end": 20.878
+    },
+    {
+     "text": "far",
+     "start": 20.878,
+     "end": 21.075
+    },
+    {
+     "text": "faster",
+     "start": 21.075,
+     "end": 21.414
+    },
+    {
+     "text": "than",
+     "start": 21.414,
+     "end": 21.658
+    },
+    {
+     "text": "its",
+     "start": 21.658,
+     "end": 21.855
+    },
+    {
+     "text": "surface.",
+     "start": 21.855,
+     "end": 22.382
+    },
+    {
+     "text": "Now",
+     "start": 22.632,
+     "end": 22.836
+    },
+    {
+     "text": "the",
+     "start": 22.836,
+     "end": 23.04
+    },
+    {
+     "text": "fall",
+     "start": 23.04,
+     "end": 23.292
+    },
+    {
+     "text": "would",
+     "start": 23.292,
+     "end": 23.593
+    },
+    {
+     "text": "break",
+     "start": 23.593,
+     "end": 23.894
+    },
+    {
+     "text": "it.",
+     "start": 23.894,
+     "end": 24.195
+    }
+   ]
+  },
+  {
+   "id": "payoff",
+   "text": "It never falls fast enough to get hurt.",
+   "start": 24.695,
+   "end": 27.186,
+   "words": [
+    {
+     "text": "It",
+     "start": 24.695,
+     "end": 24.861
+    },
+    {
+     "text": "never",
+     "start": 24.861,
+     "end": 25.184
+    },
+    {
+     "text": "falls",
+     "start": 25.184,
+     "end": 25.506
+    },
+    {
+     "text": "fast",
+     "start": 25.506,
+     "end": 25.777
+    },
+    {
+     "text": "enough",
+     "start": 25.777,
+     "end": 26.152
+    },
+    {
+     "text": "to",
+     "start": 26.252,
+     "end": 26.443
+    },
+    {
+     "text": "get",
+     "start": 26.443,
+     "end": 26.695
+    },
+    {
+     "text": "hurt.",
+     "start": 26.695,
+     "end": 27.186
+    }
+   ]
+  }
+ ]
+}

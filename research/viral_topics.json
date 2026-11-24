@@ -12,7 +12,8 @@
    "hook_format": "What if X disappeared for 5 seconds",
    "field": "chemistry / thought experiment",
    "evidence": "1.5M views, 1.5x (L7XT8is8l3M); same series 2.7M-8M views",
-   "used": false
+   "used": true,
+   "slug": "oxygen-vanishes"
   },
   {
    "idea": "What if you dug a tunnel straight through the Earth and jumped in",
@@ -130,7 +131,8 @@
    "hook_format": "Why ...",
    "field": "physics / biology",
    "evidence": "537K views, 2.2x (E67NqSbxs1c)",
-   "used": false
+   "used": true,
+   "slug": "ant-fall"
   },
   {
    "idea": "What if every mosquito vanished",

@@ -1,0 +1,437 @@
+{
+ "slug": "oxygen-vanishes",
+ "fps": 30,
+ "duration": 31.178,
+ "beats": {
+  "drop": 1.057,
+  "hit": 21.109
+ },
+ "lines": [
+  {
+   "id": "hook",
+   "text": "The oxygen just vanished. Five seconds. What goes first?",
+   "start": 0.2,
+   "end": 3.848,
+   "words": [
+    {
+     "text": "The",
+     "start": 0.2,
+     "end": 0.417
+    },
+    {
+     "text": "oxygen",
+     "start": 0.417,
+     "end": 0.789
+    },
+    {
+     "text": "just",
+     "start": 0.789,
+     "end": 1.057
+    },
+    {
+     "text": "vanished.",
+     "start": 1.057,
+     "end": 1.687
+    },
+    {
+     "text": "Five",
+     "start": 1.837,
+     "end": 2.117
+    },
+    {
+     "text": "seconds.",
+     "start": 2.117,
+     "end": 2.72
+    },
+    {
+     "text": "What",
+     "start": 2.84,
+     "end": 3.108
+    },
+    {
+     "text": "goes",
+     "start": 3.108,
+     "end": 3.375
+    },
+    {
+     "text": "first?",
+     "start": 3.375,
+     "end": 3.848
+    }
+   ]
+  },
+  {
+   "id": "meter",
+   "text": "A fifth of the air is suddenly gone. When this clock hits zero, it comes back.",
+   "start": 4.198,
+   "end": 8.343,
+   "words": [
+    {
+     "text": "A",
+     "start": 4.198,
+     "end": 4.297
+    },
+    {
+     "text": "fifth",
+     "start": 4.297,
+     "end": 4.575
+    },
+    {
+     "text": "of",
+     "start": 4.575,
+     "end": 4.719
+    },
+    {
+     "text": "the",
+     "start": 4.719,
+     "end": 4.908
+    },
+    {
+     "text": "air",
+     "start": 4.908,
+     "end": 5.097
+    },
+    {
+     "text": "is",
+     "start": 5.097,
+     "end": 5.241
+    },
+    {
+     "text": "suddenly",
+     "start": 5.241,
+     "end": 5.654
+    },
+    {
+     "text": "gone.",
+     "start": 5.654,
+     "end": 6.023
+    },
+    {
+     "text": "When",
+     "start": 6.223,
+     "end": 6.454
+    },
+    {
+     "text": "this",
+     "start": 6.454,
+     "end": 6.686
+    },
+    {
+     "text": "clock",
+     "start": 6.686,
+     "end": 6.962
+    },
+    {
+     "text": "hits",
+     "start": 6.962,
+     "end": 7.194
+    },
+    {
+     "text": "zero,",
+     "start": 7.194,
+     "end": 7.559
+    },
+    {
+     "text": "it",
+     "start": 7.559,
+     "end": 7.702
+    },
+    {
+     "text": "comes",
+     "start": 7.702,
+     "end": 7.978
+    },
+    {
+     "text": "back.",
+     "start": 7.978,
+     "end": 8.343
+    }
+   ]
+  },
+  {
+   "id": "choke",
+   "text": "First, the flames choke. Campfire, stove, candles, out at once.",
+   "start": 8.743,
+   "end": 12.862,
+   "words": [
+    {
+     "text": "First,",
+     "start": 8.743,
+     "end": 9.16
+    },
+    {
+     "text": "the",
+     "start": 9.16,
+     "end": 9.35
+    },
+    {
+     "text": "flames",
+     "start": 9.35,
+     "end": 9.677
+    },
+    {
+     "text": "choke.",
+     "start": 9.677,
+     "end": 10.094
+    },
+    {
+     "text": "Campfire,",
+     "start": 10.344,
+     "end": 10.981
+    },
+    {
+     "text": "stove,",
+     "start": 10.981,
+     "end": 11.462
+    },
+    {
+     "text": "candles,",
+     "start": 11.462,
+     "end": 12.047
+    },
+    {
+     "text": "out",
+     "start": 12.047,
+     "end": 12.266
+    },
+    {
+     "text": "at",
+     "start": 12.266,
+     "end": 12.433
+    },
+    {
+     "text": "once.",
+     "start": 12.433,
+     "end": 12.862
+    }
+   ]
+  },
+  {
+   "id": "why",
+   "text": "Fire is fuel grabbing oxygen from the air. No oxygen, nothing to grab.",
+   "start": 13.262,
+   "end": 18.025,
+   "words": [
+    {
+     "text": "Fire",
+     "start": 13.262,
+     "end": 13.533
+    },
+    {
+     "text": "is",
+     "start": 13.533,
+     "end": 13.701
+    },
+    {
+     "text": "fuel",
+     "start": 13.701,
+     "end": 13.972
+    },
+    {
+     "text": "grabbing",
+     "start": 13.972,
+     "end": 14.453
+    },
+    {
+     "text": "oxygen",
+     "start": 14.453,
+     "end": 14.829
+    },
+    {
+     "text": "from",
+     "start": 14.829,
+     "end": 15.101
+    },
+    {
+     "text": "the",
+     "start": 15.101,
+     "end": 15.32
+    },
+    {
+     "text": "air.",
+     "start": 15.32,
+     "end": 15.697
+    },
+    {
+     "text": "No",
+     "start": 15.897,
+     "end": 16.103
+    },
+    {
+     "text": "oxygen,",
+     "start": 16.103,
+     "end": 16.761
+    },
+    {
+     "text": "nothing",
+     "start": 16.761,
+     "end": 17.29
+    },
+    {
+     "text": "to",
+     "start": 17.29,
+     "end": 17.496
+    },
+    {
+     "text": "grab.",
+     "start": 17.496,
+     "end": 18.025
+    }
+   ]
+  },
+  {
+   "id": "twist",
+   "text": "But here's the strange part. The fireworks keep burning.",
+   "start": 18.475,
+   "end": 22.066,
+   "words": [
+    {
+     "text": "But",
+     "start": 18.475,
+     "end": 18.664
+    },
+    {
+     "text": "here's",
+     "start": 18.664,
+     "end": 18.989
+    },
+    {
+     "text": "the",
+     "start": 18.989,
+     "end": 19.179
+    },
+    {
+     "text": "strange",
+     "start": 19.179,
+     "end": 19.549
+    },
+    {
+     "text": "part.",
+     "start": 19.549,
+     "end": 19.919
+    },
+    {
+     "text": "The",
+     "start": 20.269,
+     "end": 20.514
+    },
+    {
+     "text": "fireworks",
+     "start": 20.514,
+     "end": 21.109
+    },
+    {
+     "text": "keep",
+     "start": 21.109,
+     "end": 21.413
+    },
+    {
+     "text": "burning.",
+     "start": 21.413,
+     "end": 22.066
+    }
+   ]
+  },
+  {
+   "id": "climax",
+   "text": "They carry their own oxygen, locked inside the powder.",
+   "start": 22.466,
+   "end": 25.531,
+   "words": [
+    {
+     "text": "They",
+     "start": 22.466,
+     "end": 22.712
+    },
+    {
+     "text": "carry",
+     "start": 22.712,
+     "end": 23.006
+    },
+    {
+     "text": "their",
+     "start": 23.006,
+     "end": 23.3
+    },
+    {
+     "text": "own",
+     "start": 23.3,
+     "end": 23.499
+    },
+    {
+     "text": "oxygen,",
+     "start": 23.499,
+     "end": 23.982
+    },
+    {
+     "text": "locked",
+     "start": 24.132,
+     "end": 24.482
+    },
+    {
+     "text": "inside",
+     "start": 24.482,
+     "end": 24.831
+    },
+    {
+     "text": "the",
+     "start": 24.831,
+     "end": 25.036
+    },
+    {
+     "text": "powder.",
+     "start": 25.036,
+     "end": 25.531
+    }
+   ]
+  },
+  {
+   "id": "payoff",
+   "text": "The only fire left brought its own oxygen.",
+   "start": 26.031,
+   "end": 29.378,
+   "words": [
+    {
+     "text": "The",
+     "start": 26.031,
+     "end": 26.303
+    },
+    {
+     "text": "only",
+     "start": 26.303,
+     "end": 26.639
+    },
+    {
+     "text": "fire",
+     "start": 26.639,
+     "end": 26.975
+    },
+    {
+     "text": "left",
+     "start": 26.975,
+     "end": 27.311
+    },
+    {
+     "text": "brought",
+     "start": 27.461,
+     "end": 28.048
+    },
+    {
+     "text": "its",
+     "start": 28.048,
+     "end": 28.348
+    },
+    {
+     "text": "own",
+     "start": 28.348,
+     "end": 28.648
+    },
+    {
+     "text": "oxygen.",
+     "start": 28.648,
+     "end": 29.378
+    }
+   ]
+  }
+ ]
+}

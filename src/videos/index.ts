@@ -54,6 +54,12 @@ import runawayRampScript from "../../videos/runaway-ramp/script.json";
 import { RedFishDark } from "./redFishDark/RedFishDark";
 import redFishDarkTimeline from "../../videos/red-fish-dark/timeline.json";
 import redFishDarkScript from "../../videos/red-fish-dark/script.json";
+import { OxygenVanishes } from "./oxygenVanishes/OxygenVanishes";
+import oxygenVanishesTimeline from "../../videos/oxygen-vanishes/timeline.json";
+import oxygenVanishesScript from "../../videos/oxygen-vanishes/script.json";
+import { AntFall } from "./antFall/AntFall";
+import antFallTimeline from "../../videos/ant-fall/timeline.json";
+import antFallScript from "../../videos/ant-fall/script.json";
 import type { ThumbSpec } from "../primitives/Thumbnail";
 
 /**
@@ -83,4 +89,6 @@ export const VIDEOS: { id: string; component: React.FC; duration: number; timeli
   { id: "black-hole-fall", component: BlackHoleFall, duration: blackHoleFallTimeline.duration, thumb: blackHoleFallScript.thumb },
   { id: "runaway-ramp", component: RunawayRamp, duration: runawayRampTimeline.duration, thumb: runawayRampScript.thumb },
   { id: "red-fish-dark", component: RedFishDark, duration: redFishDarkTimeline.duration, thumb: redFishDarkScript.thumb },
+  { id: "oxygen-vanishes", component: OxygenVanishes, duration: oxygenVanishesTimeline.duration, thumb: oxygenVanishesScript.thumb },
+  { id: "ant-fall", component: AntFall, duration: antFallTimeline.duration, thumb: antFallScript.thumb },
 ];

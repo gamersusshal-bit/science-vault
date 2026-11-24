@@ -142,7 +142,7 @@
     },
     {
      "id": "L0TDYoAHhh0",
-     "title": "Why You Still Feel Like You’re Spinning After You Stop?  #ear #humanbody #humanity #biology #science",
+     "title": "Why You Still Feel Like You\u2019re Spinning After You Stop?  #ear #humanbody #humanity #biology #science",
      "published": "Nov 17, 2026",
      "duration_s": 35,
      "views": 1205,
@@ -427,6 +427,19 @@
     "averageViewPercentage over 100 means viewers looped the Short.",
     "Not Studio's stayed-to-watch metric; that is only in vidiq_channel_analytics_extended."
    ]
+  },
+  {
+   "date": "2026-11-24",
+   "source": "vidiq_user_channels (free call), daily run",
+   "subscribers": 11,
+   "total_views": 19511,
+   "videos": 18,
+   "change_since_2026-11-23_free_snapshot": {
+    "subscribers": 1,
+    "total_views": 2707
+   },
+   "limits": "Composio YOUTUBE_GET_VIDEO_DETAILS_BATCH failed: YouTube Data API quota exceeded (403 quotaExceeded). Per-Short numbers come from this morning's YOUTUBE_QUERY_ANALYTICS snapshot (window to 2026-11-23); black-hole-fall and red-fish-dark not in it yet. vidIQ credits 0 (renews 2026-12-03).",
+   "prediction_next_7_days": "About 1,300 views per Short in its first batch (channel average); with 2 Shorts a day, roughly +15,000-19,000 channel views and +3 to +8 subscribers if nothing breaks out."
   }
  ]
 }

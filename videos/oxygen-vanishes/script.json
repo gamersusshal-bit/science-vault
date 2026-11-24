@@ -1,0 +1,217 @@
+{
+ "slug": "oxygen-vanishes",
+ "title": "What If Oxygen Vanished for Five Seconds? | What If #5",
+ "voice": "af_heart",
+ "series": "What If",
+ "series_no": 5,
+ "format": "short",
+ "thought_experiment": "Labelled thought experiment: only the oxygen gas (O2) in the air vanishes for five seconds; oxygen bound in water, rock and firework powder stays.",
+ "simplified": "Simplified model: the five seconds are shown in slow motion; flames are shown going out together.",
+ "hook_candidates": [
+  {
+   "text": "The oxygen just vanished. Five seconds. What goes first?",
+   "scores": {
+    "under_12_words": 2,
+    "visible_event": 2,
+    "question_open": 2,
+    "about_this": 1,
+    "concrete_start": 2,
+    "true_as_worded": 2
+   },
+   "total": 11,
+   "chosen": true
+  },
+  {
+   "text": "Every flame on Earth just went out. Except one kind.",
+   "scores": {
+    "under_12_words": 2,
+    "visible_event": 2,
+    "question_open": 2,
+    "about_this": 1,
+    "concrete_start": 2,
+    "true_as_worded": 1
+   },
+   "total": 10
+  },
+  {
+   "text": "What if all the oxygen in the air vanished for five seconds?",
+   "scores": {
+    "under_12_words": 2,
+    "visible_event": 1,
+    "question_open": 2,
+    "about_this": 0,
+    "concrete_start": 1,
+    "true_as_worded": 2
+   },
+   "total": 8
+  },
+  {
+   "text": "Watch this campfire. In one second, the air stops feeding it.",
+   "scores": {
+    "under_12_words": 2,
+    "visible_event": 2,
+    "question_open": 1,
+    "about_this": 2,
+    "concrete_start": 2,
+    "true_as_worded": 2
+   },
+   "total": 11
+  },
+  {
+   "text": "You light a match. Nothing happens. Why?",
+   "scores": {
+    "under_12_words": 2,
+    "visible_event": 1,
+    "question_open": 2,
+    "about_this": 2,
+    "concrete_start": 2,
+    "true_as_worded": 1
+   },
+   "total": 10
+  }
+ ],
+ "beats": {
+  "drop": {
+   "line": "hook",
+   "word": "vanished"
+  },
+  "hit": {
+   "line": "twist",
+   "word": "keep"
+  }
+ },
+ "lines": [
+  {
+   "id": "hook",
+   "parts": [
+    {
+     "text": "The oxygen just vanished.",
+     "speed": 1.04,
+     "pause": 0.15
+    },
+    {
+     "text": "Five seconds.",
+     "speed": 1.0,
+     "pause": 0.12
+    },
+    {
+     "text": "What goes first?",
+     "speed": 0.92,
+     "pause": 0.35
+    }
+   ]
+  },
+  {
+   "id": "meter",
+   "parts": [
+    {
+     "text": "A fifth of the air is suddenly gone.",
+     "speed": 1.04,
+     "pause": 0.2
+    },
+    {
+     "text": "When this clock hits zero, it comes back.",
+     "tts": "When this clock hits zero, it comes back.",
+     "speed": 1.0,
+     "pause": 0.4
+    }
+   ]
+  },
+  {
+   "id": "choke",
+   "parts": [
+    {
+     "text": "First, the flames choke.",
+     "speed": 0.95,
+     "pause": 0.25
+    },
+    {
+     "text": "Campfire, stove, candles, out at once.",
+     "tts": "Campfire, stove, candles... out at once.",
+     "speed": 0.98,
+     "pause": 0.4
+    }
+   ]
+  },
+  {
+   "id": "why",
+   "parts": [
+    {
+     "text": "Fire is fuel grabbing oxygen from the air.",
+     "speed": 1.02,
+     "pause": 0.2
+    },
+    {
+     "text": "No oxygen, nothing to grab.",
+     "tts": "No oxygen? Nothing to grab.",
+     "speed": 0.95,
+     "pause": 0.45
+    }
+   ]
+  },
+  {
+   "id": "twist",
+   "parts": [
+    {
+     "text": "But here's the strange part.",
+     "speed": 0.95,
+     "pause": 0.35
+    },
+    {
+     "text": "The fireworks keep burning.",
+     "tts": "The fireworks... keep burning!",
+     "speed": 0.92,
+     "pause": 0.4
+    }
+   ]
+  },
+  {
+   "id": "climax",
+   "parts": [
+    {
+     "text": "They carry their own oxygen,",
+     "tts": "They carry their own oxygen,",
+     "speed": 1.0,
+     "pause": 0.15
+    },
+    {
+     "text": "locked inside the powder.",
+     "speed": 0.92,
+     "pause": 0.5
+    }
+   ]
+  },
+  {
+   "id": "payoff",
+   "parts": [
+    {
+     "text": "The only fire left",
+     "speed": 0.9,
+     "pause": 0.15
+    },
+    {
+     "text": "brought its own oxygen.",
+     "tts": "brought its own... oxygen.",
+     "speed": 0.84,
+     "pause": 0
+    }
+   ]
+  }
+ ],
+ "sources": [
+  "'A fifth of the air': dry air is 20.946% oxygen (O2) and 78.084% nitrogen by volume. NOAA JetStream, 'Introduction to the Atmosphere', https://www.noaa.gov/jetstream/atmosphere",
+  "Fire needs oxygen: 'There must be heat, fuel, and oxygen for a fire to exist. Remove one of the three elements and the fire will go out'; 'At least 16 percent oxygen must be in the air for a fire to start.' US National Park Service, 'Wildland Fire Facts: There Must Be All Three', https://www.nps.gov/articles/wildlandfire-facts-fuel-heat-oxygen.htm ; oxygen 'is also necessary for combustion (burning)', NOAA JetStream (above).",
+  "'Fire is fuel grabbing oxygen from the air': 'In combustion, however, the oxygen comes from the air.' Scientific American, 'Pyrotechnics' (Conkling), https://www.scientificamerican.com/article/pyrotechnics/",
+  "Fireworks carry their own oxygen: 'In a pyrotechnic mixture the oxygen is self-contained'; a pyrotechnic composition 'contains an oxygen source (oxidizer) and a reducing agent (fuel)'; black powder is potassium nitrate, charcoal and sulfur. Scientific American (above). 'In the case of fireworks, the oxygen comes not from the air but is supplied by substances which release it by means of chemical reactions'; the earliest oxidizer was potassium nitrate (saltpeter). McGill Office for Science and Society, Joe Schwarcz, 'A Little Night Magic', https://www.mcgill.ca/oss/article/technology-history/little-night-magic",
+  "Shown, not spoken: hot coals keep glowing after the flames go out (glow from heat); the five seconds run in slow motion. Thought experiment only: oxygen cannot simply vanish; only the free O2 gas is removed in this scenario."
+ ],
+ "comment_question": "What's the first thing you'd notice if the oxygen vanished?",
+ "thumb": {
+  "at": 22.0,
+  "text": [
+   "NO OXYGEN",
+   "STILL BURNS"
+  ],
+  "accent": "#ff9f1c"
+ }
+}

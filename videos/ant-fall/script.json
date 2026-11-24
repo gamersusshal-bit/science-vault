@@ -1,0 +1,212 @@
+{
+ "slug": "ant-fall",
+ "title": "Why an Ant Survives a Skyscraper Fall | Why It Happens #9",
+ "voice": "af_heart",
+ "series": "Why It Happens",
+ "series_no": 9,
+ "format": "short",
+ "simplified": "Simplified model: speeds on the meter are rounded; the ant's top speed is an estimate (university physics estimate plus a drag-equation check).",
+ "hook_candidates": [
+  {
+   "text": "This ant fell off a skyscraper. So why is it walking?",
+   "scores": {
+    "under_12_words": 2,
+    "visible_event": 2,
+    "question_open": 2,
+    "about_this": 2,
+    "concrete_start": 2,
+    "true_as_worded": 2
+   },
+   "total": 12,
+   "chosen": true
+  },
+  {
+   "text": "An ant can't fall fast enough to get hurt.",
+   "scores": {
+    "under_12_words": 2,
+    "visible_event": 0,
+    "question_open": 1,
+    "about_this": 1,
+    "concrete_start": 1,
+    "true_as_worded": 2
+   },
+   "total": 7
+  },
+  {
+   "text": "You'd never survive this fall. This ant shrugs it off.",
+   "scores": {
+    "under_12_words": 2,
+    "visible_event": 2,
+    "question_open": 2,
+    "about_this": 2,
+    "concrete_start": 1,
+    "true_as_worded": 2
+   },
+   "total": 11
+  },
+  {
+   "text": "Drop an ant and a person from the same roof.",
+   "scores": {
+    "under_12_words": 2,
+    "visible_event": 2,
+    "question_open": 1,
+    "about_this": 2,
+    "concrete_start": 2,
+    "true_as_worded": 2
+   },
+   "total": 11
+  },
+  {
+   "text": "Watch this meter. The ant never gets past jogging speed.",
+   "scores": {
+    "under_12_words": 2,
+    "visible_event": 2,
+    "question_open": 1,
+    "about_this": 2,
+    "concrete_start": 1,
+    "true_as_worded": 2
+   },
+   "total": 10
+  }
+ ],
+ "beats": {
+  "drop": {
+   "line": "hook",
+   "word": "fell"
+  },
+  "hit": {
+   "line": "climax",
+   "word": "break"
+  }
+ },
+ "lines": [
+  {
+   "id": "hook",
+   "parts": [
+    {
+     "text": "This ant fell off a skyscraper.",
+     "speed": 1.04,
+     "pause": 0.18
+    },
+    {
+     "text": "So why is it walking?",
+     "speed": 0.92,
+     "pause": 0.35
+    }
+   ]
+  },
+  {
+   "id": "meter",
+   "parts": [
+    {
+     "text": "Watch the speed.",
+     "speed": 1.0,
+     "pause": 0.15
+    },
+    {
+     "text": "You'd reach two hundred kilometres an hour.",
+     "speed": 1.04,
+     "pause": 0.35
+    }
+   ]
+  },
+  {
+   "id": "limit",
+   "parts": [
+    {
+     "text": "The ant tops out almost at once,",
+     "speed": 1.0,
+     "pause": 0.12
+    },
+    {
+     "text": "slower than you jog.",
+     "speed": 0.92,
+     "pause": 0.4
+    }
+   ]
+  },
+  {
+   "id": "why",
+   "parts": [
+    {
+     "text": "Gravity pulls its whole body,",
+     "speed": 1.0,
+     "pause": 0.12
+    },
+    {
+     "text": "air pushes its surface,",
+     "speed": 1.0,
+     "pause": 0.15
+    },
+    {
+     "text": "and an ant is nearly all surface.",
+     "speed": 0.95,
+     "pause": 0.45
+    }
+   ]
+  },
+  {
+   "id": "twist",
+   "parts": [
+    {
+     "text": "But here's the strange part.",
+     "speed": 0.95,
+     "pause": 0.35
+    },
+    {
+     "text": "Scale the ant up to your size.",
+     "speed": 0.95,
+     "pause": 0.35
+    }
+   ]
+  },
+  {
+   "id": "climax",
+   "parts": [
+    {
+     "text": "Its weight grows far faster than its surface.",
+     "speed": 1.0,
+     "pause": 0.25
+    },
+    {
+     "text": "Now the fall would break it.",
+     "tts": "Now, the fall would break it.",
+     "speed": 0.92,
+     "pause": 0.5
+    }
+   ]
+  },
+  {
+   "id": "payoff",
+   "parts": [
+    {
+     "text": "It never falls fast enough",
+     "speed": 0.9,
+     "pause": 0.1
+    },
+    {
+     "text": "to get hurt.",
+     "speed": 0.84,
+     "pause": 0
+    }
+   ]
+  }
+ ],
+ "sources": [
+  "Ant survives a skyscraper fall: asked about an ant dropped off the Empire State Building, 'The terminal velocity for an ant in air is quite small -- no more than two meters per second' and 'the ant will have no trouble surviving that fall'. University of Illinois Physics Van, 'An ant Dropped off the Empire State Building', https://van.physics.illinois.edu/ask/listing/2099",
+  "'Slower than you jog': 2 m/s = 7.2 km/h (typical jogging is faster). Drag-equation check v = sqrt(2mg / (rho Cd A)) with an ant of about 5 mg, A about 2e-5 m^2, Cd about 1, rho 1.2 kg/m^3 gives about 2 m/s. Labelled estimate.",
+  "Person: 'In a spread-eagle position, that terminal velocity may decrease to about 200 km/h' (about 350 km/h head-first). OpenStax University Physics Vol. 1, 6.4 Drag Force and Terminal Speed, https://openstax.org/books/university-physics-volume-1/pages/6-4-drag-force-and-terminal-speed",
+  "Gravity scales with volume, air drag with surface: 'the force of gravity scales with volume (since this is proportional to the total mass)', 'while the force of air resistance scales with surface area'; doubling size: gravity goes up as length cubed, drag as length squared. University of Illinois Physics Van (above). Haldane, 'On Being the Right Size' (1926), quoted in OpenStax 6.4: 'the resistance presented to movement by the air is proportional to the surface of the moving object'; 'A rat is killed, a man is broken, and a horse splashes.'",
+  "Shown, not spoken: ten times longer means a hundred times the surface and a thousand times the weight (square-cube law, same sources).",
+  "Shown, not spoken: the 'GIANT ANT' meter climbing to about 95 km/h is illustrative. Terminal speed grows with the square root of size (v ~ sqrt(L)), so an ant scaled about 150 times longer would fall about 12 times faster than 7 km/h, roughly 85-95 km/h."
+ ],
+ "comment_question": "Have you ever seen a small animal or insect fall and just walk away?",
+ "thumb": {
+  "at": 12.8,
+  "text": [
+   "THIS ANT",
+   "WALKS AWAY"
+  ],
+  "accent": "#c6ff3d"
+ }
+}
