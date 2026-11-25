@@ -1,0 +1,437 @@
+{
+ "slug": "moon-bullet",
+ "fps": 30,
+ "duration": 26.262,
+ "beats": {
+  "drop": 0.2,
+  "hit": 20.159
+ },
+ "lines": [
+  {
+   "id": "hook",
+   "text": "Fire forward on the Moon. The bullet comes back from behind.",
+   "start": 0.2,
+   "end": 3.491,
+   "words": [
+    {
+     "text": "Fire",
+     "start": 0.2,
+     "end": 0.43
+    },
+    {
+     "text": "forward",
+     "start": 0.43,
+     "end": 0.792
+    },
+    {
+     "text": "on",
+     "start": 0.792,
+     "end": 0.934
+    },
+    {
+     "text": "the",
+     "start": 0.934,
+     "end": 1.119
+    },
+    {
+     "text": "Moon.",
+     "start": 1.119,
+     "end": 1.482
+    },
+    {
+     "text": "The",
+     "start": 1.682,
+     "end": 1.881
+    },
+    {
+     "text": "bullet",
+     "start": 1.881,
+     "end": 2.222
+    },
+    {
+     "text": "comes",
+     "start": 2.222,
+     "end": 2.515
+    },
+    {
+     "text": "back",
+     "start": 2.515,
+     "end": 2.761
+    },
+    {
+     "text": "from",
+     "start": 2.761,
+     "end": 3.008
+    },
+    {
+     "text": "behind.",
+     "start": 3.008,
+     "end": 3.491
+    }
+   ]
+  },
+  {
+   "id": "meter",
+   "text": "Watch the clock. It's back in one hour and forty eight minutes.",
+   "start": 3.841,
+   "end": 7.146,
+   "words": [
+    {
+     "text": "Watch",
+     "start": 3.841,
+     "end": 4.137
+    },
+    {
+     "text": "the",
+     "start": 4.137,
+     "end": 4.338
+    },
+    {
+     "text": "clock.",
+     "start": 4.338,
+     "end": 4.778
+    },
+    {
+     "text": "It's",
+     "start": 4.928,
+     "end": 5.155
+    },
+    {
+     "text": "back",
+     "start": 5.155,
+     "end": 5.382
+    },
+    {
+     "text": "in",
+     "start": 5.382,
+     "end": 5.522
+    },
+    {
+     "text": "one",
+     "start": 5.522,
+     "end": 5.705
+    },
+    {
+     "text": "hour",
+     "start": 5.705,
+     "end": 5.932
+    },
+    {
+     "text": "and",
+     "start": 5.932,
+     "end": 6.115
+    },
+    {
+     "text": "forty",
+     "start": 6.115,
+     "end": 6.386
+    },
+    {
+     "text": "eight",
+     "start": 6.386,
+     "end": 6.657
+    },
+    {
+     "text": "minutes.",
+     "start": 6.657,
+     "end": 7.146
+    }
+   ]
+  },
+  {
+   "id": "slow",
+   "text": "Too slow, and it curves down into the dust.",
+   "start": 7.496,
+   "end": 9.925,
+   "words": [
+    {
+     "text": "Too",
+     "start": 7.496,
+     "end": 7.738
+    },
+    {
+     "text": "slow,",
+     "start": 7.738,
+     "end": 8.21
+    },
+    {
+     "text": "and",
+     "start": 8.36,
+     "end": 8.536
+    },
+    {
+     "text": "it",
+     "start": 8.536,
+     "end": 8.67
+    },
+    {
+     "text": "curves",
+     "start": 8.67,
+     "end": 8.971
+    },
+    {
+     "text": "down",
+     "start": 8.971,
+     "end": 9.189
+    },
+    {
+     "text": "into",
+     "start": 9.189,
+     "end": 9.406
+    },
+    {
+     "text": "the",
+     "start": 9.406,
+     "end": 9.582
+    },
+    {
+     "text": "dust.",
+     "start": 9.582,
+     "end": 9.925
+    }
+   ]
+  },
+  {
+   "id": "fast",
+   "text": "Fast enough, and the ground curves away as fast as it falls.",
+   "start": 10.325,
+   "end": 13.724,
+   "words": [
+    {
+     "text": "Fast",
+     "start": 10.325,
+     "end": 10.586
+    },
+    {
+     "text": "enough,",
+     "start": 10.586,
+     "end": 11.096
+    },
+    {
+     "text": "and",
+     "start": 11.246,
+     "end": 11.446
+    },
+    {
+     "text": "the",
+     "start": 11.446,
+     "end": 11.647
+    },
+    {
+     "text": "ground",
+     "start": 11.647,
+     "end": 11.99
+    },
+    {
+     "text": "curves",
+     "start": 11.99,
+     "end": 12.333
+    },
+    {
+     "text": "away",
+     "start": 12.333,
+     "end": 12.58
+    },
+    {
+     "text": "as",
+     "start": 12.58,
+     "end": 12.733
+    },
+    {
+     "text": "fast",
+     "start": 12.733,
+     "end": 12.98
+    },
+    {
+     "text": "as",
+     "start": 12.98,
+     "end": 13.133
+    },
+    {
+     "text": "it",
+     "start": 13.133,
+     "end": 13.285
+    },
+    {
+     "text": "falls.",
+     "start": 13.285,
+     "end": 13.724
+    }
+   ]
+  },
+  {
+   "id": "twist",
+   "text": "But here's the strange part. It never stops falling.",
+   "start": 14.124,
+   "end": 17.261,
+   "words": [
+    {
+     "text": "But",
+     "start": 14.124,
+     "end": 14.313
+    },
+    {
+     "text": "here's",
+     "start": 14.313,
+     "end": 14.638
+    },
+    {
+     "text": "the",
+     "start": 14.638,
+     "end": 14.827
+    },
+    {
+     "text": "strange",
+     "start": 14.827,
+     "end": 15.197
+    },
+    {
+     "text": "part.",
+     "start": 15.197,
+     "end": 15.567
+    },
+    {
+     "text": "It",
+     "start": 15.917,
+     "end": 16.078
+    },
+    {
+     "text": "never",
+     "start": 16.078,
+     "end": 16.389
+    },
+    {
+     "text": "stops",
+     "start": 16.389,
+     "end": 16.7
+    },
+    {
+     "text": "falling.",
+     "start": 16.7,
+     "end": 17.261
+    }
+   ]
+  },
+  {
+   "id": "climax",
+   "text": "No air to slow it, so it falls all the way around the Moon.",
+   "start": 17.661,
+   "end": 21.111,
+   "words": [
+    {
+     "text": "No",
+     "start": 17.661,
+     "end": 17.825
+    },
+    {
+     "text": "air",
+     "start": 17.825,
+     "end": 18.04
+    },
+    {
+     "text": "to",
+     "start": 18.04,
+     "end": 18.203
+    },
+    {
+     "text": "slow",
+     "start": 18.203,
+     "end": 18.469
+    },
+    {
+     "text": "it,",
+     "start": 18.469,
+     "end": 18.786
+    },
+    {
+     "text": "so",
+     "start": 18.936,
+     "end": 19.091
+    },
+    {
+     "text": "it",
+     "start": 19.091,
+     "end": 19.247
+    },
+    {
+     "text": "falls",
+     "start": 19.247,
+     "end": 19.548
+    },
+    {
+     "text": "all",
+     "start": 19.548,
+     "end": 19.752
+    },
+    {
+     "text": "the",
+     "start": 19.752,
+     "end": 19.955
+    },
+    {
+     "text": "way",
+     "start": 19.955,
+     "end": 20.159
+    },
+    {
+     "text": "around",
+     "start": 20.159,
+     "end": 20.509
+    },
+    {
+     "text": "the",
+     "start": 20.509,
+     "end": 20.713
+    },
+    {
+     "text": "Moon.",
+     "start": 20.713,
+     "end": 21.111
+    }
+   ]
+  },
+  {
+   "id": "payoff",
+   "text": "It never turned around. It fell around.",
+   "start": 21.611,
+   "end": 24.462,
+   "words": [
+    {
+     "text": "It",
+     "start": 21.611,
+     "end": 21.767
+    },
+    {
+     "text": "never",
+     "start": 21.767,
+     "end": 22.07
+    },
+    {
+     "text": "turned",
+     "start": 22.07,
+     "end": 22.422
+    },
+    {
+     "text": "around.",
+     "start": 22.422,
+     "end": 22.92
+    },
+    {
+     "text": "It",
+     "start": 23.12,
+     "end": 23.351
+    },
+    {
+     "text": "fell",
+     "start": 23.351,
+     "end": 23.726
+    },
+    {
+     "text": "around.",
+     "start": 23.726,
+     "end": 24.462
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,462 @@
+{
+ "slug": "rocket-vacuum",
+ "fps": 30,
+ "duration": 30.285,
+ "beats": {
+  "drop": 1.105,
+  "hit": 24.462
+ },
+ "lines": [
+  {
+   "id": "hook",
+   "text": "Up here, there's no air. So what's this rocket pushing on?",
+   "start": 0.2,
+   "end": 3.336,
+   "words": [
+    {
+     "text": "Up",
+     "start": 0.2,
+     "end": 0.327
+    },
+    {
+     "text": "here,",
+     "start": 0.327,
+     "end": 0.653
+    },
+    {
+     "text": "there's",
+     "start": 0.653,
+     "end": 0.978
+    },
+    {
+     "text": "no",
+     "start": 0.978,
+     "end": 1.105
+    },
+    {
+     "text": "air.",
+     "start": 1.105,
+     "end": 1.391
+    },
+    {
+     "text": "So",
+     "start": 1.591,
+     "end": 1.741
+    },
+    {
+     "text": "what's",
+     "start": 1.741,
+     "end": 2.079
+    },
+    {
+     "text": "this",
+     "start": 2.079,
+     "end": 2.323
+    },
+    {
+     "text": "rocket",
+     "start": 2.323,
+     "end": 2.661
+    },
+    {
+     "text": "pushing",
+     "start": 2.661,
+     "end": 3.045
+    },
+    {
+     "text": "on?",
+     "start": 3.045,
+     "end": 3.336
+    }
+   ]
+  },
+  {
+   "id": "meter",
+   "text": "Watch the speed. Orbit needs twenty eight thousand kilometres an hour.",
+   "start": 3.686,
+   "end": 7.622,
+   "words": [
+    {
+     "text": "Watch",
+     "start": 3.686,
+     "end": 3.985
+    },
+    {
+     "text": "the",
+     "start": 3.985,
+     "end": 4.187
+    },
+    {
+     "text": "speed.",
+     "start": 4.187,
+     "end": 4.63
+    },
+    {
+     "text": "Orbit",
+     "start": 4.78,
+     "end": 5.086
+    },
+    {
+     "text": "needs",
+     "start": 5.086,
+     "end": 5.392
+    },
+    {
+     "text": "twenty",
+     "start": 5.392,
+     "end": 5.747
+    },
+    {
+     "text": "eight",
+     "start": 5.747,
+     "end": 6.053
+    },
+    {
+     "text": "thousand",
+     "start": 6.053,
+     "end": 6.507
+    },
+    {
+     "text": "kilometres",
+     "start": 6.507,
+     "end": 7.06
+    },
+    {
+     "text": "an",
+     "start": 7.06,
+     "end": 7.218
+    },
+    {
+     "text": "hour.",
+     "start": 7.218,
+     "end": 7.622
+    }
+   ]
+  },
+  {
+   "id": "seal",
+   "text": "Seal the back, and the hot gas pushes every wall equally. The pushes cancel.",
+   "start": 7.972,
+   "end": 12.422,
+   "words": [
+    {
+     "text": "Seal",
+     "start": 7.972,
+     "end": 8.23
+    },
+    {
+     "text": "the",
+     "start": 8.23,
+     "end": 8.439
+    },
+    {
+     "text": "back,",
+     "start": 8.439,
+     "end": 8.845
+    },
+    {
+     "text": "and",
+     "start": 8.965,
+     "end": 9.166
+    },
+    {
+     "text": "the",
+     "start": 9.166,
+     "end": 9.367
+    },
+    {
+     "text": "hot",
+     "start": 9.367,
+     "end": 9.568
+    },
+    {
+     "text": "gas",
+     "start": 9.568,
+     "end": 9.77
+    },
+    {
+     "text": "pushes",
+     "start": 9.77,
+     "end": 10.114
+    },
+    {
+     "text": "every",
+     "start": 10.114,
+     "end": 10.411
+    },
+    {
+     "text": "wall",
+     "start": 10.411,
+     "end": 10.66
+    },
+    {
+     "text": "equally.",
+     "start": 10.66,
+     "end": 11.196
+    },
+    {
+     "text": "The",
+     "start": 11.346,
+     "end": 11.555
+    },
+    {
+     "text": "pushes",
+     "start": 11.555,
+     "end": 11.914
+    },
+    {
+     "text": "cancel.",
+     "start": 11.914,
+     "end": 12.422
+    }
+   ]
+  },
+  {
+   "id": "open",
+   "text": "Now open it. Gas escapes out the back, so nothing cancels the push on the front.",
+   "start": 12.822,
+   "end": 17.509,
+   "words": [
+    {
+     "text": "Now",
+     "start": 12.822,
+     "end": 13.069
+    },
+    {
+     "text": "open",
+     "start": 13.069,
+     "end": 13.374
+    },
+    {
+     "text": "it.",
+     "start": 13.374,
+     "end": 13.737
+    },
+    {
+     "text": "Gas",
+     "start": 13.887,
+     "end": 14.097
+    },
+    {
+     "text": "escapes",
+     "start": 14.097,
+     "end": 14.506
+    },
+    {
+     "text": "out",
+     "start": 14.506,
+     "end": 14.716
+    },
+    {
+     "text": "the",
+     "start": 14.716,
+     "end": 14.925
+    },
+    {
+     "text": "back,",
+     "start": 14.925,
+     "end": 15.335
+    },
+    {
+     "text": "so",
+     "start": 15.435,
+     "end": 15.58
+    },
+    {
+     "text": "nothing",
+     "start": 15.58,
+     "end": 15.953
+    },
+    {
+     "text": "cancels",
+     "start": 15.953,
+     "end": 16.326
+    },
+    {
+     "text": "the",
+     "start": 16.326,
+     "end": 16.518
+    },
+    {
+     "text": "push",
+     "start": 16.518,
+     "end": 16.754
+    },
+    {
+     "text": "on",
+     "start": 16.754,
+     "end": 16.9
+    },
+    {
+     "text": "the",
+     "start": 16.9,
+     "end": 17.091
+    },
+    {
+     "text": "front.",
+     "start": 17.091,
+     "end": 17.509
+    }
+   ]
+  },
+  {
+   "id": "twist",
+   "text": "But here's the strange part. Air only gets in the way.",
+   "start": 17.909,
+   "end": 21.188,
+   "words": [
+    {
+     "text": "But",
+     "start": 17.909,
+     "end": 18.099
+    },
+    {
+     "text": "here's",
+     "start": 18.099,
+     "end": 18.424
+    },
+    {
+     "text": "the",
+     "start": 18.424,
+     "end": 18.613
+    },
+    {
+     "text": "strange",
+     "start": 18.613,
+     "end": 18.983
+    },
+    {
+     "text": "part.",
+     "start": 18.983,
+     "end": 19.353
+    },
+    {
+     "text": "Air",
+     "start": 19.703,
+     "end": 19.917
+    },
+    {
+     "text": "only",
+     "start": 19.917,
+     "end": 20.181
+    },
+    {
+     "text": "gets",
+     "start": 20.181,
+     "end": 20.446
+    },
+    {
+     "text": "in",
+     "start": 20.446,
+     "end": 20.608
+    },
+    {
+     "text": "the",
+     "start": 20.608,
+     "end": 20.822
+    },
+    {
+     "text": "way.",
+     "start": 20.822,
+     "end": 21.188
+    }
+   ]
+  },
+  {
+   "id": "climax",
+   "text": "Out in empty space, the same engine pushes even harder.",
+   "start": 21.588,
+   "end": 25.003,
+   "words": [
+    {
+     "text": "Out",
+     "start": 21.588,
+     "end": 21.812
+    },
+    {
+     "text": "in",
+     "start": 21.812,
+     "end": 21.982
+    },
+    {
+     "text": "empty",
+     "start": 21.982,
+     "end": 22.312
+    },
+    {
+     "text": "space,",
+     "start": 22.312,
+     "end": 22.802
+    },
+    {
+     "text": "the",
+     "start": 22.922,
+     "end": 23.145
+    },
+    {
+     "text": "same",
+     "start": 23.145,
+     "end": 23.421
+    },
+    {
+     "text": "engine",
+     "start": 23.421,
+     "end": 23.803
+    },
+    {
+     "text": "pushes",
+     "start": 23.803,
+     "end": 24.186
+    },
+    {
+     "text": "even",
+     "start": 24.186,
+     "end": 24.462
+    },
+    {
+     "text": "harder.",
+     "start": 24.462,
+     "end": 25.003
+    }
+   ]
+  },
+  {
+   "id": "payoff",
+   "text": "It's pushing against its own exhaust.",
+   "start": 25.503,
+   "end": 28.485,
+   "words": [
+    {
+     "text": "It's",
+     "start": 25.503,
+     "end": 25.787
+    },
+    {
+     "text": "pushing",
+     "start": 25.787,
+     "end": 26.235
+    },
+    {
+     "text": "against",
+     "start": 26.235,
+     "end": 26.683
+    },
+    {
+     "text": "its",
+     "start": 26.803,
+     "end": 27.164
+    },
+    {
+     "text": "own",
+     "start": 27.164,
+     "end": 27.524
+    },
+    {
+     "text": "exhaust.",
+     "start": 27.524,
+     "end": 28.485
+    }
+   ]
+  }
+ ]
+}

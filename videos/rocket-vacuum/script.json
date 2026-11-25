@@ -1,0 +1,60 @@
+{
+ "slug": "rocket-vacuum",
+ "title": "No Air in Space. So What Does a Rocket Push On? | How It Works #6",
+ "voice": "af_heart",
+ "series": "How It Works",
+ "series_no": 6,
+ "format": "short",
+ "simplified": "Simplified model: gas pressure shown as arrows on the chamber walls; the speed meter is illustrative of a climb to orbit, not a real flight profile.",
+ "hook_candidates": [
+  {"text": "Up here, there's no air. So what's this rocket pushing on?",
+   "scores": {"under_12_words": 2, "visible_event": 2, "question_open": 2, "about_this": 2, "concrete_start": 2, "true_as_worded": 2},
+   "total": 12, "chosen": true},
+  {"text": "This rocket has nothing to push against. Watch it speed up anyway.",
+   "scores": {"under_12_words": 1, "visible_event": 2, "question_open": 2, "about_this": 2, "concrete_start": 1, "true_as_worded": 2},
+   "total": 10},
+  {"text": "You push off a wall to swim. A rocket has no wall.",
+   "scores": {"under_12_words": 1, "visible_event": 1, "question_open": 2, "about_this": 2, "concrete_start": 2, "true_as_worded": 2},
+   "total": 10},
+  {"text": "Rockets work better with no air at all.",
+   "scores": {"under_12_words": 2, "visible_event": 0, "question_open": 1, "about_this": 0, "concrete_start": 1, "true_as_worded": 2},
+   "total": 6, "note": "States the answer."},
+  {"text": "Seal this rocket's nozzle, and it goes nowhere. Why?",
+   "scores": {"under_12_words": 2, "visible_event": 2, "question_open": 2, "about_this": 2, "concrete_start": 1, "true_as_worded": 2},
+   "total": 11}
+ ],
+ "beats": {"drop": {"line": "hook", "word": "air"}, "hit": {"line": "climax", "word": "harder"}},
+ "lines": [
+  {"id": "hook", "parts": [
+   {"text": "Up here, there's no air.", "speed": 1.04, "pause": 0.2},
+   {"text": "So what's this rocket pushing on?", "speed": 0.92, "pause": 0.35}]},
+  {"id": "meter", "parts": [
+   {"text": "Watch the speed.", "speed": 1.0, "pause": 0.15},
+   {"text": "Orbit needs twenty eight thousand kilometres an hour.", "tts": "Orbit needs twenty-eight thousand kilometres an hour.", "speed": 1.04, "pause": 0.35}]},
+  {"id": "seal", "parts": [
+   {"text": "Seal the back,", "speed": 1.0, "pause": 0.12},
+   {"text": "and the hot gas pushes every wall equally.", "speed": 1.0, "pause": 0.15},
+   {"text": "The pushes cancel.", "speed": 0.92, "pause": 0.4}]},
+  {"id": "open", "parts": [
+   {"text": "Now open it.", "speed": 1.0, "pause": 0.15},
+   {"text": "Gas escapes out the back,", "speed": 1.0, "pause": 0.1},
+   {"text": "so nothing cancels the push on the front.", "speed": 0.96, "pause": 0.4}]},
+  {"id": "twist", "parts": [
+   {"text": "But here's the strange part.", "speed": 0.95, "pause": 0.35},
+   {"text": "Air only gets in the way.", "speed": 0.92, "pause": 0.4}]},
+  {"id": "climax", "parts": [
+   {"text": "Out in empty space,", "speed": 1.0, "pause": 0.12},
+   {"text": "the same engine pushes even harder.", "tts": "the same engine pushes even harder!", "speed": 0.96, "pause": 0.5}]},
+  {"id": "payoff", "parts": [
+   {"text": "It's pushing against", "speed": 0.9, "pause": 0.12},
+   {"text": "its own exhaust.", "tts": "its own... exhaust.", "speed": 0.84, "pause": 0}]}
+ ],
+ "sources": [
+  "Orbit speed: 'The speed required for an object to go into space and orbit the Earth (orbital velocity) is about 28,000 km/hr (17,500 mph) at low earth orbit.' Smithsonian National Air and Space Museum, Ask an Explainer, https://howthingsfly.si.edu/ask-an-explainer/what-speed-required-launch-object-space",
+  "Sealed vs open: in a closed balloon 'the inward and outward pressing forces are balanced'; 'When the nozzle is released, air escapes through it and the balloon is propelled in the opposite direction.' NASA Glenn Research Center, Rocket Principles, https://www.grc.nasa.gov/WWW/k-12/rocket/TRCRocket/rocket_principles.html",
+  "Air gets in the way / pushes harder in space: 'rockets actually work better in space than they do in air.' 'In space, the exhaust gases can escape freely.' NASA Glenn, Rocket Principles (above). Thrust equation F = mdot*Ve + (pe - p0)*Ae: lower outside pressure p0 gives more thrust. NASA Glenn, Rocket Thrust Equation, https://www.grc.nasa.gov/WWW/K-12/airplane/rockth.html",
+  "Pushing against its own exhaust: 'For every action there is always an opposite and equal reaction' (Newton's third law), NASA Glenn, Rocket Principles; rockets 'can generate thrust in a vacuum', NASA Glenn, Rocket Thrust Equation."
+ ],
+ "comment_question": "Before this, what did you think a rocket pushed against in space?",
+ "thumb": {"at": 17.2, "text": ["NO AIR.", "STILL PUSHES"], "accent": "#ff9a3c"}
+}

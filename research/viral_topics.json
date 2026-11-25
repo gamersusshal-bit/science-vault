@@ -68,7 +68,8 @@
    "hook_format": "How ... actually works",
    "field": "engineering",
    "evidence": "2.3M views (oy2kU79pdzo)",
-   "used": false
+   "used": true,
+   "slug": "rocket-vacuum"
   },
   {
    "idea": "How a jet engine works: suck, squeeze, burn, blow",
@@ -116,7 +117,8 @@
    "hook_format": "Could ...",
    "field": "space / thought experiment",
    "evidence": "1.1M views, 35x (oQr6aRBiAco)",
-   "used": false
+   "used": true,
+   "slug": "moon-bullet"
   },
   {
    "idea": "Why runaway trucks steer into a gravel ramp",

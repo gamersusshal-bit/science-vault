@@ -1,0 +1,62 @@
+{
+ "slug": "moon-bullet",
+ "title": "What If You Fired a Bullet Around the Moon? | What If #6",
+ "voice": "af_heart",
+ "series": "What If",
+ "series_no": 6,
+ "format": "short",
+ "simplified": "Thought experiment on a perfectly smooth, airless, non-spinning Moon with an imaginary bullet faster than any real rifle. The real Moon has mountains and lumpy gravity that would pull a grazing orbit down.",
+ "hook_candidates": [
+  {"text": "Fire forward on the Moon. The bullet comes back from behind.",
+   "scores": {"under_12_words": 2, "visible_event": 2, "question_open": 2, "about_this": 2, "concrete_start": 2, "true_as_worded": 1},
+   "total": 11, "chosen": true,
+   "note": "True for the labelled thought experiment (a fast enough bullet); the on-screen THOUGHT EXPERIMENT tag and the FASTER THAN ANY REAL RIFLE label carry the condition."},
+  {"text": "This astronaut just shot himself in the back. Forwards.",
+   "scores": {"under_12_words": 2, "visible_event": 2, "question_open": 2, "about_this": 2, "concrete_start": 2, "true_as_worded": 0},
+   "total": 10, "note": "Violent framing and not what happens; he ducks."},
+  {"text": "Watch this clock. When it hits zero, duck.",
+   "scores": {"under_12_words": 2, "visible_event": 2, "question_open": 2, "about_this": 2, "concrete_start": 1, "true_as_worded": 2},
+   "total": 11, "note": "Tie; the chosen hook's answer comes later and states the contradiction."},
+  {"text": "On the Moon, a bullet can orbit and come back to you.",
+   "scores": {"under_12_words": 1, "visible_event": 1, "question_open": 0, "about_this": 1, "concrete_start": 1, "true_as_worded": 1},
+   "total": 5, "note": "States the answer."},
+  {"text": "No air, no wind. So why is this bullet coming back?",
+   "scores": {"under_12_words": 2, "visible_event": 2, "question_open": 2, "about_this": 2, "concrete_start": 2, "true_as_worded": 1},
+   "total": 11}
+ ],
+ "beats": {"drop": {"line": "hook", "word": "fire"}, "hit": {"line": "climax", "word": "around"}},
+ "lines": [
+  {"id": "hook", "parts": [
+   {"text": "Fire forward on the Moon.", "speed": 1.04, "pause": 0.2},
+   {"text": "The bullet comes back from behind.", "speed": 0.92, "pause": 0.35}]},
+  {"id": "meter", "parts": [
+   {"text": "Watch the clock.", "speed": 1.0, "pause": 0.15},
+   {"text": "It's back in one hour and forty eight minutes.", "tts": "It's back in one hour, and forty-eight minutes.", "speed": 1.04, "pause": 0.35}]},
+  {"id": "slow", "parts": [
+   {"text": "Too slow,", "speed": 1.0, "pause": 0.15},
+   {"text": "and it curves down into the dust.", "speed": 0.98, "pause": 0.4}]},
+  {"id": "fast", "parts": [
+   {"text": "Fast enough,", "speed": 1.0, "pause": 0.15},
+   {"text": "and the ground curves away as fast as it falls.", "speed": 0.98, "pause": 0.4}]},
+  {"id": "twist", "parts": [
+   {"text": "But here's the strange part.", "speed": 0.95, "pause": 0.35},
+   {"text": "It never stops falling.", "speed": 0.92, "pause": 0.4}]},
+  {"id": "climax", "parts": [
+   {"text": "No air to slow it,", "speed": 1.0, "pause": 0.15},
+   {"text": "so it falls all the way around the Moon.", "tts": "so it falls, all the way around the Moon!", "speed": 0.96, "pause": 0.5}]},
+  {"id": "payoff", "parts": [
+   {"text": "It never turned around.", "speed": 0.9, "pause": 0.2},
+   {"text": "It fell around.", "tts": "It fell... around.", "speed": 0.84, "pause": 0}]}
+ ],
+ "sources": [
+  "Orbit speed at the surface: v = sqrt(GM/R) with Moon GM = 0.00490 x 10^6 km^3/s^2 and volumetric mean radius 1737.4 km (NASA NSSDC Moon Fact Sheet, https://nssdc.gsfc.nasa.gov/planetary/factsheet/moonfact.html) = 1.68 km/s. Shown on the meter, not spoken.",
+  "Back in one hour forty-eight minutes: period T = 2 pi sqrt(R^3/GM) = 6,498 s = 108.3 min, from the same NASA fact-sheet values (Kepler's third law, circular orbit at the surface).",
+  "Escape speed 2.38 km/s (NASA Moon Fact Sheet): above it the bullet would not come back. Shown as the top of the meter, not spoken.",
+  "No air to slow it: lunar surface pressure about 3 x 10^-15 bar, total atmosphere about 25,000 kg (NASA Moon Fact Sheet).",
+  "Falls around: 'With even more speed, the curve of its path will match that of the Earth's surface.' 'With no drag to slow it, the ball will continue to fall but never reach the ground.' Smithsonian National Air and Space Museum, How Things Fly, Newton's Cannon, https://howthingsfly.si.edu/media/newtons-cannon",
+  "Faster than any real rifle (shown, not spoken): the .220 Swift reaches about 4,300 fps (1.31 km/s); the fastest wildcat listed reached 4,600 fps (1.40 km/s). Field & Stream, 'The 5 Fastest Rifle Cartridges', https://www.fieldandstream.com/story/guns/the-fastest-rifle-cartridges/",
+  "Simplifications (labelled): a perfectly smooth Moon; real lunar mountains and mass concentrations would end a grazing orbit. The Moon turns once in 655.7 hours (NASA fact sheet), so a shooter standing at a pole is where the bullet returns; elsewhere the spin would move them some kilometres in 108 minutes."
+ ],
+ "comment_question": "If you could stand on the Moon, what's the first thing you'd try to throw?",
+ "thumb": {"at": 20.0, "text": ["FIRE FORWARD", "HIT BEHIND?"], "accent": "#7fe3ff"}
+}

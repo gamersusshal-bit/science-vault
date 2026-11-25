@@ -142,7 +142,7 @@
     },
     {
      "id": "L0TDYoAHhh0",
-     "title": "Why You Still Feel Like You\u2019re Spinning After You Stop?  #ear #humanbody #humanity #biology #science",
+     "title": "Why You Still Feel Like You’re Spinning After You Stop?  #ear #humanbody #humanity #biology #science",
      "published": "Nov 17, 2026",
      "duration_s": 35,
      "views": 1205,
@@ -440,6 +440,11 @@
    },
    "limits": "Composio YOUTUBE_GET_VIDEO_DETAILS_BATCH failed: YouTube Data API quota exceeded (403 quotaExceeded). Per-Short numbers come from this morning's YOUTUBE_QUERY_ANALYTICS snapshot (window to 2026-11-23); black-hole-fall and red-fish-dark not in it yet. vidIQ credits 0 (renews 2026-12-03).",
    "prediction_next_7_days": "About 1,300 views per Short in its first batch (channel average); with 2 Shorts a day, roughly +15,000-19,000 channel views and +3 to +8 subscribers if nothing breaks out."
+  },
+  {
+   "date": "2026-11-25",
+   "source": "none",
+   "limits": "vidIQ and Composio connectors were not enabled in this scheduled run (both connected at org level but not loaded into the session), so no channel snapshot, no per-Short stats and no start-of-run status check could be made. vidIQ credits were 0 at the last check (renew 2026-12-03)."
   }
  ]
 }

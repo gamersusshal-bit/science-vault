@@ -102,7 +102,7 @@
    "series_no": 4,
    "format": "short",
    "note": "Studio export of 2026-11-19 lists this Short as L0TDYoAHhh0; the earlier id fD_tuDMX1BM shows Video unavailable.",
-   "title_live": "Why You Still Feel Like You\u2019re Spinning After You Stop?  #ear #humanbody #humanity #biology #science"
+   "title_live": "Why You Still Feel Like You’re Spinning After You Stop?  #ear #humanbody #humanity #biology #science"
   },
   {
    "date": "2026-11-18",
@@ -367,6 +367,42 @@
    "url": "https://www.youtube.com/watch?v=ZoDe02ePVhg",
    "note": "Passed all gates. First scheduling attempt refused at 06:44 UTC (vidIQ free-plan limit of 3 YouTube uploads a day); scheduled at 08:06 UTC after the reset.",
    "viral_evidence": "537K views, 2.2x breakout (E67NqSbxs1c)"
+  },
+  {
+   "slug": "moon-bullet",
+   "date": "2026-11-25",
+   "field": "space",
+   "series": "What If",
+   "series_no": 6,
+   "voice": "af_heart",
+   "fizz": false,
+   "title": "What If You Fired a Bullet Around the Moon? | What If #6",
+   "status": "not_scheduled",
+   "publish_at": null,
+   "postId": null,
+   "revision": null,
+   "url": null,
+   "hero_visual": "close-up of an astronaut on top of a grey cratered Moon firing a glowing bullet sideways; BULLET BACK IN clock 1:48:00 to 0:00:00; BULLET SPEED meter with FASTEST RIFLE / ORBIT / ESCAPE marks; red too-slow shot crashing into dust; dashed STRAIGHT LINE vs FALLS gap arrows; pull-out to the whole Moon with STILL FALLING gravity arrow; bullet returns from behind as the astronaut ducks",
+   "viral_evidence": "1.1M views, 35x (oQr6aRBiAco), cached vidIQ outliers 2026-11-16",
+   "note": "Rendered and passed all gates on 2026-11-25, but NOT scheduled: the vidIQ and Composio connectors were not enabled in this scheduled run. Public MP4 on the renders branch; schedule by hand or in a run with vidIQ."
+  },
+  {
+   "slug": "rocket-vacuum",
+   "date": "2026-11-25",
+   "field": "engineering and how things work",
+   "series": "How It Works",
+   "series_no": 6,
+   "voice": "af_heart",
+   "fizz": false,
+   "title": "No Air in Space. So What Does a Rocket Push On? | How It Works #6",
+   "status": "not_scheduled",
+   "publish_at": null,
+   "postId": null,
+   "revision": null,
+   "url": null,
+   "hero_visual": "white-and-orange rocket climbing above Earth's blue limb with streaking stars; SPEED meter to ORBIT 28,000 km/h; cut-away combustion chamber and nozzle with bouncing gas dots, steel plug sealing the throat with equal pressure arrows (PUSHES CANCEL), plug pops and gas streams out (UNBALANCED PUSH); blue air dots crowding the nozzle at the launch pad; THRUST AT LAUNCH PAD vs IN SPACE bars; vacuum plume blooms; ROCKET up / EXHAUST down arrows",
+   "viral_evidence": "2.3M views (oy2kU79pdzo), cached vidIQ outliers 2026-11-16",
+   "note": "Rendered and passed all gates on 2026-11-25, but NOT scheduled: the vidIQ and Composio connectors were not enabled in this scheduled run. Public MP4 on the renders branch; schedule by hand or in a run with vidIQ."
   }
  ]
 }

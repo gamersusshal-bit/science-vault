@@ -60,6 +60,12 @@ import oxygenVanishesScript from "../../videos/oxygen-vanishes/script.json";
 import { AntFall } from "./antFall/AntFall";
 import antFallTimeline from "../../videos/ant-fall/timeline.json";
 import antFallScript from "../../videos/ant-fall/script.json";
+import { MoonBullet } from "./moonBullet/MoonBullet";
+import moonBulletTimeline from "../../videos/moon-bullet/timeline.json";
+import moonBulletScript from "../../videos/moon-bullet/script.json";
+import { RocketVacuum } from "./rocketVacuum/RocketVacuum";
+import rocketVacuumTimeline from "../../videos/rocket-vacuum/timeline.json";
+import rocketVacuumScript from "../../videos/rocket-vacuum/script.json";
 import type { ThumbSpec } from "../primitives/Thumbnail";
 
 /**
@@ -91,4 +97,6 @@ export const VIDEOS: { id: string; component: React.FC; duration: number; timeli
   { id: "red-fish-dark", component: RedFishDark, duration: redFishDarkTimeline.duration, thumb: redFishDarkScript.thumb },
   { id: "oxygen-vanishes", component: OxygenVanishes, duration: oxygenVanishesTimeline.duration, thumb: oxygenVanishesScript.thumb },
   { id: "ant-fall", component: AntFall, duration: antFallTimeline.duration, thumb: antFallScript.thumb },
+  { id: "moon-bullet", component: MoonBullet, duration: moonBulletTimeline.duration, thumb: moonBulletScript.thumb },
+  { id: "rocket-vacuum", component: RocketVacuum, duration: rocketVacuumTimeline.duration, thumb: rocketVacuumScript.thumb },
 ];
