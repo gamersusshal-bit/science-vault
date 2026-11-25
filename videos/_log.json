@@ -335,7 +335,7 @@
    "hero_visual": "night backyard with campfire, candles and camping stove; red O2 molecules pop out of the air among blue N2, slow-motion OXYGEN BACK IN clock 5.00 to 0.00 with NITROGEN/O2 air bar losing its fifth, flames choke and coals glow, zoom on fuel with oxygen arriving then nothing to grab, fireworks keep bursting, cut-away firework star with oxidizer grains feeding oxygen to fuel grains",
    "voice": "af_heart",
    "fizz": false,
-   "status": "scheduled",
+   "status": "published",
    "series": "What If",
    "series_no": 5,
    "format": "short",
@@ -355,7 +355,7 @@
    "hero_visual": "daytime side view of a skyscraper; ant slips off the roof ledge and falls past scrolling windows beside a generic spread-eagle person, FALL SPEED bars (YOU to 200 km/h, ANT stuck at 7 with JOG tick), zoom with one red WEIGHT arrow vs a row of lime AIR PUSH arrows, ant scaled up to human size with SURFACE x100 vs WEIGHT x1000 bars, giant ant speeds up and cracks the pavement, small ant walks away",
    "voice": "af_heart",
    "fizz": false,
-   "status": "scheduled",
+   "status": "published",
    "series": "Why It Happens",
    "series_no": 9,
    "format": "short",
@@ -377,14 +377,14 @@
    "voice": "af_heart",
    "fizz": false,
    "title": "What If You Fired a Bullet Around the Moon? | What If #6",
-   "status": "not_scheduled",
-   "publish_at": null,
-   "postId": null,
-   "revision": null,
-   "url": null,
+   "status": "scheduled",
+   "publish_at": "2026-11-25T18:00:00+05:30",
+   "postId": "6d1d879d-2760-4860-904d-9a1ab5fe1426",
+   "revision": "eabac114",
+   "url": "https://www.youtube.com/watch?v=fZrz85zqi18",
    "hero_visual": "close-up of an astronaut on top of a grey cratered Moon firing a glowing bullet sideways; BULLET BACK IN clock 1:48:00 to 0:00:00; BULLET SPEED meter with FASTEST RIFLE / ORBIT / ESCAPE marks; red too-slow shot crashing into dust; dashed STRAIGHT LINE vs FALLS gap arrows; pull-out to the whole Moon with STILL FALLING gravity arrow; bullet returns from behind as the astronaut ducks",
    "viral_evidence": "1.1M views, 35x (oQr6aRBiAco), cached vidIQ outliers 2026-11-16",
-   "note": "Rendered and passed all gates on 2026-11-25, but NOT scheduled: the vidIQ and Composio connectors were not enabled in this scheduled run. Public MP4 on the renders branch; schedule by hand or in a run with vidIQ."
+   "note": "Scheduled via vidIQ after the owner replied 'post' on 2026-11-25 (connectors were off during the automated run)."
   },
   {
    "slug": "rocket-vacuum",
@@ -395,14 +395,14 @@
    "voice": "af_heart",
    "fizz": false,
    "title": "No Air in Space. So What Does a Rocket Push On? | How It Works #6",
-   "status": "not_scheduled",
-   "publish_at": null,
-   "postId": null,
-   "revision": null,
-   "url": null,
+   "status": "scheduled",
+   "publish_at": "2026-11-25T18:00:00+05:30",
+   "postId": "ee77cc37-132f-428c-bcae-cf5b35b2b0b8",
+   "revision": "fcae6a42",
+   "url": "https://www.youtube.com/watch?v=Qs_gEh5CEIk",
    "hero_visual": "white-and-orange rocket climbing above Earth's blue limb with streaking stars; SPEED meter to ORBIT 28,000 km/h; cut-away combustion chamber and nozzle with bouncing gas dots, steel plug sealing the throat with equal pressure arrows (PUSHES CANCEL), plug pops and gas streams out (UNBALANCED PUSH); blue air dots crowding the nozzle at the launch pad; THRUST AT LAUNCH PAD vs IN SPACE bars; vacuum plume blooms; ROCKET up / EXHAUST down arrows",
    "viral_evidence": "2.3M views (oy2kU79pdzo), cached vidIQ outliers 2026-11-16",
-   "note": "Rendered and passed all gates on 2026-11-25, but NOT scheduled: the vidIQ and Composio connectors were not enabled in this scheduled run. Public MP4 on the renders branch; schedule by hand or in a run with vidIQ."
+   "note": "Scheduled via vidIQ after the owner replied 'post' on 2026-11-25 (connectors were off during the automated run)."
   }
  ]
 }

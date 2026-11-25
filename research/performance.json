@@ -445,6 +445,18 @@
    "date": "2026-11-25",
    "source": "none",
    "limits": "vidIQ and Composio connectors were not enabled in this scheduled run (both connected at org level but not loaded into the session), so no channel snapshot, no per-Short stats and no start-of-run status check could be made. vidIQ credits were 0 at the last check (renew 2026-12-03)."
+  },
+  {
+   "date": "2026-11-25",
+   "source": "vidiq_user_channels (free call), after owner reply",
+   "subscribers": 13,
+   "total_views": 24015,
+   "videos": 20,
+   "change_since_2026-11-24_free_snapshot": {
+    "subscribers": 2,
+    "total_views": 4504
+   },
+   "limits": "Composio per-Short stats not read in this follow-up."
   }
  ]
 }
