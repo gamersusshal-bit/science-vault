@@ -384,7 +384,8 @@
    "url": "https://www.youtube.com/watch?v=fZrz85zqi18",
    "hero_visual": "close-up of an astronaut on top of a grey cratered Moon firing a glowing bullet sideways; BULLET BACK IN clock 1:48:00 to 0:00:00; BULLET SPEED meter with FASTEST RIFLE / ORBIT / ESCAPE marks; red too-slow shot crashing into dust; dashed STRAIGHT LINE vs FALLS gap arrows; pull-out to the whole Moon with STILL FALLING gravity arrow; bullet returns from behind as the astronaut ducks",
    "viral_evidence": "1.1M views, 35x (oQr6aRBiAco), cached vidIQ outliers 2026-11-16",
-   "note": "Scheduled via vidIQ after the owner replied 'post' on 2026-11-25 (connectors were off during the automated run)."
+   "note": "Scheduled via vidIQ after the owner replied 'post' on 2026-11-25 (connectors were off during the automated run).",
+   "status_check_2026-11-26": "Could not run vidiq_social_post_status (tool not available in this run); status left as 'scheduled'."
   },
   {
    "slug": "rocket-vacuum",
@@ -402,7 +403,40 @@
    "url": "https://www.youtube.com/watch?v=Qs_gEh5CEIk",
    "hero_visual": "white-and-orange rocket climbing above Earth's blue limb with streaking stars; SPEED meter to ORBIT 28,000 km/h; cut-away combustion chamber and nozzle with bouncing gas dots, steel plug sealing the throat with equal pressure arrows (PUSHES CANCEL), plug pops and gas streams out (UNBALANCED PUSH); blue air dots crowding the nozzle at the launch pad; THRUST AT LAUNCH PAD vs IN SPACE bars; vacuum plume blooms; ROCKET up / EXHAUST down arrows",
    "viral_evidence": "2.3M views (oy2kU79pdzo), cached vidIQ outliers 2026-11-16",
-   "note": "Scheduled via vidIQ after the owner replied 'post' on 2026-11-25 (connectors were off during the automated run)."
+   "note": "Scheduled via vidIQ after the owner replied 'post' on 2026-11-25 (connectors were off during the automated run).",
+   "status_check_2026-11-26": "Could not run vidiq_social_post_status (tool not available in this run); status left as 'scheduled'."
+  },
+  {
+   "slug": "train-jump",
+   "date": "2026-11-26",
+   "field": "physics",
+   "series": "What If",
+   "series_no": 7,
+   "voice": "af_heart",
+   "fizz": false,
+   "title": "What If You Jumped on a 300 km/h Train? | What If #7",
+   "status": "not_scheduled",
+   "format": "short",
+   "duration_s": 25.6,
+   "hero_visual": "sunset side view of a white-and-orange high-speed train with a cut-away carriage; teal passenger jumps; slow-motion TIME IN THE AIR 0.00/0.50 S clock with an orange ground stake and FLOOR MOVED 42 M ruler; red frozen 'thought experiment' ghost smashed by the BACK WALL; TRAIN vs HER 300 KM/H bars; lands on SAME SPOT; Earth from above the North Pole spinning with TRAIN / JETLINER / GROUND AT EQUATOR speed bars",
+   "viral_evidence": "537K views, 16x (Xiot0n5dRYM), cached vidIQ outliers 2026-11-16",
+   "note": "Rendered and passed all gates on 2026-11-26, but NOT scheduled: the vidIQ upload/draft/schedule tools and the Composio YouTube tools were not available in this scheduled run (only vidiq_media_upscale and vidiq_compose_update loaded; Composio exposed 0 tools). Public MP4 on the renders branch; schedule by hand or reply 'post' in the run session."
+  },
+  {
+   "slug": "breath-cloud",
+   "date": "2026-11-26",
+   "field": "earth and weather",
+   "series": "Why It Happens",
+   "series_no": 10,
+   "voice": "af_heart",
+   "fizz": false,
+   "title": "Why You Can Only See Your Breath in Winter | Why It Happens #10",
+   "status": "not_scheduled",
+   "format": "short",
+   "duration_s": 29.8,
+   "hero_visual": "split summer/winter panes of a generic person in profile breathing out (invisible vs white puff), merging into one world that cools from 25 to 0 C with snow; ROOM FOR WATER bar vs WATER IN YOUR BREATH line turning red below the line; AIR AT 30C vs 0C boxes holding 7 vs 1 drops; magnifier of blue vapour dots squeezing into droplets that scatter sunlight; sky cloud with rising-air arrows",
+   "viral_evidence": "none: only 2 unused cached candidates and vidiq_outliers unavailable; picked by field rotation",
+   "note": "Rendered and passed all gates on 2026-11-26, but NOT scheduled: the vidIQ upload/draft/schedule tools and the Composio YouTube tools were not available in this scheduled run (only vidiq_media_upscale and vidiq_compose_update loaded; Composio exposed 0 tools). Public MP4 on the renders branch; schedule by hand or reply 'post' in the run session."
   }
  ]
 }

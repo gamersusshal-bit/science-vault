@@ -1,0 +1,487 @@
+{
+ "slug": "breath-cloud",
+ "fps": 30,
+ "duration": 29.698,
+ "beats": {
+  "drop": 0.469,
+  "hit": 22.471
+ },
+ "lines": [
+  {
+   "id": "hook",
+   "text": "Same breath. So why do you only see it in winter?",
+   "start": 0.2,
+   "end": 2.821,
+   "words": [
+    {
+     "text": "Same",
+     "start": 0.2,
+     "end": 0.469
+    },
+    {
+     "text": "breath.",
+     "start": 0.469,
+     "end": 0.996
+    },
+    {
+     "text": "So",
+     "start": 1.116,
+     "end": 1.25
+    },
+    {
+     "text": "why",
+     "start": 1.25,
+     "end": 1.425
+    },
+    {
+     "text": "do",
+     "start": 1.425,
+     "end": 1.559
+    },
+    {
+     "text": "you",
+     "start": 1.559,
+     "end": 1.734
+    },
+    {
+     "text": "only",
+     "start": 1.734,
+     "end": 1.952
+    },
+    {
+     "text": "see",
+     "start": 1.952,
+     "end": 2.127
+    },
+    {
+     "text": "it",
+     "start": 2.127,
+     "end": 2.261
+    },
+    {
+     "text": "in",
+     "start": 2.261,
+     "end": 2.394
+    },
+    {
+     "text": "winter?",
+     "start": 2.394,
+     "end": 2.821
+    }
+   ]
+  },
+  {
+   "id": "meter",
+   "text": "Breath carries invisible water. Once this bar drops below the line, you'll see it.",
+   "start": 3.171,
+   "end": 7.762,
+   "words": [
+    {
+     "text": "Breath",
+     "start": 3.171,
+     "end": 3.51
+    },
+    {
+     "text": "carries",
+     "start": 3.51,
+     "end": 3.896
+    },
+    {
+     "text": "invisible",
+     "start": 3.896,
+     "end": 4.377
+    },
+    {
+     "text": "water.",
+     "start": 4.377,
+     "end": 4.811
+    },
+    {
+     "text": "Once",
+     "start": 4.961,
+     "end": 5.216
+    },
+    {
+     "text": "this",
+     "start": 5.216,
+     "end": 5.472
+    },
+    {
+     "text": "bar",
+     "start": 5.472,
+     "end": 5.678
+    },
+    {
+     "text": "drops",
+     "start": 5.678,
+     "end": 5.983
+    },
+    {
+     "text": "below",
+     "start": 5.983,
+     "end": 6.287
+    },
+    {
+     "text": "the",
+     "start": 6.287,
+     "end": 6.494
+    },
+    {
+     "text": "line,",
+     "start": 6.494,
+     "end": 6.897
+    },
+    {
+     "text": "you'll",
+     "start": 6.897,
+     "end": 7.251
+    },
+    {
+     "text": "see",
+     "start": 7.251,
+     "end": 7.457
+    },
+    {
+     "text": "it.",
+     "start": 7.457,
+     "end": 7.762
+    }
+   ]
+  },
+  {
+   "id": "summer",
+   "text": "Warm air has room for all of it, so it spreads out unseen.",
+   "start": 8.162,
+   "end": 11.392,
+   "words": [
+    {
+     "text": "Warm",
+     "start": 8.162,
+     "end": 8.412
+    },
+    {
+     "text": "air",
+     "start": 8.412,
+     "end": 8.614
+    },
+    {
+     "text": "has",
+     "start": 8.614,
+     "end": 8.816
+    },
+    {
+     "text": "room",
+     "start": 8.816,
+     "end": 9.067
+    },
+    {
+     "text": "for",
+     "start": 9.067,
+     "end": 9.269
+    },
+    {
+     "text": "all",
+     "start": 9.269,
+     "end": 9.471
+    },
+    {
+     "text": "of",
+     "start": 9.471,
+     "end": 9.625
+    },
+    {
+     "text": "it,",
+     "start": 9.625,
+     "end": 9.923
+    },
+    {
+     "text": "so",
+     "start": 10.023,
+     "end": 10.174
+    },
+    {
+     "text": "it",
+     "start": 10.174,
+     "end": 10.325
+    },
+    {
+     "text": "spreads",
+     "start": 10.325,
+     "end": 10.712
+    },
+    {
+     "text": "out",
+     "start": 10.712,
+     "end": 10.911
+    },
+    {
+     "text": "unseen.",
+     "start": 10.911,
+     "end": 11.392
+    }
+   ]
+  },
+  {
+   "id": "cool",
+   "text": "Cool the air, and near freezing it holds about a seventh as much.",
+   "start": 11.792,
+   "end": 15.385,
+   "words": [
+    {
+     "text": "Cool",
+     "start": 11.792,
+     "end": 12.039
+    },
+    {
+     "text": "the",
+     "start": 12.039,
+     "end": 12.238
+    },
+    {
+     "text": "air,",
+     "start": 12.238,
+     "end": 12.58
+    },
+    {
+     "text": "and",
+     "start": 12.73,
+     "end": 12.929
+    },
+    {
+     "text": "near",
+     "start": 12.929,
+     "end": 13.175
+    },
+    {
+     "text": "freezing",
+     "start": 13.175,
+     "end": 13.612
+    },
+    {
+     "text": "it",
+     "start": 13.612,
+     "end": 13.763
+    },
+    {
+     "text": "holds",
+     "start": 13.763,
+     "end": 14.057
+    },
+    {
+     "text": "about",
+     "start": 14.057,
+     "end": 14.351
+    },
+    {
+     "text": "a",
+     "start": 14.351,
+     "end": 14.455
+    },
+    {
+     "text": "seventh",
+     "start": 14.455,
+     "end": 14.844
+    },
+    {
+     "text": "as",
+     "start": 14.844,
+     "end": 14.996
+    },
+    {
+     "text": "much.",
+     "start": 14.996,
+     "end": 15.385
+    }
+   ]
+  },
+  {
+   "id": "twist",
+   "text": "But here's the strange part. The extra water squeezes into tiny droplets.",
+   "start": 15.785,
+   "end": 20.19,
+   "words": [
+    {
+     "text": "But",
+     "start": 15.785,
+     "end": 15.974
+    },
+    {
+     "text": "here's",
+     "start": 15.974,
+     "end": 16.299
+    },
+    {
+     "text": "the",
+     "start": 16.299,
+     "end": 16.489
+    },
+    {
+     "text": "strange",
+     "start": 16.489,
+     "end": 16.859
+    },
+    {
+     "text": "part.",
+     "start": 16.859,
+     "end": 17.229
+    },
+    {
+     "text": "The",
+     "start": 17.529,
+     "end": 17.76
+    },
+    {
+     "text": "extra",
+     "start": 17.76,
+     "end": 18.1
+    },
+    {
+     "text": "water",
+     "start": 18.1,
+     "end": 18.441
+    },
+    {
+     "text": "squeezes",
+     "start": 18.441,
+     "end": 18.947
+    },
+    {
+     "text": "into",
+     "start": 18.947,
+     "end": 19.233
+    },
+    {
+     "text": "tiny",
+     "start": 19.233,
+     "end": 19.519
+    },
+    {
+     "text": "droplets.",
+     "start": 19.519,
+     "end": 20.19
+    }
+   ]
+  },
+  {
+   "id": "climax",
+   "text": "Billions scatter light. That's a cloud, like the ones in the sky.",
+   "start": 20.59,
+   "end": 24.236,
+   "words": [
+    {
+     "text": "Billions",
+     "start": 20.59,
+     "end": 21.022
+    },
+    {
+     "text": "scatter",
+     "start": 21.022,
+     "end": 21.407
+    },
+    {
+     "text": "light.",
+     "start": 21.407,
+     "end": 21.839
+    },
+    {
+     "text": "That's",
+     "start": 22.039,
+     "end": 22.37
+    },
+    {
+     "text": "a",
+     "start": 22.37,
+     "end": 22.471
+    },
+    {
+     "text": "cloud,",
+     "start": 22.471,
+     "end": 22.894
+    },
+    {
+     "text": "like",
+     "start": 22.894,
+     "end": 23.133
+    },
+    {
+     "text": "the",
+     "start": 23.133,
+     "end": 23.326
+    },
+    {
+     "text": "ones",
+     "start": 23.326,
+     "end": 23.565
+    },
+    {
+     "text": "in",
+     "start": 23.565,
+     "end": 23.712
+    },
+    {
+     "text": "the",
+     "start": 23.712,
+     "end": 23.905
+    },
+    {
+     "text": "sky.",
+     "start": 23.905,
+     "end": 24.236
+    }
+   ]
+  },
+  {
+   "id": "payoff",
+   "text": "Every winter breath is a tiny cloud you made.",
+   "start": 24.686,
+   "end": 27.898,
+   "words": [
+    {
+     "text": "Every",
+     "start": 24.686,
+     "end": 25.018
+    },
+    {
+     "text": "winter",
+     "start": 25.018,
+     "end": 25.404
+    },
+    {
+     "text": "breath",
+     "start": 25.404,
+     "end": 25.79
+    },
+    {
+     "text": "is",
+     "start": 25.91,
+     "end": 26.127
+    },
+    {
+     "text": "a",
+     "start": 26.127,
+     "end": 26.277
+    },
+    {
+     "text": "tiny",
+     "start": 26.277,
+     "end": 26.631
+    },
+    {
+     "text": "cloud",
+     "start": 26.631,
+     "end": 27.054
+    },
+    {
+     "text": "you",
+     "start": 27.054,
+     "end": 27.34
+    },
+    {
+     "text": "made.",
+     "start": 27.34,
+     "end": 27.898
+    }
+   ]
+  }
+ ]
+}

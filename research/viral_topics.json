@@ -37,7 +37,8 @@
    "hook_format": "What happens when ...",
    "field": "physics",
    "evidence": "537K views, 16x (Xiot0n5dRYM)",
-   "used": false
+   "used": true,
+   "slug": "train-jump"
   },
   {
    "idea": "Why spinning makes you dizzy: the fluid in your inner ear keeps moving",

@@ -457,6 +457,11 @@
     "total_views": 4504
    },
    "limits": "Composio per-Short stats not read in this follow-up."
+  },
+  {
+   "date": "2026-11-26",
+   "source": "none",
+   "limits": "Scheduled run: Composio exposed 0 tools and vidIQ loaded only vidiq_media_upscale and vidiq_compose_update, so no vidiq_user_channels snapshot, no per-Short stats and no start-of-run status check were possible. Last known (2026-11-25, after owner reply): 13 subscribers, 24,015 views, 20 videos."
   }
  ]
 }

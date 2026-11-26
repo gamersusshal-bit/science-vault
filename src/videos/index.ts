@@ -66,6 +66,12 @@ import moonBulletScript from "../../videos/moon-bullet/script.json";
 import { RocketVacuum } from "./rocketVacuum/RocketVacuum";
 import rocketVacuumTimeline from "../../videos/rocket-vacuum/timeline.json";
 import rocketVacuumScript from "../../videos/rocket-vacuum/script.json";
+import { TrainJump } from "./trainJump/TrainJump";
+import trainJumpTimeline from "../../videos/train-jump/timeline.json";
+import trainJumpScript from "../../videos/train-jump/script.json";
+import { BreathCloud } from "./breathCloud/BreathCloud";
+import breathCloudTimeline from "../../videos/breath-cloud/timeline.json";
+import breathCloudScript from "../../videos/breath-cloud/script.json";
 import type { ThumbSpec } from "../primitives/Thumbnail";
 
 /**
@@ -99,4 +105,6 @@ export const VIDEOS: { id: string; component: React.FC; duration: number; timeli
   { id: "ant-fall", component: AntFall, duration: antFallTimeline.duration, thumb: antFallScript.thumb },
   { id: "moon-bullet", component: MoonBullet, duration: moonBulletTimeline.duration, thumb: moonBulletScript.thumb },
   { id: "rocket-vacuum", component: RocketVacuum, duration: rocketVacuumTimeline.duration, thumb: rocketVacuumScript.thumb },
+  { id: "train-jump", component: TrainJump, duration: trainJumpTimeline.duration, thumb: trainJumpScript.thumb },
+  { id: "breath-cloud", component: BreathCloud, duration: breathCloudTimeline.duration, thumb: breathCloudScript.thumb },
 ];
