@@ -11,6 +11,52 @@ and say so. Fewer good videos beats the full count.
 
 Chrome for rendering is expected at `google-chrome`. Run everything from the repo root.
 
+## 1-NICHE. Channel niche: education in technology and finance (owner's decision, 2026-11-26)
+
+This overrides the science fields in 1b, 1c and 1e and rule 4 of 2e, from the run of
+2026-11-27 onward. Everything else in this playbook (hook process, seven beats, sourcing,
+render gates, scheduling with a veto window) still applies.
+
+- **Every day: one technology Short and one finance Short.** Both are animated explainers that
+  teach how something works; the channel stays educational (LearnIT), not news or hype.
+- **Technology fields:** computing and AI, internet and phones, everyday gadgets, learning
+  technology (edtech: how apps, AI tutors, e-readers, smart boards etc. work), engineering of
+  everyday tech. Series: **How It Works** (the "one in four" pause of 2e rule 4 is lifted).
+- **Finance fields:** personal finance basics (interest, compounding, inflation, credit scores,
+  loans and EMIs, taxes as a mechanism), banking and payments (how a bank, a card swipe, UPI or
+  ACH actually move money), markets (what a share is, why prices move, what an index is),
+  economics (supply and demand, central banks, why money has value). Series: **Money Explained**
+  (new, starts at #1). A labelled thought experiment in either niche can use **What If**
+  ("What if everyone withdrew their money at once?").
+- Don't use the same sub-field (as listed above) twice in a row; log `"field"` as e.g.
+  "finance: banking and payments" or "tech: computing and AI".
+- **Finance safety rules (a gate: a script that breaks one is dropped):**
+  1. Explain mechanisms only. No investment, trading, tax or loan advice; no "you should buy /
+     sell / invest"; no named stocks, coins, funds or brokers as recommendations; no price
+     predictions; no get-rich, guaranteed-return or "secret" framing.
+  2. Sources must be authoritative: central banks (RBI, Federal Reserve, ECB, BIS), regulators
+     and investor-education sites (SEBI, SEC Investor.gov, CFPB, FINRA), NPCI, IMF/World Bank,
+     government statistics, standard economics/finance textbooks, peer-reviewed papers. A viral
+     video or finance influencer is never a source.
+  3. Figures that change (rates, inflation, prices) need the date and source in the script,
+     and on screen if shown ("RBI repo rate, Nov 2026"). Worked examples use round illustrative
+     numbers and are labelled "EXAMPLE".
+  4. Audience is mostly US then India: give money examples in both $ and ₹ where it matters, or
+     keep them currency-neutral.
+  5. Every finance description ends (before the comment question) with: "Educational only,
+     not financial advice."
+- **Technology rules:** claims about a named product only from its maker's documentation or a
+  first-hand technical source; no brand logos, UI screenshots or look-alike designs in the
+  video or thumbnail; AI claims must be things the source states, not hype.
+- **Viral research (1b):** the cached candidates are science ideas; mark them as from the old
+  niche and do not use them. Refresh with `vidiq_outliers` (contentType "short", minViews
+  500000) using keywords like "how money works animated", "personal finance explained",
+  "how technology works animated", "how it works tech explainer", and record new candidates
+  with a `"niche": "tech"` or `"niche": "finance"` field. If vidIQ is unavailable, pick by the
+  field rotation above and say so in the owner message.
+- **Look:** keep the channel's animated style, captions and series chips, but give finance its
+  own palette (for example deep green and gold) so the two daily Shorts don't share a look.
+
 ## 1. Choose topics (owner's direction, 2026-11-16: proven viral animated topics, made our own way)
 
 Topics now come from what is already going viral in animated explainer Shorts, checked
