@@ -54,6 +54,7 @@ render gates, scheduling with a veto window) still applies.
   "how technology works animated", "how it works tech explainer", and record new candidates
   with a `"niche": "tech"` or `"niche": "finance"` field. If vidIQ is unavailable, pick by the
   field rotation above and say so in the owner message.
+- **YouTube category:** 27 (Education) instead of 28 for new videos.
 - **Look:** keep the channel's animated style, captions and series chips, but give finance its
   own palette (for example deep green and gold) so the two daily Shorts don't share a look.
 
