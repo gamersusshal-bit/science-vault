@@ -1,0 +1,219 @@
+{
+  "slug": "gps-listening",
+  "title": "How Your Phone Finds You Without Talking to Space | How It Works #7",
+  "voice": "af_heart",
+  "series": "How It Works",
+  "series_no": 7,
+  "format": "short",
+  "field": "tech: internet and phones",
+  "simplified": "Simplified model: drawn in 2D (circles instead of spheres), satellites and distances not to scale, signal travel exaggerated in slow motion; the 'clock error cancels' step is shown as rings snapping to one point.",
+  "hook_candidates": [
+    {
+      "text": "Your phone never answers these satellites. So how does it find you?",
+      "scores": {
+        "under_12_words": 2,
+        "visible_event": 2,
+        "question_open": 2,
+        "about_this": 2,
+        "concrete_start": 2,
+        "true_as_worded": 2
+      },
+      "total": 12,
+      "chosen": true
+    },
+    {
+      "text": "This blue dot knows where you are. Nobody told it.",
+      "scores": {
+        "under_12_words": 2,
+        "visible_event": 1,
+        "question_open": 2,
+        "about_this": 2,
+        "concrete_start": 1,
+        "true_as_worded": 1
+      },
+      "total": 9
+    },
+    {
+      "text": "Watch this circle. It has to shrink to your exact street.",
+      "scores": {
+        "under_12_words": 2,
+        "visible_event": 2,
+        "question_open": 1,
+        "about_this": 2,
+        "concrete_start": 1,
+        "true_as_worded": 2
+      },
+      "total": 10
+    },
+    {
+      "text": "You opened maps. Twenty thousand kilometres up, nothing heard you.",
+      "scores": {
+        "under_12_words": 2,
+        "visible_event": 1,
+        "question_open": 1,
+        "about_this": 2,
+        "concrete_start": 2,
+        "true_as_worded": 2
+      },
+      "total": 10
+    },
+    {
+      "text": "A millionth of a second wrong, and you're three hundred metres lost.",
+      "scores": {
+        "under_12_words": 1,
+        "visible_event": 1,
+        "question_open": 1,
+        "about_this": 1,
+        "concrete_start": 1,
+        "true_as_worded": 2
+      },
+      "total": 7
+    }
+  ],
+  "beats": {
+    "drop": {
+      "line": "hook",
+      "word": "satellites"
+    },
+    "hit": {
+      "line": "climax",
+      "word": "meet"
+    }
+  },
+  "lines": [
+    {
+      "id": "hook",
+      "parts": [
+        {
+          "text": "Your phone never answers these satellites.",
+          "speed": 1.06,
+          "pause": 0.18
+        },
+        {
+          "text": "So how does it find you?",
+          "tts": "So how does it find you?",
+          "speed": 0.98,
+          "pause": 0.4
+        }
+      ]
+    },
+    {
+      "id": "meter",
+      "parts": [
+        {
+          "text": "Watch this circle shrink",
+          "speed": 1.04,
+          "pause": 0.1
+        },
+        {
+          "text": "from the whole planet to a few metres.",
+          "speed": 1.0,
+          "pause": 0.35
+        }
+      ]
+    },
+    {
+      "id": "time",
+      "parts": [
+        {
+          "text": "Each satellite broadcasts the time.",
+          "speed": 1.02,
+          "pause": 0.2
+        },
+        {
+          "text": "Your phone hears it a little late.",
+          "speed": 0.96,
+          "pause": 0.35
+        }
+      ]
+    },
+    {
+      "id": "ring",
+      "parts": [
+        {
+          "text": "That delay, at light speed, is your distance.",
+          "tts": "That delay, at light speed, is your distance.",
+          "speed": 1.02,
+          "pause": 0.2
+        },
+        {
+          "text": "You're somewhere on this ring.",
+          "speed": 0.96,
+          "pause": 0.4
+        }
+      ]
+    },
+    {
+      "id": "twist",
+      "parts": [
+        {
+          "text": "But a clock off by one millionth of a second?",
+          "tts": "But a clock, off by one millionth of a second?",
+          "speed": 1.0,
+          "pause": 0.3
+        },
+        {
+          "text": "Three hundred metres wrong.",
+          "tts": "Three hundred metres... wrong.",
+          "speed": 0.92,
+          "pause": 0.4
+        }
+      ]
+    },
+    {
+      "id": "climax",
+      "parts": [
+        {
+          "text": "So it listens to more satellites at once.",
+          "speed": 1.02,
+          "pause": 0.2
+        },
+        {
+          "text": "The error cancels.",
+          "speed": 0.95,
+          "pause": 0.2
+        },
+        {
+          "text": "The rings meet.",
+          "tts": "The rings meet!",
+          "speed": 0.9,
+          "pause": 0.45
+        }
+      ]
+    },
+    {
+      "id": "payoff",
+      "parts": [
+        {
+          "text": "It never asked where you were.",
+          "speed": 0.92,
+          "pause": 0.25
+        },
+        {
+          "text": "It listened.",
+          "tts": "It... listened.",
+          "speed": 0.82,
+          "pause": 0
+        }
+      ]
+    }
+  ],
+  "sources": [
+    "Receive-only: GPS 'was to be a passive system, which ruled out any transmissions from the users'. Penn State GEOG 862, NAVSTAR GPS, https://courses.ems.psu.edu/geog862/node/1768",
+    "Satellites broadcast time from atomic clocks; receiver uses travel time: 'Each satellite transmits its position and time at regular intervals'; 'The receiver is able to determine its position by calculating how long it took for the signals to reach it'; satellites 'each equipped with redundant atomic clocks'. NASA SCaN, What is GPS?, https://www.nasa.gov/general/what-is-gps/",
+    "Distance from delay: 'Distance = Speed of Light * Time Difference'. Penn State, Nature of Geographic Information, 17. Satellite Ranging, https://courses.ems.psu.edu/natureofgeoinfo/web/node/1796",
+    "One microsecond error = about 300 m: speed of light 299,792,458 m/s (SI definition) x 0.000001 s = 299.8 m. On screen as 300 M (about 1,000 FT).",
+    "Receiver clocks are cheap: GPS receivers have quartz clocks 'less stable than the atomic clocks used in NAVSTAR satellites'; 'Receiver clock error can be eliminated, however, by comparing times of arrival of signals from two satellites'. Penn State, 19. User Equivalent Range Errors, https://courses.ems.psu.edu/natureofgeoinfo/web/node/1798",
+    "More satellites: 'Four ranges are needed for a three-dimensional fix'; 'a minimum of four satellites is always in view everywhere on Earth'. Penn State, 17. Satellite Ranging (above). Four satellites drawn on screen.",
+    "Accuracy 'a few metres': GPS 'can pinpoint a three dimensional position to meter-level accuracy'. NASA SCaN (above). Orbit 'about 20,200 kilometers' (NASA, above), not spoken."
+  ],
+  "comment_question": "Have you ever had your map show you in the wrong place, and where?",
+  "thumb": {
+    "at": 25.7,
+    "text": [
+      "IT NEVER",
+      "TALKS BACK"
+    ],
+    "accent": "#5ef0c8"
+  }
+}

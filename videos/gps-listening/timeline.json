@@ -1,0 +1,492 @@
+{
+ "slug": "gps-listening",
+ "fps": 30,
+ "duration": 30.74,
+ "beats": {
+  "drop": 1.751,
+  "hit": 25.249
+ },
+ "lines": [
+  {
+   "id": "hook",
+   "text": "Your phone never answers these satellites. So how does it find you?",
+   "start": 0.2,
+   "end": 3.808,
+   "words": [
+    {
+     "text": "Your",
+     "start": 0.2,
+     "end": 0.452
+    },
+    {
+     "text": "phone",
+     "start": 0.452,
+     "end": 0.753
+    },
+    {
+     "text": "never",
+     "start": 0.753,
+     "end": 1.053
+    },
+    {
+     "text": "answers",
+     "start": 1.053,
+     "end": 1.451
+    },
+    {
+     "text": "these",
+     "start": 1.451,
+     "end": 1.751
+    },
+    {
+     "text": "satellites.",
+     "start": 1.751,
+     "end": 2.44
+    },
+    {
+     "text": "So",
+     "start": 2.62,
+     "end": 2.755
+    },
+    {
+     "text": "how",
+     "start": 2.755,
+     "end": 2.931
+    },
+    {
+     "text": "does",
+     "start": 2.931,
+     "end": 3.15
+    },
+    {
+     "text": "it",
+     "start": 3.15,
+     "end": 3.285
+    },
+    {
+     "text": "find",
+     "start": 3.285,
+     "end": 3.504
+    },
+    {
+     "text": "you?",
+     "start": 3.504,
+     "end": 3.808
+    }
+   ]
+  },
+  {
+   "id": "meter",
+   "text": "Watch this circle shrink from the whole planet to a few metres.",
+   "start": 4.208,
+   "end": 7.404,
+   "words": [
+    {
+     "text": "Watch",
+     "start": 4.208,
+     "end": 4.511
+    },
+    {
+     "text": "this",
+     "start": 4.511,
+     "end": 4.766
+    },
+    {
+     "text": "circle",
+     "start": 4.766,
+     "end": 5.119
+    },
+    {
+     "text": "shrink",
+     "start": 5.119,
+     "end": 5.472
+    },
+    {
+     "text": "from",
+     "start": 5.572,
+     "end": 5.795
+    },
+    {
+     "text": "the",
+     "start": 5.795,
+     "end": 5.976
+    },
+    {
+     "text": "whole",
+     "start": 5.976,
+     "end": 6.243
+    },
+    {
+     "text": "planet",
+     "start": 6.243,
+     "end": 6.552
+    },
+    {
+     "text": "to",
+     "start": 6.552,
+     "end": 6.69
+    },
+    {
+     "text": "a",
+     "start": 6.69,
+     "end": 6.785
+    },
+    {
+     "text": "few",
+     "start": 6.785,
+     "end": 6.965
+    },
+    {
+     "text": "metres.",
+     "start": 6.965,
+     "end": 7.404
+    }
+   ]
+  },
+  {
+   "id": "time",
+   "text": "Each satellite broadcasts the time. Your phone hears it a little late.",
+   "start": 7.754,
+   "end": 11.325,
+   "words": [
+    {
+     "text": "Each",
+     "start": 7.754,
+     "end": 7.988
+    },
+    {
+     "text": "satellite",
+     "start": 7.988,
+     "end": 8.448
+    },
+    {
+     "text": "broadcasts",
+     "start": 8.448,
+     "end": 8.952
+    },
+    {
+     "text": "the",
+     "start": 8.952,
+     "end": 9.141
+    },
+    {
+     "text": "time.",
+     "start": 9.141,
+     "end": 9.51
+    },
+    {
+     "text": "Your",
+     "start": 9.71,
+     "end": 9.929
+    },
+    {
+     "text": "phone",
+     "start": 9.929,
+     "end": 10.19
+    },
+    {
+     "text": "hears",
+     "start": 10.19,
+     "end": 10.45
+    },
+    {
+     "text": "it",
+     "start": 10.45,
+     "end": 10.585
+    },
+    {
+     "text": "a",
+     "start": 10.585,
+     "end": 10.677
+    },
+    {
+     "text": "little",
+     "start": 10.677,
+     "end": 10.98
+    },
+    {
+     "text": "late.",
+     "start": 10.98,
+     "end": 11.325
+    }
+   ]
+  },
+  {
+   "id": "ring",
+   "text": "That delay, at light speed, is your distance. You're somewhere on this ring.",
+   "start": 11.675,
+   "end": 15.592,
+   "words": [
+    {
+     "text": "That",
+     "start": 11.675,
+     "end": 11.906
+    },
+    {
+     "text": "delay,",
+     "start": 11.906,
+     "end": 12.316
+    },
+    {
+     "text": "at",
+     "start": 12.316,
+     "end": 12.459
+    },
+    {
+     "text": "light",
+     "start": 12.459,
+     "end": 12.735
+    },
+    {
+     "text": "speed,",
+     "start": 12.735,
+     "end": 13.145
+    },
+    {
+     "text": "is",
+     "start": 13.145,
+     "end": 13.287
+    },
+    {
+     "text": "your",
+     "start": 13.287,
+     "end": 13.519
+    },
+    {
+     "text": "distance.",
+     "start": 13.519,
+     "end": 14.062
+    },
+    {
+     "text": "You're",
+     "start": 14.262,
+     "end": 14.544
+    },
+    {
+     "text": "somewhere",
+     "start": 14.544,
+     "end": 14.943
+    },
+    {
+     "text": "on",
+     "start": 14.943,
+     "end": 15.068
+    },
+    {
+     "text": "this",
+     "start": 15.068,
+     "end": 15.271
+    },
+    {
+     "text": "ring.",
+     "start": 15.271,
+     "end": 15.592
+    }
+   ]
+  },
+  {
+   "id": "twist",
+   "text": "But a clock off by one millionth of a second? Three hundred metres wrong.",
+   "start": 15.992,
+   "end": 20.75,
+   "words": [
+    {
+     "text": "But",
+     "start": 15.992,
+     "end": 16.205
+    },
+    {
+     "text": "a",
+     "start": 16.205,
+     "end": 16.316
+    },
+    {
+     "text": "clock",
+     "start": 16.316,
+     "end": 16.63
+    },
+    {
+     "text": "off",
+     "start": 16.63,
+     "end": 16.842
+    },
+    {
+     "text": "by",
+     "start": 16.842,
+     "end": 17.004
+    },
+    {
+     "text": "one",
+     "start": 17.004,
+     "end": 17.217
+    },
+    {
+     "text": "millionth",
+     "start": 17.217,
+     "end": 17.733
+    },
+    {
+     "text": "of",
+     "start": 17.733,
+     "end": 17.895
+    },
+    {
+     "text": "a",
+     "start": 17.895,
+     "end": 18.007
+    },
+    {
+     "text": "second?",
+     "start": 18.007,
+     "end": 18.523
+    },
+    {
+     "text": "Three",
+     "start": 18.823,
+     "end": 19.211
+    },
+    {
+     "text": "hundred",
+     "start": 19.211,
+     "end": 19.724
+    },
+    {
+     "text": "metres",
+     "start": 19.724,
+     "end": 20.175
+    },
+    {
+     "text": "wrong.",
+     "start": 20.175,
+     "end": 20.75
+    }
+   ]
+  },
+  {
+   "id": "climax",
+   "text": "So it listens to more satellites at once. The error cancels. The rings meet.",
+   "start": 21.15,
+   "end": 25.681,
+   "words": [
+    {
+     "text": "So",
+     "start": 21.15,
+     "end": 21.298
+    },
+    {
+     "text": "it",
+     "start": 21.298,
+     "end": 21.445
+    },
+    {
+     "text": "listens",
+     "start": 21.445,
+     "end": 21.822
+    },
+    {
+     "text": "to",
+     "start": 21.822,
+     "end": 21.97
+    },
+    {
+     "text": "more",
+     "start": 21.97,
+     "end": 22.209
+    },
+    {
+     "text": "satellites",
+     "start": 22.209,
+     "end": 22.724
+    },
+    {
+     "text": "at",
+     "start": 22.724,
+     "end": 22.871
+    },
+    {
+     "text": "once.",
+     "start": 22.871,
+     "end": 23.249
+    },
+    {
+     "text": "The",
+     "start": 23.449,
+     "end": 23.654
+    },
+    {
+     "text": "error",
+     "start": 23.654,
+     "end": 23.956
+    },
+    {
+     "text": "cancels.",
+     "start": 23.956,
+     "end": 24.502
+    },
+    {
+     "text": "The",
+     "start": 24.702,
+     "end": 24.923
+    },
+    {
+     "text": "rings",
+     "start": 24.923,
+     "end": 25.249
+    },
+    {
+     "text": "meet.",
+     "start": 25.249,
+     "end": 25.681
+    }
+   ]
+  },
+  {
+   "id": "payoff",
+   "text": "It never asked where you were. It listened.",
+   "start": 26.131,
+   "end": 28.94,
+   "words": [
+    {
+     "text": "It",
+     "start": 26.131,
+     "end": 26.267
+    },
+    {
+     "text": "never",
+     "start": 26.267,
+     "end": 26.53
+    },
+    {
+     "text": "asked",
+     "start": 26.53,
+     "end": 26.793
+    },
+    {
+     "text": "where",
+     "start": 26.793,
+     "end": 27.056
+    },
+    {
+     "text": "you",
+     "start": 27.056,
+     "end": 27.234
+    },
+    {
+     "text": "were.",
+     "start": 27.234,
+     "end": 27.582
+    },
+    {
+     "text": "It",
+     "start": 27.832,
+     "end": 28.063
+    },
+    {
+     "text": "listened.",
+     "start": 28.063,
+     "end": 28.94
+    }
+   ]
+  }
+ ]
+}

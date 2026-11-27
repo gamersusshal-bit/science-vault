@@ -72,6 +72,12 @@ import trainJumpScript from "../../videos/train-jump/script.json";
 import { BreathCloud } from "./breathCloud/BreathCloud";
 import breathCloudTimeline from "../../videos/breath-cloud/timeline.json";
 import breathCloudScript from "../../videos/breath-cloud/script.json";
+import { GpsListening } from "./gpsListening/GpsListening";
+import gpsListeningTimeline from "../../videos/gps-listening/timeline.json";
+import gpsListeningScript from "../../videos/gps-listening/script.json";
+import { CardTap } from "./cardTap/CardTap";
+import cardTapTimeline from "../../videos/card-tap/timeline.json";
+import cardTapScript from "../../videos/card-tap/script.json";
 import type { ThumbSpec } from "../primitives/Thumbnail";
 
 /**
@@ -107,4 +113,6 @@ export const VIDEOS: { id: string; component: React.FC; duration: number; timeli
   { id: "rocket-vacuum", component: RocketVacuum, duration: rocketVacuumTimeline.duration, thumb: rocketVacuumScript.thumb },
   { id: "train-jump", component: TrainJump, duration: trainJumpTimeline.duration, thumb: trainJumpScript.thumb },
   { id: "breath-cloud", component: BreathCloud, duration: breathCloudTimeline.duration, thumb: breathCloudScript.thumb },
+  { id: "gps-listening", component: GpsListening, duration: gpsListeningTimeline.duration, thumb: gpsListeningScript.thumb },
+  { id: "card-tap", component: CardTap, duration: cardTapTimeline.duration, thumb: cardTapScript.thumb },
 ];

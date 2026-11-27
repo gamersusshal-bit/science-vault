@@ -1,0 +1,482 @@
+{
+ "slug": "card-tap",
+ "fps": 30,
+ "duration": 28.322,
+ "beats": {
+  "drop": 0.67,
+  "hit": 22.666
+ },
+ "lines": [
+  {
+   "id": "hook",
+   "text": "You just paid. But your money hasn't moved yet.",
+   "start": 0.2,
+   "end": 3.176,
+   "words": [
+    {
+     "text": "You",
+     "start": 0.2,
+     "end": 0.41
+    },
+    {
+     "text": "just",
+     "start": 0.41,
+     "end": 0.67
+    },
+    {
+     "text": "paid.",
+     "start": 0.67,
+     "end": 1.08
+    },
+    {
+     "text": "But",
+     "start": 1.33,
+     "end": 1.544
+    },
+    {
+     "text": "your",
+     "start": 1.544,
+     "end": 1.809
+    },
+    {
+     "text": "money",
+     "start": 1.809,
+     "end": 2.126
+    },
+    {
+     "text": "hasn't",
+     "start": 2.126,
+     "end": 2.493
+    },
+    {
+     "text": "moved",
+     "start": 2.493,
+     "end": 2.809
+    },
+    {
+     "text": "yet.",
+     "start": 2.809,
+     "end": 3.176
+    }
+   ]
+  },
+  {
+   "id": "meter",
+   "text": "Watch this clock. The yes takes seconds. The money takes a day or more.",
+   "start": 3.576,
+   "end": 7.608,
+   "words": [
+    {
+     "text": "Watch",
+     "start": 3.576,
+     "end": 3.877
+    },
+    {
+     "text": "this",
+     "start": 3.877,
+     "end": 4.13
+    },
+    {
+     "text": "clock.",
+     "start": 4.13,
+     "end": 4.577
+    },
+    {
+     "text": "The",
+     "start": 4.727,
+     "end": 4.917
+    },
+    {
+     "text": "yes",
+     "start": 4.917,
+     "end": 5.107
+    },
+    {
+     "text": "takes",
+     "start": 5.107,
+     "end": 5.388
+    },
+    {
+     "text": "seconds.",
+     "start": 5.388,
+     "end": 5.894
+    },
+    {
+     "text": "The",
+     "start": 6.044,
+     "end": 6.235
+    },
+    {
+     "text": "money",
+     "start": 6.235,
+     "end": 6.517
+    },
+    {
+     "text": "takes",
+     "start": 6.517,
+     "end": 6.799
+    },
+    {
+     "text": "a",
+     "start": 6.799,
+     "end": 6.899
+    },
+    {
+     "text": "day",
+     "start": 6.899,
+     "end": 7.09
+    },
+    {
+     "text": "or",
+     "start": 7.09,
+     "end": 7.235
+    },
+    {
+     "text": "more.",
+     "start": 7.235,
+     "end": 7.608
+    }
+   ]
+  },
+  {
+   "id": "message",
+   "text": "Your tap sends a message, not money, through the card network to your bank.",
+   "start": 7.958,
+   "end": 11.663,
+   "words": [
+    {
+     "text": "Your",
+     "start": 7.958,
+     "end": 8.198
+    },
+    {
+     "text": "tap",
+     "start": 8.198,
+     "end": 8.391
+    },
+    {
+     "text": "sends",
+     "start": 8.391,
+     "end": 8.677
+    },
+    {
+     "text": "a",
+     "start": 8.677,
+     "end": 8.778
+    },
+    {
+     "text": "message,",
+     "start": 8.778,
+     "end": 9.295
+    },
+    {
+     "text": "not",
+     "start": 9.295,
+     "end": 9.488
+    },
+    {
+     "text": "money,",
+     "start": 9.488,
+     "end": 9.912
+    },
+    {
+     "text": "through",
+     "start": 10.032,
+     "end": 10.348
+    },
+    {
+     "text": "the",
+     "start": 10.348,
+     "end": 10.509
+    },
+    {
+     "text": "card",
+     "start": 10.509,
+     "end": 10.709
+    },
+    {
+     "text": "network",
+     "start": 10.709,
+     "end": 11.025
+    },
+    {
+     "text": "to",
+     "start": 11.025,
+     "end": 11.148
+    },
+    {
+     "text": "your",
+     "start": 11.148,
+     "end": 11.348
+    },
+    {
+     "text": "bank.",
+     "start": 11.348,
+     "end": 11.663
+    }
+   ]
+  },
+  {
+   "id": "hold",
+   "text": "Your bank checks you can pay, then holds that amount.",
+   "start": 11.963,
+   "end": 14.759,
+   "words": [
+    {
+     "text": "Your",
+     "start": 11.963,
+     "end": 12.174
+    },
+    {
+     "text": "bank",
+     "start": 12.174,
+     "end": 12.385
+    },
+    {
+     "text": "checks",
+     "start": 12.385,
+     "end": 12.677
+    },
+    {
+     "text": "you",
+     "start": 12.677,
+     "end": 12.848
+    },
+    {
+     "text": "can",
+     "start": 12.848,
+     "end": 13.018
+    },
+    {
+     "text": "pay,",
+     "start": 13.018,
+     "end": 13.31
+    },
+    {
+     "text": "then",
+     "start": 13.43,
+     "end": 13.688
+    },
+    {
+     "text": "holds",
+     "start": 13.688,
+     "end": 13.995
+    },
+    {
+     "text": "that",
+     "start": 13.995,
+     "end": 14.253
+    },
+    {
+     "text": "amount.",
+     "start": 14.253,
+     "end": 14.759
+    }
+   ]
+  },
+  {
+   "id": "twist",
+   "text": "So the shop has a yes, but still no money.",
+   "start": 15.159,
+   "end": 17.781,
+   "words": [
+    {
+     "text": "So",
+     "start": 15.159,
+     "end": 15.315
+    },
+    {
+     "text": "the",
+     "start": 15.315,
+     "end": 15.521
+    },
+    {
+     "text": "shop",
+     "start": 15.521,
+     "end": 15.775
+    },
+    {
+     "text": "has",
+     "start": 15.775,
+     "end": 15.98
+    },
+    {
+     "text": "a",
+     "start": 15.98,
+     "end": 16.088
+    },
+    {
+     "text": "yes,",
+     "start": 16.088,
+     "end": 16.44
+    },
+    {
+     "text": "but",
+     "start": 16.64,
+     "end": 16.85
+    },
+    {
+     "text": "still",
+     "start": 16.85,
+     "end": 17.161
+    },
+    {
+     "text": "no",
+     "start": 17.161,
+     "end": 17.321
+    },
+    {
+     "text": "money.",
+     "start": 17.321,
+     "end": 17.781
+    }
+   ]
+  },
+  {
+   "id": "settle",
+   "text": "Later, the shop sends its taps in one batch. The banks settle up, and the money moves.",
+   "start": 18.231,
+   "end": 23.091,
+   "words": [
+    {
+     "text": "Later,",
+     "start": 18.231,
+     "end": 18.658
+    },
+    {
+     "text": "the",
+     "start": 18.658,
+     "end": 18.853
+    },
+    {
+     "text": "shop",
+     "start": 18.853,
+     "end": 19.094
+    },
+    {
+     "text": "sends",
+     "start": 19.094,
+     "end": 19.381
+    },
+    {
+     "text": "its",
+     "start": 19.381,
+     "end": 19.576
+    },
+    {
+     "text": "taps",
+     "start": 19.576,
+     "end": 19.818
+    },
+    {
+     "text": "in",
+     "start": 19.818,
+     "end": 19.966
+    },
+    {
+     "text": "one",
+     "start": 19.966,
+     "end": 20.161
+    },
+    {
+     "text": "batch.",
+     "start": 20.161,
+     "end": 20.588
+    },
+    {
+     "text": "The",
+     "start": 20.788,
+     "end": 20.974
+    },
+    {
+     "text": "banks",
+     "start": 20.974,
+     "end": 21.249
+    },
+    {
+     "text": "settle",
+     "start": 21.249,
+     "end": 21.568
+    },
+    {
+     "text": "up,",
+     "start": 21.568,
+     "end": 21.842
+    },
+    {
+     "text": "and",
+     "start": 21.992,
+     "end": 22.186
+    },
+    {
+     "text": "the",
+     "start": 22.186,
+     "end": 22.38
+    },
+    {
+     "text": "money",
+     "start": 22.38,
+     "end": 22.666
+    },
+    {
+     "text": "moves.",
+     "start": 22.666,
+     "end": 23.091
+    }
+   ]
+  },
+  {
+   "id": "payoff",
+   "text": "Your tap was a promise. The money comes later.",
+   "start": 23.541,
+   "end": 26.522,
+   "words": [
+    {
+     "text": "Your",
+     "start": 23.541,
+     "end": 23.806
+    },
+    {
+     "text": "tap",
+     "start": 23.806,
+     "end": 24.02
+    },
+    {
+     "text": "was",
+     "start": 24.02,
+     "end": 24.234
+    },
+    {
+     "text": "a",
+     "start": 24.234,
+     "end": 24.346
+    },
+    {
+     "text": "promise.",
+     "start": 24.346,
+     "end": 24.917
+    },
+    {
+     "text": "The",
+     "start": 25.167,
+     "end": 25.387
+    },
+    {
+     "text": "money",
+     "start": 25.387,
+     "end": 25.713
+    },
+    {
+     "text": "comes",
+     "start": 25.713,
+     "end": 26.039
+    },
+    {
+     "text": "later.",
+     "start": 26.039,
+     "end": 26.522
+    }
+   ]
+  }
+ ]
+}
