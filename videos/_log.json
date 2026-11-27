@@ -385,7 +385,8 @@
    "hero_visual": "close-up of an astronaut on top of a grey cratered Moon firing a glowing bullet sideways; BULLET BACK IN clock 1:48:00 to 0:00:00; BULLET SPEED meter with FASTEST RIFLE / ORBIT / ESCAPE marks; red too-slow shot crashing into dust; dashed STRAIGHT LINE vs FALLS gap arrows; pull-out to the whole Moon with STILL FALLING gravity arrow; bullet returns from behind as the astronaut ducks",
    "viral_evidence": "1.1M views, 35x (oQr6aRBiAco), cached vidIQ outliers 2026-11-16",
    "note": "Scheduled via vidIQ after the owner replied 'post' on 2026-11-25 (connectors were off during the automated run).",
-   "status_check_2026-11-26": "Could not run vidiq_social_post_status (tool not available in this run); status left as 'scheduled'."
+   "status_check_2026-11-26": "Could not run vidiq_social_post_status (tool not available in this run); status left as 'scheduled'.",
+   "status_check_2026_11_27": "Could not verify: vidiq_social_post_status not available; YouTube Data API quota exceeded (Composio 403). YouTube Analytics (28 days to 2026-11-26) shows no views yet for this video id (data lags 1-2 days)."
   },
   {
    "slug": "rocket-vacuum",
@@ -404,7 +405,8 @@
    "hero_visual": "white-and-orange rocket climbing above Earth's blue limb with streaking stars; SPEED meter to ORBIT 28,000 km/h; cut-away combustion chamber and nozzle with bouncing gas dots, steel plug sealing the throat with equal pressure arrows (PUSHES CANCEL), plug pops and gas streams out (UNBALANCED PUSH); blue air dots crowding the nozzle at the launch pad; THRUST AT LAUNCH PAD vs IN SPACE bars; vacuum plume blooms; ROCKET up / EXHAUST down arrows",
    "viral_evidence": "2.3M views (oy2kU79pdzo), cached vidIQ outliers 2026-11-16",
    "note": "Scheduled via vidIQ after the owner replied 'post' on 2026-11-25 (connectors were off during the automated run).",
-   "status_check_2026-11-26": "Could not run vidiq_social_post_status (tool not available in this run); status left as 'scheduled'."
+   "status_check_2026-11-26": "Could not run vidiq_social_post_status (tool not available in this run); status left as 'scheduled'.",
+   "status_check_2026_11_27": "Could not verify: vidiq_social_post_status not available; YouTube Data API quota exceeded (Composio 403). YouTube Analytics (28 days to 2026-11-26) shows no views yet for this video id (data lags 1-2 days)."
   },
   {
    "slug": "train-jump",
@@ -437,6 +439,50 @@
    "hero_visual": "split summer/winter panes of a generic person in profile breathing out (invisible vs white puff), merging into one world that cools from 25 to 0 C with snow; ROOM FOR WATER bar vs WATER IN YOUR BREATH line turning red below the line; AIR AT 30C vs 0C boxes holding 7 vs 1 drops; magnifier of blue vapour dots squeezing into droplets that scatter sunlight; sky cloud with rising-air arrows",
    "viral_evidence": "none: only 2 unused cached candidates and vidiq_outliers unavailable; picked by field rotation",
    "note": "Rendered and passed all gates on 2026-11-26, but NOT scheduled: the vidIQ upload/draft/schedule tools and the Composio YouTube tools were not available in this scheduled run (only vidiq_media_upscale and vidiq_compose_update loaded; Composio exposed 0 tools). Public MP4 on the renders branch; schedule by hand or reply 'post' in the run session. Owner replied 'post' at about 12:05 IST on 2026-11-26; vidIQ still exposed only 2 tools (no upload/draft/schedule), so it could not be posted from this session."
+  },
+  {
+   "slug": "gps-listening",
+   "date": "2026-11-27",
+   "field": "tech: internet and phones",
+   "series": "How It Works",
+   "series_no": 7,
+   "voice": "af_heart",
+   "fizz": false,
+   "title": "How Your Phone Finds You Without Talking to Space | How It Works #7",
+   "status": "not_scheduled",
+   "format": "short",
+   "duration_s": 30.8,
+   "category_id": 27,
+   "hero_visual": "phone on a curved night Earth under GPS satellites; red uncertainty circle (whole planet -> 300 m -> few metres) and HOW WRONG IS YOUR DOT log bar; time packet on a beam; range ring; street-map inset with true vs wrong dot; four dashed rings growing with clock error then snapping to meet at the phone with a pin",
+   "viral_evidence": "none: vidiq_outliers not available in this run; picked by niche field rotation",
+   "publish_at": null,
+   "postId": null,
+   "revision": null,
+   "url": null,
+   "render_url": "https://raw.githubusercontent.com/gamersusshal-bit/science-vault/renders/gps-listening.mp4",
+   "note": "Rendered and passed all gates on 2026-11-27, but NOT scheduled: in this scheduled run the vidIQ server exposed none of the upload/draft/schedule tools (no vidiq_video_upload, vidiq_upload_image, vidiq_social_post_*, vidiq_social_account_list). Public MP4 on the renders branch; thumbnail on main."
+  },
+  {
+   "slug": "card-tap",
+   "date": "2026-11-27",
+   "field": "finance: banking and payments",
+   "series": "Money Explained",
+   "series_no": 1,
+   "voice": "af_heart",
+   "fizz": false,
+   "title": "You Tapped Your Card. The Money Didn't Move. | Money Explained #1",
+   "status": "not_scheduled",
+   "format": "short",
+   "duration_s": 28.4,
+   "category_id": 27,
+   "hero_visual": "green-and-gold network diagram: your bank and shop's bank (column buildings), hexagon card network, shop terminal; card tap -> APPROVED; PAY 45.00? message envelope, coin stack with a lock (hold), MONEY IN 0.00, night falls, batch of receipts, coins arc from your bank to the shop's bank; THE YES / THE MONEY HUD clocks",
+   "viral_evidence": "none: vidiq_outliers not available in this run; picked by niche field rotation",
+   "publish_at": null,
+   "postId": null,
+   "revision": null,
+   "url": null,
+   "render_url": "https://raw.githubusercontent.com/gamersusshal-bit/science-vault/renders/card-tap.mp4",
+   "note": "Rendered and passed all gates on 2026-11-27, but NOT scheduled: in this scheduled run the vidIQ server exposed none of the upload/draft/schedule tools (no vidiq_video_upload, vidiq_upload_image, vidiq_social_post_*, vidiq_social_account_list). Public MP4 on the renders branch; thumbnail on main."
   }
  ]
 }
