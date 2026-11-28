@@ -1,0 +1,442 @@
+{
+ "slug": "noise-cancel",
+ "fps": 30,
+ "duration": 27.002,
+ "beats": {
+  "drop": 0.514,
+  "hit": 12.415
+ },
+ "lines": [
+  {
+   "id": "hook",
+   "text": "These headphones add sound. So why does it go quiet?",
+   "start": 0.2,
+   "end": 3.453,
+   "words": [
+    {
+     "text": "These",
+     "start": 0.2,
+     "end": 0.514
+    },
+    {
+     "text": "headphones",
+     "start": 0.514,
+     "end": 1.081
+    },
+    {
+     "text": "add",
+     "start": 1.081,
+     "end": 1.294
+    },
+    {
+     "text": "sound.",
+     "start": 1.294,
+     "end": 1.76
+    },
+    {
+     "text": "So",
+     "start": 2.01,
+     "end": 2.174
+    },
+    {
+     "text": "why",
+     "start": 2.174,
+     "end": 2.389
+    },
+    {
+     "text": "does",
+     "start": 2.389,
+     "end": 2.655
+    },
+    {
+     "text": "it",
+     "start": 2.655,
+     "end": 2.819
+    },
+    {
+     "text": "go",
+     "start": 2.819,
+     "end": 2.982
+    },
+    {
+     "text": "quiet?",
+     "start": 2.982,
+     "end": 3.453
+    }
+   ]
+  },
+  {
+   "id": "meter",
+   "text": "Watch the hum meter. It has to reach the quiet line.",
+   "start": 3.903,
+   "end": 6.727,
+   "words": [
+    {
+     "text": "Watch",
+     "start": 3.903,
+     "end": 4.179
+    },
+    {
+     "text": "the",
+     "start": 4.179,
+     "end": 4.366
+    },
+    {
+     "text": "hum",
+     "start": 4.366,
+     "end": 4.553
+    },
+    {
+     "text": "meter.",
+     "start": 4.553,
+     "end": 4.962
+    },
+    {
+     "text": "It",
+     "start": 5.082,
+     "end": 5.231
+    },
+    {
+     "text": "has",
+     "start": 5.231,
+     "end": 5.426
+    },
+    {
+     "text": "to",
+     "start": 5.426,
+     "end": 5.575
+    },
+    {
+     "text": "reach",
+     "start": 5.575,
+     "end": 5.863
+    },
+    {
+     "text": "the",
+     "start": 5.863,
+     "end": 6.058
+    },
+    {
+     "text": "quiet",
+     "start": 6.058,
+     "end": 6.346
+    },
+    {
+     "text": "line.",
+     "start": 6.346,
+     "end": 6.727
+    }
+   ]
+  },
+  {
+   "id": "mirror",
+   "text": "A microphone hears the hum, and a chip plays its mirror image.",
+   "start": 7.077,
+   "end": 10.353,
+   "words": [
+    {
+     "text": "A",
+     "start": 7.077,
+     "end": 7.178
+    },
+    {
+     "text": "microphone",
+     "start": 7.178,
+     "end": 7.692
+    },
+    {
+     "text": "hears",
+     "start": 7.692,
+     "end": 7.976
+    },
+    {
+     "text": "the",
+     "start": 7.976,
+     "end": 8.168
+    },
+    {
+     "text": "hum,",
+     "start": 8.168,
+     "end": 8.498
+    },
+    {
+     "text": "and",
+     "start": 8.618,
+     "end": 8.808
+    },
+    {
+     "text": "a",
+     "start": 8.808,
+     "end": 8.907
+    },
+    {
+     "text": "chip",
+     "start": 8.907,
+     "end": 9.142
+    },
+    {
+     "text": "plays",
+     "start": 9.142,
+     "end": 9.423
+    },
+    {
+     "text": "its",
+     "start": 9.423,
+     "end": 9.612
+    },
+    {
+     "text": "mirror",
+     "start": 9.612,
+     "end": 9.938
+    },
+    {
+     "text": "image.",
+     "start": 9.938,
+     "end": 10.353
+    }
+   ]
+  },
+  {
+   "id": "cancel",
+   "text": "Bump meets dip, and they cancel.",
+   "start": 10.703,
+   "end": 12.889,
+   "words": [
+    {
+     "text": "Bump",
+     "start": 10.703,
+     "end": 11.018
+    },
+    {
+     "text": "meets",
+     "start": 11.018,
+     "end": 11.393
+    },
+    {
+     "text": "dip,",
+     "start": 11.393,
+     "end": 11.828
+    },
+    {
+     "text": "and",
+     "start": 11.978,
+     "end": 12.173
+    },
+    {
+     "text": "they",
+     "start": 12.173,
+     "end": 12.415
+    },
+    {
+     "text": "cancel.",
+     "start": 12.415,
+     "end": 12.889
+    }
+   ]
+  },
+  {
+   "id": "wrong",
+   "text": "Get the timing wrong, and they stack. The hum gets louder.",
+   "start": 13.289,
+   "end": 16.481,
+   "words": [
+    {
+     "text": "Get",
+     "start": 13.289,
+     "end": 13.47
+    },
+    {
+     "text": "the",
+     "start": 13.47,
+     "end": 13.651
+    },
+    {
+     "text": "timing",
+     "start": 13.651,
+     "end": 13.962
+    },
+    {
+     "text": "wrong,",
+     "start": 13.962,
+     "end": 14.359
+    },
+    {
+     "text": "and",
+     "start": 14.479,
+     "end": 14.677
+    },
+    {
+     "text": "they",
+     "start": 14.677,
+     "end": 14.923
+    },
+    {
+     "text": "stack.",
+     "start": 14.923,
+     "end": 15.357
+    },
+    {
+     "text": "The",
+     "start": 15.357,
+     "end": 15.555
+    },
+    {
+     "text": "hum",
+     "start": 15.555,
+     "end": 15.754
+    },
+    {
+     "text": "gets",
+     "start": 15.754,
+     "end": 15.999
+    },
+    {
+     "text": "louder.",
+     "start": 15.999,
+     "end": 16.481
+    }
+   ]
+  },
+  {
+   "id": "voice",
+   "text": "But here's the strange part. A voice wiggles too fast to copy, so it still gets through.",
+   "start": 16.881,
+   "end": 21.732,
+   "words": [
+    {
+     "text": "But",
+     "start": 16.881,
+     "end": 17.07
+    },
+    {
+     "text": "here's",
+     "start": 17.07,
+     "end": 17.395
+    },
+    {
+     "text": "the",
+     "start": 17.395,
+     "end": 17.584
+    },
+    {
+     "text": "strange",
+     "start": 17.584,
+     "end": 17.954
+    },
+    {
+     "text": "part.",
+     "start": 17.954,
+     "end": 18.324
+    },
+    {
+     "text": "A",
+     "start": 18.624,
+     "end": 18.731
+    },
+    {
+     "text": "voice",
+     "start": 18.731,
+     "end": 19.03
+    },
+    {
+     "text": "wiggles",
+     "start": 19.03,
+     "end": 19.426
+    },
+    {
+     "text": "too",
+     "start": 19.426,
+     "end": 19.629
+    },
+    {
+     "text": "fast",
+     "start": 19.629,
+     "end": 19.88
+    },
+    {
+     "text": "to",
+     "start": 19.88,
+     "end": 20.035
+    },
+    {
+     "text": "copy,",
+     "start": 20.035,
+     "end": 20.43
+    },
+    {
+     "text": "so",
+     "start": 20.53,
+     "end": 20.663
+    },
+    {
+     "text": "it",
+     "start": 20.663,
+     "end": 20.796
+    },
+    {
+     "text": "still",
+     "start": 20.796,
+     "end": 21.052
+    },
+    {
+     "text": "gets",
+     "start": 21.052,
+     "end": 21.268
+    },
+    {
+     "text": "through.",
+     "start": 21.268,
+     "end": 21.732
+    }
+   ]
+  },
+  {
+   "id": "payoff",
+   "text": "It added sound. The sum was near silence.",
+   "start": 22.182,
+   "end": 25.202,
+   "words": [
+    {
+     "text": "It",
+     "start": 22.182,
+     "end": 22.36
+    },
+    {
+     "text": "added",
+     "start": 22.36,
+     "end": 22.705
+    },
+    {
+     "text": "sound.",
+     "start": 22.705,
+     "end": 23.216
+    },
+    {
+     "text": "The",
+     "start": 23.466,
+     "end": 23.718
+    },
+    {
+     "text": "sum",
+     "start": 23.718,
+     "end": 23.969
+    },
+    {
+     "text": "was",
+     "start": 23.969,
+     "end": 24.22
+    },
+    {
+     "text": "near",
+     "start": 24.22,
+     "end": 24.532
+    },
+    {
+     "text": "silence.",
+     "start": 24.532,
+     "end": 25.202
+    }
+   ]
+  }
+ ]
+}

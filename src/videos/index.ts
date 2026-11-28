@@ -78,6 +78,12 @@ import gpsListeningScript from "../../videos/gps-listening/script.json";
 import { CardTap } from "./cardTap/CardTap";
 import cardTapTimeline from "../../videos/card-tap/timeline.json";
 import cardTapScript from "../../videos/card-tap/script.json";
+import { NoiseCancel } from "./noiseCancel/NoiseCancel";
+import noiseCancelTimeline from "../../videos/noise-cancel/timeline.json";
+import noiseCancelScript from "../../videos/noise-cancel/script.json";
+import { InterestOnInterest } from "./interestOnInterest/InterestOnInterest";
+import interestOnInterestTimeline from "../../videos/interest-on-interest/timeline.json";
+import interestOnInterestScript from "../../videos/interest-on-interest/script.json";
 import type { ThumbSpec } from "../primitives/Thumbnail";
 
 /**
@@ -115,4 +121,6 @@ export const VIDEOS: { id: string; component: React.FC; duration: number; timeli
   { id: "breath-cloud", component: BreathCloud, duration: breathCloudTimeline.duration, thumb: breathCloudScript.thumb },
   { id: "gps-listening", component: GpsListening, duration: gpsListeningTimeline.duration, thumb: gpsListeningScript.thumb },
   { id: "card-tap", component: CardTap, duration: cardTapTimeline.duration, thumb: cardTapScript.thumb },
+  { id: "noise-cancel", component: NoiseCancel, duration: noiseCancelTimeline.duration, thumb: noiseCancelScript.thumb },
+  { id: "interest-on-interest", component: InterestOnInterest, duration: interestOnInterestTimeline.duration, thumb: interestOnInterestScript.thumb },
 ];

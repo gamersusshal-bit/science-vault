@@ -1,0 +1,216 @@
+{
+  "slug": "noise-cancel",
+  "title": "These Headphones Add Sound. Why Does It Go Quiet? | How It Works #8",
+  "voice": "af_heart",
+  "series": "How It Works",
+  "series_no": 8,
+  "format": "short",
+  "field": "tech: everyday gadgets",
+  "simplified": "Simplified model: one outside microphone, one chip and one speaker shown; real headphones also use a microphone inside the cup and passive padding. Waves are drawn as clean sine waves; real hum is messier. Meter is illustrative, no dB values.",
+  "hook_candidates": [
+    {
+      "text": "These headphones add sound. So why does the hum disappear?",
+      "scores": {
+        "under_12_words": 2,
+        "visible_event": 2,
+        "question_open": 2,
+        "about_this": 2,
+        "concrete_start": 2,
+        "true_as_worded": 1
+      },
+      "total": 11,
+      "note": "'disappear' is too strong: ANC cuts low hum a lot but not to zero"
+    },
+    {
+      "text": "These headphones add sound. So why does it go quiet?",
+      "scores": {
+        "under_12_words": 2,
+        "visible_event": 2,
+        "question_open": 2,
+        "about_this": 2,
+        "concrete_start": 2,
+        "true_as_worded": 2
+      },
+      "total": 12,
+      "chosen": true
+    },
+    {
+      "text": "You put these on and the engine hum fades. They're making noise.",
+      "scores": {
+        "under_12_words": 1,
+        "visible_event": 2,
+        "question_open": 1,
+        "about_this": 2,
+        "concrete_start": 1,
+        "true_as_worded": 2
+      },
+      "total": 9
+    },
+    {
+      "text": "Watch this meter. Adding a second sound has to make it fall.",
+      "scores": {
+        "under_12_words": 1,
+        "visible_event": 1,
+        "question_open": 2,
+        "about_this": 2,
+        "concrete_start": 1,
+        "true_as_worded": 2
+      },
+      "total": 9
+    },
+    {
+      "text": "Noise plus noise equals quiet. How?",
+      "scores": {
+        "under_12_words": 2,
+        "visible_event": 1,
+        "question_open": 2,
+        "about_this": 0,
+        "concrete_start": 1,
+        "true_as_worded": 1
+      },
+      "total": 7
+    }
+  ],
+  "beats": {
+    "drop": {
+      "line": "hook",
+      "word": "headphones"
+    },
+    "hit": {
+      "line": "cancel",
+      "word": "cancel"
+    }
+  },
+  "lines": [
+    {
+      "id": "hook",
+      "parts": [
+        {
+          "text": "These headphones add sound.",
+          "tts": "These headphones, add sound.",
+          "speed": 1.0,
+          "pause": 0.25
+        },
+        {
+          "text": "So why does it go quiet?",
+          "speed": 0.9,
+          "pause": 0.45
+        }
+      ]
+    },
+    {
+      "id": "meter",
+      "parts": [
+        {
+          "text": "Watch the hum meter.",
+          "speed": 1.02,
+          "pause": 0.12
+        },
+        {
+          "text": "It has to reach the quiet line.",
+          "speed": 0.96,
+          "pause": 0.35
+        }
+      ]
+    },
+    {
+      "id": "mirror",
+      "parts": [
+        {
+          "text": "A microphone hears the hum,",
+          "speed": 1.04,
+          "pause": 0.12
+        },
+        {
+          "text": "and a chip plays its mirror image.",
+          "speed": 1.0,
+          "pause": 0.35
+        }
+      ]
+    },
+    {
+      "id": "cancel",
+      "parts": [
+        {
+          "text": "Bump meets dip,",
+          "tts": "Bump, meets dip,",
+          "speed": 0.95,
+          "pause": 0.15
+        },
+        {
+          "text": "and they cancel.",
+          "tts": "and they cancel!",
+          "speed": 0.92,
+          "pause": 0.4
+        }
+      ]
+    },
+    {
+      "id": "wrong",
+      "parts": [
+        {
+          "text": "Get the timing wrong,",
+          "speed": 1.02,
+          "pause": 0.12
+        },
+        {
+          "text": "and they stack. The hum gets louder.",
+          "speed": 0.98,
+          "pause": 0.4
+        }
+      ]
+    },
+    {
+      "id": "voice",
+      "parts": [
+        {
+          "text": "But here's the strange part.",
+          "speed": 0.95,
+          "pause": 0.3
+        },
+        {
+          "text": "A voice wiggles too fast to copy,",
+          "speed": 1.04,
+          "pause": 0.1
+        },
+        {
+          "text": "so it still gets through.",
+          "speed": 0.96,
+          "pause": 0.45
+        }
+      ]
+    },
+    {
+      "id": "payoff",
+      "parts": [
+        {
+          "text": "It added sound.",
+          "speed": 0.92,
+          "pause": 0.25
+        },
+        {
+          "text": "The sum was near silence.",
+          "tts": "The sum, was near silence.",
+          "speed": 0.84,
+          "pause": 0
+        }
+      ]
+    }
+  ],
+  "sources": [
+    "Microphones pick up outside noise: 'Microphones pick up noise outside of the earpiece.' Sennheiser support, 'What is Active Noise Cancelling', https://support.sennheiser-hearing.com/hc/en-at/articles/34973151457565-What-is-Active-Noise-Cancelling (read 2026-11-28). Sonos: 'Headphones with ANC use tiny microphones inside the ear cups to continuously analyze the sound', https://www.sonos.com/en-us/blog/how-does-noise-canceling-work",
+    "Opposite-phase wave cancels: 'The headphones' electronics create a sound wave with the opposite phase and play it back in the earpiece.' 'When the two waves meet, they cancel each other out.' (Sennheiser, as above). Sonos: 'create a soundwave that's the exact opposite.'",
+    "Physics of cancelling and stacking: two identical waves 180 degrees out of phase give zero amplitude; in phase they add to twice the amplitude; resultant amplitude 2A cos(phi/2). OpenStax University Physics Vol. 1, section 16.5 Interference of Waves, https://openstax.org/books/university-physics-volume-1/pages/16-5-interference-of-waves. 'Timing wrong -> louder' follows from this: anti-noise with a timing (phase) error delta gives |2A sin(delta/2)|, larger than the noise alone when delta exceeds 60 degrees; the video shows a large error.",
+    "Voices get through: 'Active noise cancellation works best for repetitive, low-frequency noises' and 'It is less effective for higher-frequency sounds like people talking.' (Sennheiser, as above). Sonos: 'ANC excels at blocking low-frequency sounds, like the hum of an airplane or drone of an engine.'",
+    "'Near silence' is for the steady low hum only, and is illustrative; the meter shows no dB value. Sennheiser: 'The noise doesn't disappear - you just don't register it.'"
+  ],
+  "comment_question": "Have you ever taken noise-cancelling headphones off on a plane or bus and been shocked how loud it was?",
+  "thumb": {
+    "at": 12.9,
+    "text": [
+      "ADD SOUND,",
+      "GET QUIET"
+    ],
+    "accent": "#4fe3ff"
+  }
+}

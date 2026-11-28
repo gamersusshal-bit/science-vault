@@ -622,6 +622,226 @@
     ]
    ],
    "limits": "moon-bullet (fZrz85zqi18) and rocket-vacuum (Qs_gEh5CEIk) have no rows yet (no views in the period or data lag)."
+  },
+  {
+   "date": "2026-11-28",
+   "source": "composio YOUTUBE_QUERY_ANALYTICS (Analytics API, 2026-10-31..2026-11-27) and YOUTUBE_GET_VIDEO_DETAILS_BATCH (one batch succeeded, later calls quotaExceeded); YOUTUBE_GET_CHANNEL_STATISTICS failed (Data API quotaExceeded); vidiq_user_channels not available",
+   "lifetime_through_2026-11-27": {
+    "views": 29604,
+    "subscribersGained": 21,
+    "subscribersLost": 7,
+    "net_subscribers": 14
+   },
+   "live_stats_2026-11-28": {
+    "fZrz85zqi18": {
+     "slug": "moon-bullet",
+     "views": 3641,
+     "likes": 28,
+     "privacy": "public"
+    },
+    "Qs_gEh5CEIk": {
+     "slug": "rocket-vacuum",
+     "views": 1188,
+     "likes": 18,
+     "privacy": "public"
+    },
+    "ZoDe02ePVhg": {
+     "slug": "ant-fall",
+     "views": 453
+    },
+    "upOy089nbDg": {
+     "slug": "oxygen-vanishes",
+     "views": 1028,
+     "comments": 2
+    },
+    "mR_LtSKPdU8": {
+     "slug": "red-fish-dark",
+     "views": 2612,
+     "likes": 67
+    },
+    "4cqHHdfBsK4": {
+     "slug": "black-hole-fall",
+     "views": 1099
+    }
+   },
+   "last_28_days_by_video_columns": [
+    "video",
+    "views",
+    "averageViewDuration",
+    "averageViewPercentage",
+    "subscribersGained"
+   ],
+   "last_28_days_by_video": [
+    [
+     "mR_LtSKPdU8",
+     2578,
+     31,
+     109.38,
+     0
+    ],
+    [
+     "fZrz85zqi18",
+     2106,
+     22,
+     81.68,
+     1
+    ],
+    [
+     "TUp_Qd6skF8",
+     1845,
+     22,
+     79.71,
+     0
+    ],
+    [
+     "c03-_i_MhaE",
+     1745,
+     43,
+     145.33,
+     2
+    ],
+    [
+     "5AjOT6voTjo",
+     1455,
+     19,
+     66.47,
+     0
+    ],
+    [
+     "FSV48dVBVW0",
+     1430,
+     24,
+     83.16,
+     2
+    ],
+    [
+     "uZ4NC02xQXs",
+     1426,
+     20,
+     65.49,
+     1
+    ],
+    [
+     "yK1ATBs8elQ",
+     1418,
+     19,
+     64.02,
+     0
+    ],
+    [
+     "vmrXFa_1H10",
+     1376,
+     27,
+     83.5,
+     0
+    ],
+    [
+     "tMUK2xHeC4M",
+     1366,
+     40,
+     135.22,
+     2
+    ],
+    [
+     "sW7fD11mzJY",
+     1324,
+     27,
+     84.67,
+     0
+    ],
+    [
+     "EGsiDw65CIE",
+     1318,
+     48,
+     160.71,
+     1
+    ],
+    [
+     "MRxXyvPJZ2A",
+     1312,
+     18,
+     56.71,
+     0
+    ],
+    [
+     "Ou8gKnw0mA0",
+     1296,
+     27,
+     99.54,
+     3
+    ],
+    [
+     "L0TDYoAHhh0",
+     1210,
+     18,
+     52,
+     2
+    ],
+    [
+     "hiYYgYA81a4",
+     1159,
+     75,
+     252.34,
+     0
+    ],
+    [
+     "Qs_gEh5CEIk",
+     1137,
+     22,
+     71.39,
+     0
+    ],
+    [
+     "rNi9wLfC2sE",
+     1099,
+     13,
+     44.37,
+     0
+    ],
+    [
+     "4cqHHdfBsK4",
+     1092,
+     20,
+     70.86,
+     2
+    ],
+    [
+     "upOy089nbDg",
+     1028,
+     26,
+     81.64,
+     0
+    ],
+    [
+     "ZoDe02ePVhg",
+     445,
+     19,
+     65.92,
+     1
+    ],
+    [
+     "uYeRz_yoc4M",
+     140,
+     12,
+     40.67,
+     0
+    ],
+    [
+     "WGlpPoYP8wM",
+     94,
+     18,
+     70.47,
+     0
+    ],
+    [
+     "O1SHPQ5mtrQ",
+     46,
+     44,
+     17.52,
+     0
+    ]
+   ],
+   "unlogged_videos": "uYeRz_yoc4M (140 views, 40.7%) and WGlpPoYP8wM (94 views, 70.5%) are on the channel but not in videos/_log.json; titles could not be read (Data API quota). Possibly train-jump/breath-cloud or gps-listening/card-tap posted by hand by the owner."
   }
  ]
 }

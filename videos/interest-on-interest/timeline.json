@@ -1,0 +1,467 @@
+{
+ "slug": "interest-on-interest",
+ "fps": 30,
+ "duration": 28.728,
+ "beats": {
+  "drop": 0.474,
+  "hit": 20.495
+ },
+ "lines": [
+  {
+   "id": "hook",
+   "text": "Same money. Same rate. Why is this pile four times bigger?",
+   "start": 0.2,
+   "end": 3.737,
+   "words": [
+    {
+     "text": "Same",
+     "start": 0.2,
+     "end": 0.474
+    },
+    {
+     "text": "money.",
+     "start": 0.474,
+     "end": 0.96
+    },
+    {
+     "text": "Same",
+     "start": 0.96,
+     "end": 1.234
+    },
+    {
+     "text": "rate.",
+     "start": 1.234,
+     "end": 1.666
+    },
+    {
+     "text": "Why",
+     "start": 1.866,
+     "end": 2.066
+    },
+    {
+     "text": "is",
+     "start": 2.066,
+     "end": 2.218
+    },
+    {
+     "text": "this",
+     "start": 2.218,
+     "end": 2.465
+    },
+    {
+     "text": "pile",
+     "start": 2.465,
+     "end": 2.712
+    },
+    {
+     "text": "four",
+     "start": 2.712,
+     "end": 2.959
+    },
+    {
+     "text": "times",
+     "start": 2.959,
+     "end": 3.253
+    },
+    {
+     "text": "bigger?",
+     "start": 3.253,
+     "end": 3.737
+    }
+   ]
+  },
+  {
+   "id": "meter",
+   "text": "Watch thirty years go by. Both earn ten percent a year.",
+   "start": 4.187,
+   "end": 7.271,
+   "words": [
+    {
+     "text": "Watch",
+     "start": 4.187,
+     "end": 4.477
+    },
+    {
+     "text": "thirty",
+     "start": 4.477,
+     "end": 4.814
+    },
+    {
+     "text": "years",
+     "start": 4.814,
+     "end": 5.104
+    },
+    {
+     "text": "go",
+     "start": 5.104,
+     "end": 5.254
+    },
+    {
+     "text": "by.",
+     "start": 5.254,
+     "end": 5.544
+    },
+    {
+     "text": "Both",
+     "start": 5.664,
+     "end": 5.915
+    },
+    {
+     "text": "earn",
+     "start": 5.915,
+     "end": 6.167
+    },
+    {
+     "text": "ten",
+     "start": 6.167,
+     "end": 6.37
+    },
+    {
+     "text": "percent",
+     "start": 6.37,
+     "end": 6.767
+    },
+    {
+     "text": "a",
+     "start": 6.767,
+     "end": 6.874
+    },
+    {
+     "text": "year.",
+     "start": 6.874,
+     "end": 7.271
+    }
+   ]
+  },
+  {
+   "id": "spend",
+   "text": "This pile spends its interest each year. Its total climbs in a straight line.",
+   "start": 7.621,
+   "end": 11.54,
+   "words": [
+    {
+     "text": "This",
+     "start": 7.621,
+     "end": 7.847
+    },
+    {
+     "text": "pile",
+     "start": 7.847,
+     "end": 8.073
+    },
+    {
+     "text": "spends",
+     "start": 8.073,
+     "end": 8.386
+    },
+    {
+     "text": "its",
+     "start": 8.386,
+     "end": 8.569
+    },
+    {
+     "text": "interest",
+     "start": 8.569,
+     "end": 8.969
+    },
+    {
+     "text": "each",
+     "start": 8.969,
+     "end": 9.195
+    },
+    {
+     "text": "year.",
+     "start": 9.195,
+     "end": 9.551
+    },
+    {
+     "text": "Its",
+     "start": 9.701,
+     "end": 9.892
+    },
+    {
+     "text": "total",
+     "start": 9.892,
+     "end": 10.175
+    },
+    {
+     "text": "climbs",
+     "start": 10.175,
+     "end": 10.502
+    },
+    {
+     "text": "in",
+     "start": 10.502,
+     "end": 10.648
+    },
+    {
+     "text": "a",
+     "start": 10.648,
+     "end": 10.748
+    },
+    {
+     "text": "straight",
+     "start": 10.748,
+     "end": 11.167
+    },
+    {
+     "text": "line.",
+     "start": 11.167,
+     "end": 11.54
+    }
+   ]
+  },
+  {
+   "id": "keep",
+   "text": "This one keeps it. So next year, the interest earns interest too.",
+   "start": 11.89,
+   "end": 15.547,
+   "words": [
+    {
+     "text": "This",
+     "start": 11.89,
+     "end": 12.138
+    },
+    {
+     "text": "one",
+     "start": 12.138,
+     "end": 12.338
+    },
+    {
+     "text": "keeps",
+     "start": 12.338,
+     "end": 12.634
+    },
+    {
+     "text": "it.",
+     "start": 12.634,
+     "end": 12.93
+    },
+    {
+     "text": "So",
+     "start": 13.08,
+     "end": 13.23
+    },
+    {
+     "text": "next",
+     "start": 13.23,
+     "end": 13.474
+    },
+    {
+     "text": "year,",
+     "start": 13.474,
+     "end": 13.858
+    },
+    {
+     "text": "the",
+     "start": 13.858,
+     "end": 14.055
+    },
+    {
+     "text": "interest",
+     "start": 14.055,
+     "end": 14.487
+    },
+    {
+     "text": "earns",
+     "start": 14.487,
+     "end": 14.778
+    },
+    {
+     "text": "interest",
+     "start": 14.778,
+     "end": 15.209
+    },
+    {
+     "text": "too.",
+     "start": 15.209,
+     "end": 15.547
+    }
+   ]
+  },
+  {
+   "id": "twist",
+   "text": "But here's the strange part. For years, the gap stays small.",
+   "start": 15.947,
+   "end": 19.364,
+   "words": [
+    {
+     "text": "But",
+     "start": 15.947,
+     "end": 16.136
+    },
+    {
+     "text": "here's",
+     "start": 16.136,
+     "end": 16.461
+    },
+    {
+     "text": "the",
+     "start": 16.461,
+     "end": 16.651
+    },
+    {
+     "text": "strange",
+     "start": 16.651,
+     "end": 17.021
+    },
+    {
+     "text": "part.",
+     "start": 17.021,
+     "end": 17.391
+    },
+    {
+     "text": "For",
+     "start": 17.691,
+     "end": 17.88
+    },
+    {
+     "text": "years,",
+     "start": 17.88,
+     "end": 18.293
+    },
+    {
+     "text": "the",
+     "start": 18.293,
+     "end": 18.482
+    },
+    {
+     "text": "gap",
+     "start": 18.482,
+     "end": 18.671
+    },
+    {
+     "text": "stays",
+     "start": 18.671,
+     "end": 18.95
+    },
+    {
+     "text": "small.",
+     "start": 18.95,
+     "end": 19.364
+    }
+   ]
+  },
+  {
+   "id": "climax",
+   "text": "Then the curve bends up, and each year adds more than the last.",
+   "start": 19.764,
+   "end": 23.156,
+   "words": [
+    {
+     "text": "Then",
+     "start": 19.764,
+     "end": 20.007
+    },
+    {
+     "text": "the",
+     "start": 20.007,
+     "end": 20.204
+    },
+    {
+     "text": "curve",
+     "start": 20.204,
+     "end": 20.495
+    },
+    {
+     "text": "bends",
+     "start": 20.495,
+     "end": 20.786
+    },
+    {
+     "text": "up,",
+     "start": 20.786,
+     "end": 21.076
+    },
+    {
+     "text": "and",
+     "start": 21.226,
+     "end": 21.417
+    },
+    {
+     "text": "each",
+     "start": 21.417,
+     "end": 21.652
+    },
+    {
+     "text": "year",
+     "start": 21.652,
+     "end": 21.888
+    },
+    {
+     "text": "adds",
+     "start": 21.888,
+     "end": 22.123
+    },
+    {
+     "text": "more",
+     "start": 22.123,
+     "end": 22.359
+    },
+    {
+     "text": "than",
+     "start": 22.359,
+     "end": 22.594
+    },
+    {
+     "text": "the",
+     "start": 22.594,
+     "end": 22.785
+    },
+    {
+     "text": "last.",
+     "start": 22.785,
+     "end": 23.156
+    }
+   ]
+  },
+  {
+   "id": "payoff",
+   "text": "Same rate. The extra is interest on interest.",
+   "start": 23.606,
+   "end": 26.928,
+   "words": [
+    {
+     "text": "Same",
+     "start": 23.606,
+     "end": 23.922
+    },
+    {
+     "text": "rate.",
+     "start": 23.922,
+     "end": 24.42
+    },
+    {
+     "text": "The",
+     "start": 24.67,
+     "end": 24.918
+    },
+    {
+     "text": "extra",
+     "start": 24.918,
+     "end": 25.284
+    },
+    {
+     "text": "is",
+     "start": 25.284,
+     "end": 25.474
+    },
+    {
+     "text": "interest",
+     "start": 25.474,
+     "end": 26.017
+    },
+    {
+     "text": "on",
+     "start": 26.017,
+     "end": 26.207
+    },
+    {
+     "text": "interest.",
+     "start": 26.207,
+     "end": 26.928
+    }
+   ]
+  }
+ ]
+}

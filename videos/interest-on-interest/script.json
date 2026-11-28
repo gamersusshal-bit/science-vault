@@ -1,0 +1,210 @@
+{
+  "slug": "interest-on-interest",
+  "title": "Same Money, Same Rate. Why Is One 4x Bigger? | Money Explained #2",
+  "voice": "af_heart",
+  "series": "Money Explained",
+  "series_no": 2,
+  "format": "short",
+  "field": "finance: personal finance basics",
+  "simplified": "EXAMPLE only: 1,000 in any currency ($ or ₹), a fixed 10% a year paid once a year, 30 years, no fees, taxes or inflation. Real rates change and are not guaranteed. Left pile = interest paid out each year (only the starting amount earns); right pile = interest left in (annual compounding).",
+  "hook_candidates": [
+    {
+      "text": "Same money. Same rate. Why is this pile four times bigger?",
+      "scores": {
+        "under_12_words": 2,
+        "visible_event": 2,
+        "question_open": 2,
+        "about_this": 2,
+        "concrete_start": 2,
+        "true_as_worded": 2
+      },
+      "total": 12,
+      "chosen": true,
+      "note": "17,449 vs 4,000 after 30 years = 4.4x"
+    },
+    {
+      "text": "Both piles earn ten percent. One ends up four times bigger.",
+      "scores": {
+        "under_12_words": 1,
+        "visible_event": 2,
+        "question_open": 1,
+        "about_this": 2,
+        "concrete_start": 1,
+        "true_as_worded": 2
+      },
+      "total": 9
+    },
+    {
+      "text": "You and your twin save the same. Thirty years later, you're four times richer.",
+      "scores": {
+        "under_12_words": 0,
+        "visible_event": 1,
+        "question_open": 2,
+        "about_this": 2,
+        "concrete_start": 1,
+        "true_as_worded": 1
+      },
+      "total": 7,
+      "note": "'richer' drifts toward get-rich framing; rejected"
+    },
+    {
+      "text": "Watch this clock run thirty years. Guess which pile wins.",
+      "scores": {
+        "under_12_words": 2,
+        "visible_event": 2,
+        "question_open": 1,
+        "about_this": 2,
+        "concrete_start": 1,
+        "true_as_worded": 2
+      },
+      "total": 10
+    },
+    {
+      "text": "This coin is paying rent to another coin.",
+      "scores": {
+        "under_12_words": 2,
+        "visible_event": 1,
+        "question_open": 2,
+        "about_this": 2,
+        "concrete_start": 2,
+        "true_as_worded": 0
+      },
+      "total": 9,
+      "note": "metaphor is not literally true"
+    }
+  ],
+  "beats": {
+    "drop": {
+      "line": "hook",
+      "word": "money"
+    },
+    "hit": {
+      "line": "climax",
+      "word": "bends"
+    }
+  },
+  "lines": [
+    {
+      "id": "hook",
+      "parts": [
+        {
+          "text": "Same money. Same rate.",
+          "tts": "Same money! Same rate.",
+          "speed": 1.0,
+          "pause": 0.2
+        },
+        {
+          "text": "Why is this pile four times bigger?",
+          "speed": 0.92,
+          "pause": 0.45
+        }
+      ]
+    },
+    {
+      "id": "meter",
+      "parts": [
+        {
+          "text": "Watch thirty years go by.",
+          "speed": 1.0,
+          "pause": 0.12
+        },
+        {
+          "text": "Both earn ten percent a year.",
+          "speed": 0.98,
+          "pause": 0.35
+        }
+      ]
+    },
+    {
+      "id": "spend",
+      "parts": [
+        {
+          "text": "This pile spends its interest each year.",
+          "speed": 1.04,
+          "pause": 0.15
+        },
+        {
+          "text": "Its total climbs in a straight line.",
+          "speed": 1.0,
+          "pause": 0.35
+        }
+      ]
+    },
+    {
+      "id": "keep",
+      "parts": [
+        {
+          "text": "This one keeps it.",
+          "speed": 0.98,
+          "pause": 0.15
+        },
+        {
+          "text": "So next year, the interest earns interest too.",
+          "speed": 0.98,
+          "pause": 0.4
+        }
+      ]
+    },
+    {
+      "id": "twist",
+      "parts": [
+        {
+          "text": "But here's the strange part.",
+          "speed": 0.95,
+          "pause": 0.3
+        },
+        {
+          "text": "For years, the gap stays small.",
+          "speed": 0.98,
+          "pause": 0.4
+        }
+      ]
+    },
+    {
+      "id": "climax",
+      "parts": [
+        {
+          "text": "Then the curve bends up,",
+          "tts": "Then the curve, bends up,",
+          "speed": 0.96,
+          "pause": 0.15
+        },
+        {
+          "text": "and each year adds more than the last.",
+          "speed": 1.0,
+          "pause": 0.45
+        }
+      ]
+    },
+    {
+      "id": "payoff",
+      "parts": [
+        {
+          "text": "Same rate.",
+          "speed": 0.9,
+          "pause": 0.25
+        },
+        {
+          "text": "The extra is interest on interest.",
+          "speed": 0.84,
+          "pause": 0
+        }
+      ]
+    }
+  ],
+  "sources": [
+    "Compound interest = interest on the money saved and on the interest earned along the way: 'Compound interest is when you earn interest on the money you've saved and on the interest you earn along the way.' CFPB, 'What is compound interest?', https://www.consumerfinance.gov/ask-cfpb/what-is-compound-interest-en-1683/ (read 2026-11-28); its worked example: $1,000 at 5% -> $1,050 -> $1,102.50. Investor.gov glossary 'Compounding interest', https://www.investor.gov/introduction-investing/investing-basics/glossary/compounding-interest",
+    "Figures (EXAMPLE, own arithmetic, re-checked): 1,000 at 10% a year compounded annually for 30 years = 1,000 x 1.1^30 = 17,449.40. With interest paid out each year: 1,000 + 30 x 100 = 4,000 in total (1,000 kept + 3,000 paid out). Ratio 4.36, 'four times bigger'. Interest-on-interest part = 17,449 - 4,000 = 13,449. Year 11: 2,853 vs 2,100, a gap of 753, small next to the final gap of 13,449 ('for years, the gap stays small'). Yearly addition on the right = 10% of the balance, so each year adds more than the last.",
+    "Spoken numbers: 'thirty years' and 'ten percent' (two); '4x' in the hook is the comparison. The 10% rate is a round illustrative number, not a typical or promised return; shown on screen as EXAMPLE.",
+    "Finance safety: explains the mechanism only. No product, account, fund or rate is named or recommended."
+  ],
+  "comment_question": "When did you first learn how compound interest works: school, family, or the internet?",
+  "thumb": {
+    "at": 24.0,
+    "text": [
+      "SAME RATE.",
+      "4X BIGGER"
+    ],
+    "accent": "#f5c542"
+  }
+}
